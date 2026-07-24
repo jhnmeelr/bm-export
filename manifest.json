@@ -1,6 +1,16 @@
 {
   "scenes": [
     {
+      "id": "beatmeat-all-terrain/base",
+      "project": "Beatmeat - All Terrain",
+      "scene": "base",
+      "name": "Beatmeat - All Terrain: Base",
+      "path": "beatmeat-all-terrain/base/project.json",
+      "bpm": 100,
+      "controls": 23,
+      "samplers": 87
+    },
+    {
       "id": "beatmeat-djent/base",
       "project": "Beatmeat - Djent",
       "scene": "base",
