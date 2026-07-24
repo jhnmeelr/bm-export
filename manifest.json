@@ -1,0 +1,14 @@
+{
+  "scenes": [
+    {
+      "id": "beatmeat-djent/base",
+      "project": "Beatmeat - Djent",
+      "scene": "base",
+      "name": "Beatmeat - Djent: Base",
+      "path": "beatmeat-djent/base/project.json",
+      "bpm": 100,
+      "controls": 23,
+      "samplers": 23
+    }
+  ]
+}

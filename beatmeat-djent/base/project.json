@@ -1,0 +1,869 @@
+{
+  "id": "beatmeat-djent/base",
+  "name": "Beatmeat - Djent: Base",
+  "project": {
+    "tempo": 100,
+    "dimensions": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  "scene": {
+    "style": {}
+  },
+  "controls": [
+    {
+      "id": "c1",
+      "name": "C1",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 340,
+      "position-y": 100,
+      "width": 280,
+      "height": 100,
+      "color": "#ffa700e0",
+      "radius": 4,
+      "group": "c"
+    },
+    {
+      "id": "c2",
+      "name": "C2",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 340,
+      "position-y": 220,
+      "width": 280,
+      "height": 100,
+      "color": "#ffa700e0",
+      "radius": 4,
+      "group": "c"
+    },
+    {
+      "id": "c3",
+      "name": "C3",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 340,
+      "position-y": 340,
+      "width": 280,
+      "height": 100,
+      "color": "#ffa700e0",
+      "radius": 4,
+      "group": "c"
+    },
+    {
+      "id": "l1",
+      "name": "L1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 40,
+      "position-y": 180,
+      "width": 80,
+      "height": 80,
+      "color": "#FF7900",
+      "group": "lr",
+      "radius": 4,
+      "options": ""
+    },
+    {
+      "id": "l2",
+      "name": "L2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 140,
+      "position-y": 180,
+      "width": 80,
+      "height": 80,
+      "color": "#FF7900",
+      "group": "lr",
+      "radius": 4,
+      "options": ""
+    },
+    {
+      "id": "l3",
+      "name": "L3",
+      "scene": "base",
+      "type": "button",
+      "position-x": 240,
+      "position-y": 180,
+      "width": 80,
+      "height": 80,
+      "color": "#FF7900",
+      "group": "lr",
+      "radius": 4,
+      "options": ""
+    },
+    {
+      "id": "l4",
+      "name": "L4",
+      "scene": "base",
+      "type": "button",
+      "position-x": 40,
+      "position-y": 280,
+      "width": 80,
+      "height": 80,
+      "color": "#ff7900cc",
+      "radius": 4,
+      "group": "lr",
+      "options": ""
+    },
+    {
+      "id": "l5",
+      "name": "L5",
+      "scene": "base",
+      "type": "button",
+      "position-x": 140,
+      "position-y": 280,
+      "width": 80,
+      "height": 80,
+      "color": "#FF4100",
+      "radius": 4,
+      "group": "lr",
+      "options": ""
+    },
+    {
+      "id": "l6",
+      "name": "L6",
+      "scene": "base",
+      "type": "button",
+      "position-x": 240,
+      "position-y": 280,
+      "width": 80,
+      "height": 80,
+      "color": "#ff7900cc",
+      "group": "lr",
+      "radius": 4,
+      "options": ""
+    },
+    {
+      "id": "l7",
+      "name": "L7",
+      "scene": "base",
+      "type": "button",
+      "position-x": 40,
+      "position-y": 380,
+      "width": 80,
+      "height": 80,
+      "color": "#FF7900",
+      "group": "lr",
+      "radius": 4,
+      "options": ""
+    },
+    {
+      "id": "l8",
+      "name": "L8",
+      "scene": "base",
+      "type": "button",
+      "position-x": 140,
+      "position-y": 380,
+      "width": 80,
+      "height": 80,
+      "color": "#FF7900",
+      "group": "lr",
+      "radius": 4,
+      "options": ""
+    },
+    {
+      "id": "l9",
+      "name": "L9",
+      "scene": "base",
+      "type": "button",
+      "position-x": 240,
+      "position-y": 380,
+      "width": 80,
+      "height": 80,
+      "color": "#FF7900",
+      "group": "lr",
+      "radius": 4,
+      "options": ""
+    },
+    {
+      "id": "r1",
+      "name": "R1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 640,
+      "position-y": 180,
+      "width": 80,
+      "height": 80,
+      "color": "#48af62",
+      "radius": 4,
+      "group": "lr",
+      "options": ""
+    },
+    {
+      "id": "r2",
+      "name": "R2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 740,
+      "position-y": 180,
+      "width": 80,
+      "height": 80,
+      "color": "#48af62",
+      "radius": 4,
+      "group": "lr",
+      "options": ""
+    },
+    {
+      "id": "r3",
+      "name": "R3",
+      "scene": "base",
+      "type": "button",
+      "position-x": 840,
+      "position-y": 180,
+      "width": 80,
+      "height": 80,
+      "color": "#48af62",
+      "radius": 4,
+      "group": "lr",
+      "options": ""
+    },
+    {
+      "id": "r4",
+      "name": "R4",
+      "scene": "base",
+      "type": "button",
+      "position-x": 640,
+      "position-y": 280,
+      "width": 80,
+      "height": 80,
+      "color": "#7de297",
+      "group": "lr",
+      "radius": 4,
+      "options": ""
+    },
+    {
+      "id": "r5",
+      "name": "R5",
+      "scene": "base",
+      "type": "button",
+      "position-x": 740,
+      "position-y": 280,
+      "width": 80,
+      "height": 80,
+      "color": "#00d5ff",
+      "radius": 4,
+      "group": "lr",
+      "options": ""
+    },
+    {
+      "id": "r6",
+      "name": "R6",
+      "scene": "base",
+      "type": "button",
+      "position-x": 840,
+      "position-y": 280,
+      "width": 80,
+      "height": 80,
+      "color": "#7de297",
+      "group": "lr",
+      "radius": 4,
+      "options": ""
+    },
+    {
+      "id": "r7",
+      "name": "R7",
+      "scene": "base",
+      "type": "button",
+      "position-x": 640,
+      "position-y": 380,
+      "width": 80,
+      "height": 80,
+      "color": "#48af62",
+      "radius": 4,
+      "group": "lr",
+      "options": ""
+    },
+    {
+      "id": "r8",
+      "name": "R8",
+      "scene": "base",
+      "type": "button",
+      "position-x": 740,
+      "position-y": 380,
+      "width": 80,
+      "height": 80,
+      "color": "#00d5ffd6",
+      "radius": 4,
+      "group": "lr",
+      "options": ""
+    },
+    {
+      "id": "r9",
+      "name": "R9",
+      "scene": "base",
+      "type": "button",
+      "position-x": 840,
+      "position-y": 380,
+      "width": 80,
+      "height": 80,
+      "color": "#48af62",
+      "radius": 4,
+      "group": "lr",
+      "options": ""
+    },
+    {
+      "id": "t1",
+      "name": "T1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 40,
+      "position-y": 80,
+      "width": 280,
+      "height": 80,
+      "color": "#3c94dd",
+      "group": "t",
+      "radius": 4,
+      "options": ""
+    },
+    {
+      "id": "t2",
+      "name": "T2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 640,
+      "position-y": 80,
+      "width": 280,
+      "height": 80,
+      "color": "#3c94dd",
+      "group": "t",
+      "radius": 4,
+      "options": ""
+    }
+  ],
+  "assignments": [
+    {
+      "id": "bm-sampler.bm-control.drone-high-2.t2",
+      "source-object": "bm-sampler",
+      "source-record": "drone-high-2",
+      "target-object": "bm-control",
+      "target-record": "t2"
+    },
+    {
+      "id": "bm-sampler.bm-control.drone-high.t1",
+      "source-object": "bm-sampler",
+      "source-record": "drone-high",
+      "target-object": "bm-control",
+      "target-record": "t1"
+    },
+    {
+      "id": "bm-sampler.bm-control.drum-kick.l1",
+      "source-object": "bm-sampler",
+      "source-record": "drum-kick",
+      "target-object": "bm-control",
+      "target-record": "l1"
+    },
+    {
+      "id": "bm-sampler.bm-control.drum-kick.l2",
+      "source-object": "bm-sampler",
+      "source-record": "drum-kick",
+      "target-object": "bm-control",
+      "target-record": "l2"
+    },
+    {
+      "id": "bm-sampler.bm-control.drum-kick.l3",
+      "source-object": "bm-sampler",
+      "source-record": "drum-kick",
+      "target-object": "bm-control",
+      "target-record": "l3"
+    },
+    {
+      "id": "bm-sampler.bm-control.drum-kick.l4",
+      "source-object": "bm-sampler",
+      "source-record": "drum-kick",
+      "target-object": "bm-control",
+      "target-record": "l4"
+    },
+    {
+      "id": "bm-sampler.bm-control.drum-kick.l5",
+      "source-object": "bm-sampler",
+      "source-record": "drum-kick",
+      "target-object": "bm-control",
+      "target-record": "l5"
+    },
+    {
+      "id": "bm-sampler.bm-control.drum-kick.l6",
+      "source-object": "bm-sampler",
+      "source-record": "drum-kick",
+      "target-object": "bm-control",
+      "target-record": "l6"
+    },
+    {
+      "id": "bm-sampler.bm-control.drum-kick.l7",
+      "source-object": "bm-sampler",
+      "source-record": "drum-kick",
+      "target-object": "bm-control",
+      "target-record": "l7"
+    },
+    {
+      "id": "bm-sampler.bm-control.drum-kick.l8",
+      "source-object": "bm-sampler",
+      "source-record": "drum-kick",
+      "target-object": "bm-control",
+      "target-record": "l8"
+    },
+    {
+      "id": "bm-sampler.bm-control.drum-kick.l9",
+      "source-object": "bm-sampler",
+      "source-record": "drum-kick",
+      "target-object": "bm-control",
+      "target-record": "l9"
+    },
+    {
+      "id": "bm-sampler.bm-control.drum-kick.r1",
+      "source-object": "bm-sampler",
+      "source-record": "drum-kick",
+      "target-object": "bm-control",
+      "target-record": "r1"
+    },
+    {
+      "id": "bm-sampler.bm-control.drum-kick.r2",
+      "source-object": "bm-sampler",
+      "source-record": "drum-kick",
+      "target-object": "bm-control",
+      "target-record": "r2"
+    },
+    {
+      "id": "bm-sampler.bm-control.drum-kick.r3",
+      "source-object": "bm-sampler",
+      "source-record": "drum-kick",
+      "target-object": "bm-control",
+      "target-record": "r3"
+    },
+    {
+      "id": "bm-sampler.bm-control.drum-kick.r4",
+      "source-object": "bm-sampler",
+      "source-record": "drum-kick",
+      "target-object": "bm-control",
+      "target-record": "r4"
+    },
+    {
+      "id": "bm-sampler.bm-control.drum-kick.r5",
+      "source-object": "bm-sampler",
+      "source-record": "drum-kick",
+      "target-object": "bm-control",
+      "target-record": "r5"
+    },
+    {
+      "id": "bm-sampler.bm-control.drum-kick.r6",
+      "source-object": "bm-sampler",
+      "source-record": "drum-kick",
+      "target-object": "bm-control",
+      "target-record": "r6"
+    },
+    {
+      "id": "bm-sampler.bm-control.drum-kick.r7",
+      "source-object": "bm-sampler",
+      "source-record": "drum-kick",
+      "target-object": "bm-control",
+      "target-record": "r7"
+    },
+    {
+      "id": "bm-sampler.bm-control.drum-kick.r8",
+      "source-object": "bm-sampler",
+      "source-record": "drum-kick",
+      "target-object": "bm-control",
+      "target-record": "r8"
+    },
+    {
+      "id": "bm-sampler.bm-control.drum-kick.r9",
+      "source-object": "bm-sampler",
+      "source-record": "drum-kick",
+      "target-object": "bm-control",
+      "target-record": "r9"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-dissonance-10.r8",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-dissonance-10",
+      "target-object": "bm-control",
+      "target-record": "r8"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-dissonance-16.r5",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-dissonance-16",
+      "target-object": "bm-control",
+      "target-record": "r5"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-fifth-5-open.r1",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-fifth-5-open",
+      "target-object": "bm-control",
+      "target-record": "r1"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-fifth-6-open.r2",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-fifth-6-open",
+      "target-object": "bm-control",
+      "target-record": "r2"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-fifth-7-open.r3",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-fifth-7-open",
+      "target-object": "bm-control",
+      "target-record": "r3"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-fifth-8-open.r7",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-fifth-8-open",
+      "target-object": "bm-control",
+      "target-record": "r7"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-fifth-9-open.r9",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-fifth-9-open",
+      "target-object": "bm-control",
+      "target-record": "r9"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-scratch.l5",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-scratch",
+      "target-object": "bm-control",
+      "target-record": "l5"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-sixth-0-muted.l4",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-sixth-0-muted",
+      "target-object": "bm-control",
+      "target-record": "l4"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-sixth-0-open.l1",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-sixth-0-open",
+      "target-object": "bm-control",
+      "target-record": "l1"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-sixth-1-open.l2",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-sixth-1-open",
+      "target-object": "bm-control",
+      "target-record": "l2"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-sixth-2-muted.l6",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-sixth-2-muted",
+      "target-object": "bm-control",
+      "target-record": "l6"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-sixth-2-open.l3",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-sixth-2-open",
+      "target-object": "bm-control",
+      "target-record": "l3"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-sixth-3-open.l7",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-sixth-3-open",
+      "target-object": "bm-control",
+      "target-record": "l7"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-sixth-4-open.l8",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-sixth-4-open",
+      "target-object": "bm-control",
+      "target-record": "l8"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-sixth-5-open.l9",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-sixth-5-open",
+      "target-object": "bm-control",
+      "target-record": "l9"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-third-7-bend.r4",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-third-7-bend",
+      "target-object": "bm-control",
+      "target-record": "r4"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-third-8-bend.r6",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-third-8-bend",
+      "target-object": "bm-control",
+      "target-record": "r6"
+    },
+    {
+      "id": "bm-pattern.bm-control.p1.c1",
+      "source-object": "bm-pattern",
+      "source-record": "p1",
+      "target-object": "bm-control",
+      "target-record": "c1"
+    },
+    {
+      "id": "bm-pattern.bm-control.p2.c2",
+      "source-object": "bm-pattern",
+      "source-record": "p2",
+      "target-object": "bm-control",
+      "target-record": "c2"
+    },
+    {
+      "id": "bm-pattern.bm-control.p3.c3",
+      "source-object": "bm-pattern",
+      "source-record": "p3",
+      "target-object": "bm-control",
+      "target-record": "c3"
+    }
+  ],
+  "patterns": {
+    "p1": {
+      "id": "p1",
+      "name": "P1",
+      "grid": {
+        "drum-china-left": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "drum-snare": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    "p2": {
+      "id": "p2",
+      "name": "P2",
+      "grid": {
+        "drum-china-left": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "drum-snare": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "p3": {
+      "id": "p3",
+      "name": "P3",
+      "grid": {
+        "drum-china-left": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "drum-snare": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "samplers": {
+    "drone-high-2": {
+      "id": "drone-high-2",
+      "name": "Drone - High (2)",
+      "file": "audio/drone-high-2.mp3"
+    },
+    "drone-high": {
+      "id": "drone-high",
+      "name": "Drone - High",
+      "file": "audio/drone-high.mp3"
+    },
+    "drum-kick": {
+      "id": "drum-kick",
+      "name": "Drum - Kick",
+      "file": "audio/drum-kick.wav"
+    },
+    "guitar-dissonance-10": {
+      "id": "guitar-dissonance-10",
+      "name": "Guitar - Dissonance (10)",
+      "file": "audio/guitar-dissonance-10.mp3"
+    },
+    "guitar-dissonance-16": {
+      "id": "guitar-dissonance-16",
+      "name": "Guitar - Dissonance (16)",
+      "file": "audio/guitar-dissonance-16.mp3"
+    },
+    "guitar-fifth-5-open": {
+      "id": "guitar-fifth-5-open",
+      "name": "Guitar - Fifth 5 (open)",
+      "file": "audio/guitar-fifth-5-open.mp3"
+    },
+    "guitar-fifth-6-open": {
+      "id": "guitar-fifth-6-open",
+      "name": "Guitar - Fifth 6 (open)",
+      "file": "audio/guitar-fifth-6-open.mp3"
+    },
+    "guitar-fifth-7-open": {
+      "id": "guitar-fifth-7-open",
+      "name": "Guitar - Fifth 7 (open)",
+      "file": "audio/guitar-fifth-7-open.mp3"
+    },
+    "guitar-fifth-8-open": {
+      "id": "guitar-fifth-8-open",
+      "name": "Guitar - Fifth 8 (open)",
+      "file": "audio/guitar-fifth-8-open.mp3"
+    },
+    "guitar-fifth-9-open": {
+      "id": "guitar-fifth-9-open",
+      "name": "Guitar - Fifth 9 (open)",
+      "file": "audio/guitar-fifth-9-open.mp3"
+    },
+    "guitar-scratch": {
+      "id": "guitar-scratch",
+      "name": "Guitar - Scratch",
+      "file": "audio/guitar-scratch.mp3"
+    },
+    "guitar-sixth-0-muted": {
+      "id": "guitar-sixth-0-muted",
+      "name": "Guitar - Sixth 0 (muted)",
+      "file": "audio/guitar-sixth-0-muted.mp3"
+    },
+    "guitar-sixth-0-open": {
+      "id": "guitar-sixth-0-open",
+      "name": "Guitar - Sixth 0 (open)",
+      "file": "audio/guitar-sixth-0-open.mp3"
+    },
+    "guitar-sixth-1-open": {
+      "id": "guitar-sixth-1-open",
+      "name": "Guitar - Sixth 1 (open)",
+      "file": "audio/guitar-sixth-1-open.mp3"
+    },
+    "guitar-sixth-2-muted": {
+      "id": "guitar-sixth-2-muted",
+      "name": "Guitar - Sixth 2 (muted)",
+      "file": "audio/guitar-sixth-2-muted.mp3"
+    },
+    "guitar-sixth-2-open": {
+      "id": "guitar-sixth-2-open",
+      "name": "Guitar - Sixth 2 (open)",
+      "file": "audio/guitar-sixth-2-open.mp3"
+    },
+    "guitar-sixth-3-open": {
+      "id": "guitar-sixth-3-open",
+      "name": "Guitar - Sixth 3 (open)",
+      "file": "audio/guitar-sixth-3-open.mp3"
+    },
+    "guitar-sixth-4-open": {
+      "id": "guitar-sixth-4-open",
+      "name": "Guitar - Sixth 4 (open)",
+      "file": "audio/guitar-sixth-4-open.mp3"
+    },
+    "guitar-sixth-5-open": {
+      "id": "guitar-sixth-5-open",
+      "name": "Guitar - Sixth 5 (open)",
+      "file": "audio/guitar-sixth-5-open.mp3"
+    },
+    "guitar-third-7-bend": {
+      "id": "guitar-third-7-bend",
+      "name": "Guitar - Third 7 (bend)",
+      "file": "audio/guitar-third-7-bend.mp3"
+    },
+    "guitar-third-8-bend": {
+      "id": "guitar-third-8-bend",
+      "name": "Guitar - Third 8 (bend)",
+      "file": "audio/guitar-third-8-bend.mp3"
+    },
+    "drum-china-left": {
+      "id": "drum-china-left",
+      "name": "Drum - China (left)",
+      "file": "audio/drum-china-left.wav"
+    },
+    "drum-snare": {
+      "id": "drum-snare",
+      "name": "Drum - Snare",
+      "file": "audio/drum-snare.wav"
+    }
+  }
+}
