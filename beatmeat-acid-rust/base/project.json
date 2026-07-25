@@ -1,0 +1,863 @@
+{
+  "id": "beatmeat-acid-rust/base",
+  "name": "Beatmeat - Acid Rust: Base",
+  "project": {
+    "tempo": 130,
+    "dimensions": {
+      "width": 960,
+      "height": 540
+    },
+    "compressor": {
+      "enabled": true,
+      "threshold": -18,
+      "knee": 24,
+      "ratio": 3,
+      "attack": 0.005,
+      "release": 0.15,
+      "makeup": 1.2
+    }
+  },
+  "scene": {
+    "style": {}
+  },
+  "controls": [
+    {
+      "id": "c1",
+      "name": "C1",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 340,
+      "position-y": 100,
+      "width": 280,
+      "height": 100,
+      "color": "#ffa700e0",
+      "group": "c",
+      "radius": 4
+    },
+    {
+      "id": "c2",
+      "name": "C2",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 340,
+      "position-y": 220,
+      "width": 280,
+      "height": 100,
+      "color": "#ffa700e0",
+      "group": "c",
+      "radius": 4
+    },
+    {
+      "id": "c3",
+      "name": "C3",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 340,
+      "position-y": 340,
+      "width": 280,
+      "height": 100,
+      "color": "#ffa700e0",
+      "group": "c",
+      "radius": 4
+    },
+    {
+      "id": "l1",
+      "name": "L1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 40,
+      "position-y": 180,
+      "width": 80,
+      "height": 80,
+      "color": "#a8e00c",
+      "group": "lr",
+      "radius": 4
+    },
+    {
+      "id": "l2",
+      "name": "L2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 140,
+      "position-y": 180,
+      "width": 80,
+      "height": 80,
+      "color": "#a8e00c",
+      "group": "lr",
+      "radius": 4
+    },
+    {
+      "id": "l3",
+      "name": "L3",
+      "scene": "base",
+      "type": "button",
+      "position-x": 240,
+      "position-y": 180,
+      "width": 80,
+      "height": 80,
+      "color": "#a8e00c",
+      "group": "lr",
+      "radius": 4
+    },
+    {
+      "id": "l4",
+      "name": "L4",
+      "scene": "base",
+      "type": "button",
+      "position-x": 40,
+      "position-y": 280,
+      "width": 80,
+      "height": 80,
+      "color": "#d4ff1a",
+      "group": "lr",
+      "radius": 4
+    },
+    {
+      "id": "l5",
+      "name": "L5",
+      "scene": "base",
+      "type": "button",
+      "position-x": 140,
+      "position-y": 280,
+      "width": 80,
+      "height": 80,
+      "color": "#ff2d55",
+      "group": "lr",
+      "radius": 4
+    },
+    {
+      "id": "l6",
+      "name": "L6",
+      "scene": "base",
+      "type": "button",
+      "position-x": 240,
+      "position-y": 280,
+      "width": 80,
+      "height": 80,
+      "color": "#d4ff1a",
+      "group": "lr",
+      "radius": 4
+    },
+    {
+      "id": "l7",
+      "name": "L7",
+      "scene": "base",
+      "type": "button",
+      "position-x": 40,
+      "position-y": 380,
+      "width": 80,
+      "height": 80,
+      "color": "#a8e00c",
+      "group": "lr",
+      "radius": 4
+    },
+    {
+      "id": "l8",
+      "name": "L8",
+      "scene": "base",
+      "type": "button",
+      "position-x": 140,
+      "position-y": 380,
+      "width": 80,
+      "height": 80,
+      "color": "#a8e00c",
+      "group": "lr",
+      "radius": 4
+    },
+    {
+      "id": "l9",
+      "name": "L9",
+      "scene": "base",
+      "type": "button",
+      "position-x": 240,
+      "position-y": 380,
+      "width": 80,
+      "height": 80,
+      "color": "#a8e00c",
+      "group": "lr",
+      "radius": 4
+    },
+    {
+      "id": "r1",
+      "name": "R1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 640,
+      "position-y": 180,
+      "width": 80,
+      "height": 80,
+      "color": "#00e5b0",
+      "group": "lr",
+      "radius": 4
+    },
+    {
+      "id": "r2",
+      "name": "R2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 740,
+      "position-y": 180,
+      "width": 80,
+      "height": 80,
+      "color": "#00e5b0",
+      "group": "lr",
+      "radius": 4
+    },
+    {
+      "id": "r3",
+      "name": "R3",
+      "scene": "base",
+      "type": "button",
+      "position-x": 840,
+      "position-y": 180,
+      "width": 80,
+      "height": 80,
+      "color": "#00e5b0",
+      "group": "lr",
+      "radius": 4
+    },
+    {
+      "id": "r4",
+      "name": "R4",
+      "scene": "base",
+      "type": "button",
+      "position-x": 640,
+      "position-y": 280,
+      "width": 80,
+      "height": 80,
+      "color": "#66f5d6",
+      "group": "lr",
+      "radius": 4
+    },
+    {
+      "id": "r5",
+      "name": "R5",
+      "scene": "base",
+      "type": "button",
+      "position-x": 740,
+      "position-y": 280,
+      "width": 80,
+      "height": 80,
+      "color": "#b14aff",
+      "group": "lr",
+      "radius": 4
+    },
+    {
+      "id": "r6",
+      "name": "R6",
+      "scene": "base",
+      "type": "button",
+      "position-x": 840,
+      "position-y": 280,
+      "width": 80,
+      "height": 80,
+      "color": "#66f5d6",
+      "group": "lr",
+      "radius": 4
+    },
+    {
+      "id": "r7",
+      "name": "R7",
+      "scene": "base",
+      "type": "button",
+      "position-x": 640,
+      "position-y": 380,
+      "width": 80,
+      "height": 80,
+      "color": "#00e5b0",
+      "group": "lr",
+      "radius": 4
+    },
+    {
+      "id": "r8",
+      "name": "R8",
+      "scene": "base",
+      "type": "button",
+      "position-x": 740,
+      "position-y": 380,
+      "width": 80,
+      "height": 80,
+      "color": "#b14aff",
+      "group": "lr",
+      "radius": 4
+    },
+    {
+      "id": "r9",
+      "name": "R9",
+      "scene": "base",
+      "type": "button",
+      "position-x": 840,
+      "position-y": 380,
+      "width": 80,
+      "height": 80,
+      "color": "#00e5b0",
+      "group": "lr",
+      "radius": 4
+    },
+    {
+      "id": "t1",
+      "name": "T1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 40,
+      "position-y": 80,
+      "width": 280,
+      "height": 80,
+      "color": "#3c94dd",
+      "group": "t",
+      "radius": 4
+    },
+    {
+      "id": "t2",
+      "name": "T2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 640,
+      "position-y": 80,
+      "width": 280,
+      "height": 80,
+      "color": "#3c94dd",
+      "group": "t",
+      "radius": 4
+    }
+  ],
+  "assignments": [
+    {
+      "id": "bm-pattern.bm-control.p1.c1",
+      "source-object": "bm-pattern",
+      "source-record": "p1",
+      "target-object": "bm-control",
+      "target-record": "c1"
+    },
+    {
+      "id": "bm-pattern.bm-control.p2.c2",
+      "source-object": "bm-pattern",
+      "source-record": "p2",
+      "target-object": "bm-control",
+      "target-record": "c2"
+    },
+    {
+      "id": "bm-pattern.bm-control.p3.c3",
+      "source-object": "bm-pattern",
+      "source-record": "p3",
+      "target-object": "bm-control",
+      "target-record": "c3"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-bass-a1-accent.l4",
+      "source-object": "bm-sampler",
+      "source-record": "acid-bass-a1-accent",
+      "target-object": "bm-control",
+      "target-record": "l4"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-bass-a1.l1",
+      "source-object": "bm-sampler",
+      "source-record": "acid-bass-a1",
+      "target-object": "bm-control",
+      "target-record": "l1"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-bass-a2.l9",
+      "source-object": "bm-sampler",
+      "source-record": "acid-bass-a2",
+      "target-object": "bm-control",
+      "target-record": "l9"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-bass-c2.l2",
+      "source-object": "bm-sampler",
+      "source-record": "acid-bass-c2",
+      "target-object": "bm-control",
+      "target-record": "l2"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-bass-d2.l3",
+      "source-object": "bm-sampler",
+      "source-record": "acid-bass-d2",
+      "target-object": "bm-control",
+      "target-record": "l3"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-bass-e2-accent.l6",
+      "source-object": "bm-sampler",
+      "source-record": "acid-bass-e2-accent",
+      "target-object": "bm-control",
+      "target-record": "l6"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-bass-e2.l7",
+      "source-object": "bm-sampler",
+      "source-record": "acid-bass-e2",
+      "target-object": "bm-control",
+      "target-record": "l7"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-bass-g2.l8",
+      "source-object": "bm-sampler",
+      "source-record": "acid-bass-g2",
+      "target-object": "bm-control",
+      "target-record": "l8"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-cluster-1.r5",
+      "source-object": "bm-sampler",
+      "source-record": "acid-cluster-1",
+      "target-object": "bm-control",
+      "target-record": "r5"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-cluster-2.r8",
+      "source-object": "bm-sampler",
+      "source-record": "acid-cluster-2",
+      "target-object": "bm-control",
+      "target-record": "r8"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-lead-a2.r1",
+      "source-object": "bm-sampler",
+      "source-record": "acid-lead-a2",
+      "target-object": "bm-control",
+      "target-record": "r1"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-lead-a3.r9",
+      "source-object": "bm-sampler",
+      "source-record": "acid-lead-a3",
+      "target-object": "bm-control",
+      "target-record": "r9"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-lead-c3.r2",
+      "source-object": "bm-sampler",
+      "source-record": "acid-lead-c3",
+      "target-object": "bm-control",
+      "target-record": "r2"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-lead-d3.r3",
+      "source-object": "bm-sampler",
+      "source-record": "acid-lead-d3",
+      "target-object": "bm-control",
+      "target-record": "r3"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-lead-e3.r7",
+      "source-object": "bm-sampler",
+      "source-record": "acid-lead-e3",
+      "target-object": "bm-control",
+      "target-record": "r7"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-slide-down.r6",
+      "source-object": "bm-sampler",
+      "source-record": "acid-slide-down",
+      "target-object": "bm-control",
+      "target-record": "r6"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-slide-up.r4",
+      "source-object": "bm-sampler",
+      "source-record": "acid-slide-up",
+      "target-object": "bm-control",
+      "target-record": "r4"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-zap.l5",
+      "source-object": "bm-sampler",
+      "source-record": "acid-zap",
+      "target-object": "bm-control",
+      "target-record": "l5"
+    },
+    {
+      "id": "bm-sampler.bm-control.atmo-sweep-a.t1",
+      "source-object": "bm-sampler",
+      "source-record": "atmo-sweep-a",
+      "target-object": "bm-control",
+      "target-record": "t1"
+    },
+    {
+      "id": "bm-sampler.bm-control.atmo-sweep-e.t2",
+      "source-object": "bm-sampler",
+      "source-record": "atmo-sweep-e",
+      "target-object": "bm-control",
+      "target-record": "t2"
+    }
+  ],
+  "patterns": {
+    "p1": {
+      "id": "p1",
+      "name": "P1",
+      "grid": {
+        "drum-kick": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "drum-clap": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "drum-hat-closed": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    "p2": {
+      "id": "p2",
+      "name": "P2",
+      "grid": {
+        "drum-kick": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "drum-hat-closed": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "drum-hat-open": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "drum-clap": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "p3": {
+      "id": "p3",
+      "name": "P3",
+      "grid": {
+        "drum-kick": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "drum-snare": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "drum-ride": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "drum-hat-closed": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "samplers": {
+    "drum-kick": {
+      "id": "drum-kick",
+      "name": "Drum - Kick",
+      "file": "audio/drum-kick.wav",
+      "volume": -7.9
+    },
+    "drum-clap": {
+      "id": "drum-clap",
+      "name": "Drum - Clap",
+      "file": "audio/drum-clap.wav",
+      "volume": -4.7
+    },
+    "drum-hat-closed": {
+      "id": "drum-hat-closed",
+      "name": "Drum - Hat (closed)",
+      "file": "audio/drum-hat-closed.wav",
+      "volume": -7.3
+    },
+    "drum-hat-open": {
+      "id": "drum-hat-open",
+      "name": "Drum - Hat (open)",
+      "file": "audio/drum-hat-open.wav",
+      "volume": -9.5
+    },
+    "drum-snare": {
+      "id": "drum-snare",
+      "name": "Drum - Snare",
+      "file": "audio/drum-snare.wav",
+      "volume": -8
+    },
+    "drum-ride": {
+      "id": "drum-ride",
+      "name": "Drum - Ride",
+      "file": "audio/drum-ride.wav",
+      "volume": -9.8
+    },
+    "acid-bass-a1-accent": {
+      "id": "acid-bass-a1-accent",
+      "name": "Acid - Bass A1 (accent)",
+      "file": "audio/acid-bass-a1-accent.wav",
+      "volume": -9.5
+    },
+    "acid-bass-a1": {
+      "id": "acid-bass-a1",
+      "name": "Acid - Bass A1",
+      "file": "audio/acid-bass-a1.wav",
+      "volume": -8.4
+    },
+    "acid-bass-a2": {
+      "id": "acid-bass-a2",
+      "name": "Acid - Bass A2",
+      "file": "audio/acid-bass-a2.wav",
+      "volume": -11.1
+    },
+    "acid-bass-c2": {
+      "id": "acid-bass-c2",
+      "name": "Acid - Bass C2",
+      "file": "audio/acid-bass-c2.wav",
+      "volume": -8.8
+    },
+    "acid-bass-d2": {
+      "id": "acid-bass-d2",
+      "name": "Acid - Bass D2",
+      "file": "audio/acid-bass-d2.wav",
+      "volume": -9
+    },
+    "acid-bass-e2-accent": {
+      "id": "acid-bass-e2-accent",
+      "name": "Acid - Bass E2 (accent)",
+      "file": "audio/acid-bass-e2-accent.wav",
+      "volume": -10.7
+    },
+    "acid-bass-e2": {
+      "id": "acid-bass-e2",
+      "name": "Acid - Bass E2",
+      "file": "audio/acid-bass-e2.wav",
+      "volume": -9.4
+    },
+    "acid-bass-g2": {
+      "id": "acid-bass-g2",
+      "name": "Acid - Bass G2",
+      "file": "audio/acid-bass-g2.wav",
+      "volume": -10
+    },
+    "acid-cluster-1": {
+      "id": "acid-cluster-1",
+      "name": "Acid - Cluster 1",
+      "file": "audio/acid-cluster-1.wav",
+      "volume": -8.4
+    },
+    "acid-cluster-2": {
+      "id": "acid-cluster-2",
+      "name": "Acid - Cluster 2",
+      "file": "audio/acid-cluster-2.wav",
+      "volume": -8.9
+    },
+    "acid-lead-a2": {
+      "id": "acid-lead-a2",
+      "name": "Acid - Lead A2",
+      "file": "audio/acid-lead-a2.wav",
+      "volume": -10.1
+    },
+    "acid-lead-a3": {
+      "id": "acid-lead-a3",
+      "name": "Acid - Lead A3",
+      "file": "audio/acid-lead-a3.wav",
+      "volume": -11.4
+    },
+    "acid-lead-c3": {
+      "id": "acid-lead-c3",
+      "name": "Acid - Lead C3",
+      "file": "audio/acid-lead-c3.wav",
+      "volume": -9.6
+    },
+    "acid-lead-d3": {
+      "id": "acid-lead-d3",
+      "name": "Acid - Lead D3",
+      "file": "audio/acid-lead-d3.wav",
+      "volume": -10
+    },
+    "acid-lead-e3": {
+      "id": "acid-lead-e3",
+      "name": "Acid - Lead E3",
+      "file": "audio/acid-lead-e3.wav",
+      "volume": -10.3
+    },
+    "acid-slide-down": {
+      "id": "acid-slide-down",
+      "name": "Acid - Slide down",
+      "file": "audio/acid-slide-down.wav",
+      "volume": -13.9
+    },
+    "acid-slide-up": {
+      "id": "acid-slide-up",
+      "name": "Acid - Slide up",
+      "file": "audio/acid-slide-up.wav",
+      "volume": -12.8
+    },
+    "acid-zap": {
+      "id": "acid-zap",
+      "name": "Acid - Zap",
+      "file": "audio/acid-zap.wav",
+      "volume": -7.1
+    },
+    "atmo-sweep-a": {
+      "id": "atmo-sweep-a",
+      "name": "Atmo - Sweep A",
+      "file": "audio/atmo-sweep-a.wav",
+      "volume": -16
+    },
+    "atmo-sweep-e": {
+      "id": "atmo-sweep-e",
+      "name": "Atmo - Sweep E",
+      "file": "audio/atmo-sweep-e.wav",
+      "volume": -17.5
+    }
+  }
+}

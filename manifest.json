@@ -21,6 +21,16 @@
       "samplers": 26
     },
     {
+      "id": "beatmeat-acid-rust/base",
+      "project": "Beatmeat - Acid Rust",
+      "scene": "base",
+      "name": "Beatmeat - Acid Rust: Base",
+      "path": "beatmeat-acid-rust/base/project.json",
+      "bpm": 130,
+      "controls": 23,
+      "samplers": 26
+    },
+    {
       "id": "beatmeat-charly/base",
       "project": "Beatmeat - Charly",
       "scene": "base",
