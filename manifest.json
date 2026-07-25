@@ -21,6 +21,16 @@
       "samplers": 26
     },
     {
+      "id": "beatmeat-charly/base",
+      "project": "Beatmeat - Charly",
+      "scene": "base",
+      "name": "Beatmeat - Charly: Base",
+      "path": "beatmeat-charly/base/project.json",
+      "bpm": 130.92,
+      "controls": 23,
+      "samplers": 25
+    },
+    {
       "id": "beatmeat-djent/base",
       "project": "Beatmeat - Djent",
       "scene": "base",

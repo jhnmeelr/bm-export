@@ -1,0 +1,882 @@
+{
+  "id": "beatmeat-charly/base",
+  "name": "Beatmeat - Charly: Base",
+  "project": {
+    "tempo": 130.92,
+    "dimensions": {
+      "width": 960,
+      "height": 540
+    },
+    "compressor": {
+      "enabled": true,
+      "threshold": -18,
+      "knee": 24,
+      "ratio": 3,
+      "attack": 0.005,
+      "release": 0.15,
+      "makeup": 1.2
+    }
+  },
+  "scene": {
+    "style": {}
+  },
+  "controls": [
+    {
+      "id": "c1",
+      "name": "C1",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 340,
+      "position-y": 100,
+      "width": 280,
+      "height": 100,
+      "color": "#ffa700e0",
+      "group": "c",
+      "radius": 4
+    },
+    {
+      "id": "c2",
+      "name": "C2",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 340,
+      "position-y": 220,
+      "width": 280,
+      "height": 100,
+      "color": "#ffa700e0",
+      "group": "c",
+      "radius": 4
+    },
+    {
+      "id": "c3",
+      "name": "C3",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 340,
+      "position-y": 340,
+      "width": 280,
+      "height": 100,
+      "color": "#ffa700e0",
+      "group": "c",
+      "radius": 4
+    },
+    {
+      "id": "l1",
+      "name": "L1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 40,
+      "position-y": 180,
+      "width": 80,
+      "height": 80,
+      "color": "#e64a19",
+      "group": "l",
+      "radius": 4
+    },
+    {
+      "id": "l2",
+      "name": "L2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 140,
+      "position-y": 180,
+      "width": 80,
+      "height": 80,
+      "color": "#ac3712",
+      "group": "l",
+      "radius": 4
+    },
+    {
+      "id": "l3",
+      "name": "L3",
+      "scene": "base",
+      "type": "button",
+      "position-x": 240,
+      "position-y": 180,
+      "width": 80,
+      "height": 80,
+      "color": "#e64a19",
+      "group": "l",
+      "radius": 4
+    },
+    {
+      "id": "l4",
+      "name": "L4",
+      "scene": "base",
+      "type": "button",
+      "position-x": 40,
+      "position-y": 280,
+      "width": 80,
+      "height": 80,
+      "color": "#ac3712",
+      "group": "l",
+      "radius": 4
+    },
+    {
+      "id": "l5",
+      "name": "L5",
+      "scene": "base",
+      "type": "button",
+      "position-x": 140,
+      "position-y": 280,
+      "width": 80,
+      "height": 80,
+      "color": "#e64a19",
+      "group": "l",
+      "radius": 4
+    },
+    {
+      "id": "l6",
+      "name": "L6",
+      "scene": "base",
+      "type": "button",
+      "position-x": 240,
+      "position-y": 280,
+      "width": 80,
+      "height": 80,
+      "color": "#ac3712",
+      "group": "l",
+      "radius": 4
+    },
+    {
+      "id": "l7",
+      "name": "L7",
+      "scene": "base",
+      "type": "button",
+      "position-x": 40,
+      "position-y": 380,
+      "width": 80,
+      "height": 80,
+      "color": "#e64a19",
+      "group": "l",
+      "radius": 4
+    },
+    {
+      "id": "l8",
+      "name": "L8",
+      "scene": "base",
+      "type": "button",
+      "position-x": 140,
+      "position-y": 380,
+      "width": 80,
+      "height": 80,
+      "color": "#ac3712",
+      "group": "l",
+      "radius": 4
+    },
+    {
+      "id": "l9",
+      "name": "L9",
+      "scene": "base",
+      "type": "button",
+      "position-x": 240,
+      "position-y": 380,
+      "width": 80,
+      "height": 80,
+      "color": "#e64a19",
+      "group": "l",
+      "radius": 4
+    },
+    {
+      "id": "r1",
+      "name": "R1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 640,
+      "position-y": 180,
+      "width": 80,
+      "height": 80,
+      "color": "#00e5b0",
+      "group": "r",
+      "radius": 4
+    },
+    {
+      "id": "r2",
+      "name": "R2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 740,
+      "position-y": 180,
+      "width": 80,
+      "height": 80,
+      "color": "#00e5b0",
+      "group": "r",
+      "radius": 4
+    },
+    {
+      "id": "r3",
+      "name": "R3",
+      "scene": "base",
+      "type": "button",
+      "position-x": 840,
+      "position-y": 180,
+      "width": 80,
+      "height": 80,
+      "color": "#00e5b0",
+      "group": "r",
+      "radius": 4
+    },
+    {
+      "id": "r4",
+      "name": "R4",
+      "scene": "base",
+      "type": "button",
+      "position-x": 640,
+      "position-y": 280,
+      "width": 80,
+      "height": 80,
+      "color": "#66f5d6",
+      "group": "v",
+      "radius": 4
+    },
+    {
+      "id": "r5",
+      "name": "R5",
+      "scene": "base",
+      "type": "button",
+      "position-x": 740,
+      "position-y": 280,
+      "width": 80,
+      "height": 80,
+      "color": "#b14aff",
+      "group": "v",
+      "radius": 4
+    },
+    {
+      "id": "r6",
+      "name": "R6",
+      "scene": "base",
+      "type": "button",
+      "position-x": 840,
+      "position-y": 280,
+      "width": 80,
+      "height": 80,
+      "color": "#66f5d6",
+      "group": "v",
+      "radius": 4
+    },
+    {
+      "id": "r7",
+      "name": "R7",
+      "scene": "base",
+      "type": "button",
+      "position-x": 640,
+      "position-y": 380,
+      "width": 80,
+      "height": 80,
+      "color": "#00e5b0",
+      "group": "r",
+      "radius": 4
+    },
+    {
+      "id": "r8",
+      "name": "R8",
+      "scene": "base",
+      "type": "button",
+      "position-x": 740,
+      "position-y": 380,
+      "width": 80,
+      "height": 80,
+      "color": "#b14aff",
+      "group": "v",
+      "radius": 4
+    },
+    {
+      "id": "r9",
+      "name": "R9",
+      "scene": "base",
+      "type": "button",
+      "position-x": 840,
+      "position-y": 380,
+      "width": 80,
+      "height": 80,
+      "color": "#00e5b0",
+      "group": "r",
+      "radius": 4
+    },
+    {
+      "id": "t1",
+      "name": "T1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 40,
+      "position-y": 80,
+      "width": 280,
+      "height": 80,
+      "color": "#00897b",
+      "group": "b",
+      "radius": 4
+    },
+    {
+      "id": "t2",
+      "name": "T2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 640,
+      "position-y": 80,
+      "width": 280,
+      "height": 80,
+      "color": "#3c94dd",
+      "group": "t",
+      "radius": 4
+    }
+  ],
+  "assignments": [
+    {
+      "id": "bm-pattern.bm-control.p1.c1",
+      "source-object": "bm-pattern",
+      "source-record": "p1",
+      "target-object": "bm-control",
+      "target-record": "c1"
+    },
+    {
+      "id": "bm-pattern.bm-control.p2.c2",
+      "source-object": "bm-pattern",
+      "source-record": "p2",
+      "target-object": "bm-control",
+      "target-record": "c2"
+    },
+    {
+      "id": "bm-pattern.bm-control.p3.c3",
+      "source-object": "bm-pattern",
+      "source-record": "p3",
+      "target-object": "bm-control",
+      "target-record": "c3"
+    },
+    {
+      "id": "bm-sampler.bm-control.atmo-intro.t2",
+      "source-object": "bm-sampler",
+      "source-record": "atmo-intro",
+      "target-object": "bm-control",
+      "target-record": "t2"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-bed.t1",
+      "source-object": "bm-sampler",
+      "source-record": "bass-bed",
+      "target-object": "bm-control",
+      "target-record": "t1"
+    },
+    {
+      "id": "bm-sampler.bm-control.break-1.l1",
+      "source-object": "bm-sampler",
+      "source-record": "break-1",
+      "target-object": "bm-control",
+      "target-record": "l1"
+    },
+    {
+      "id": "bm-sampler.bm-control.break-2.l2",
+      "source-object": "bm-sampler",
+      "source-record": "break-2",
+      "target-object": "bm-control",
+      "target-record": "l2"
+    },
+    {
+      "id": "bm-sampler.bm-control.break-3.l3",
+      "source-object": "bm-sampler",
+      "source-record": "break-3",
+      "target-object": "bm-control",
+      "target-record": "l3"
+    },
+    {
+      "id": "bm-sampler.bm-control.break-4.l4",
+      "source-object": "bm-sampler",
+      "source-record": "break-4",
+      "target-object": "bm-control",
+      "target-record": "l4"
+    },
+    {
+      "id": "bm-sampler.bm-control.break-5.l5",
+      "source-object": "bm-sampler",
+      "source-record": "break-5",
+      "target-object": "bm-control",
+      "target-record": "l5"
+    },
+    {
+      "id": "bm-sampler.bm-control.break-6.l6",
+      "source-object": "bm-sampler",
+      "source-record": "break-6",
+      "target-object": "bm-control",
+      "target-record": "l6"
+    },
+    {
+      "id": "bm-sampler.bm-control.break-7.l7",
+      "source-object": "bm-sampler",
+      "source-record": "break-7",
+      "target-object": "bm-control",
+      "target-record": "l7"
+    },
+    {
+      "id": "bm-sampler.bm-control.break-8.l8",
+      "source-object": "bm-sampler",
+      "source-record": "break-8",
+      "target-object": "bm-control",
+      "target-record": "l8"
+    },
+    {
+      "id": "bm-sampler.bm-control.break-9.l9",
+      "source-object": "bm-sampler",
+      "source-record": "break-9",
+      "target-object": "bm-control",
+      "target-record": "l9"
+    },
+    {
+      "id": "bm-sampler.bm-control.lead-1.r1",
+      "source-object": "bm-sampler",
+      "source-record": "lead-1",
+      "target-object": "bm-control",
+      "target-record": "r1"
+    },
+    {
+      "id": "bm-sampler.bm-control.lead-2.r2",
+      "source-object": "bm-sampler",
+      "source-record": "lead-2",
+      "target-object": "bm-control",
+      "target-record": "r2"
+    },
+    {
+      "id": "bm-sampler.bm-control.lead-3.r3",
+      "source-object": "bm-sampler",
+      "source-record": "lead-3",
+      "target-object": "bm-control",
+      "target-record": "r3"
+    },
+    {
+      "id": "bm-sampler.bm-control.lead-4.r7",
+      "source-object": "bm-sampler",
+      "source-record": "lead-4",
+      "target-object": "bm-control",
+      "target-record": "r7"
+    },
+    {
+      "id": "bm-sampler.bm-control.lead-5.r9",
+      "source-object": "bm-sampler",
+      "source-record": "lead-5",
+      "target-object": "bm-control",
+      "target-record": "r9"
+    },
+    {
+      "id": "bm-sampler.bm-control.speech-1.r4",
+      "source-object": "bm-sampler",
+      "source-record": "speech-1",
+      "target-object": "bm-control",
+      "target-record": "r4"
+    },
+    {
+      "id": "bm-sampler.bm-control.speech-2.r6",
+      "source-object": "bm-sampler",
+      "source-record": "speech-2",
+      "target-object": "bm-control",
+      "target-record": "r6"
+    },
+    {
+      "id": "bm-sampler.bm-control.stab-high.r8",
+      "source-object": "bm-sampler",
+      "source-record": "stab-high",
+      "target-object": "bm-control",
+      "target-record": "r8"
+    },
+    {
+      "id": "bm-sampler.bm-control.stab-low.r5",
+      "source-object": "bm-sampler",
+      "source-record": "stab-low",
+      "target-object": "bm-control",
+      "target-record": "r5"
+    }
+  ],
+  "patterns": {
+    "p1": {
+      "id": "p1",
+      "name": "P1 - the break, programmed",
+      "grid": {
+        "lane-kick": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "lane-snare": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "lane-hat-closed": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    "p2": {
+      "id": "p2",
+      "name": "P2 - 16ths",
+      "grid": {
+        "lane-kick": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "lane-snare": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "lane-hat-closed": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "lane-hat-open": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    "p3": {
+      "id": "p3",
+      "name": "P3 - the hook",
+      "grid": {
+        "lane-kick": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "lane-snare": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "lane-hat-open": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "lane-stab": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "samplers": {
+    "lane-kick": {
+      "id": "lane-kick",
+      "name": "Lane - kick",
+      "file": "audio/lane-kick.wav",
+      "start": 0,
+      "volume": -4.4
+    },
+    "lane-snare": {
+      "id": "lane-snare",
+      "name": "Lane - snare",
+      "file": "audio/lane-snare.wav",
+      "start": 0,
+      "volume": -7.3
+    },
+    "lane-hat-closed": {
+      "id": "lane-hat-closed",
+      "name": "Lane - closed hat",
+      "file": "audio/lane-hat-closed.wav",
+      "start": 0,
+      "volume": -10.3
+    },
+    "lane-hat-open": {
+      "id": "lane-hat-open",
+      "name": "Lane - open hat",
+      "file": "audio/lane-hat-open.wav",
+      "start": 0,
+      "volume": -11.9
+    },
+    "lane-stab": {
+      "id": "lane-stab",
+      "name": "Lane - stab",
+      "file": "audio/lane-stab.wav",
+      "start": 0,
+      "volume": -15.9
+    },
+    "atmo-intro": {
+      "id": "atmo-intro",
+      "name": "Atmo - intro",
+      "file": "audio/atmo-intro.wav",
+      "start": 0,
+      "volume": -13.5
+    },
+    "bass-bed": {
+      "id": "bass-bed",
+      "name": "Bass - bed",
+      "file": "audio/bass-bed.wav",
+      "start": 0,
+      "volume": -9.1
+    },
+    "break-1": {
+      "id": "break-1",
+      "name": "Break 1 - bar 1",
+      "file": "audio/break-1.wav",
+      "start": 0,
+      "volume": -1.9
+    },
+    "break-2": {
+      "id": "break-2",
+      "name": "Break 2 - bar 1 half",
+      "file": "audio/break-2.wav",
+      "start": 0.91659,
+      "volume": -1.9
+    },
+    "break-3": {
+      "id": "break-3",
+      "name": "Break 3 - bar 2",
+      "file": "audio/break-3.wav",
+      "start": 1.833181,
+      "volume": -2
+    },
+    "break-4": {
+      "id": "break-4",
+      "name": "Break 4 - bar 2 half",
+      "file": "audio/break-4.wav",
+      "start": 2.749771,
+      "volume": -1.9
+    },
+    "break-5": {
+      "id": "break-5",
+      "name": "Break 5 - bar 3",
+      "file": "audio/break-5.wav",
+      "start": 3.666361,
+      "volume": -2
+    },
+    "break-6": {
+      "id": "break-6",
+      "name": "Break 6 - bar 3 half",
+      "file": "audio/break-6.wav",
+      "start": 4.582951,
+      "volume": -2
+    },
+    "break-7": {
+      "id": "break-7",
+      "name": "Break 7 - bar 4 (the walk-down)",
+      "file": "audio/break-7.wav",
+      "start": 5.499542,
+      "volume": -2
+    },
+    "break-8": {
+      "id": "break-8",
+      "name": "Break 8 - bar 4 half",
+      "file": "audio/break-8.wav",
+      "start": 6.416132,
+      "volume": -2
+    },
+    "break-9": {
+      "id": "break-9",
+      "name": "Break 9 - bar 5",
+      "file": "audio/break-9.wav",
+      "start": 7.332722,
+      "volume": -2
+    },
+    "lead-1": {
+      "id": "lead-1",
+      "name": "Lead 1",
+      "file": "audio/lead-1.wav",
+      "start": 0,
+      "volume": -13
+    },
+    "lead-2": {
+      "id": "lead-2",
+      "name": "Lead 2",
+      "file": "audio/lead-2.wav",
+      "start": 0,
+      "volume": -11.6
+    },
+    "lead-3": {
+      "id": "lead-3",
+      "name": "Lead 3",
+      "file": "audio/lead-3.wav",
+      "start": 0,
+      "volume": -11.3
+    },
+    "lead-4": {
+      "id": "lead-4",
+      "name": "Lead 4",
+      "file": "audio/lead-4.wav",
+      "start": 0,
+      "volume": -12.2
+    },
+    "lead-5": {
+      "id": "lead-5",
+      "name": "Lead 5",
+      "file": "audio/lead-5.wav",
+      "start": 0,
+      "volume": -12.9
+    },
+    "speech-1": {
+      "id": "speech-1",
+      "name": "Speech 1 - the opening line",
+      "file": "audio/speech-1.wav",
+      "start": 0,
+      "volume": -11.7
+    },
+    "speech-2": {
+      "id": "speech-2",
+      "name": "Speech 2 - the long line",
+      "file": "audio/speech-2.wav",
+      "start": 0,
+      "volume": -12.9
+    },
+    "stab-high": {
+      "id": "stab-high",
+      "name": "Stab - high",
+      "file": "audio/stab-high.wav",
+      "start": 0,
+      "volume": -14.1
+    },
+    "stab-low": {
+      "id": "stab-low",
+      "name": "Stab - low",
+      "file": "audio/stab-low.wav",
+      "start": 0,
+      "volume": -12.2
+    }
+  }
+}
