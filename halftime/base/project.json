@@ -1,0 +1,763 @@
+{
+  "id": "halftime/base",
+  "name": "Halftime: Base",
+  "project": {
+    "tempo": 70,
+    "dimensions": {
+      "width": 960,
+      "height": 540
+    },
+    "compressor": {
+      "enabled": true,
+      "threshold": -18,
+      "knee": 24,
+      "ratio": 3,
+      "attack": 0.005,
+      "release": 0.15,
+      "makeup": 1.2
+    }
+  },
+  "scene": {
+    "style": {}
+  },
+  "controls": [
+    {
+      "id": "a1",
+      "name": "A1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 500,
+      "position-y": 50,
+      "width": 98,
+      "height": 98,
+      "color": "#00b8d4",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "a2",
+      "name": "A2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 614,
+      "position-y": 50,
+      "width": 98,
+      "height": 98,
+      "color": "#00b8d4",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "a3",
+      "name": "A3",
+      "scene": "base",
+      "type": "button",
+      "position-x": 728,
+      "position-y": 50,
+      "width": 98,
+      "height": 98,
+      "color": "#00b8d4",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "a4",
+      "name": "A4",
+      "scene": "base",
+      "type": "button",
+      "position-x": 842,
+      "position-y": 50,
+      "width": 98,
+      "height": 98,
+      "color": "#00b8d4",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "a5",
+      "name": "A5",
+      "scene": "base",
+      "type": "button",
+      "position-x": 500,
+      "position-y": 278,
+      "width": 98,
+      "height": 98,
+      "color": "#0091ea",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "a6",
+      "name": "A6",
+      "scene": "base",
+      "type": "button",
+      "position-x": 614,
+      "position-y": 278,
+      "width": 98,
+      "height": 98,
+      "color": "#0091ea",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "a7",
+      "name": "A7",
+      "scene": "base",
+      "type": "button",
+      "position-x": 728,
+      "position-y": 278,
+      "width": 98,
+      "height": 98,
+      "color": "#0091ea",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "a8",
+      "name": "A8",
+      "scene": "base",
+      "type": "button",
+      "position-x": 842,
+      "position-y": 278,
+      "width": 98,
+      "height": 98,
+      "color": "#0091ea",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "arp-fm",
+      "name": "Fm ARP",
+      "scene": "base",
+      "type": "button",
+      "position-x": 134,
+      "position-y": 335,
+      "width": 98,
+      "height": 98,
+      "color": "#ffca28",
+      "radius": 4,
+      "group": "lead",
+      "options": ""
+    },
+    {
+      "id": "b1",
+      "name": "B1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 500,
+      "position-y": 164,
+      "width": 98,
+      "height": 98,
+      "color": "#008a9f",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "b2",
+      "name": "B2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 614,
+      "position-y": 164,
+      "width": 98,
+      "height": 98,
+      "color": "#008a9f",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "b3",
+      "name": "B3",
+      "scene": "base",
+      "type": "button",
+      "position-x": 728,
+      "position-y": 164,
+      "width": 98,
+      "height": 98,
+      "color": "#008a9f",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "b4",
+      "name": "B4",
+      "scene": "base",
+      "type": "button",
+      "position-x": 842,
+      "position-y": 164,
+      "width": 98,
+      "height": 98,
+      "color": "#008a9f",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "b5",
+      "name": "B5",
+      "scene": "base",
+      "type": "button",
+      "position-x": 500,
+      "position-y": 392,
+      "width": 98,
+      "height": 98,
+      "color": "#006caf",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "b6",
+      "name": "B6",
+      "scene": "base",
+      "type": "button",
+      "position-x": 614,
+      "position-y": 392,
+      "width": 98,
+      "height": 98,
+      "color": "#006caf",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "b7",
+      "name": "B7",
+      "scene": "base",
+      "type": "button",
+      "position-x": 728,
+      "position-y": 392,
+      "width": 98,
+      "height": 98,
+      "color": "#006caf",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "b8",
+      "name": "B8",
+      "scene": "base",
+      "type": "button",
+      "position-x": 842,
+      "position-y": 392,
+      "width": 98,
+      "height": 98,
+      "color": "#006caf",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "bass-asm",
+      "name": "A#m BASS",
+      "scene": "base",
+      "type": "button",
+      "position-x": 134,
+      "position-y": 221,
+      "width": 98,
+      "height": 98,
+      "color": "#ef5350",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "bass-fm",
+      "name": "Fm BASS",
+      "scene": "base",
+      "type": "button",
+      "position-x": 20,
+      "position-y": 221,
+      "width": 98,
+      "height": 98,
+      "color": "#ef5350",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "bass-gs",
+      "name": "G# BASS",
+      "scene": "base",
+      "type": "button",
+      "position-x": 248,
+      "position-y": 221,
+      "width": 98,
+      "height": 98,
+      "color": "#ef5350",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "bass-mute",
+      "name": "MUTE",
+      "scene": "base",
+      "type": "scripter",
+      "position-x": 362,
+      "position-y": 221,
+      "width": 98,
+      "height": 98,
+      "color": "#b33e3c",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "lead-asm",
+      "name": "A#m LEAD",
+      "scene": "base",
+      "type": "button",
+      "position-x": 248,
+      "position-y": 335,
+      "width": 98,
+      "height": 98,
+      "color": "#ffca28",
+      "radius": 4,
+      "group": "lead",
+      "options": ""
+    },
+    {
+      "id": "lead-fm",
+      "name": "Fm LEAD",
+      "scene": "base",
+      "type": "button",
+      "position-x": 20,
+      "position-y": 335,
+      "width": 98,
+      "height": 98,
+      "color": "#ffca28",
+      "radius": 4,
+      "group": "lead",
+      "options": ""
+    },
+    {
+      "id": "lead-mute",
+      "name": "MUTE",
+      "scene": "base",
+      "type": "scripter",
+      "position-x": 362,
+      "position-y": 335,
+      "width": 98,
+      "height": 98,
+      "color": "#bf971e",
+      "radius": 4,
+      "group": "lead",
+      "options": ""
+    },
+    {
+      "id": "pad-fm-01",
+      "name": "Fm PAD",
+      "scene": "base",
+      "type": "button",
+      "position-x": 20,
+      "position-y": 107,
+      "width": 98,
+      "height": 98,
+      "color": "#ab47bc",
+      "radius": 4,
+      "group": "pad",
+      "options": ""
+    },
+    {
+      "id": "pad-fm-02",
+      "name": "Fm PAD2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 134,
+      "position-y": 107,
+      "width": 98,
+      "height": 98,
+      "color": "#ab47bc",
+      "radius": 4,
+      "group": "pad",
+      "options": ""
+    },
+    {
+      "id": "pad-gs",
+      "name": "G# PAD",
+      "scene": "base",
+      "type": "button",
+      "position-x": 248,
+      "position-y": 107,
+      "width": 98,
+      "height": 98,
+      "color": "#ab47bc",
+      "radius": 4,
+      "group": "pad",
+      "options": ""
+    },
+    {
+      "id": "pad-mute",
+      "name": "MUTE",
+      "scene": "base",
+      "type": "scripter",
+      "position-x": 362,
+      "position-y": 107,
+      "width": 98,
+      "height": 98,
+      "color": "#80358d",
+      "radius": 4,
+      "group": "pad",
+      "options": ""
+    }
+  ],
+  "assignments": [
+    {
+      "id": "bm-sampler.bm-control.a1.a1",
+      "source-object": "bm-sampler",
+      "source-record": "a1",
+      "target-object": "bm-control",
+      "target-record": "a1"
+    },
+    {
+      "id": "bm-sampler.bm-control.a2.a2",
+      "source-object": "bm-sampler",
+      "source-record": "a2",
+      "target-object": "bm-control",
+      "target-record": "a2"
+    },
+    {
+      "id": "bm-sampler.bm-control.a3.a3",
+      "source-object": "bm-sampler",
+      "source-record": "a3",
+      "target-object": "bm-control",
+      "target-record": "a3"
+    },
+    {
+      "id": "bm-sampler.bm-control.a4.a4",
+      "source-object": "bm-sampler",
+      "source-record": "a4",
+      "target-object": "bm-control",
+      "target-record": "a4"
+    },
+    {
+      "id": "bm-sampler.bm-control.a5.a5",
+      "source-object": "bm-sampler",
+      "source-record": "a5",
+      "target-object": "bm-control",
+      "target-record": "a5"
+    },
+    {
+      "id": "bm-sampler.bm-control.a6.a6",
+      "source-object": "bm-sampler",
+      "source-record": "a6",
+      "target-object": "bm-control",
+      "target-record": "a6"
+    },
+    {
+      "id": "bm-sampler.bm-control.a7.a7",
+      "source-object": "bm-sampler",
+      "source-record": "a7",
+      "target-object": "bm-control",
+      "target-record": "a7"
+    },
+    {
+      "id": "bm-sampler.bm-control.a8.a8",
+      "source-object": "bm-sampler",
+      "source-record": "a8",
+      "target-object": "bm-control",
+      "target-record": "a8"
+    },
+    {
+      "id": "bm-sampler.bm-control.arp-fm.arp-fm",
+      "source-object": "bm-sampler",
+      "source-record": "arp-fm",
+      "target-object": "bm-control",
+      "target-record": "arp-fm"
+    },
+    {
+      "id": "bm-sampler.bm-control.b1.b1",
+      "source-object": "bm-sampler",
+      "source-record": "b1",
+      "target-object": "bm-control",
+      "target-record": "b1"
+    },
+    {
+      "id": "bm-sampler.bm-control.b2.b2",
+      "source-object": "bm-sampler",
+      "source-record": "b2",
+      "target-object": "bm-control",
+      "target-record": "b2"
+    },
+    {
+      "id": "bm-sampler.bm-control.b3.b3",
+      "source-object": "bm-sampler",
+      "source-record": "b3",
+      "target-object": "bm-control",
+      "target-record": "b3"
+    },
+    {
+      "id": "bm-sampler.bm-control.b4.b4",
+      "source-object": "bm-sampler",
+      "source-record": "b4",
+      "target-object": "bm-control",
+      "target-record": "b4"
+    },
+    {
+      "id": "bm-sampler.bm-control.b5.b5",
+      "source-object": "bm-sampler",
+      "source-record": "b5",
+      "target-object": "bm-control",
+      "target-record": "b5"
+    },
+    {
+      "id": "bm-sampler.bm-control.b6.b6",
+      "source-object": "bm-sampler",
+      "source-record": "b6",
+      "target-object": "bm-control",
+      "target-record": "b6"
+    },
+    {
+      "id": "bm-sampler.bm-control.b7.b7",
+      "source-object": "bm-sampler",
+      "source-record": "b7",
+      "target-object": "bm-control",
+      "target-record": "b7"
+    },
+    {
+      "id": "bm-sampler.bm-control.b8.b8",
+      "source-object": "bm-sampler",
+      "source-record": "b8",
+      "target-object": "bm-control",
+      "target-record": "b8"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-asm.bass-asm",
+      "source-object": "bm-sampler",
+      "source-record": "bass-asm",
+      "target-object": "bm-control",
+      "target-record": "bass-asm"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-fm.bass-fm",
+      "source-object": "bm-sampler",
+      "source-record": "bass-fm",
+      "target-object": "bm-control",
+      "target-record": "bass-fm"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-gs.bass-gs",
+      "source-object": "bm-sampler",
+      "source-record": "bass-gs",
+      "target-object": "bm-control",
+      "target-record": "bass-gs"
+    },
+    {
+      "id": "bm-sampler.bm-control.lead-asm.lead-asm",
+      "source-object": "bm-sampler",
+      "source-record": "lead-asm",
+      "target-object": "bm-control",
+      "target-record": "lead-asm"
+    },
+    {
+      "id": "bm-sampler.bm-control.lead-fm.lead-fm",
+      "source-object": "bm-sampler",
+      "source-record": "lead-fm",
+      "target-object": "bm-control",
+      "target-record": "lead-fm"
+    },
+    {
+      "id": "bm-sampler.bm-control.pad-fm-01.pad-fm-01",
+      "source-object": "bm-sampler",
+      "source-record": "pad-fm-01",
+      "target-object": "bm-control",
+      "target-record": "pad-fm-01"
+    },
+    {
+      "id": "bm-sampler.bm-control.pad-fm-02.pad-fm-02",
+      "source-object": "bm-sampler",
+      "source-record": "pad-fm-02",
+      "target-object": "bm-control",
+      "target-record": "pad-fm-02"
+    },
+    {
+      "id": "bm-sampler.bm-control.pad-gs.pad-gs",
+      "source-object": "bm-sampler",
+      "source-record": "pad-gs",
+      "target-object": "bm-control",
+      "target-record": "pad-gs"
+    }
+  ],
+  "patterns": {},
+  "samplers": {
+    "a1": {
+      "id": "a1",
+      "name": "Groove 1",
+      "file": "audio/a1.wav",
+      "start": 0,
+      "volume": 0.2
+    },
+    "a2": {
+      "id": "a2",
+      "name": "Groove 2",
+      "file": "audio/a2.wav",
+      "start": 0.857143,
+      "volume": 0.2
+    },
+    "a3": {
+      "id": "a3",
+      "name": "Groove 3",
+      "file": "audio/a3.wav",
+      "start": 1.714286,
+      "volume": 0.2
+    },
+    "a4": {
+      "id": "a4",
+      "name": "Groove 4",
+      "file": "audio/a4.wav",
+      "start": 2.571429,
+      "volume": -0.1
+    },
+    "a5": {
+      "id": "a5",
+      "name": "Tight 1",
+      "file": "audio/a5.wav",
+      "start": 0,
+      "volume": 2.1
+    },
+    "a6": {
+      "id": "a6",
+      "name": "Tight 2",
+      "file": "audio/a6.wav",
+      "start": 0.857143,
+      "volume": 2.3
+    },
+    "a7": {
+      "id": "a7",
+      "name": "Tight 3",
+      "file": "audio/a7.wav",
+      "start": 1.714286,
+      "volume": 2.5
+    },
+    "a8": {
+      "id": "a8",
+      "name": "Tight 4",
+      "file": "audio/a8.wav",
+      "start": 2.571429,
+      "volume": 2.5
+    },
+    "arp-fm": {
+      "id": "arp-fm",
+      "name": "Arp Fm (8 bars)",
+      "file": "audio/arp-fm.wav",
+      "volume": -4.6
+    },
+    "b1": {
+      "id": "b1",
+      "name": "Groove 1 off",
+      "file": "audio/b1.wav",
+      "start": 0.428571,
+      "volume": 0.3
+    },
+    "b2": {
+      "id": "b2",
+      "name": "Groove 2 off",
+      "file": "audio/b2.wav",
+      "start": 1.285714,
+      "volume": 0.1
+    },
+    "b3": {
+      "id": "b3",
+      "name": "Groove 3 off",
+      "file": "audio/b3.wav",
+      "start": 2.142857,
+      "volume": 0
+    },
+    "b4": {
+      "id": "b4",
+      "name": "Groove 4 off",
+      "file": "audio/b4.wav",
+      "start": 3,
+      "volume": 0
+    },
+    "b5": {
+      "id": "b5",
+      "name": "Tight 1 off",
+      "file": "audio/b5.wav",
+      "start": 0.428571,
+      "volume": 2.1
+    },
+    "b6": {
+      "id": "b6",
+      "name": "Tight 2 off",
+      "file": "audio/b6.wav",
+      "start": 1.285714,
+      "volume": 2.2
+    },
+    "b7": {
+      "id": "b7",
+      "name": "Tight 3 off",
+      "file": "audio/b7.wav",
+      "start": 2.142857,
+      "volume": 2.4
+    },
+    "b8": {
+      "id": "b8",
+      "name": "Tight 4 off",
+      "file": "audio/b8.wav",
+      "start": 3,
+      "volume": 4.3
+    },
+    "bass-asm": {
+      "id": "bass-asm",
+      "name": "Bass A#m (8 bars)",
+      "file": "audio/bass-asm.wav",
+      "volume": -0.6
+    },
+    "bass-fm": {
+      "id": "bass-fm",
+      "name": "Bass Fm (8 bars)",
+      "file": "audio/bass-fm.wav",
+      "volume": -5
+    },
+    "bass-gs": {
+      "id": "bass-gs",
+      "name": "Bass G# (8 bars)",
+      "file": "audio/bass-gs.wav",
+      "volume": -2.7
+    },
+    "lead-asm": {
+      "id": "lead-asm",
+      "name": "Lead A#m (8 bars)",
+      "file": "audio/lead-asm.wav",
+      "volume": -1.4
+    },
+    "lead-fm": {
+      "id": "lead-fm",
+      "name": "Lead Fm (8 bars)",
+      "file": "audio/lead-fm.wav",
+      "volume": -7
+    },
+    "pad-fm-01": {
+      "id": "pad-fm-01",
+      "name": "Pad Fm 01 (8 bars)",
+      "file": "audio/pad-fm-01.wav",
+      "volume": -7.1
+    },
+    "pad-fm-02": {
+      "id": "pad-fm-02",
+      "name": "Pad Fm 02 (8 bars)",
+      "file": "audio/pad-fm-02.wav",
+      "volume": -4.7
+    },
+    "pad-gs": {
+      "id": "pad-gs",
+      "name": "Pad G# (8 bars)",
+      "file": "audio/pad-gs.wav",
+      "volume": -8.1
+    }
+  }
+}

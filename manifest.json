@@ -1,14 +1,24 @@
 {
   "scenes": [
     {
-      "id": "beatmeat-all-terrain/base",
-      "project": "Beatmeat - All Terrain",
+      "id": "amens/base",
+      "project": "Amens",
       "scene": "base",
-      "name": "Beatmeat - All Terrain: Base",
-      "path": "beatmeat-all-terrain/base/project.json",
-      "bpm": 100,
+      "name": "Amens: Base",
+      "path": "amens/base/project.json",
+      "bpm": 86.5,
+      "controls": 28,
+      "samplers": 25
+    },
+    {
+      "id": "beatmeat-acid/base",
+      "project": "Beatmeat - Acid",
+      "scene": "base",
+      "name": "Beatmeat - Acid: Base",
+      "path": "beatmeat-acid/base/project.json",
+      "bpm": 130,
       "controls": 23,
-      "samplers": 87
+      "samplers": 26
     },
     {
       "id": "beatmeat-djent/base",
@@ -19,6 +29,36 @@
       "bpm": 100,
       "controls": 23,
       "samplers": 23
+    },
+    {
+      "id": "dark-matter/base",
+      "project": "Dark Matter",
+      "scene": "base",
+      "name": "Dark Matter: Base",
+      "path": "dark-matter/base/project.json",
+      "bpm": 87.5,
+      "controls": 28,
+      "samplers": 25
+    },
+    {
+      "id": "darkness/base",
+      "project": "Darkness",
+      "scene": "base",
+      "name": "Darkness: Base",
+      "path": "darkness/base/project.json",
+      "bpm": 87.5,
+      "controls": 28,
+      "samplers": 25
+    },
+    {
+      "id": "halftime/base",
+      "project": "Halftime",
+      "scene": "base",
+      "name": "Halftime: Base",
+      "path": "halftime/base/project.json",
+      "bpm": 70,
+      "controls": 28,
+      "samplers": 25
     }
   ]
 }
