@@ -2,11 +2,11 @@
   "id": "halftime/base",
   "name": "Halftime: Base",
   "project": {
-    "tempo": 70,
     "dimensions": {
       "width": 960,
       "height": 540
     },
+    "tempo": 70,
     "compressor": {
       "enabled": true,
       "threshold": -18,

@@ -2,11 +2,11 @@
   "id": "dark-matter/base",
   "name": "Dark Matter: Base",
   "project": {
-    "tempo": 87.5,
     "dimensions": {
       "width": 960,
       "height": 540
     },
+    "tempo": 87.5,
     "compressor": {
       "enabled": true,
       "threshold": -18,

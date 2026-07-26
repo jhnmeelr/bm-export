@@ -2,11 +2,11 @@
   "id": "amens/base",
   "name": "Amens: Base",
   "project": {
-    "tempo": 86.5,
     "dimensions": {
       "width": 960,
       "height": 540
     },
+    "tempo": 86.5,
     "compressor": {
       "enabled": true,
       "threshold": -18,

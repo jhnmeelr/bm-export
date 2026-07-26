@@ -2,11 +2,11 @@
   "id": "acid/base",
   "name": "Acid: Base",
   "project": {
-    "tempo": 130,
     "dimensions": {
       "width": 960,
       "height": 540
     },
+    "tempo": 130,
     "compressor": {
       "enabled": true,
       "threshold": -18,

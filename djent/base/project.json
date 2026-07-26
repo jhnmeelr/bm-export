@@ -2,11 +2,11 @@
   "id": "djent/base",
   "name": "Djent: Base",
   "project": {
-    "tempo": 100,
     "dimensions": {
       "width": 960,
       "height": 540
-    }
+    },
+    "tempo": 100
   },
   "scene": {
     "style": {}
