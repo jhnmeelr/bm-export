@@ -334,6 +334,27 @@
   ],
   "assignments": [
     {
+      "id": "bm-pattern.bm-control.p1.c1",
+      "source-object": "bm-pattern",
+      "source-record": "p1",
+      "target-object": "bm-control",
+      "target-record": "c1"
+    },
+    {
+      "id": "bm-pattern.bm-control.p2.c2",
+      "source-object": "bm-pattern",
+      "source-record": "p2",
+      "target-object": "bm-control",
+      "target-record": "c2"
+    },
+    {
+      "id": "bm-pattern.bm-control.p3.c3",
+      "source-object": "bm-pattern",
+      "source-record": "p3",
+      "target-object": "bm-control",
+      "target-record": "c3"
+    },
+    {
       "id": "bm-sampler.bm-control.drone-high-2.t2",
       "source-object": "bm-sampler",
       "source-record": "drone-high-2",
@@ -598,27 +619,6 @@
       "source-record": "guitar-third-8-bend",
       "target-object": "bm-control",
       "target-record": "r6"
-    },
-    {
-      "id": "bm-pattern.bm-control.p1.c1",
-      "source-object": "bm-pattern",
-      "source-record": "p1",
-      "target-object": "bm-control",
-      "target-record": "c1"
-    },
-    {
-      "id": "bm-pattern.bm-control.p2.c2",
-      "source-object": "bm-pattern",
-      "source-record": "p2",
-      "target-object": "bm-control",
-      "target-record": "c2"
-    },
-    {
-      "id": "bm-pattern.bm-control.p3.c3",
-      "source-object": "bm-pattern",
-      "source-record": "p3",
-      "target-object": "bm-control",
-      "target-record": "c3"
     }
   ],
   "patterns": {
@@ -750,6 +750,16 @@
     }
   },
   "samplers": {
+    "drum-china-left": {
+      "id": "drum-china-left",
+      "name": "Drum - China (left)",
+      "file": "audio/drum-china-left.wav"
+    },
+    "drum-snare": {
+      "id": "drum-snare",
+      "name": "Drum - Snare",
+      "file": "audio/drum-snare.wav"
+    },
     "drone-high-2": {
       "id": "drone-high-2",
       "name": "Drone - High (2)",
@@ -854,16 +864,6 @@
       "id": "guitar-third-8-bend",
       "name": "Guitar - Third 8 (bend)",
       "file": "audio/guitar-third-8-bend.mp3"
-    },
-    "drum-china-left": {
-      "id": "drum-china-left",
-      "name": "Drum - China (left)",
-      "file": "audio/drum-china-left.wav"
-    },
-    "drum-snare": {
-      "id": "drum-snare",
-      "name": "Drum - Snare",
-      "file": "audio/drum-snare.wav"
     }
   }
 }
