@@ -1,6 +1,16 @@
 {
   "scenes": [
     {
+      "id": "acid/base",
+      "project": "Acid",
+      "scene": "base",
+      "name": "Acid: Base",
+      "path": "acid/base/project.json",
+      "bpm": 130,
+      "controls": 23,
+      "samplers": 26
+    },
+    {
       "id": "amens/base",
       "project": "Amens",
       "scene": "base",
@@ -9,46 +19,6 @@
       "bpm": 86.5,
       "controls": 28,
       "samplers": 25
-    },
-    {
-      "id": "beatmeat-acid/base",
-      "project": "Beatmeat - Acid",
-      "scene": "base",
-      "name": "Beatmeat - Acid: Base",
-      "path": "beatmeat-acid/base/project.json",
-      "bpm": 130,
-      "controls": 23,
-      "samplers": 26
-    },
-    {
-      "id": "beatmeat-acid-rust/base",
-      "project": "Beatmeat - Acid Rust",
-      "scene": "base",
-      "name": "Beatmeat - Acid Rust: Base",
-      "path": "beatmeat-acid-rust/base/project.json",
-      "bpm": 130,
-      "controls": 23,
-      "samplers": 26
-    },
-    {
-      "id": "beatmeat-charly/base",
-      "project": "Beatmeat - Charly",
-      "scene": "base",
-      "name": "Beatmeat - Charly: Base",
-      "path": "beatmeat-charly/base/project.json",
-      "bpm": 130.92,
-      "controls": 23,
-      "samplers": 25
-    },
-    {
-      "id": "beatmeat-djent/base",
-      "project": "Beatmeat - Djent",
-      "scene": "base",
-      "name": "Beatmeat - Djent: Base",
-      "path": "beatmeat-djent/base/project.json",
-      "bpm": 100,
-      "controls": 23,
-      "samplers": 23
     },
     {
       "id": "dark-matter/base",
@@ -69,6 +39,16 @@
       "bpm": 87.5,
       "controls": 28,
       "samplers": 25
+    },
+    {
+      "id": "djent/base",
+      "project": "Djent",
+      "scene": "base",
+      "name": "Djent: Base",
+      "path": "djent/base/project.json",
+      "bpm": 100,
+      "controls": 23,
+      "samplers": 23
     },
     {
       "id": "halftime/base",

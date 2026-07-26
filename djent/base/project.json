@@ -1,6 +1,6 @@
 {
-  "id": "beatmeat-djent/base",
-  "name": "Beatmeat - Djent: Base",
+  "id": "djent/base",
+  "name": "Djent: Base",
   "project": {
     "tempo": 100,
     "dimensions": {

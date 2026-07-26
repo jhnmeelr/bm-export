@@ -1,8 +1,8 @@
 {
-  "id": "beatmeat-charly/base",
-  "name": "Beatmeat - Charly: Base",
+  "id": "acid/base",
+  "name": "Acid: Base",
   "project": {
-    "tempo": 130.92,
+    "tempo": 130,
     "dimensions": {
       "width": 960,
       "height": 540
@@ -69,8 +69,8 @@
       "position-y": 180,
       "width": 80,
       "height": 80,
-      "color": "#e64a19",
-      "group": "l",
+      "color": "#a8e00c",
+      "group": "lr",
       "radius": 4
     },
     {
@@ -82,8 +82,8 @@
       "position-y": 180,
       "width": 80,
       "height": 80,
-      "color": "#ac3712",
-      "group": "l",
+      "color": "#a8e00c",
+      "group": "lr",
       "radius": 4
     },
     {
@@ -95,8 +95,8 @@
       "position-y": 180,
       "width": 80,
       "height": 80,
-      "color": "#e64a19",
-      "group": "l",
+      "color": "#a8e00c",
+      "group": "lr",
       "radius": 4
     },
     {
@@ -108,8 +108,8 @@
       "position-y": 280,
       "width": 80,
       "height": 80,
-      "color": "#ac3712",
-      "group": "l",
+      "color": "#d4ff1a",
+      "group": "lr",
       "radius": 4
     },
     {
@@ -121,8 +121,8 @@
       "position-y": 280,
       "width": 80,
       "height": 80,
-      "color": "#e64a19",
-      "group": "l",
+      "color": "#ff2d55",
+      "group": "lr",
       "radius": 4
     },
     {
@@ -134,8 +134,8 @@
       "position-y": 280,
       "width": 80,
       "height": 80,
-      "color": "#ac3712",
-      "group": "l",
+      "color": "#d4ff1a",
+      "group": "lr",
       "radius": 4
     },
     {
@@ -147,8 +147,8 @@
       "position-y": 380,
       "width": 80,
       "height": 80,
-      "color": "#e64a19",
-      "group": "l",
+      "color": "#a8e00c",
+      "group": "lr",
       "radius": 4
     },
     {
@@ -160,8 +160,8 @@
       "position-y": 380,
       "width": 80,
       "height": 80,
-      "color": "#ac3712",
-      "group": "l",
+      "color": "#a8e00c",
+      "group": "lr",
       "radius": 4
     },
     {
@@ -173,8 +173,8 @@
       "position-y": 380,
       "width": 80,
       "height": 80,
-      "color": "#e64a19",
-      "group": "l",
+      "color": "#a8e00c",
+      "group": "lr",
       "radius": 4
     },
     {
@@ -187,7 +187,7 @@
       "width": 80,
       "height": 80,
       "color": "#00e5b0",
-      "group": "r",
+      "group": "lr",
       "radius": 4
     },
     {
@@ -200,7 +200,7 @@
       "width": 80,
       "height": 80,
       "color": "#00e5b0",
-      "group": "r",
+      "group": "lr",
       "radius": 4
     },
     {
@@ -213,7 +213,7 @@
       "width": 80,
       "height": 80,
       "color": "#00e5b0",
-      "group": "r",
+      "group": "lr",
       "radius": 4
     },
     {
@@ -226,7 +226,7 @@
       "width": 80,
       "height": 80,
       "color": "#66f5d6",
-      "group": "v",
+      "group": "lr",
       "radius": 4
     },
     {
@@ -239,7 +239,7 @@
       "width": 80,
       "height": 80,
       "color": "#b14aff",
-      "group": "v",
+      "group": "lr",
       "radius": 4
     },
     {
@@ -252,7 +252,7 @@
       "width": 80,
       "height": 80,
       "color": "#66f5d6",
-      "group": "v",
+      "group": "lr",
       "radius": 4
     },
     {
@@ -265,7 +265,7 @@
       "width": 80,
       "height": 80,
       "color": "#00e5b0",
-      "group": "r",
+      "group": "lr",
       "radius": 4
     },
     {
@@ -278,7 +278,7 @@
       "width": 80,
       "height": 80,
       "color": "#b14aff",
-      "group": "v",
+      "group": "lr",
       "radius": 4
     },
     {
@@ -291,7 +291,7 @@
       "width": 80,
       "height": 80,
       "color": "#00e5b0",
-      "group": "r",
+      "group": "lr",
       "radius": 4
     },
     {
@@ -303,8 +303,8 @@
       "position-y": 80,
       "width": 280,
       "height": 80,
-      "color": "#00897b",
-      "group": "b",
+      "color": "#3c94dd",
+      "group": "t",
       "radius": 4
     },
     {
@@ -344,171 +344,153 @@
       "target-record": "c3"
     },
     {
-      "id": "bm-sampler.bm-control.atmo-intro.t2",
+      "id": "bm-sampler.bm-control.acid-bass-a1-accent.l4",
       "source-object": "bm-sampler",
-      "source-record": "atmo-intro",
-      "target-object": "bm-control",
-      "target-record": "t2"
-    },
-    {
-      "id": "bm-sampler.bm-control.bass-bed.t1",
-      "source-object": "bm-sampler",
-      "source-record": "bass-bed",
-      "target-object": "bm-control",
-      "target-record": "t1"
-    },
-    {
-      "id": "bm-sampler.bm-control.break-1.l1",
-      "source-object": "bm-sampler",
-      "source-record": "break-1",
-      "target-object": "bm-control",
-      "target-record": "l1"
-    },
-    {
-      "id": "bm-sampler.bm-control.break-2.l2",
-      "source-object": "bm-sampler",
-      "source-record": "break-2",
-      "target-object": "bm-control",
-      "target-record": "l2"
-    },
-    {
-      "id": "bm-sampler.bm-control.break-3.l3",
-      "source-object": "bm-sampler",
-      "source-record": "break-3",
-      "target-object": "bm-control",
-      "target-record": "l3"
-    },
-    {
-      "id": "bm-sampler.bm-control.break-4.l4",
-      "source-object": "bm-sampler",
-      "source-record": "break-4",
+      "source-record": "acid-bass-a1-accent",
       "target-object": "bm-control",
       "target-record": "l4"
     },
     {
-      "id": "bm-sampler.bm-control.break-5.l5",
+      "id": "bm-sampler.bm-control.acid-bass-a1.l1",
       "source-object": "bm-sampler",
-      "source-record": "break-5",
+      "source-record": "acid-bass-a1",
       "target-object": "bm-control",
-      "target-record": "l5"
+      "target-record": "l1"
     },
     {
-      "id": "bm-sampler.bm-control.break-6.l6",
+      "id": "bm-sampler.bm-control.acid-bass-a2.l9",
       "source-object": "bm-sampler",
-      "source-record": "break-6",
-      "target-object": "bm-control",
-      "target-record": "l6"
-    },
-    {
-      "id": "bm-sampler.bm-control.break-7.l7",
-      "source-object": "bm-sampler",
-      "source-record": "break-7",
-      "target-object": "bm-control",
-      "target-record": "l7"
-    },
-    {
-      "id": "bm-sampler.bm-control.break-8.l8",
-      "source-object": "bm-sampler",
-      "source-record": "break-8",
-      "target-object": "bm-control",
-      "target-record": "l8"
-    },
-    {
-      "id": "bm-sampler.bm-control.break-9.l9",
-      "source-object": "bm-sampler",
-      "source-record": "break-9",
+      "source-record": "acid-bass-a2",
       "target-object": "bm-control",
       "target-record": "l9"
     },
     {
-      "id": "bm-sampler.bm-control.lead-1.r1",
+      "id": "bm-sampler.bm-control.acid-bass-c2.l2",
       "source-object": "bm-sampler",
-      "source-record": "lead-1",
+      "source-record": "acid-bass-c2",
       "target-object": "bm-control",
-      "target-record": "r1"
+      "target-record": "l2"
     },
     {
-      "id": "bm-sampler.bm-control.lead-2.r2",
+      "id": "bm-sampler.bm-control.acid-bass-d2.l3",
       "source-object": "bm-sampler",
-      "source-record": "lead-2",
+      "source-record": "acid-bass-d2",
       "target-object": "bm-control",
-      "target-record": "r2"
+      "target-record": "l3"
     },
     {
-      "id": "bm-sampler.bm-control.lead-3.r3",
+      "id": "bm-sampler.bm-control.acid-bass-e2-accent.l6",
       "source-object": "bm-sampler",
-      "source-record": "lead-3",
+      "source-record": "acid-bass-e2-accent",
       "target-object": "bm-control",
-      "target-record": "r3"
+      "target-record": "l6"
     },
     {
-      "id": "bm-sampler.bm-control.lead-4.r7",
+      "id": "bm-sampler.bm-control.acid-bass-e2.l7",
       "source-object": "bm-sampler",
-      "source-record": "lead-4",
+      "source-record": "acid-bass-e2",
       "target-object": "bm-control",
-      "target-record": "r7"
+      "target-record": "l7"
     },
     {
-      "id": "bm-sampler.bm-control.lead-5.r9",
+      "id": "bm-sampler.bm-control.acid-bass-g2.l8",
       "source-object": "bm-sampler",
-      "source-record": "lead-5",
+      "source-record": "acid-bass-g2",
       "target-object": "bm-control",
-      "target-record": "r9"
+      "target-record": "l8"
     },
     {
-      "id": "bm-sampler.bm-control.speech-1.r4",
+      "id": "bm-sampler.bm-control.acid-cluster-1.r5",
       "source-object": "bm-sampler",
-      "source-record": "speech-1",
+      "source-record": "acid-cluster-1",
       "target-object": "bm-control",
-      "target-record": "r4"
+      "target-record": "r5"
     },
     {
-      "id": "bm-sampler.bm-control.speech-2.r6",
+      "id": "bm-sampler.bm-control.acid-cluster-2.r8",
       "source-object": "bm-sampler",
-      "source-record": "speech-2",
-      "target-object": "bm-control",
-      "target-record": "r6"
-    },
-    {
-      "id": "bm-sampler.bm-control.stab-high.r8",
-      "source-object": "bm-sampler",
-      "source-record": "stab-high",
+      "source-record": "acid-cluster-2",
       "target-object": "bm-control",
       "target-record": "r8"
     },
     {
-      "id": "bm-sampler.bm-control.stab-low.r5",
+      "id": "bm-sampler.bm-control.acid-lead-a2.r1",
       "source-object": "bm-sampler",
-      "source-record": "stab-low",
+      "source-record": "acid-lead-a2",
       "target-object": "bm-control",
-      "target-record": "r5"
+      "target-record": "r1"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-lead-a3.r9",
+      "source-object": "bm-sampler",
+      "source-record": "acid-lead-a3",
+      "target-object": "bm-control",
+      "target-record": "r9"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-lead-c3.r2",
+      "source-object": "bm-sampler",
+      "source-record": "acid-lead-c3",
+      "target-object": "bm-control",
+      "target-record": "r2"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-lead-d3.r3",
+      "source-object": "bm-sampler",
+      "source-record": "acid-lead-d3",
+      "target-object": "bm-control",
+      "target-record": "r3"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-lead-e3.r7",
+      "source-object": "bm-sampler",
+      "source-record": "acid-lead-e3",
+      "target-object": "bm-control",
+      "target-record": "r7"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-slide-down.r6",
+      "source-object": "bm-sampler",
+      "source-record": "acid-slide-down",
+      "target-object": "bm-control",
+      "target-record": "r6"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-slide-up.r4",
+      "source-object": "bm-sampler",
+      "source-record": "acid-slide-up",
+      "target-object": "bm-control",
+      "target-record": "r4"
+    },
+    {
+      "id": "bm-sampler.bm-control.acid-zap.l5",
+      "source-object": "bm-sampler",
+      "source-record": "acid-zap",
+      "target-object": "bm-control",
+      "target-record": "l5"
+    },
+    {
+      "id": "bm-sampler.bm-control.atmo-sweep-a.t1",
+      "source-object": "bm-sampler",
+      "source-record": "atmo-sweep-a",
+      "target-object": "bm-control",
+      "target-record": "t1"
+    },
+    {
+      "id": "bm-sampler.bm-control.atmo-sweep-e.t2",
+      "source-object": "bm-sampler",
+      "source-record": "atmo-sweep-e",
+      "target-object": "bm-control",
+      "target-record": "t2"
     }
   ],
   "patterns": {
     "p1": {
       "id": "p1",
-      "name": "P1 - the break, programmed",
+      "name": "P1",
       "grid": {
-        "lane-kick": [
+        "drum-kick": [
           1,
-          0,
-          0,
-          1,
-          0,
-          0,
-          1,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0
-        ],
-        "lane-snare": [
-          0,
           0,
           0,
           0,
@@ -516,7 +498,7 @@
           0,
           0,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -525,20 +507,38 @@
           0,
           0
         ],
-        "lane-hat-closed": [
-          1,
+        "drum-clap": [
+          0,
+          0,
+          0,
           0,
           1,
           0,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           1,
           0,
-          1,
+          0,
+          0
+        ],
+        "drum-hat-closed": [
+          0,
           0,
           1,
           0,
+          0,
+          0,
           1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
           0,
           1,
           0
@@ -547,28 +547,10 @@
     },
     "p2": {
       "id": "p2",
-      "name": "P2 - 16ths",
+      "name": "P2",
       "grid": {
-        "lane-kick": [
+        "drum-kick": [
           1,
-          0,
-          0,
-          1,
-          0,
-          0,
-          1,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0
-        ],
-        "lane-snare": [
-          0,
           0,
           0,
           0,
@@ -576,7 +558,7 @@
           0,
           0,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -585,7 +567,7 @@
           0,
           0
         ],
-        "lane-hat-closed": [
+        "drum-hat-closed": [
           1,
           1,
           1,
@@ -603,7 +585,7 @@
           1,
           1
         ],
-        "lane-hat-open": [
+        "drum-hat-open": [
           0,
           0,
           1,
@@ -619,38 +601,51 @@
           0,
           0,
           1,
+          0
+        ],
+        "drum-clap": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
           0
         ]
       }
     },
     "p3": {
       "id": "p3",
-      "name": "P3 - the hook",
+      "name": "P3",
       "grid": {
-        "lane-kick": [
+        "drum-kick": [
           1,
           0,
           0,
           0,
+          1,
+          0,
           0,
           0,
           1,
           0,
           0,
           0,
-          0,
-          0,
-          0,
-          0,
           1,
+          0,
+          0,
           0
         ],
-        "lane-snare": [
-          0,
-          0,
-          0,
-          0,
-          1,
+        "drum-snare": [
           0,
           0,
           0,
@@ -659,43 +654,48 @@
           0,
           0,
           1,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0,
           1
         ],
-        "lane-hat-open": [
+        "drum-ride": [
           1,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
           0,
           1,
           0,
-          0,
+          1,
           0,
           1,
           0,
+          1,
           0,
+          1,
+          0,
+          1,
+          0,
+          1,
           0
         ],
-        "lane-stab": [
+        "drum-hat-closed": [
+          0,
+          1,
+          0,
+          1,
           0,
           1,
           0,
           0,
           0,
-          0,
-          0,
-          0,
+          1,
           0,
           1,
           0,
-          0,
-          0,
-          0,
+          1,
           0,
           0
         ]
@@ -703,180 +703,161 @@
     }
   },
   "samplers": {
-    "lane-kick": {
-      "id": "lane-kick",
-      "name": "Lane - kick",
-      "file": "audio/lane-kick.wav",
-      "start": 0,
-      "volume": -4.4
+    "drum-kick": {
+      "id": "drum-kick",
+      "name": "Drum - Kick",
+      "file": "audio/drum-kick.wav",
+      "volume": -7.9
     },
-    "lane-snare": {
-      "id": "lane-snare",
-      "name": "Lane - snare",
-      "file": "audio/lane-snare.wav",
-      "start": 0,
+    "drum-clap": {
+      "id": "drum-clap",
+      "name": "Drum - Clap",
+      "file": "audio/drum-clap.wav",
+      "volume": -4.7
+    },
+    "drum-hat-closed": {
+      "id": "drum-hat-closed",
+      "name": "Drum - Hat (closed)",
+      "file": "audio/drum-hat-closed.wav",
       "volume": -7.3
     },
-    "lane-hat-closed": {
-      "id": "lane-hat-closed",
-      "name": "Lane - closed hat",
-      "file": "audio/lane-hat-closed.wav",
-      "start": 0,
-      "volume": -10.3
+    "drum-hat-open": {
+      "id": "drum-hat-open",
+      "name": "Drum - Hat (open)",
+      "file": "audio/drum-hat-open.wav",
+      "volume": -9.5
     },
-    "lane-hat-open": {
-      "id": "lane-hat-open",
-      "name": "Lane - open hat",
-      "file": "audio/lane-hat-open.wav",
-      "start": 0,
-      "volume": -11.9
+    "drum-snare": {
+      "id": "drum-snare",
+      "name": "Drum - Snare",
+      "file": "audio/drum-snare.wav",
+      "volume": -8
     },
-    "lane-stab": {
-      "id": "lane-stab",
-      "name": "Lane - stab",
-      "file": "audio/lane-stab.wav",
-      "start": 0,
-      "volume": -15.9
+    "drum-ride": {
+      "id": "drum-ride",
+      "name": "Drum - Ride",
+      "file": "audio/drum-ride.wav",
+      "volume": -9.8
     },
-    "atmo-intro": {
-      "id": "atmo-intro",
-      "name": "Atmo - intro",
-      "file": "audio/atmo-intro.wav",
-      "start": 0,
-      "volume": -13.5
+    "acid-bass-a1-accent": {
+      "id": "acid-bass-a1-accent",
+      "name": "Acid - Bass A1 (accent)",
+      "file": "audio/acid-bass-a1-accent.wav",
+      "volume": -5
     },
-    "bass-bed": {
-      "id": "bass-bed",
-      "name": "Bass - bed",
-      "file": "audio/bass-bed.wav",
-      "start": 0,
-      "volume": -9.1
+    "acid-bass-a1": {
+      "id": "acid-bass-a1",
+      "name": "Acid - Bass A1",
+      "file": "audio/acid-bass-a1.wav",
+      "volume": -3.8
     },
-    "break-1": {
-      "id": "break-1",
-      "name": "Break 1 - bar 1",
-      "file": "audio/break-1.wav",
-      "start": 0,
-      "volume": -1.9
+    "acid-bass-a2": {
+      "id": "acid-bass-a2",
+      "name": "Acid - Bass A2",
+      "file": "audio/acid-bass-a2.wav",
+      "volume": -6.4
     },
-    "break-2": {
-      "id": "break-2",
-      "name": "Break 2 - bar 1 half",
-      "file": "audio/break-2.wav",
-      "start": 0.91659,
-      "volume": -1.9
+    "acid-bass-c2": {
+      "id": "acid-bass-c2",
+      "name": "Acid - Bass C2",
+      "file": "audio/acid-bass-c2.wav",
+      "volume": -3.8
     },
-    "break-3": {
-      "id": "break-3",
-      "name": "Break 3 - bar 2",
-      "file": "audio/break-3.wav",
-      "start": 1.833181,
-      "volume": -2
+    "acid-bass-d2": {
+      "id": "acid-bass-d2",
+      "name": "Acid - Bass D2",
+      "file": "audio/acid-bass-d2.wav",
+      "volume": -4.5
     },
-    "break-4": {
-      "id": "break-4",
-      "name": "Break 4 - bar 2 half",
-      "file": "audio/break-4.wav",
-      "start": 2.749771,
-      "volume": -1.9
+    "acid-bass-e2-accent": {
+      "id": "acid-bass-e2-accent",
+      "name": "Acid - Bass E2 (accent)",
+      "file": "audio/acid-bass-e2-accent.wav",
+      "volume": -7
     },
-    "break-5": {
-      "id": "break-5",
-      "name": "Break 5 - bar 3",
-      "file": "audio/break-5.wav",
-      "start": 3.666361,
-      "volume": -2
+    "acid-bass-e2": {
+      "id": "acid-bass-e2",
+      "name": "Acid - Bass E2",
+      "file": "audio/acid-bass-e2.wav",
+      "volume": -4.2
     },
-    "break-6": {
-      "id": "break-6",
-      "name": "Break 6 - bar 3 half",
-      "file": "audio/break-6.wav",
-      "start": 4.582951,
-      "volume": -2
+    "acid-bass-g2": {
+      "id": "acid-bass-g2",
+      "name": "Acid - Bass G2",
+      "file": "audio/acid-bass-g2.wav",
+      "volume": -6.5
     },
-    "break-7": {
-      "id": "break-7",
-      "name": "Break 7 - bar 4 (the walk-down)",
-      "file": "audio/break-7.wav",
-      "start": 5.499542,
-      "volume": -2
+    "acid-cluster-1": {
+      "id": "acid-cluster-1",
+      "name": "Acid - Cluster 1",
+      "file": "audio/acid-cluster-1.wav",
+      "volume": -5.8
     },
-    "break-8": {
-      "id": "break-8",
-      "name": "Break 8 - bar 4 half",
-      "file": "audio/break-8.wav",
-      "start": 6.416132,
-      "volume": -2
+    "acid-cluster-2": {
+      "id": "acid-cluster-2",
+      "name": "Acid - Cluster 2",
+      "file": "audio/acid-cluster-2.wav",
+      "volume": -6.1
     },
-    "break-9": {
-      "id": "break-9",
-      "name": "Break 9 - bar 5",
-      "file": "audio/break-9.wav",
-      "start": 7.332722,
-      "volume": -2
+    "acid-lead-a2": {
+      "id": "acid-lead-a2",
+      "name": "Acid - Lead A2",
+      "file": "audio/acid-lead-a2.wav",
+      "volume": -5
     },
-    "lead-1": {
-      "id": "lead-1",
-      "name": "Lead 1",
-      "file": "audio/lead-1.wav",
-      "start": 0,
-      "volume": -13
+    "acid-lead-a3": {
+      "id": "acid-lead-a3",
+      "name": "Acid - Lead A3",
+      "file": "audio/acid-lead-a3.wav",
+      "volume": -7.5
     },
-    "lead-2": {
-      "id": "lead-2",
-      "name": "Lead 2",
-      "file": "audio/lead-2.wav",
-      "start": 0,
-      "volume": -11.6
+    "acid-lead-c3": {
+      "id": "acid-lead-c3",
+      "name": "Acid - Lead C3",
+      "file": "audio/acid-lead-c3.wav",
+      "volume": -5.4
     },
-    "lead-3": {
-      "id": "lead-3",
-      "name": "Lead 3",
-      "file": "audio/lead-3.wav",
-      "start": 0,
-      "volume": -11.3
+    "acid-lead-d3": {
+      "id": "acid-lead-d3",
+      "name": "Acid - Lead D3",
+      "file": "audio/acid-lead-d3.wav",
+      "volume": -6.8
     },
-    "lead-4": {
-      "id": "lead-4",
-      "name": "Lead 4",
-      "file": "audio/lead-4.wav",
-      "start": 0,
-      "volume": -12.2
+    "acid-lead-e3": {
+      "id": "acid-lead-e3",
+      "name": "Acid - Lead E3",
+      "file": "audio/acid-lead-e3.wav",
+      "volume": -6.2
     },
-    "lead-5": {
-      "id": "lead-5",
-      "name": "Lead 5",
-      "file": "audio/lead-5.wav",
-      "start": 0,
-      "volume": -12.9
+    "acid-slide-down": {
+      "id": "acid-slide-down",
+      "name": "Acid - Slide down",
+      "file": "audio/acid-slide-down.wav",
+      "volume": -10.4
     },
-    "speech-1": {
-      "id": "speech-1",
-      "name": "Speech 1 - the opening line",
-      "file": "audio/speech-1.wav",
-      "start": 0,
-      "volume": -11.7
+    "acid-slide-up": {
+      "id": "acid-slide-up",
+      "name": "Acid - Slide up",
+      "file": "audio/acid-slide-up.wav",
+      "volume": -10.7
     },
-    "speech-2": {
-      "id": "speech-2",
-      "name": "Speech 2 - the long line",
-      "file": "audio/speech-2.wav",
-      "start": 0,
-      "volume": -12.9
+    "acid-zap": {
+      "id": "acid-zap",
+      "name": "Acid - Zap",
+      "file": "audio/acid-zap.wav",
+      "volume": -8.1
     },
-    "stab-high": {
-      "id": "stab-high",
-      "name": "Stab - high",
-      "file": "audio/stab-high.wav",
-      "start": 0,
-      "volume": -14.1
+    "atmo-sweep-a": {
+      "id": "atmo-sweep-a",
+      "name": "Atmo - Sweep A",
+      "file": "audio/atmo-sweep-a.wav",
+      "volume": -13.3
     },
-    "stab-low": {
-      "id": "stab-low",
-      "name": "Stab - low",
-      "file": "audio/stab-low.wav",
-      "start": 0,
-      "volume": -12.2
+    "atmo-sweep-e": {
+      "id": "atmo-sweep-e",
+      "name": "Atmo - Sweep E",
+      "file": "audio/atmo-sweep-e.wav",
+      "volume": -14.8
     }
   }
 }
