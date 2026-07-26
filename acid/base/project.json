@@ -508,218 +508,17 @@
     "p1": {
       "id": "p1",
       "name": "P1",
-      "grid": {
-        "drum-kick": [
-          1,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0
-        ],
-        "drum-clap": [
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0
-        ],
-        "drum-hat-closed": [
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          1,
-          0
-        ]
-      }
+      "file": "midi/p1.mid"
     },
     "p2": {
       "id": "p2",
       "name": "P2",
-      "grid": {
-        "drum-kick": [
-          1,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0
-        ],
-        "drum-hat-closed": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1
-        ],
-        "drum-hat-open": [
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          1,
-          0
-        ],
-        "drum-clap": [
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0
-        ]
-      }
+      "file": "midi/p2.mid"
     },
     "p3": {
       "id": "p3",
       "name": "P3",
-      "grid": {
-        "drum-kick": [
-          1,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0
-        ],
-        "drum-snare": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1
-        ],
-        "drum-ride": [
-          1,
-          0,
-          1,
-          0,
-          1,
-          0,
-          1,
-          0,
-          1,
-          0,
-          1,
-          0,
-          1,
-          0,
-          1,
-          0
-        ],
-        "drum-hat-closed": [
-          0,
-          1,
-          0,
-          1,
-          0,
-          1,
-          0,
-          0,
-          0,
-          1,
-          0,
-          1,
-          0,
-          1,
-          0,
-          0
-        ]
-      }
+      "file": "midi/p3.mid"
     }
   },
   "samplers": {
@@ -740,6 +539,13 @@
       "name": "Drum - Hat (closed)",
       "file": "audio/drum-hat-closed.wav",
       "volume": -7.3
+    },
+    "acid-lead-c3": {
+      "id": "acid-lead-c3",
+      "name": "Acid - Lead C3",
+      "file": "audio/acid-lead-c3.wav",
+      "volume": -5.4,
+      "note": "C4"
     },
     "drum-hat-open": {
       "id": "drum-hat-open",
@@ -769,25 +575,29 @@
       "id": "acid-bass-a1",
       "name": "Acid - Bass A1",
       "file": "audio/acid-bass-a1.wav",
-      "volume": -3.8
+      "volume": -3.8,
+      "note": "A1"
     },
     "acid-bass-a2": {
       "id": "acid-bass-a2",
       "name": "Acid - Bass A2",
       "file": "audio/acid-bass-a2.wav",
-      "volume": -6.4
+      "volume": -6.4,
+      "note": "A2"
     },
     "acid-bass-c2": {
       "id": "acid-bass-c2",
       "name": "Acid - Bass C2",
       "file": "audio/acid-bass-c2.wav",
-      "volume": -3.8
+      "volume": -3.8,
+      "note": "C2"
     },
     "acid-bass-d2": {
       "id": "acid-bass-d2",
       "name": "Acid - Bass D2",
       "file": "audio/acid-bass-d2.wav",
-      "volume": -4.5
+      "volume": -4.5,
+      "note": "D2"
     },
     "acid-bass-e2-accent": {
       "id": "acid-bass-e2-accent",
@@ -799,13 +609,15 @@
       "id": "acid-bass-e2",
       "name": "Acid - Bass E2",
       "file": "audio/acid-bass-e2.wav",
-      "volume": -4.2
+      "volume": -4.2,
+      "note": "E2"
     },
     "acid-bass-g2": {
       "id": "acid-bass-g2",
       "name": "Acid - Bass G2",
       "file": "audio/acid-bass-g2.wav",
-      "volume": -6.5
+      "volume": -6.5,
+      "note": "G2"
     },
     "acid-cluster-1": {
       "id": "acid-cluster-1",
@@ -829,25 +641,22 @@
       "id": "acid-lead-a3",
       "name": "Acid - Lead A3",
       "file": "audio/acid-lead-a3.wav",
-      "volume": -7.5
-    },
-    "acid-lead-c3": {
-      "id": "acid-lead-c3",
-      "name": "Acid - Lead C3",
-      "file": "audio/acid-lead-c3.wav",
-      "volume": -5.4
+      "volume": -7.5,
+      "note": "A3"
     },
     "acid-lead-d3": {
       "id": "acid-lead-d3",
       "name": "Acid - Lead D3",
       "file": "audio/acid-lead-d3.wav",
-      "volume": -6.8
+      "volume": -6.8,
+      "note": "D4"
     },
     "acid-lead-e3": {
       "id": "acid-lead-e3",
       "name": "Acid - Lead E3",
       "file": "audio/acid-lead-e3.wav",
-      "volume": -6.2
+      "volume": -6.2,
+      "note": "E4"
     },
     "acid-slide-down": {
       "id": "acid-slide-down",
