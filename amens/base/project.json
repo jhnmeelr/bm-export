@@ -2,6 +2,7 @@
   "id": "amens/base",
   "name": "Amens: Base",
   "project": {
+    "description": "Sixteen amen slices over three rows of tonal material",
     "dimensions": {
       "width": 960,
       "height": 540

@@ -2,6 +2,7 @@
   "id": "acid/base",
   "name": "Acid: Base",
   "project": {
+    "description": "Two blocks of 303 riffs around a column of 909 patterns",
     "dimensions": {
       "width": 960,
       "height": 540

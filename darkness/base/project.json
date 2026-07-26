@@ -2,6 +2,7 @@
   "id": "darkness/base",
   "name": "Darkness: Base",
   "project": {
+    "description": "Dark drum and bass, sliced from E-Sassin breaks",
     "dimensions": {
       "width": 960,
       "height": 540

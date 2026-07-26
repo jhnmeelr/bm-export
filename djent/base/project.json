@@ -2,6 +2,7 @@
   "id": "djent/base",
   "name": "Djent: Base",
   "project": {
+    "description": "Down-tuned chords, each firing a kick in unison",
     "dimensions": {
       "width": 960,
       "height": 540

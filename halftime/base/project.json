@@ -2,6 +2,7 @@
   "id": "halftime/base",
   "name": "Halftime: Base",
   "project": {
+    "description": "Deep dubstep and future garage, chopped at halftime",
     "dimensions": {
       "width": 960,
       "height": 540
