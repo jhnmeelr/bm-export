@@ -18,7 +18,9 @@
     }
   },
   "scene": {
-    "style": {}
+    "style": {
+      "backgroundColor": "#1b2b34"
+    }
   },
   "controls": [
     {
