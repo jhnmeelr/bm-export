@@ -873,29 +873,5 @@
       "volume": 0
     }
   },
-  "effects": {
-    "brickwall": {
-      "id": "brickwall",
-      "name": "Brickwall",
-      "type": "limiter",
-      "options": "threshold: -1\nknee: 0\nratio: 20\nattack: 0.001\nrelease: 0.05",
-      "threshold": -1,
-      "knee": 0,
-      "ratio": 20,
-      "attack": 0.001,
-      "release": 0.05
-    },
-    "glue": {
-      "id": "glue",
-      "name": "Glue",
-      "type": "compressor",
-      "options": "threshold: -18\nknee: 24\nratio: 3\nattack: 0.005\nrelease: 0.15\nmakeup: 1.2",
-      "threshold": -18,
-      "knee": 24,
-      "ratio": 3,
-      "attack": 0.005,
-      "release": 0.15,
-      "makeup": 1.2
-    }
-  }
+  "effects": {}
 }
