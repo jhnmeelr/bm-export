@@ -1,0 +1,824 @@
+{
+  "id": "sticks/base",
+  "name": "Sticks: Base",
+  "project": {
+    "description": "Nine sections of one 126 BPM kit, rendered and live side by side",
+    "dimensions": {
+      "width": 960,
+      "height": 540
+    },
+    "quantisation": 4,
+    "tempo": 126,
+    "compressor": {
+      "enabled": true,
+      "threshold": -18,
+      "knee": 24,
+      "ratio": 3,
+      "attack": 0.005,
+      "release": 0.15,
+      "makeup": 1.2
+    }
+  },
+  "scene": {
+    "style": {
+      "backgroundColor": "#1b2b34"
+    }
+  },
+  "controls": [
+    {
+      "id": "a-mute",
+      "name": "MUTE",
+      "scene": "base",
+      "type": "scripter",
+      "position-x": 362,
+      "position-y": 221,
+      "width": 98,
+      "height": 98,
+      "color": "#996417",
+      "radius": 4,
+      "group": "loop",
+      "options": ""
+    },
+    {
+      "id": "a1",
+      "name": "Intro",
+      "scene": "base",
+      "type": "button",
+      "position-x": 20,
+      "position-y": 107,
+      "width": 98,
+      "height": 98,
+      "color": "#ffca28",
+      "radius": 4,
+      "group": "loop",
+      "options": ""
+    },
+    {
+      "id": "a2",
+      "name": "Verse",
+      "scene": "base",
+      "type": "button",
+      "position-x": 134,
+      "position-y": 107,
+      "width": 98,
+      "height": 98,
+      "color": "#ffca28",
+      "radius": 4,
+      "group": "loop",
+      "options": ""
+    },
+    {
+      "id": "a3",
+      "name": "Verse 2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 248,
+      "position-y": 107,
+      "width": 98,
+      "height": 98,
+      "color": "#ffca28",
+      "radius": 4,
+      "group": "loop",
+      "options": ""
+    },
+    {
+      "id": "a4",
+      "name": "Pre-Chorus",
+      "scene": "base",
+      "type": "button",
+      "position-x": 20,
+      "position-y": 221,
+      "width": 98,
+      "height": 98,
+      "color": "#ffa726",
+      "radius": 4,
+      "group": "loop",
+      "options": ""
+    },
+    {
+      "id": "a5",
+      "name": "Chorus",
+      "scene": "base",
+      "type": "button",
+      "position-x": 134,
+      "position-y": 221,
+      "width": 98,
+      "height": 98,
+      "color": "#ffa726",
+      "radius": 4,
+      "group": "loop",
+      "options": ""
+    },
+    {
+      "id": "a6",
+      "name": "Chorus 2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 248,
+      "position-y": 221,
+      "width": 98,
+      "height": 98,
+      "color": "#ffa726",
+      "radius": 4,
+      "group": "loop",
+      "options": ""
+    },
+    {
+      "id": "a7",
+      "name": "Bridge",
+      "scene": "base",
+      "type": "button",
+      "position-x": 20,
+      "position-y": 335,
+      "width": 98,
+      "height": 98,
+      "color": "#fb8c00",
+      "radius": 4,
+      "group": "loop",
+      "options": ""
+    },
+    {
+      "id": "a8",
+      "name": "Fill",
+      "scene": "base",
+      "type": "button",
+      "position-x": 134,
+      "position-y": 335,
+      "width": 98,
+      "height": 98,
+      "color": "#fb8c00",
+      "radius": 4,
+      "group": "loop",
+      "options": ""
+    },
+    {
+      "id": "a9",
+      "name": "Ending",
+      "scene": "base",
+      "type": "button",
+      "position-x": 248,
+      "position-y": 335,
+      "width": 98,
+      "height": 98,
+      "color": "#fb8c00",
+      "radius": 4,
+      "group": "loop",
+      "options": ""
+    },
+    {
+      "id": "b-mute",
+      "name": "MUTE",
+      "scene": "base",
+      "type": "scripter",
+      "position-x": 842,
+      "position-y": 221,
+      "width": 98,
+      "height": 98,
+      "color": "#177783",
+      "radius": 4,
+      "group": "pattern",
+      "options": ""
+    },
+    {
+      "id": "b1",
+      "name": "Intro",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 500,
+      "position-y": 107,
+      "width": 98,
+      "height": 98,
+      "color": "#4dd0e1",
+      "radius": 4,
+      "group": "pattern",
+      "options": ""
+    },
+    {
+      "id": "b2",
+      "name": "Verse",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 614,
+      "position-y": 107,
+      "width": 98,
+      "height": 98,
+      "color": "#4dd0e1",
+      "radius": 4,
+      "group": "pattern",
+      "options": ""
+    },
+    {
+      "id": "b3",
+      "name": "Verse 2",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 728,
+      "position-y": 107,
+      "width": 98,
+      "height": 98,
+      "color": "#4dd0e1",
+      "radius": 4,
+      "group": "pattern",
+      "options": ""
+    },
+    {
+      "id": "b4",
+      "name": "Pre-Chorus",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 500,
+      "position-y": 221,
+      "width": 98,
+      "height": 98,
+      "color": "#26c6da",
+      "radius": 4,
+      "group": "pattern",
+      "options": ""
+    },
+    {
+      "id": "b5",
+      "name": "Chorus",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 614,
+      "position-y": 221,
+      "width": 98,
+      "height": 98,
+      "color": "#26c6da",
+      "radius": 4,
+      "group": "pattern",
+      "options": ""
+    },
+    {
+      "id": "b6",
+      "name": "Chorus 2",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 728,
+      "position-y": 221,
+      "width": 98,
+      "height": 98,
+      "color": "#26c6da",
+      "radius": 4,
+      "group": "pattern",
+      "options": ""
+    },
+    {
+      "id": "b7",
+      "name": "Bridge",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 500,
+      "position-y": 335,
+      "width": 98,
+      "height": 98,
+      "color": "#00acc1",
+      "radius": 4,
+      "group": "pattern",
+      "options": ""
+    },
+    {
+      "id": "b8",
+      "name": "Fill",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 614,
+      "position-y": 335,
+      "width": 98,
+      "height": 98,
+      "color": "#00acc1",
+      "radius": 4,
+      "group": "pattern",
+      "options": ""
+    },
+    {
+      "id": "b9",
+      "name": "Ending",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 728,
+      "position-y": 335,
+      "width": 98,
+      "height": 98,
+      "color": "#00acc1",
+      "radius": 4,
+      "group": "pattern",
+      "options": ""
+    }
+  ],
+  "assignments": [
+    {
+      "id": "bm-effect.bm-channel.brickwall.master",
+      "source-object": "bm-effect",
+      "source-record": "brickwall",
+      "target-object": "bm-channel",
+      "target-record": "master",
+      "order": 2
+    },
+    {
+      "id": "bm-effect.bm-channel.glue.master",
+      "source-object": "bm-effect",
+      "source-record": "glue",
+      "target-object": "bm-channel",
+      "target-record": "master",
+      "order": 1
+    },
+    {
+      "id": "bm-pattern.bm-control.bridge.b7",
+      "source-object": "bm-pattern",
+      "source-record": "bridge",
+      "target-object": "bm-control",
+      "target-record": "b7"
+    },
+    {
+      "id": "bm-pattern.bm-control.chorus-2.b6",
+      "source-object": "bm-pattern",
+      "source-record": "chorus-2",
+      "target-object": "bm-control",
+      "target-record": "b6"
+    },
+    {
+      "id": "bm-pattern.bm-control.chorus.b5",
+      "source-object": "bm-pattern",
+      "source-record": "chorus",
+      "target-object": "bm-control",
+      "target-record": "b5"
+    },
+    {
+      "id": "bm-pattern.bm-control.ending.b9",
+      "source-object": "bm-pattern",
+      "source-record": "ending",
+      "target-object": "bm-control",
+      "target-record": "b9"
+    },
+    {
+      "id": "bm-pattern.bm-control.fill.b8",
+      "source-object": "bm-pattern",
+      "source-record": "fill",
+      "target-object": "bm-control",
+      "target-record": "b8"
+    },
+    {
+      "id": "bm-pattern.bm-control.intro.b1",
+      "source-object": "bm-pattern",
+      "source-record": "intro",
+      "target-object": "bm-control",
+      "target-record": "b1"
+    },
+    {
+      "id": "bm-pattern.bm-control.pre-chorus.b4",
+      "source-object": "bm-pattern",
+      "source-record": "pre-chorus",
+      "target-object": "bm-control",
+      "target-record": "b4"
+    },
+    {
+      "id": "bm-pattern.bm-control.verse-2.b3",
+      "source-object": "bm-pattern",
+      "source-record": "verse-2",
+      "target-object": "bm-control",
+      "target-record": "b3"
+    },
+    {
+      "id": "bm-pattern.bm-control.verse.b2",
+      "source-object": "bm-pattern",
+      "source-record": "verse",
+      "target-object": "bm-control",
+      "target-record": "b2"
+    },
+    {
+      "id": "bm-sampler.bm-control.loop-bridge.a7",
+      "source-object": "bm-sampler",
+      "source-record": "loop-bridge",
+      "target-object": "bm-control",
+      "target-record": "a7"
+    },
+    {
+      "id": "bm-sampler.bm-control.loop-chorus-2.a6",
+      "source-object": "bm-sampler",
+      "source-record": "loop-chorus-2",
+      "target-object": "bm-control",
+      "target-record": "a6"
+    },
+    {
+      "id": "bm-sampler.bm-control.loop-chorus.a5",
+      "source-object": "bm-sampler",
+      "source-record": "loop-chorus",
+      "target-object": "bm-control",
+      "target-record": "a5"
+    },
+    {
+      "id": "bm-sampler.bm-control.loop-ending.a9",
+      "source-object": "bm-sampler",
+      "source-record": "loop-ending",
+      "target-object": "bm-control",
+      "target-record": "a9"
+    },
+    {
+      "id": "bm-sampler.bm-control.loop-fill.a8",
+      "source-object": "bm-sampler",
+      "source-record": "loop-fill",
+      "target-object": "bm-control",
+      "target-record": "a8"
+    },
+    {
+      "id": "bm-sampler.bm-control.loop-intro.a1",
+      "source-object": "bm-sampler",
+      "source-record": "loop-intro",
+      "target-object": "bm-control",
+      "target-record": "a1"
+    },
+    {
+      "id": "bm-sampler.bm-control.loop-pre-chorus.a4",
+      "source-object": "bm-sampler",
+      "source-record": "loop-pre-chorus",
+      "target-object": "bm-control",
+      "target-record": "a4"
+    },
+    {
+      "id": "bm-sampler.bm-control.loop-verse-2.a3",
+      "source-object": "bm-sampler",
+      "source-record": "loop-verse-2",
+      "target-object": "bm-control",
+      "target-record": "a3"
+    },
+    {
+      "id": "bm-sampler.bm-control.loop-verse.a2",
+      "source-object": "bm-sampler",
+      "source-record": "loop-verse",
+      "target-object": "bm-control",
+      "target-record": "a2"
+    }
+  ],
+  "patterns": {
+    "bridge": {
+      "id": "bridge",
+      "name": "Bridge",
+      "file": "midi/bridge.mid"
+    },
+    "chorus-2": {
+      "id": "chorus-2",
+      "name": "Chorus 2",
+      "file": "midi/chorus-2.mid"
+    },
+    "chorus": {
+      "id": "chorus",
+      "name": "Chorus",
+      "file": "midi/chorus.mid"
+    },
+    "ending": {
+      "id": "ending",
+      "name": "Ending",
+      "file": "midi/ending.mid"
+    },
+    "fill": {
+      "id": "fill",
+      "name": "Fill",
+      "file": "midi/fill.mid"
+    },
+    "intro": {
+      "id": "intro",
+      "name": "Intro",
+      "file": "midi/intro.mid"
+    },
+    "pre-chorus": {
+      "id": "pre-chorus",
+      "name": "Pre-Chorus",
+      "file": "midi/pre-chorus.mid"
+    },
+    "verse-2": {
+      "id": "verse-2",
+      "name": "Verse 2",
+      "file": "midi/verse-2.mid"
+    },
+    "verse": {
+      "id": "verse",
+      "name": "Verse",
+      "file": "midi/verse.mid"
+    }
+  },
+  "samplers": {
+    "hat-pedal-21": {
+      "id": "hat-pedal-21",
+      "name": "Hi-Hat Pedal 21",
+      "file": "audio/hat-pedal-21.wav",
+      "note": 21,
+      "group": "hat",
+      "start": 0,
+      "volume": 8.6
+    },
+    "kick-36": {
+      "id": "kick-36",
+      "name": "Kick 36",
+      "file": "audio/kick-36.wav",
+      "note": 36,
+      "start": 0,
+      "volume": 6
+    },
+    "tom-43": {
+      "id": "tom-43",
+      "name": "Toms 43",
+      "file": "audio/tom-43.wav",
+      "note": 43,
+      "start": 0,
+      "volume": 6.3
+    },
+    "tom-48": {
+      "id": "tom-48",
+      "name": "Toms 48",
+      "file": "audio/tom-48.wav",
+      "note": 48,
+      "start": 0,
+      "volume": 3.8
+    },
+    "snare-38": {
+      "id": "snare-38",
+      "name": "Snare 38",
+      "file": "audio/snare-38.wav",
+      "note": 38,
+      "start": 0,
+      "volume": 5.5
+    },
+    "tom-47": {
+      "id": "tom-47",
+      "name": "Toms 47",
+      "file": "audio/tom-47.wav",
+      "note": 47,
+      "start": 0,
+      "volume": 4.2
+    },
+    "crash-57": {
+      "id": "crash-57",
+      "name": "Crash 57",
+      "file": "audio/crash-57.wav",
+      "note": 57,
+      "start": 0,
+      "volume": 3.3
+    },
+    "snare-40": {
+      "id": "snare-40",
+      "name": "Snare 40",
+      "file": "audio/snare-40.wav",
+      "note": 40,
+      "start": 0,
+      "volume": 4
+    },
+    "tom-45": {
+      "id": "tom-45",
+      "name": "Toms 45",
+      "file": "audio/tom-45.wav",
+      "note": 45,
+      "start": 0,
+      "volume": 3.6
+    },
+    "ride-crash-59": {
+      "id": "ride-crash-59",
+      "name": "Ride Cymbal - Ride Crash 59",
+      "file": "audio/ride-crash-59.wav",
+      "note": 59,
+      "start": 0,
+      "volume": 7.3
+    },
+    "tom-82": {
+      "id": "tom-82",
+      "name": "Toms 82",
+      "file": "audio/tom-82.wav",
+      "note": 82,
+      "start": 0,
+      "volume": 4.3
+    },
+    "tom-41": {
+      "id": "tom-41",
+      "name": "Toms 41",
+      "file": "audio/tom-41.wav",
+      "note": 41,
+      "start": 0,
+      "volume": 6.1
+    },
+    "tom-75": {
+      "id": "tom-75",
+      "name": "Toms 75",
+      "file": "audio/tom-75.wav",
+      "note": 75,
+      "start": 0,
+      "volume": 5.6
+    },
+    "ride-51": {
+      "id": "ride-51",
+      "name": "Ride Cymbal - Ride 51",
+      "file": "audio/ride-51.wav",
+      "note": 51,
+      "start": 0,
+      "volume": 9.1
+    },
+    "hat-open-26": {
+      "id": "hat-open-26",
+      "name": "Hi-Hat - Hi-Hat Open 26",
+      "file": "audio/hat-open-26.wav",
+      "note": 26,
+      "group": "hat",
+      "start": 0,
+      "volume": 5.4
+    },
+    "crash-49": {
+      "id": "crash-49",
+      "name": "Crash 49",
+      "file": "audio/crash-49.wav",
+      "note": 49,
+      "start": 0,
+      "volume": 3.3
+    },
+    "ride-53": {
+      "id": "ride-53",
+      "name": "Ride Cymbal - Ride 53",
+      "file": "audio/ride-53.wav",
+      "note": 53,
+      "start": 0,
+      "volume": 3.8
+    },
+    "hat-open-24": {
+      "id": "hat-open-24",
+      "name": "Hi-Hat - Hi-Hat Open 24",
+      "file": "audio/hat-open-24.wav",
+      "note": 24,
+      "group": "hat",
+      "start": 0,
+      "volume": 6.4
+    },
+    "hat-open-25": {
+      "id": "hat-open-25",
+      "name": "Hi-Hat - Hi-Hat Open 25",
+      "file": "audio/hat-open-25.wav",
+      "note": 25,
+      "group": "hat",
+      "start": 0,
+      "volume": 5.9
+    },
+    "hat-open-13": {
+      "id": "hat-open-13",
+      "name": "Hi-Hat - Hi-Hat Open 13",
+      "file": "audio/hat-open-13.wav",
+      "note": 13,
+      "group": "hat",
+      "start": 0,
+      "volume": 7.8
+    },
+    "hat-open-15": {
+      "id": "hat-open-15",
+      "name": "Hi-Hat - Hi-Hat Open 15",
+      "file": "audio/hat-open-15.wav",
+      "note": 15,
+      "group": "hat",
+      "start": 0,
+      "volume": 11.4
+    },
+    "hat-open-60": {
+      "id": "hat-open-60",
+      "name": "Hi-Hat - Hi-Hat Open 60",
+      "file": "audio/hat-open-60.wav",
+      "note": 60,
+      "group": "hat",
+      "start": 0,
+      "volume": 4.5
+    },
+    "hat-closed-22": {
+      "id": "hat-closed-22",
+      "name": "Hi-Hat - Hi-Hat Closed 22",
+      "file": "audio/hat-closed-22.wav",
+      "note": 22,
+      "group": "hat",
+      "start": 0,
+      "volume": 5.6
+    },
+    "hat-closed-62": {
+      "id": "hat-closed-62",
+      "name": "Hi-Hat - Hi-Hat Closed 62",
+      "file": "audio/hat-closed-62.wav",
+      "note": 62,
+      "group": "hat",
+      "start": 0,
+      "volume": 7.2
+    },
+    "hat-closed-61": {
+      "id": "hat-closed-61",
+      "name": "Hi-Hat - Hi-Hat Closed 61",
+      "file": "audio/hat-closed-61.wav",
+      "note": 61,
+      "group": "hat",
+      "start": 0,
+      "volume": 10.9
+    },
+    "hat-closed-64": {
+      "id": "hat-closed-64",
+      "name": "Hi-Hat - Hi-Hat Closed 64",
+      "file": "audio/hat-closed-64.wav",
+      "note": 64,
+      "group": "hat",
+      "start": 0,
+      "volume": 7.2
+    },
+    "stick-37": {
+      "id": "stick-37",
+      "name": "Sidestick 37",
+      "file": "audio/stick-37.wav",
+      "note": 37,
+      "start": 0,
+      "volume": 4.7
+    },
+    "loop-bridge": {
+      "id": "loop-bridge",
+      "name": "Loop - Bridge",
+      "file": "audio/loop-bridge.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "loop-chorus-2": {
+      "id": "loop-chorus-2",
+      "name": "Loop - Chorus 2",
+      "file": "audio/loop-chorus-2.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "loop-chorus": {
+      "id": "loop-chorus",
+      "name": "Loop - Chorus",
+      "file": "audio/loop-chorus.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "loop-ending": {
+      "id": "loop-ending",
+      "name": "Loop - Ending",
+      "file": "audio/loop-ending.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "loop-fill": {
+      "id": "loop-fill",
+      "name": "Loop - Fill",
+      "file": "audio/loop-fill.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "loop-intro": {
+      "id": "loop-intro",
+      "name": "Loop - Intro",
+      "file": "audio/loop-intro.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "loop-pre-chorus": {
+      "id": "loop-pre-chorus",
+      "name": "Loop - Pre-Chorus",
+      "file": "audio/loop-pre-chorus.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "loop-verse-2": {
+      "id": "loop-verse-2",
+      "name": "Loop - Verse 2",
+      "file": "audio/loop-verse-2.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "loop-verse": {
+      "id": "loop-verse",
+      "name": "Loop - Verse",
+      "file": "audio/loop-verse.wav",
+      "start": 0,
+      "volume": 0
+    }
+  },
+  "channels": {
+    "master": {
+      "id": "master",
+      "name": "Master",
+      "volume": 0
+    }
+  },
+  "effects": {
+    "brickwall": {
+      "id": "brickwall",
+      "name": "Brickwall",
+      "type": "limiter",
+      "options": "threshold: -1\nknee: 0\nratio: 20\nattack: 0.001\nrelease: 0.05",
+      "threshold": -1,
+      "knee": 0,
+      "ratio": 20,
+      "attack": 0.001,
+      "release": 0.05
+    },
+    "glue": {
+      "id": "glue",
+      "name": "Glue",
+      "type": "compressor",
+      "options": "threshold: -18\nknee: 24\nratio: 3\nattack: 0.005\nrelease: 0.15\nmakeup: 1.2",
+      "threshold": -18,
+      "knee": 24,
+      "ratio": 3,
+      "attack": 0.005,
+      "release": 0.15,
+      "makeup": 1.2
+    }
+  }
+}
