@@ -7,8 +7,8 @@
       "width": 960,
       "height": 540
     },
-    "quantisation": 4,
-    "tempo": 87.5,
+    "quantisation": 2,
+    "tempo": 175,
     "compressor": {
       "enabled": true,
       "threshold": -18,
