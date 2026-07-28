@@ -2,7 +2,7 @@
   "id": "blues/base",
   "name": "Blues: Base",
   "project": {
-    "description": "A captured kit under one thumb, three octaves of C blues under the other",
+    "description": "A captured acoustic kit and guitar, laid out in C blues",
     "dimensions": {
       "width": 960,
       "height": 540
@@ -26,281 +26,57 @@
   },
   "controls": [
     {
-      "id": "as2",
+      "id": "bass-as2",
       "name": "a#2",
       "scene": "base",
       "type": "cluster",
-      "position-x": 602,
-      "position-y": 402,
-      "width": 98,
-      "height": 114,
-      "color": "#2b6f78",
+      "position-x": 35,
+      "position-y": 176,
+      "width": 70,
+      "height": 97,
+      "color": "#b8907f",
       "radius": 4,
       "poly": true,
       "options": ""
     },
     {
-      "id": "as3",
-      "name": "a#3",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 712,
-      "position-y": 276,
-      "width": 98,
-      "height": 114,
-      "color": "#3f929c",
-      "radius": 4,
-      "poly": true,
-      "options": ""
-    },
-    {
-      "id": "as4",
-      "name": "a#4",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 822,
-      "position-y": 150,
-      "width": 98,
-      "height": 114,
-      "color": "#5cb3bc",
-      "radius": 4,
-      "poly": true,
-      "options": ""
-    },
-    {
-      "id": "c3",
+      "id": "bass-c3",
       "name": "c3",
       "scene": "base",
       "type": "cluster",
-      "position-x": 712,
-      "position-y": 402,
-      "width": 98,
-      "height": 114,
-      "color": "#2b6f78",
+      "position-x": 270,
+      "position-y": 280,
+      "width": 70,
+      "height": 97,
+      "color": "#b8907f",
       "radius": 4,
       "poly": true,
       "options": ""
     },
     {
-      "id": "c4",
-      "name": "c4",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 822,
-      "position-y": 276,
-      "width": 98,
-      "height": 114,
-      "color": "#3f929c",
-      "radius": 4,
-      "poly": true,
-      "options": ""
-    },
-    {
-      "id": "c5",
-      "name": "c5",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 382,
-      "position-y": 24,
-      "width": 98,
-      "height": 114,
-      "color": "#86d4da",
-      "radius": 4,
-      "poly": true,
-      "options": ""
-    },
-    {
-      "id": "ds3",
+      "id": "bass-ds3",
       "name": "d#3",
       "scene": "base",
       "type": "cluster",
-      "position-x": 822,
-      "position-y": 402,
-      "width": 98,
-      "height": 114,
-      "color": "#2b6f78",
+      "position-x": 270,
+      "position-y": 176,
+      "width": 70,
+      "height": 97,
+      "color": "#b8907f",
       "radius": 4,
       "poly": true,
       "options": ""
     },
     {
-      "id": "ds4",
-      "name": "d#4",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 382,
-      "position-y": 150,
-      "width": 98,
-      "height": 114,
-      "color": "#5cb3bc",
-      "radius": 4,
-      "poly": true,
-      "options": ""
-    },
-    {
-      "id": "ds5",
-      "name": "d#5",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 492,
-      "position-y": 24,
-      "width": 98,
-      "height": 114,
-      "color": "#86d4da",
-      "radius": 4,
-      "poly": true,
-      "options": ""
-    },
-    {
-      "id": "f2",
-      "name": "f2",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 382,
-      "position-y": 402,
-      "width": 98,
-      "height": 114,
-      "color": "#2b6f78",
-      "radius": 4,
-      "poly": true,
-      "options": ""
-    },
-    {
-      "id": "f3",
+      "id": "bass-f3",
       "name": "f3",
       "scene": "base",
       "type": "cluster",
-      "position-x": 382,
-      "position-y": 276,
-      "width": 98,
-      "height": 114,
-      "color": "#3f929c",
-      "radius": 4,
-      "poly": true,
-      "options": ""
-    },
-    {
-      "id": "f4",
-      "name": "f4",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 492,
-      "position-y": 150,
-      "width": 98,
-      "height": 114,
-      "color": "#5cb3bc",
-      "radius": 4,
-      "poly": true,
-      "options": ""
-    },
-    {
-      "id": "f5",
-      "name": "f5",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 602,
-      "position-y": 24,
-      "width": 98,
-      "height": 114,
-      "color": "#86d4da",
-      "radius": 4,
-      "poly": true,
-      "options": ""
-    },
-    {
-      "id": "fs3",
-      "name": "f#3",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 492,
-      "position-y": 276,
-      "width": 98,
-      "height": 114,
-      "color": "#3f929c",
-      "radius": 4,
-      "poly": true,
-      "options": ""
-    },
-    {
-      "id": "fs4",
-      "name": "f#4",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 602,
-      "position-y": 150,
-      "width": 98,
-      "height": 114,
-      "color": "#5cb3bc",
-      "radius": 4,
-      "poly": true,
-      "options": ""
-    },
-    {
-      "id": "fs5",
-      "name": "f#5",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 712,
-      "position-y": 24,
-      "width": 98,
-      "height": 114,
-      "color": "#86d4da",
-      "radius": 4,
-      "poly": true,
-      "options": ""
-    },
-    {
-      "id": "g2",
-      "name": "g2",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 492,
-      "position-y": 402,
-      "width": 98,
-      "height": 114,
-      "color": "#2b6f78",
-      "radius": 4,
-      "poly": true,
-      "options": ""
-    },
-    {
-      "id": "g3",
-      "name": "g3",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 602,
-      "position-y": 276,
-      "width": 98,
-      "height": 114,
-      "color": "#3f929c",
-      "radius": 4,
-      "poly": true,
-      "options": ""
-    },
-    {
-      "id": "g4",
-      "name": "g4",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 712,
-      "position-y": 150,
-      "width": 98,
-      "height": 114,
-      "color": "#5cb3bc",
-      "radius": 4,
-      "poly": true,
-      "options": ""
-    },
-    {
-      "id": "g5",
-      "name": "g5",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 822,
-      "position-y": 24,
-      "width": 98,
-      "height": 114,
-      "color": "#86d4da",
+      "position-x": 35,
+      "position-y": 280,
+      "width": 70,
+      "height": 97,
+      "color": "#b8907f",
       "radius": 4,
       "poly": true,
       "options": ""
@@ -310,11 +86,11 @@
       "name": "hat-c",
       "scene": "base",
       "type": "cluster",
-      "position-x": 244,
-      "position-y": 360,
-      "width": 98,
-      "height": 156,
-      "color": "#e3c257",
+      "position-x": 633,
+      "position-y": 230,
+      "width": 91,
+      "height": 91,
+      "color": "#ffa700",
       "radius": 4,
       "group": "hat",
       "options": ""
@@ -324,27 +100,13 @@
       "name": "hat-o",
       "scene": "base",
       "type": "cluster",
-      "position-x": 24,
-      "position-y": 24,
-      "width": 98,
-      "height": 156,
-      "color": "#f2dd93",
+      "position-x": 633,
+      "position-y": 86,
+      "width": 91,
+      "height": 91,
+      "color": "#ffa700",
       "radius": 4,
       "group": "hat",
-      "options": ""
-    },
-    {
-      "id": "kick-hat",
-      "name": "k+h",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 24,
-      "position-y": 360,
-      "width": 98,
-      "height": 156,
-      "color": "#e56a3c",
-      "radius": 4,
-      "group": "kick",
       "options": ""
     },
     {
@@ -352,13 +114,209 @@
       "name": "kick",
       "scene": "base",
       "type": "cluster",
-      "position-x": 24,
-      "position-y": 192,
-      "width": 98,
-      "height": 156,
-      "color": "#b8442c",
+      "position-x": 432,
+      "position-y": 202,
+      "width": 148,
+      "height": 148,
+      "color": "#67b3be",
       "radius": 4,
       "group": "kick",
+      "options": ""
+    },
+    {
+      "id": "r-as3",
+      "name": "a#3",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 113,
+      "position-y": 71,
+      "width": 70,
+      "height": 70,
+      "color": "#85b8bb",
+      "radius": 4,
+      "poly": true,
+      "options": ""
+    },
+    {
+      "id": "r-as5",
+      "name": "a#5",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 192,
+      "position-y": 410,
+      "width": 70,
+      "height": 70,
+      "color": "#85b8bb",
+      "radius": 4,
+      "poly": true,
+      "options": ""
+    },
+    {
+      "id": "r-c3",
+      "name": "c3",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 35,
+      "position-y": 384,
+      "width": 70,
+      "height": 70,
+      "color": "#85b8bb",
+      "radius": 4,
+      "poly": true,
+      "options": ""
+    },
+    {
+      "id": "r-c4",
+      "name": "c4",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 35,
+      "position-y": 97,
+      "width": 70,
+      "height": 70,
+      "color": "#85b8bb",
+      "radius": 4,
+      "poly": true,
+      "options": ""
+    },
+    {
+      "id": "r-c5",
+      "name": "c5",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 270,
+      "position-y": 97,
+      "width": 70,
+      "height": 70,
+      "color": "#85b8bb",
+      "radius": 4,
+      "poly": true,
+      "options": ""
+    },
+    {
+      "id": "r-c6",
+      "name": "c6",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 270,
+      "position-y": 384,
+      "width": 70,
+      "height": 70,
+      "color": "#85b8bb",
+      "radius": 4,
+      "poly": true,
+      "options": ""
+    },
+    {
+      "id": "r-ds3",
+      "name": "d#3",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 113,
+      "position-y": 410,
+      "width": 70,
+      "height": 70,
+      "color": "#85b8bb",
+      "radius": 4,
+      "poly": true,
+      "options": ""
+    },
+    {
+      "id": "r-ds5",
+      "name": "d#5",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 192,
+      "position-y": 71,
+      "width": 70,
+      "height": 70,
+      "color": "#85b8bb",
+      "radius": 4,
+      "poly": true,
+      "options": ""
+    },
+    {
+      "id": "r-f3",
+      "name": "f3",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 113,
+      "position-y": 332,
+      "width": 70,
+      "height": 70,
+      "color": "#85b8bb",
+      "radius": 4,
+      "poly": true,
+      "options": ""
+    },
+    {
+      "id": "r-f5",
+      "name": "f5",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 192,
+      "position-y": 149,
+      "width": 70,
+      "height": 70,
+      "color": "#85b8bb",
+      "radius": 4,
+      "poly": true,
+      "options": ""
+    },
+    {
+      "id": "r-fs3",
+      "name": "f#3",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 113,
+      "position-y": 228,
+      "width": 70,
+      "height": 96,
+      "color": "#85b8bb",
+      "radius": 4,
+      "poly": true,
+      "options": ""
+    },
+    {
+      "id": "r-fs5",
+      "name": "f#5",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 192,
+      "position-y": 228,
+      "width": 70,
+      "height": 96,
+      "color": "#85b8bb",
+      "radius": 4,
+      "poly": true,
+      "options": ""
+    },
+    {
+      "id": "r-g3",
+      "name": "g3",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 113,
+      "position-y": 149,
+      "width": 70,
+      "height": 70,
+      "color": "#85b8bb",
+      "radius": 4,
+      "poly": true,
+      "options": ""
+    },
+    {
+      "id": "r-g5",
+      "name": "g5",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 192,
+      "position-y": 332,
+      "width": 70,
+      "height": 70,
+      "color": "#85b8bb",
+      "radius": 4,
+      "poly": true,
       "options": ""
     },
     {
@@ -366,11 +324,25 @@
       "name": "ride-h",
       "scene": "base",
       "type": "cluster",
-      "position-x": 134,
-      "position-y": 24,
-      "width": 98,
-      "height": 156,
-      "color": "#c9a52c",
+      "position-x": 461,
+      "position-y": 374,
+      "width": 119,
+      "height": 119,
+      "color": "#82b88a",
+      "radius": 4,
+      "group": "ride",
+      "options": ""
+    },
+    {
+      "id": "ride-p",
+      "name": "ride-p",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 461,
+      "position-y": 58,
+      "width": 119,
+      "height": 119,
+      "color": "#82b88a",
       "radius": 4,
       "group": "ride",
       "options": ""
@@ -380,25 +352,11 @@
       "name": "snare-h",
       "scene": "base",
       "type": "cluster",
-      "position-x": 134,
-      "position-y": 192,
-      "width": 98,
-      "height": 156,
-      "color": "#d68227",
-      "radius": 4,
-      "group": "snare",
-      "options": ""
-    },
-    {
-      "id": "snare-hat",
-      "name": "s+h",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 134,
-      "position-y": 360,
-      "width": 98,
-      "height": 156,
-      "color": "#f0a23f",
+      "position-x": 777,
+      "position-y": 58,
+      "width": 119,
+      "height": 119,
+      "color": "#c58a63",
       "radius": 4,
       "group": "snare",
       "options": ""
@@ -408,11 +366,11 @@
       "name": "snare-p",
       "scene": "base",
       "type": "cluster",
-      "position-x": 244,
-      "position-y": 24,
-      "width": 98,
-      "height": 156,
-      "color": "#a56826",
+      "position-x": 777,
+      "position-y": 202,
+      "width": 148,
+      "height": 148,
+      "color": "#c58a63",
       "radius": 4,
       "group": "snare",
       "options": ""
@@ -422,11 +380,11 @@
       "name": "snare-s",
       "scene": "base",
       "type": "cluster",
-      "position-x": 244,
-      "position-y": 192,
-      "width": 98,
-      "height": 156,
-      "color": "#8a5f33",
+      "position-x": 777,
+      "position-y": 374,
+      "width": 119,
+      "height": 119,
+      "color": "#c58a63",
       "radius": 4,
       "group": "snare",
       "options": ""
@@ -450,564 +408,508 @@
       "order": 0
     },
     {
-      "id": "bm-sampler.bm-control.gtr-as2-r1.as2",
+      "id": "bm-sampler.bm-control.gtr-as2-r1.bass-as2",
       "source-object": "bm-sampler",
       "source-record": "gtr-as2-r1",
       "target-object": "bm-control",
-      "target-record": "as2"
+      "target-record": "bass-as2"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-as2-r2.as2",
+      "id": "bm-sampler.bm-control.gtr-as2-r2.bass-as2",
       "source-object": "bm-sampler",
       "source-record": "gtr-as2-r2",
       "target-object": "bm-control",
-      "target-record": "as2"
+      "target-record": "bass-as2"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-as2-r3.as2",
+      "id": "bm-sampler.bm-control.gtr-as2-r3.bass-as2",
       "source-object": "bm-sampler",
       "source-record": "gtr-as2-r3",
       "target-object": "bm-control",
-      "target-record": "as2"
+      "target-record": "bass-as2"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-as2-r4.as2",
+      "id": "bm-sampler.bm-control.gtr-as2-r4.bass-as2",
       "source-object": "bm-sampler",
       "source-record": "gtr-as2-r4",
       "target-object": "bm-control",
-      "target-record": "as2"
+      "target-record": "bass-as2"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-as3-r1.as3",
+      "id": "bm-sampler.bm-control.gtr-as3-r1.r-as3",
       "source-object": "bm-sampler",
       "source-record": "gtr-as3-r1",
       "target-object": "bm-control",
-      "target-record": "as3"
+      "target-record": "r-as3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-as3-r2.as3",
+      "id": "bm-sampler.bm-control.gtr-as3-r2.r-as3",
       "source-object": "bm-sampler",
       "source-record": "gtr-as3-r2",
       "target-object": "bm-control",
-      "target-record": "as3"
+      "target-record": "r-as3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-as3-r3.as3",
+      "id": "bm-sampler.bm-control.gtr-as3-r3.r-as3",
       "source-object": "bm-sampler",
       "source-record": "gtr-as3-r3",
       "target-object": "bm-control",
-      "target-record": "as3"
+      "target-record": "r-as3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-as3-r4.as3",
+      "id": "bm-sampler.bm-control.gtr-as3-r4.r-as3",
       "source-object": "bm-sampler",
       "source-record": "gtr-as3-r4",
       "target-object": "bm-control",
-      "target-record": "as3"
+      "target-record": "r-as3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-as4-r1.as4",
+      "id": "bm-sampler.bm-control.gtr-as5-r1.r-as5",
       "source-object": "bm-sampler",
-      "source-record": "gtr-as4-r1",
+      "source-record": "gtr-as5-r1",
       "target-object": "bm-control",
-      "target-record": "as4"
+      "target-record": "r-as5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-as4-r2.as4",
+      "id": "bm-sampler.bm-control.gtr-as5-r2.r-as5",
       "source-object": "bm-sampler",
-      "source-record": "gtr-as4-r2",
+      "source-record": "gtr-as5-r2",
       "target-object": "bm-control",
-      "target-record": "as4"
+      "target-record": "r-as5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-as4-r3.as4",
+      "id": "bm-sampler.bm-control.gtr-as5-r3.r-as5",
       "source-object": "bm-sampler",
-      "source-record": "gtr-as4-r3",
+      "source-record": "gtr-as5-r3",
       "target-object": "bm-control",
-      "target-record": "as4"
+      "target-record": "r-as5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-as4-r4.as4",
+      "id": "bm-sampler.bm-control.gtr-as5-r4.r-as5",
       "source-object": "bm-sampler",
-      "source-record": "gtr-as4-r4",
+      "source-record": "gtr-as5-r4",
       "target-object": "bm-control",
-      "target-record": "as4"
+      "target-record": "r-as5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-c3-r1.c3",
+      "id": "bm-sampler.bm-control.gtr-c3-r1.bass-c3",
       "source-object": "bm-sampler",
       "source-record": "gtr-c3-r1",
       "target-object": "bm-control",
-      "target-record": "c3"
+      "target-record": "bass-c3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-c3-r2.c3",
+      "id": "bm-sampler.bm-control.gtr-c3-r1.r-c3",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-c3-r1",
+      "target-object": "bm-control",
+      "target-record": "r-c3"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-c3-r2.bass-c3",
       "source-object": "bm-sampler",
       "source-record": "gtr-c3-r2",
       "target-object": "bm-control",
-      "target-record": "c3"
+      "target-record": "bass-c3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-c3-r3.c3",
+      "id": "bm-sampler.bm-control.gtr-c3-r2.r-c3",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-c3-r2",
+      "target-object": "bm-control",
+      "target-record": "r-c3"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-c3-r3.bass-c3",
       "source-object": "bm-sampler",
       "source-record": "gtr-c3-r3",
       "target-object": "bm-control",
-      "target-record": "c3"
+      "target-record": "bass-c3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-c3-r4.c3",
+      "id": "bm-sampler.bm-control.gtr-c3-r3.r-c3",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-c3-r3",
+      "target-object": "bm-control",
+      "target-record": "r-c3"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-c3-r4.bass-c3",
       "source-object": "bm-sampler",
       "source-record": "gtr-c3-r4",
       "target-object": "bm-control",
-      "target-record": "c3"
+      "target-record": "bass-c3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-c4-r1.c4",
+      "id": "bm-sampler.bm-control.gtr-c3-r4.r-c3",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-c3-r4",
+      "target-object": "bm-control",
+      "target-record": "r-c3"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-c4-r1.r-c4",
       "source-object": "bm-sampler",
       "source-record": "gtr-c4-r1",
       "target-object": "bm-control",
-      "target-record": "c4"
+      "target-record": "r-c4"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-c4-r2.c4",
+      "id": "bm-sampler.bm-control.gtr-c4-r2.r-c4",
       "source-object": "bm-sampler",
       "source-record": "gtr-c4-r2",
       "target-object": "bm-control",
-      "target-record": "c4"
+      "target-record": "r-c4"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-c4-r3.c4",
+      "id": "bm-sampler.bm-control.gtr-c4-r3.r-c4",
       "source-object": "bm-sampler",
       "source-record": "gtr-c4-r3",
       "target-object": "bm-control",
-      "target-record": "c4"
+      "target-record": "r-c4"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-c4-r4.c4",
+      "id": "bm-sampler.bm-control.gtr-c4-r4.r-c4",
       "source-object": "bm-sampler",
       "source-record": "gtr-c4-r4",
       "target-object": "bm-control",
-      "target-record": "c4"
+      "target-record": "r-c4"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-c5-r1.c5",
+      "id": "bm-sampler.bm-control.gtr-c5-r1.r-c5",
       "source-object": "bm-sampler",
       "source-record": "gtr-c5-r1",
       "target-object": "bm-control",
-      "target-record": "c5"
+      "target-record": "r-c5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-c5-r2.c5",
+      "id": "bm-sampler.bm-control.gtr-c5-r2.r-c5",
       "source-object": "bm-sampler",
       "source-record": "gtr-c5-r2",
       "target-object": "bm-control",
-      "target-record": "c5"
+      "target-record": "r-c5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-c5-r3.c5",
+      "id": "bm-sampler.bm-control.gtr-c5-r3.r-c5",
       "source-object": "bm-sampler",
       "source-record": "gtr-c5-r3",
       "target-object": "bm-control",
-      "target-record": "c5"
+      "target-record": "r-c5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-c5-r4.c5",
+      "id": "bm-sampler.bm-control.gtr-c5-r4.r-c5",
       "source-object": "bm-sampler",
       "source-record": "gtr-c5-r4",
       "target-object": "bm-control",
-      "target-record": "c5"
+      "target-record": "r-c5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-ds3-r1.ds3",
+      "id": "bm-sampler.bm-control.gtr-c6-r1.r-c6",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-c6-r1",
+      "target-object": "bm-control",
+      "target-record": "r-c6"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-c6-r2.r-c6",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-c6-r2",
+      "target-object": "bm-control",
+      "target-record": "r-c6"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-c6-r3.r-c6",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-c6-r3",
+      "target-object": "bm-control",
+      "target-record": "r-c6"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-c6-r4.r-c6",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-c6-r4",
+      "target-object": "bm-control",
+      "target-record": "r-c6"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-ds3-r1.bass-ds3",
       "source-object": "bm-sampler",
       "source-record": "gtr-ds3-r1",
       "target-object": "bm-control",
-      "target-record": "ds3"
+      "target-record": "bass-ds3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-ds3-r2.ds3",
+      "id": "bm-sampler.bm-control.gtr-ds3-r1.r-ds3",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-ds3-r1",
+      "target-object": "bm-control",
+      "target-record": "r-ds3"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-ds3-r2.bass-ds3",
       "source-object": "bm-sampler",
       "source-record": "gtr-ds3-r2",
       "target-object": "bm-control",
-      "target-record": "ds3"
+      "target-record": "bass-ds3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-ds3-r3.ds3",
+      "id": "bm-sampler.bm-control.gtr-ds3-r2.r-ds3",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-ds3-r2",
+      "target-object": "bm-control",
+      "target-record": "r-ds3"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-ds3-r3.bass-ds3",
       "source-object": "bm-sampler",
       "source-record": "gtr-ds3-r3",
       "target-object": "bm-control",
-      "target-record": "ds3"
+      "target-record": "bass-ds3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-ds3-r4.ds3",
+      "id": "bm-sampler.bm-control.gtr-ds3-r3.r-ds3",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-ds3-r3",
+      "target-object": "bm-control",
+      "target-record": "r-ds3"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-ds3-r4.bass-ds3",
       "source-object": "bm-sampler",
       "source-record": "gtr-ds3-r4",
       "target-object": "bm-control",
-      "target-record": "ds3"
+      "target-record": "bass-ds3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-ds4-r1.ds4",
+      "id": "bm-sampler.bm-control.gtr-ds3-r4.r-ds3",
       "source-object": "bm-sampler",
-      "source-record": "gtr-ds4-r1",
+      "source-record": "gtr-ds3-r4",
       "target-object": "bm-control",
-      "target-record": "ds4"
+      "target-record": "r-ds3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-ds4-r2.ds4",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-ds4-r2",
-      "target-object": "bm-control",
-      "target-record": "ds4"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-ds4-r3.ds4",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-ds4-r3",
-      "target-object": "bm-control",
-      "target-record": "ds4"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-ds4-r4.ds4",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-ds4-r4",
-      "target-object": "bm-control",
-      "target-record": "ds4"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-ds5-r1.ds5",
+      "id": "bm-sampler.bm-control.gtr-ds5-r1.r-ds5",
       "source-object": "bm-sampler",
       "source-record": "gtr-ds5-r1",
       "target-object": "bm-control",
-      "target-record": "ds5"
+      "target-record": "r-ds5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-ds5-r2.ds5",
+      "id": "bm-sampler.bm-control.gtr-ds5-r2.r-ds5",
       "source-object": "bm-sampler",
       "source-record": "gtr-ds5-r2",
       "target-object": "bm-control",
-      "target-record": "ds5"
+      "target-record": "r-ds5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-ds5-r3.ds5",
+      "id": "bm-sampler.bm-control.gtr-ds5-r3.r-ds5",
       "source-object": "bm-sampler",
       "source-record": "gtr-ds5-r3",
       "target-object": "bm-control",
-      "target-record": "ds5"
+      "target-record": "r-ds5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-ds5-r4.ds5",
+      "id": "bm-sampler.bm-control.gtr-ds5-r4.r-ds5",
       "source-object": "bm-sampler",
       "source-record": "gtr-ds5-r4",
       "target-object": "bm-control",
-      "target-record": "ds5"
+      "target-record": "r-ds5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-f2-r1.f2",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-f2-r1",
-      "target-object": "bm-control",
-      "target-record": "f2"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-f2-r2.f2",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-f2-r2",
-      "target-object": "bm-control",
-      "target-record": "f2"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-f2-r3.f2",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-f2-r3",
-      "target-object": "bm-control",
-      "target-record": "f2"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-f2-r4.f2",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-f2-r4",
-      "target-object": "bm-control",
-      "target-record": "f2"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-f3-r1.f3",
+      "id": "bm-sampler.bm-control.gtr-f3-r1.bass-f3",
       "source-object": "bm-sampler",
       "source-record": "gtr-f3-r1",
       "target-object": "bm-control",
-      "target-record": "f3"
+      "target-record": "bass-f3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-f3-r2.f3",
+      "id": "bm-sampler.bm-control.gtr-f3-r1.r-f3",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-f3-r1",
+      "target-object": "bm-control",
+      "target-record": "r-f3"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-f3-r2.bass-f3",
       "source-object": "bm-sampler",
       "source-record": "gtr-f3-r2",
       "target-object": "bm-control",
-      "target-record": "f3"
+      "target-record": "bass-f3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-f3-r3.f3",
+      "id": "bm-sampler.bm-control.gtr-f3-r2.r-f3",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-f3-r2",
+      "target-object": "bm-control",
+      "target-record": "r-f3"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-f3-r3.bass-f3",
       "source-object": "bm-sampler",
       "source-record": "gtr-f3-r3",
       "target-object": "bm-control",
-      "target-record": "f3"
+      "target-record": "bass-f3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-f3-r4.f3",
+      "id": "bm-sampler.bm-control.gtr-f3-r3.r-f3",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-f3-r3",
+      "target-object": "bm-control",
+      "target-record": "r-f3"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-f3-r4.bass-f3",
       "source-object": "bm-sampler",
       "source-record": "gtr-f3-r4",
       "target-object": "bm-control",
-      "target-record": "f3"
+      "target-record": "bass-f3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-f4-r1.f4",
+      "id": "bm-sampler.bm-control.gtr-f3-r4.r-f3",
       "source-object": "bm-sampler",
-      "source-record": "gtr-f4-r1",
+      "source-record": "gtr-f3-r4",
       "target-object": "bm-control",
-      "target-record": "f4"
+      "target-record": "r-f3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-f4-r2.f4",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-f4-r2",
-      "target-object": "bm-control",
-      "target-record": "f4"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-f4-r3.f4",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-f4-r3",
-      "target-object": "bm-control",
-      "target-record": "f4"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-f4-r4.f4",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-f4-r4",
-      "target-object": "bm-control",
-      "target-record": "f4"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-f5-r1.f5",
+      "id": "bm-sampler.bm-control.gtr-f5-r1.r-f5",
       "source-object": "bm-sampler",
       "source-record": "gtr-f5-r1",
       "target-object": "bm-control",
-      "target-record": "f5"
+      "target-record": "r-f5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-f5-r2.f5",
+      "id": "bm-sampler.bm-control.gtr-f5-r2.r-f5",
       "source-object": "bm-sampler",
       "source-record": "gtr-f5-r2",
       "target-object": "bm-control",
-      "target-record": "f5"
+      "target-record": "r-f5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-f5-r3.f5",
+      "id": "bm-sampler.bm-control.gtr-f5-r3.r-f5",
       "source-object": "bm-sampler",
       "source-record": "gtr-f5-r3",
       "target-object": "bm-control",
-      "target-record": "f5"
+      "target-record": "r-f5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-f5-r4.f5",
+      "id": "bm-sampler.bm-control.gtr-f5-r4.r-f5",
       "source-object": "bm-sampler",
       "source-record": "gtr-f5-r4",
       "target-object": "bm-control",
-      "target-record": "f5"
+      "target-record": "r-f5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-fs3-r1.fs3",
+      "id": "bm-sampler.bm-control.gtr-fs3-r1.r-fs3",
       "source-object": "bm-sampler",
       "source-record": "gtr-fs3-r1",
       "target-object": "bm-control",
-      "target-record": "fs3"
+      "target-record": "r-fs3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-fs3-r2.fs3",
+      "id": "bm-sampler.bm-control.gtr-fs3-r2.r-fs3",
       "source-object": "bm-sampler",
       "source-record": "gtr-fs3-r2",
       "target-object": "bm-control",
-      "target-record": "fs3"
+      "target-record": "r-fs3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-fs3-r3.fs3",
+      "id": "bm-sampler.bm-control.gtr-fs3-r3.r-fs3",
       "source-object": "bm-sampler",
       "source-record": "gtr-fs3-r3",
       "target-object": "bm-control",
-      "target-record": "fs3"
+      "target-record": "r-fs3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-fs3-r4.fs3",
+      "id": "bm-sampler.bm-control.gtr-fs3-r4.r-fs3",
       "source-object": "bm-sampler",
       "source-record": "gtr-fs3-r4",
       "target-object": "bm-control",
-      "target-record": "fs3"
+      "target-record": "r-fs3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-fs4-r1.fs4",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-fs4-r1",
-      "target-object": "bm-control",
-      "target-record": "fs4"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-fs4-r2.fs4",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-fs4-r2",
-      "target-object": "bm-control",
-      "target-record": "fs4"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-fs4-r3.fs4",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-fs4-r3",
-      "target-object": "bm-control",
-      "target-record": "fs4"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-fs4-r4.fs4",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-fs4-r4",
-      "target-object": "bm-control",
-      "target-record": "fs4"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-fs5-r1.fs5",
+      "id": "bm-sampler.bm-control.gtr-fs5-r1.r-fs5",
       "source-object": "bm-sampler",
       "source-record": "gtr-fs5-r1",
       "target-object": "bm-control",
-      "target-record": "fs5"
+      "target-record": "r-fs5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-fs5-r2.fs5",
+      "id": "bm-sampler.bm-control.gtr-fs5-r2.r-fs5",
       "source-object": "bm-sampler",
       "source-record": "gtr-fs5-r2",
       "target-object": "bm-control",
-      "target-record": "fs5"
+      "target-record": "r-fs5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-fs5-r3.fs5",
+      "id": "bm-sampler.bm-control.gtr-fs5-r3.r-fs5",
       "source-object": "bm-sampler",
       "source-record": "gtr-fs5-r3",
       "target-object": "bm-control",
-      "target-record": "fs5"
+      "target-record": "r-fs5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-fs5-r4.fs5",
+      "id": "bm-sampler.bm-control.gtr-fs5-r4.r-fs5",
       "source-object": "bm-sampler",
       "source-record": "gtr-fs5-r4",
       "target-object": "bm-control",
-      "target-record": "fs5"
+      "target-record": "r-fs5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-g2-r1.g2",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-g2-r1",
-      "target-object": "bm-control",
-      "target-record": "g2"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-g2-r2.g2",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-g2-r2",
-      "target-object": "bm-control",
-      "target-record": "g2"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-g2-r3.g2",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-g2-r3",
-      "target-object": "bm-control",
-      "target-record": "g2"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-g2-r4.g2",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-g2-r4",
-      "target-object": "bm-control",
-      "target-record": "g2"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-g3-r1.g3",
+      "id": "bm-sampler.bm-control.gtr-g3-r1.r-g3",
       "source-object": "bm-sampler",
       "source-record": "gtr-g3-r1",
       "target-object": "bm-control",
-      "target-record": "g3"
+      "target-record": "r-g3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-g3-r2.g3",
+      "id": "bm-sampler.bm-control.gtr-g3-r2.r-g3",
       "source-object": "bm-sampler",
       "source-record": "gtr-g3-r2",
       "target-object": "bm-control",
-      "target-record": "g3"
+      "target-record": "r-g3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-g3-r3.g3",
+      "id": "bm-sampler.bm-control.gtr-g3-r3.r-g3",
       "source-object": "bm-sampler",
       "source-record": "gtr-g3-r3",
       "target-object": "bm-control",
-      "target-record": "g3"
+      "target-record": "r-g3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-g3-r4.g3",
+      "id": "bm-sampler.bm-control.gtr-g3-r4.r-g3",
       "source-object": "bm-sampler",
       "source-record": "gtr-g3-r4",
       "target-object": "bm-control",
-      "target-record": "g3"
+      "target-record": "r-g3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-g4-r1.g4",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-g4-r1",
-      "target-object": "bm-control",
-      "target-record": "g4"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-g4-r2.g4",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-g4-r2",
-      "target-object": "bm-control",
-      "target-record": "g4"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-g4-r3.g4",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-g4-r3",
-      "target-object": "bm-control",
-      "target-record": "g4"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-g4-r4.g4",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-g4-r4",
-      "target-object": "bm-control",
-      "target-record": "g4"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-g5-r1.g5",
+      "id": "bm-sampler.bm-control.gtr-g5-r1.r-g5",
       "source-object": "bm-sampler",
       "source-record": "gtr-g5-r1",
       "target-object": "bm-control",
-      "target-record": "g5"
+      "target-record": "r-g5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-g5-r2.g5",
+      "id": "bm-sampler.bm-control.gtr-g5-r2.r-g5",
       "source-object": "bm-sampler",
       "source-record": "gtr-g5-r2",
       "target-object": "bm-control",
-      "target-record": "g5"
+      "target-record": "r-g5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-g5-r3.g5",
+      "id": "bm-sampler.bm-control.gtr-g5-r3.r-g5",
       "source-object": "bm-sampler",
       "source-record": "gtr-g5-r3",
       "target-object": "bm-control",
-      "target-record": "g5"
+      "target-record": "r-g5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-g5-r4.g5",
+      "id": "bm-sampler.bm-control.gtr-g5-r4.r-g5",
       "source-object": "bm-sampler",
       "source-record": "gtr-g5-r4",
       "target-object": "bm-control",
-      "target-record": "g5"
+      "target-record": "r-g5"
     },
     {
       "id": "bm-sampler.bm-control.hat-c-r1.hat-c",
@@ -1066,34 +968,6 @@
       "target-record": "hat-o"
     },
     {
-      "id": "bm-sampler.bm-control.kick-hat-r1.kick-hat",
-      "source-object": "bm-sampler",
-      "source-record": "kick-hat-r1",
-      "target-object": "bm-control",
-      "target-record": "kick-hat"
-    },
-    {
-      "id": "bm-sampler.bm-control.kick-hat-r2.kick-hat",
-      "source-object": "bm-sampler",
-      "source-record": "kick-hat-r2",
-      "target-object": "bm-control",
-      "target-record": "kick-hat"
-    },
-    {
-      "id": "bm-sampler.bm-control.kick-hat-r3.kick-hat",
-      "source-object": "bm-sampler",
-      "source-record": "kick-hat-r3",
-      "target-object": "bm-control",
-      "target-record": "kick-hat"
-    },
-    {
-      "id": "bm-sampler.bm-control.kick-hat-r4.kick-hat",
-      "source-object": "bm-sampler",
-      "source-record": "kick-hat-r4",
-      "target-object": "bm-control",
-      "target-record": "kick-hat"
-    },
-    {
       "id": "bm-sampler.bm-control.kick-r1.kick",
       "source-object": "bm-sampler",
       "source-record": "kick-r1",
@@ -1150,6 +1024,34 @@
       "target-record": "ride-h"
     },
     {
+      "id": "bm-sampler.bm-control.ride-p-r1.ride-p",
+      "source-object": "bm-sampler",
+      "source-record": "ride-p-r1",
+      "target-object": "bm-control",
+      "target-record": "ride-p"
+    },
+    {
+      "id": "bm-sampler.bm-control.ride-p-r2.ride-p",
+      "source-object": "bm-sampler",
+      "source-record": "ride-p-r2",
+      "target-object": "bm-control",
+      "target-record": "ride-p"
+    },
+    {
+      "id": "bm-sampler.bm-control.ride-p-r3.ride-p",
+      "source-object": "bm-sampler",
+      "source-record": "ride-p-r3",
+      "target-object": "bm-control",
+      "target-record": "ride-p"
+    },
+    {
+      "id": "bm-sampler.bm-control.ride-p-r4.ride-p",
+      "source-object": "bm-sampler",
+      "source-record": "ride-p-r4",
+      "target-object": "bm-control",
+      "target-record": "ride-p"
+    },
+    {
       "id": "bm-sampler.bm-control.snare-h-r1.snare-h",
       "source-object": "bm-sampler",
       "source-record": "snare-h-r1",
@@ -1176,34 +1078,6 @@
       "source-record": "snare-h-r4",
       "target-object": "bm-control",
       "target-record": "snare-h"
-    },
-    {
-      "id": "bm-sampler.bm-control.snare-hat-r1.snare-hat",
-      "source-object": "bm-sampler",
-      "source-record": "snare-hat-r1",
-      "target-object": "bm-control",
-      "target-record": "snare-hat"
-    },
-    {
-      "id": "bm-sampler.bm-control.snare-hat-r2.snare-hat",
-      "source-object": "bm-sampler",
-      "source-record": "snare-hat-r2",
-      "target-object": "bm-control",
-      "target-record": "snare-hat"
-    },
-    {
-      "id": "bm-sampler.bm-control.snare-hat-r3.snare-hat",
-      "source-object": "bm-sampler",
-      "source-record": "snare-hat-r3",
-      "target-object": "bm-control",
-      "target-record": "snare-hat"
-    },
-    {
-      "id": "bm-sampler.bm-control.snare-hat-r4.snare-hat",
-      "source-object": "bm-sampler",
-      "source-record": "snare-hat-r4",
-      "target-object": "bm-control",
-      "target-record": "snare-hat"
     },
     {
       "id": "bm-sampler.bm-control.snare-p-r1.snare-p",
@@ -1312,29 +1186,29 @@
       "file": "audio/gtr-as3-r4.mp3",
       "volume": 8.9
     },
-    "gtr-as4-r1": {
-      "id": "gtr-as4-r1",
-      "name": "a#4 1",
-      "file": "audio/gtr-as4-r1.mp3",
-      "volume": 7.5
+    "gtr-as5-r1": {
+      "id": "gtr-as5-r1",
+      "name": "a#5 1",
+      "file": "audio/gtr-as5-r1.mp3",
+      "volume": 5.4
     },
-    "gtr-as4-r2": {
-      "id": "gtr-as4-r2",
-      "name": "a#4 2",
-      "file": "audio/gtr-as4-r2.mp3",
-      "volume": 7.5
+    "gtr-as5-r2": {
+      "id": "gtr-as5-r2",
+      "name": "a#5 2",
+      "file": "audio/gtr-as5-r2.mp3",
+      "volume": 5.4
     },
-    "gtr-as4-r3": {
-      "id": "gtr-as4-r3",
-      "name": "a#4 3",
-      "file": "audio/gtr-as4-r3.mp3",
-      "volume": 7.5
+    "gtr-as5-r3": {
+      "id": "gtr-as5-r3",
+      "name": "a#5 3",
+      "file": "audio/gtr-as5-r3.mp3",
+      "volume": 5.4
     },
-    "gtr-as4-r4": {
-      "id": "gtr-as4-r4",
-      "name": "a#4 4",
-      "file": "audio/gtr-as4-r4.mp3",
-      "volume": 7.5
+    "gtr-as5-r4": {
+      "id": "gtr-as5-r4",
+      "name": "a#5 4",
+      "file": "audio/gtr-as5-r4.mp3",
+      "volume": 5.4
     },
     "gtr-c3-r1": {
       "id": "gtr-c3-r1",
@@ -1408,6 +1282,30 @@
       "file": "audio/gtr-c5-r4.mp3",
       "volume": 5.3
     },
+    "gtr-c6-r1": {
+      "id": "gtr-c6-r1",
+      "name": "c6 1",
+      "file": "audio/gtr-c6-r1.mp3",
+      "volume": 9.2
+    },
+    "gtr-c6-r2": {
+      "id": "gtr-c6-r2",
+      "name": "c6 2",
+      "file": "audio/gtr-c6-r2.mp3",
+      "volume": 9.2
+    },
+    "gtr-c6-r3": {
+      "id": "gtr-c6-r3",
+      "name": "c6 3",
+      "file": "audio/gtr-c6-r3.mp3",
+      "volume": 9.2
+    },
+    "gtr-c6-r4": {
+      "id": "gtr-c6-r4",
+      "name": "c6 4",
+      "file": "audio/gtr-c6-r4.mp3",
+      "volume": 9.2
+    },
     "gtr-ds3-r1": {
       "id": "gtr-ds3-r1",
       "name": "d#3 1",
@@ -1431,30 +1329,6 @@
       "name": "d#3 4",
       "file": "audio/gtr-ds3-r4.mp3",
       "volume": 0.9
-    },
-    "gtr-ds4-r1": {
-      "id": "gtr-ds4-r1",
-      "name": "d#4 1",
-      "file": "audio/gtr-ds4-r1.mp3",
-      "volume": 4.3
-    },
-    "gtr-ds4-r2": {
-      "id": "gtr-ds4-r2",
-      "name": "d#4 2",
-      "file": "audio/gtr-ds4-r2.mp3",
-      "volume": 4.3
-    },
-    "gtr-ds4-r3": {
-      "id": "gtr-ds4-r3",
-      "name": "d#4 3",
-      "file": "audio/gtr-ds4-r3.mp3",
-      "volume": 4.3
-    },
-    "gtr-ds4-r4": {
-      "id": "gtr-ds4-r4",
-      "name": "d#4 4",
-      "file": "audio/gtr-ds4-r4.mp3",
-      "volume": 4.3
     },
     "gtr-ds5-r1": {
       "id": "gtr-ds5-r1",
@@ -1480,30 +1354,6 @@
       "file": "audio/gtr-ds5-r4.mp3",
       "volume": 7.5
     },
-    "gtr-f2-r1": {
-      "id": "gtr-f2-r1",
-      "name": "f2 1",
-      "file": "audio/gtr-f2-r1.mp3",
-      "volume": -2.5
-    },
-    "gtr-f2-r2": {
-      "id": "gtr-f2-r2",
-      "name": "f2 2",
-      "file": "audio/gtr-f2-r2.mp3",
-      "volume": -2.5
-    },
-    "gtr-f2-r3": {
-      "id": "gtr-f2-r3",
-      "name": "f2 3",
-      "file": "audio/gtr-f2-r3.mp3",
-      "volume": -2.5
-    },
-    "gtr-f2-r4": {
-      "id": "gtr-f2-r4",
-      "name": "f2 4",
-      "file": "audio/gtr-f2-r4.mp3",
-      "volume": -2.5
-    },
     "gtr-f3-r1": {
       "id": "gtr-f3-r1",
       "name": "f3 1",
@@ -1527,30 +1377,6 @@
       "name": "f3 4",
       "file": "audio/gtr-f3-r4.mp3",
       "volume": -4
-    },
-    "gtr-f4-r1": {
-      "id": "gtr-f4-r1",
-      "name": "f4 1",
-      "file": "audio/gtr-f4-r1.mp3",
-      "volume": 2.4
-    },
-    "gtr-f4-r2": {
-      "id": "gtr-f4-r2",
-      "name": "f4 2",
-      "file": "audio/gtr-f4-r2.mp3",
-      "volume": 2.4
-    },
-    "gtr-f4-r3": {
-      "id": "gtr-f4-r3",
-      "name": "f4 3",
-      "file": "audio/gtr-f4-r3.mp3",
-      "volume": 2.4
-    },
-    "gtr-f4-r4": {
-      "id": "gtr-f4-r4",
-      "name": "f4 4",
-      "file": "audio/gtr-f4-r4.mp3",
-      "volume": 2.4
     },
     "gtr-f5-r1": {
       "id": "gtr-f5-r1",
@@ -1600,30 +1426,6 @@
       "file": "audio/gtr-fs3-r4.mp3",
       "volume": -1.9
     },
-    "gtr-fs4-r1": {
-      "id": "gtr-fs4-r1",
-      "name": "f#4 1",
-      "file": "audio/gtr-fs4-r1.mp3",
-      "volume": 6.6
-    },
-    "gtr-fs4-r2": {
-      "id": "gtr-fs4-r2",
-      "name": "f#4 2",
-      "file": "audio/gtr-fs4-r2.mp3",
-      "volume": 6.6
-    },
-    "gtr-fs4-r3": {
-      "id": "gtr-fs4-r3",
-      "name": "f#4 3",
-      "file": "audio/gtr-fs4-r3.mp3",
-      "volume": 6.6
-    },
-    "gtr-fs4-r4": {
-      "id": "gtr-fs4-r4",
-      "name": "f#4 4",
-      "file": "audio/gtr-fs4-r4.mp3",
-      "volume": 6.6
-    },
     "gtr-fs5-r1": {
       "id": "gtr-fs5-r1",
       "name": "f#5 1",
@@ -1648,30 +1450,6 @@
       "file": "audio/gtr-fs5-r4.mp3",
       "volume": 11.5
     },
-    "gtr-g2-r1": {
-      "id": "gtr-g2-r1",
-      "name": "g2 1",
-      "file": "audio/gtr-g2-r1.mp3",
-      "volume": -5.9
-    },
-    "gtr-g2-r2": {
-      "id": "gtr-g2-r2",
-      "name": "g2 2",
-      "file": "audio/gtr-g2-r2.mp3",
-      "volume": -5.9
-    },
-    "gtr-g2-r3": {
-      "id": "gtr-g2-r3",
-      "name": "g2 3",
-      "file": "audio/gtr-g2-r3.mp3",
-      "volume": -5.9
-    },
-    "gtr-g2-r4": {
-      "id": "gtr-g2-r4",
-      "name": "g2 4",
-      "file": "audio/gtr-g2-r4.mp3",
-      "volume": -5.9
-    },
     "gtr-g3-r1": {
       "id": "gtr-g3-r1",
       "name": "g3 1",
@@ -1695,30 +1473,6 @@
       "name": "g3 4",
       "file": "audio/gtr-g3-r4.mp3",
       "volume": -1.6
-    },
-    "gtr-g4-r1": {
-      "id": "gtr-g4-r1",
-      "name": "g4 1",
-      "file": "audio/gtr-g4-r1.mp3",
-      "volume": 9.2
-    },
-    "gtr-g4-r2": {
-      "id": "gtr-g4-r2",
-      "name": "g4 2",
-      "file": "audio/gtr-g4-r2.mp3",
-      "volume": 9.2
-    },
-    "gtr-g4-r3": {
-      "id": "gtr-g4-r3",
-      "name": "g4 3",
-      "file": "audio/gtr-g4-r3.mp3",
-      "volume": 9.2
-    },
-    "gtr-g4-r4": {
-      "id": "gtr-g4-r4",
-      "name": "g4 4",
-      "file": "audio/gtr-g4-r4.mp3",
-      "volume": 9.2
     },
     "gtr-g5-r1": {
       "id": "gtr-g5-r1",
@@ -1792,30 +1546,6 @@
       "file": "audio/hat-o-r4.mp3",
       "volume": 1.5
     },
-    "kick-hat-r1": {
-      "id": "kick-hat-r1",
-      "name": "k+h 1",
-      "file": "audio/kick-hat-r1.mp3",
-      "volume": 1.5
-    },
-    "kick-hat-r2": {
-      "id": "kick-hat-r2",
-      "name": "k+h 2",
-      "file": "audio/kick-hat-r2.mp3",
-      "volume": 1.5
-    },
-    "kick-hat-r3": {
-      "id": "kick-hat-r3",
-      "name": "k+h 3",
-      "file": "audio/kick-hat-r3.mp3",
-      "volume": 1.5
-    },
-    "kick-hat-r4": {
-      "id": "kick-hat-r4",
-      "name": "k+h 4",
-      "file": "audio/kick-hat-r4.mp3",
-      "volume": 1.5
-    },
     "kick-r1": {
       "id": "kick-r1",
       "name": "kick 1",
@@ -1864,6 +1594,30 @@
       "file": "audio/ride-h-r4.mp3",
       "volume": 1.5
     },
+    "ride-p-r1": {
+      "id": "ride-p-r1",
+      "name": "ride-p 1",
+      "file": "audio/ride-p-r1.mp3",
+      "volume": 1.5
+    },
+    "ride-p-r2": {
+      "id": "ride-p-r2",
+      "name": "ride-p 2",
+      "file": "audio/ride-p-r2.mp3",
+      "volume": 1.5
+    },
+    "ride-p-r3": {
+      "id": "ride-p-r3",
+      "name": "ride-p 3",
+      "file": "audio/ride-p-r3.mp3",
+      "volume": 1.5
+    },
+    "ride-p-r4": {
+      "id": "ride-p-r4",
+      "name": "ride-p 4",
+      "file": "audio/ride-p-r4.mp3",
+      "volume": 1.5
+    },
     "snare-h-r1": {
       "id": "snare-h-r1",
       "name": "snare-h 1",
@@ -1886,30 +1640,6 @@
       "id": "snare-h-r4",
       "name": "snare-h 4",
       "file": "audio/snare-h-r4.mp3",
-      "volume": 1.5
-    },
-    "snare-hat-r1": {
-      "id": "snare-hat-r1",
-      "name": "s+h 1",
-      "file": "audio/snare-hat-r1.mp3",
-      "volume": 1.5
-    },
-    "snare-hat-r2": {
-      "id": "snare-hat-r2",
-      "name": "s+h 2",
-      "file": "audio/snare-hat-r2.mp3",
-      "volume": 1.5
-    },
-    "snare-hat-r3": {
-      "id": "snare-hat-r3",
-      "name": "s+h 3",
-      "file": "audio/snare-hat-r3.mp3",
-      "volume": 1.5
-    },
-    "snare-hat-r4": {
-      "id": "snare-hat-r4",
-      "name": "s+h 4",
-      "file": "audio/snare-hat-r4.mp3",
       "volume": 1.5
     },
     "snare-p-r1": {
