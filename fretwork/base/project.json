@@ -1,0 +1,891 @@
+{
+  "id": "fretwork/base",
+  "name": "Fretwork: Base",
+  "project": {
+    "description": "Six chromatic ladders of down-tuned chords over six drum sequences",
+    "dimensions": {
+      "width": 960,
+      "height": 540
+    },
+    "quantisation": 4,
+    "tempo": 100
+  },
+  "scene": {
+    "style": {
+      "backgroundColor": "#1b2b34"
+    }
+  },
+  "controls": [
+    {
+      "id": "d1",
+      "name": "Drone - High (2)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 374,
+      "position-y": 86,
+      "width": 62,
+      "height": 62,
+      "color": "#9498fa",
+      "radius": 4,
+      "group": "drone",
+      "options": ""
+    },
+    {
+      "id": "d2",
+      "name": "Drone - High",
+      "scene": "base",
+      "type": "button",
+      "position-x": 461,
+      "position-y": 58,
+      "width": 62,
+      "height": 62,
+      "color": "#9498fa",
+      "radius": 4,
+      "group": "drone",
+      "options": ""
+    },
+    {
+      "id": "g1",
+      "name": "Sixth 4 (muted)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 29,
+      "position-y": 86,
+      "width": 62,
+      "height": 62,
+      "color": "#d88e00",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g10",
+      "name": "Sixth 0 (open)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 115,
+      "position-y": 403,
+      "width": 62,
+      "height": 62,
+      "color": "#ffa700",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g11",
+      "name": "Fifth 9 (open)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 201,
+      "position-y": 86,
+      "width": 62,
+      "height": 62,
+      "color": "#88b75f",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g12",
+      "name": "Fifth 8 (open)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 201,
+      "position-y": 173,
+      "width": 62,
+      "height": 62,
+      "color": "#88b75f",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g13",
+      "name": "Fifth 7 (open)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 201,
+      "position-y": 259,
+      "width": 62,
+      "height": 62,
+      "color": "#88b75f",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g14",
+      "name": "Fifth 6 (open)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 201,
+      "position-y": 346,
+      "width": 62,
+      "height": 62,
+      "color": "#88b75f",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g15",
+      "name": "Fifth 5 (open)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 201,
+      "position-y": 432,
+      "width": 62,
+      "height": 62,
+      "color": "#88b75f",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g16",
+      "name": "Scratch",
+      "scene": "base",
+      "type": "button",
+      "position-x": 288,
+      "position-y": 58,
+      "width": 62,
+      "height": 62,
+      "color": "#e41b56",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g17",
+      "name": "Third 10 (open)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 288,
+      "position-y": 144,
+      "width": 62,
+      "height": 62,
+      "color": "#3dd0c8",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g18",
+      "name": "Third 9 (open)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 288,
+      "position-y": 230,
+      "width": 62,
+      "height": 62,
+      "color": "#3dd0c8",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g19",
+      "name": "Third 8 (open)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 288,
+      "position-y": 317,
+      "width": 62,
+      "height": 62,
+      "color": "#3dd0c8",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g2",
+      "name": "Sixth 3 (muted)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 29,
+      "position-y": 173,
+      "width": 62,
+      "height": 62,
+      "color": "#d88e00",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g20",
+      "name": "Third 7 (open)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 288,
+      "position-y": 403,
+      "width": 62,
+      "height": 62,
+      "color": "#3dd0c8",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g21",
+      "name": "Dissonance (10)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 374,
+      "position-y": 173,
+      "width": 62,
+      "height": 148,
+      "color": "#ced130",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g22",
+      "name": "Third 7 (bend)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 374,
+      "position-y": 346,
+      "width": 62,
+      "height": 148,
+      "color": "#3ab1aa",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g23",
+      "name": "Dissonance (16)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 461,
+      "position-y": 144,
+      "width": 62,
+      "height": 148,
+      "color": "#ced130",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g24",
+      "name": "Third 8 (bend)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 461,
+      "position-y": 317,
+      "width": 62,
+      "height": 148,
+      "color": "#3ab1aa",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g3",
+      "name": "Sixth 2 (muted)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 29,
+      "position-y": 259,
+      "width": 62,
+      "height": 62,
+      "color": "#d88e00",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g4",
+      "name": "Sixth 1 (muted)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 29,
+      "position-y": 346,
+      "width": 62,
+      "height": 62,
+      "color": "#d88e00",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g5",
+      "name": "Sixth 0 (muted)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 29,
+      "position-y": 432,
+      "width": 62,
+      "height": 62,
+      "color": "#d88e00",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g6",
+      "name": "Sixth 4 (open)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 115,
+      "position-y": 58,
+      "width": 62,
+      "height": 62,
+      "color": "#ffa700",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g7",
+      "name": "Sixth 3 (open)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 115,
+      "position-y": 144,
+      "width": 62,
+      "height": 62,
+      "color": "#ffa700",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g8",
+      "name": "Sixth 2 (open)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 115,
+      "position-y": 230,
+      "width": 62,
+      "height": 62,
+      "color": "#ffa700",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "g9",
+      "name": "Sixth 1 (open)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 115,
+      "position-y": 317,
+      "width": 62,
+      "height": 62,
+      "color": "#ffa700",
+      "radius": 4,
+      "group": "guitar",
+      "options": ""
+    },
+    {
+      "id": "s1",
+      "name": "Sequence 1",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 806,
+      "position-y": 58,
+      "width": 119,
+      "height": 119,
+      "color": "#ffa700",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "s2",
+      "name": "Sequence 2",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 806,
+      "position-y": 202,
+      "width": 119,
+      "height": 119,
+      "color": "#ffa700",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "s3",
+      "name": "Sequence 3",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 806,
+      "position-y": 346,
+      "width": 119,
+      "height": 119,
+      "color": "#ffa700",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "s4",
+      "name": "Sequence 4",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 662,
+      "position-y": 86,
+      "width": 119,
+      "height": 119,
+      "color": "#d88e00",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "s5",
+      "name": "Sequence 5",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 662,
+      "position-y": 230,
+      "width": 119,
+      "height": 119,
+      "color": "#d88e00",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "s6",
+      "name": "Sequence 6",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 662,
+      "position-y": 374,
+      "width": 119,
+      "height": 119,
+      "color": "#d88e00",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    }
+  ],
+  "assignments": [
+    {
+      "id": "bm-pattern.bm-control.p1.s1",
+      "source-object": "bm-pattern",
+      "source-record": "p1",
+      "target-object": "bm-control",
+      "target-record": "s1"
+    },
+    {
+      "id": "bm-pattern.bm-control.p2.s2",
+      "source-object": "bm-pattern",
+      "source-record": "p2",
+      "target-object": "bm-control",
+      "target-record": "s2"
+    },
+    {
+      "id": "bm-pattern.bm-control.p3.s3",
+      "source-object": "bm-pattern",
+      "source-record": "p3",
+      "target-object": "bm-control",
+      "target-record": "s3"
+    },
+    {
+      "id": "bm-pattern.bm-control.p4.s4",
+      "source-object": "bm-pattern",
+      "source-record": "p4",
+      "target-object": "bm-control",
+      "target-record": "s4"
+    },
+    {
+      "id": "bm-pattern.bm-control.p5.s5",
+      "source-object": "bm-pattern",
+      "source-record": "p5",
+      "target-object": "bm-control",
+      "target-record": "s5"
+    },
+    {
+      "id": "bm-pattern.bm-control.p6.s6",
+      "source-object": "bm-pattern",
+      "source-record": "p6",
+      "target-object": "bm-control",
+      "target-record": "s6"
+    },
+    {
+      "id": "bm-sampler.bm-control.drone-high-2.d1",
+      "source-object": "bm-sampler",
+      "source-record": "drone-high-2",
+      "target-object": "bm-control",
+      "target-record": "d1"
+    },
+    {
+      "id": "bm-sampler.bm-control.drone-high.d2",
+      "source-object": "bm-sampler",
+      "source-record": "drone-high",
+      "target-object": "bm-control",
+      "target-record": "d2"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-dissonance-10.g21",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-dissonance-10",
+      "target-object": "bm-control",
+      "target-record": "g21"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-dissonance-16.g23",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-dissonance-16",
+      "target-object": "bm-control",
+      "target-record": "g23"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-fifth-5-open.g15",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-fifth-5-open",
+      "target-object": "bm-control",
+      "target-record": "g15"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-fifth-6-open.g14",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-fifth-6-open",
+      "target-object": "bm-control",
+      "target-record": "g14"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-fifth-7-open.g13",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-fifth-7-open",
+      "target-object": "bm-control",
+      "target-record": "g13"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-fifth-8-open.g12",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-fifth-8-open",
+      "target-object": "bm-control",
+      "target-record": "g12"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-fifth-9-open.g11",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-fifth-9-open",
+      "target-object": "bm-control",
+      "target-record": "g11"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-scratch.g16",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-scratch",
+      "target-object": "bm-control",
+      "target-record": "g16"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-sixth-0-muted.g5",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-sixth-0-muted",
+      "target-object": "bm-control",
+      "target-record": "g5"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-sixth-0-open.g10",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-sixth-0-open",
+      "target-object": "bm-control",
+      "target-record": "g10"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-sixth-1-muted.g4",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-sixth-1-muted",
+      "target-object": "bm-control",
+      "target-record": "g4"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-sixth-1-open.g9",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-sixth-1-open",
+      "target-object": "bm-control",
+      "target-record": "g9"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-sixth-2-muted.g3",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-sixth-2-muted",
+      "target-object": "bm-control",
+      "target-record": "g3"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-sixth-2-open.g8",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-sixth-2-open",
+      "target-object": "bm-control",
+      "target-record": "g8"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-sixth-3-muted.g2",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-sixth-3-muted",
+      "target-object": "bm-control",
+      "target-record": "g2"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-sixth-3-open.g7",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-sixth-3-open",
+      "target-object": "bm-control",
+      "target-record": "g7"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-sixth-4-muted.g1",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-sixth-4-muted",
+      "target-object": "bm-control",
+      "target-record": "g1"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-sixth-4-open.g6",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-sixth-4-open",
+      "target-object": "bm-control",
+      "target-record": "g6"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-third-10-open.g17",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-third-10-open",
+      "target-object": "bm-control",
+      "target-record": "g17"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-third-7-bend.g22",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-third-7-bend",
+      "target-object": "bm-control",
+      "target-record": "g22"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-third-7-open.g20",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-third-7-open",
+      "target-object": "bm-control",
+      "target-record": "g20"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-third-8-bend.g24",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-third-8-bend",
+      "target-object": "bm-control",
+      "target-record": "g24"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-third-8-open.g19",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-third-8-open",
+      "target-object": "bm-control",
+      "target-record": "g19"
+    },
+    {
+      "id": "bm-sampler.bm-control.guitar-third-9-open.g18",
+      "source-object": "bm-sampler",
+      "source-record": "guitar-third-9-open",
+      "target-object": "bm-control",
+      "target-record": "g18"
+    }
+  ],
+  "patterns": {
+    "p1": {
+      "id": "p1",
+      "name": "P1",
+      "file": "midi/p1.mid"
+    },
+    "p2": {
+      "id": "p2",
+      "name": "P2",
+      "file": "midi/p2.mid"
+    },
+    "p3": {
+      "id": "p3",
+      "name": "P3",
+      "file": "midi/p3.mid"
+    },
+    "p4": {
+      "id": "p4",
+      "name": "P4",
+      "file": "midi/p4.mid"
+    },
+    "p5": {
+      "id": "p5",
+      "name": "P5",
+      "file": "midi/p5.mid"
+    },
+    "p6": {
+      "id": "p6",
+      "name": "P6",
+      "file": "midi/p6.mid"
+    }
+  },
+  "samplers": {
+    "drum-kick": {
+      "id": "drum-kick",
+      "name": "Drum - Kick",
+      "file": "audio/drum-kick.wav"
+    },
+    "drum-snare": {
+      "id": "drum-snare",
+      "name": "Drum - Snare",
+      "file": "audio/drum-snare.wav"
+    },
+    "drum-china-left": {
+      "id": "drum-china-left",
+      "name": "Drum - China (left)",
+      "file": "audio/drum-china-left.wav"
+    },
+    "drum-crash-right": {
+      "id": "drum-crash-right",
+      "name": "Drum - Crash (right)",
+      "file": "audio/drum-crash-right.wav"
+    },
+    "drum-hihat-open": {
+      "id": "drum-hihat-open",
+      "name": "Drum - Hi-hat (open)",
+      "file": "audio/drum-hihat-open.wav"
+    },
+    "drone-high-2": {
+      "id": "drone-high-2",
+      "name": "Drone - High (2)",
+      "file": "audio/drone-high-2.mp3"
+    },
+    "drone-high": {
+      "id": "drone-high",
+      "name": "Drone - High",
+      "file": "audio/drone-high.mp3"
+    },
+    "guitar-dissonance-10": {
+      "id": "guitar-dissonance-10",
+      "name": "Guitar - Dissonance (10)",
+      "file": "audio/guitar-dissonance-10.mp3"
+    },
+    "guitar-dissonance-16": {
+      "id": "guitar-dissonance-16",
+      "name": "Guitar - Dissonance (16)",
+      "file": "audio/guitar-dissonance-16.mp3"
+    },
+    "guitar-fifth-5-open": {
+      "id": "guitar-fifth-5-open",
+      "name": "Guitar - Fifth 5 (open)",
+      "file": "audio/guitar-fifth-5-open.mp3"
+    },
+    "guitar-fifth-6-open": {
+      "id": "guitar-fifth-6-open",
+      "name": "Guitar - Fifth 6 (open)",
+      "file": "audio/guitar-fifth-6-open.mp3"
+    },
+    "guitar-fifth-7-open": {
+      "id": "guitar-fifth-7-open",
+      "name": "Guitar - Fifth 7 (open)",
+      "file": "audio/guitar-fifth-7-open.mp3"
+    },
+    "guitar-fifth-8-open": {
+      "id": "guitar-fifth-8-open",
+      "name": "Guitar - Fifth 8 (open)",
+      "file": "audio/guitar-fifth-8-open.mp3"
+    },
+    "guitar-fifth-9-open": {
+      "id": "guitar-fifth-9-open",
+      "name": "Guitar - Fifth 9 (open)",
+      "file": "audio/guitar-fifth-9-open.mp3"
+    },
+    "guitar-scratch": {
+      "id": "guitar-scratch",
+      "name": "Guitar - Scratch",
+      "file": "audio/guitar-scratch.mp3"
+    },
+    "guitar-sixth-0-muted": {
+      "id": "guitar-sixth-0-muted",
+      "name": "Guitar - Sixth 0 (muted)",
+      "file": "audio/guitar-sixth-0-muted.mp3"
+    },
+    "guitar-sixth-0-open": {
+      "id": "guitar-sixth-0-open",
+      "name": "Guitar - Sixth 0 (open)",
+      "file": "audio/guitar-sixth-0-open.mp3"
+    },
+    "guitar-sixth-1-muted": {
+      "id": "guitar-sixth-1-muted",
+      "name": "Guitar - Sixth 1 (muted)",
+      "file": "audio/guitar-sixth-1-muted.mp3"
+    },
+    "guitar-sixth-1-open": {
+      "id": "guitar-sixth-1-open",
+      "name": "Guitar - Sixth 1 (open)",
+      "file": "audio/guitar-sixth-1-open.mp3"
+    },
+    "guitar-sixth-2-muted": {
+      "id": "guitar-sixth-2-muted",
+      "name": "Guitar - Sixth 2 (muted)",
+      "file": "audio/guitar-sixth-2-muted.mp3"
+    },
+    "guitar-sixth-2-open": {
+      "id": "guitar-sixth-2-open",
+      "name": "Guitar - Sixth 2 (open)",
+      "file": "audio/guitar-sixth-2-open.mp3"
+    },
+    "guitar-sixth-3-muted": {
+      "id": "guitar-sixth-3-muted",
+      "name": "Guitar - Sixth 3 (muted)",
+      "file": "audio/guitar-sixth-3-muted.mp3"
+    },
+    "guitar-sixth-3-open": {
+      "id": "guitar-sixth-3-open",
+      "name": "Guitar - Sixth 3 (open)",
+      "file": "audio/guitar-sixth-3-open.mp3"
+    },
+    "guitar-sixth-4-muted": {
+      "id": "guitar-sixth-4-muted",
+      "name": "Guitar - Sixth 4 (muted)",
+      "file": "audio/guitar-sixth-4-muted.mp3"
+    },
+    "guitar-sixth-4-open": {
+      "id": "guitar-sixth-4-open",
+      "name": "Guitar - Sixth 4 (open)",
+      "file": "audio/guitar-sixth-4-open.mp3"
+    },
+    "guitar-third-10-open": {
+      "id": "guitar-third-10-open",
+      "name": "Guitar - Third 10 (open)",
+      "file": "audio/guitar-third-10-open.mp3"
+    },
+    "guitar-third-7-bend": {
+      "id": "guitar-third-7-bend",
+      "name": "Guitar - Third 7 (bend)",
+      "file": "audio/guitar-third-7-bend.mp3"
+    },
+    "guitar-third-7-open": {
+      "id": "guitar-third-7-open",
+      "name": "Guitar - Third 7 (open)",
+      "file": "audio/guitar-third-7-open.mp3"
+    },
+    "guitar-third-8-bend": {
+      "id": "guitar-third-8-bend",
+      "name": "Guitar - Third 8 (bend)",
+      "file": "audio/guitar-third-8-bend.mp3"
+    },
+    "guitar-third-8-open": {
+      "id": "guitar-third-8-open",
+      "name": "Guitar - Third 8 (open)",
+      "file": "audio/guitar-third-8-open.mp3"
+    },
+    "guitar-third-9-open": {
+      "id": "guitar-third-9-open",
+      "name": "Guitar - Third 9 (open)",
+      "file": "audio/guitar-third-9-open.mp3"
+    }
+  },
+  "channels": {
+    "master": {
+      "id": "master",
+      "name": "Master",
+      "volume": 0
+    }
+  },
+  "effects": {}
+}

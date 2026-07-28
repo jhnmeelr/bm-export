@@ -31,52 +31,52 @@
       "scene": "base",
       "type": "cluster",
       "position-x": 35,
-      "position-y": 176,
-      "width": 70,
-      "height": 97,
-      "color": "#b8907f",
-      "radius": 4,
-      "poly": true,
-      "options": ""
-    },
-    {
-      "id": "bass-c3",
-      "name": "c3",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 270,
       "position-y": 280,
       "width": 70,
       "height": 97,
-      "color": "#b8907f",
+      "color": "#e7866e",
       "radius": 4,
       "poly": true,
       "options": ""
     },
     {
-      "id": "bass-ds3",
-      "name": "d#3",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 270,
-      "position-y": 176,
-      "width": 70,
-      "height": 97,
-      "color": "#b8907f",
-      "radius": 4,
-      "poly": true,
-      "options": ""
-    },
-    {
-      "id": "bass-f3",
-      "name": "f3",
+      "id": "bass-f2",
+      "name": "f2",
       "scene": "base",
       "type": "cluster",
       "position-x": 35,
+      "position-y": 175,
+      "width": 70,
+      "height": 97,
+      "color": "#e7866e",
+      "radius": 4,
+      "poly": true,
+      "options": ""
+    },
+    {
+      "id": "bass-fs2",
+      "name": "f#2",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 269,
       "position-y": 280,
       "width": 70,
       "height": 97,
-      "color": "#b8907f",
+      "color": "#e7866e",
+      "radius": 4,
+      "poly": true,
+      "options": ""
+    },
+    {
+      "id": "bass-g2",
+      "name": "g2",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 269,
+      "position-y": 175,
+      "width": 70,
+      "height": 97,
+      "color": "#e7866e",
       "radius": 4,
       "poly": true,
       "options": ""
@@ -90,7 +90,7 @@
       "position-y": 230,
       "width": 91,
       "height": 91,
-      "color": "#ffa700",
+      "color": "#c3a03acc",
       "radius": 4,
       "group": "hat",
       "options": ""
@@ -104,7 +104,7 @@
       "position-y": 86,
       "width": 91,
       "height": 91,
-      "color": "#ffa700",
+      "color": "#c3a03a",
       "radius": 4,
       "group": "hat",
       "options": ""
@@ -118,7 +118,7 @@
       "position-y": 202,
       "width": 148,
       "height": 148,
-      "color": "#67b3be",
+      "color": "#64aaf0",
       "radius": 4,
       "group": "kick",
       "options": ""
@@ -132,7 +132,7 @@
       "position-y": 71,
       "width": 70,
       "height": 70,
-      "color": "#85b8bb",
+      "color": "#00bbc3",
       "radius": 4,
       "poly": true,
       "options": ""
@@ -142,11 +142,11 @@
       "name": "a#5",
       "scene": "base",
       "type": "cluster",
-      "position-x": 192,
+      "position-x": 191,
       "position-y": 410,
       "width": 70,
       "height": 70,
-      "color": "#85b8bb",
+      "color": "#00bbc3",
       "radius": 4,
       "poly": true,
       "options": ""
@@ -157,10 +157,10 @@
       "scene": "base",
       "type": "cluster",
       "position-x": 35,
-      "position-y": 384,
+      "position-y": 385,
       "width": 70,
       "height": 70,
-      "color": "#85b8bb",
+      "color": "#00bbc3",
       "radius": 4,
       "poly": true,
       "options": ""
@@ -174,7 +174,7 @@
       "position-y": 97,
       "width": 70,
       "height": 70,
-      "color": "#85b8bb",
+      "color": "#00bbc3",
       "radius": 4,
       "poly": true,
       "options": ""
@@ -184,11 +184,11 @@
       "name": "c5",
       "scene": "base",
       "type": "cluster",
-      "position-x": 270,
+      "position-x": 269,
       "position-y": 97,
       "width": 70,
       "height": 70,
-      "color": "#85b8bb",
+      "color": "#00bbc3",
       "radius": 4,
       "poly": true,
       "options": ""
@@ -198,11 +198,11 @@
       "name": "c6",
       "scene": "base",
       "type": "cluster",
-      "position-x": 270,
-      "position-y": 384,
+      "position-x": 269,
+      "position-y": 385,
       "width": 70,
       "height": 70,
-      "color": "#85b8bb",
+      "color": "#00bbc3",
       "radius": 4,
       "poly": true,
       "options": ""
@@ -216,7 +216,7 @@
       "position-y": 410,
       "width": 70,
       "height": 70,
-      "color": "#85b8bb",
+      "color": "#00bbc3",
       "radius": 4,
       "poly": true,
       "options": ""
@@ -226,11 +226,11 @@
       "name": "d#5",
       "scene": "base",
       "type": "cluster",
-      "position-x": 192,
+      "position-x": 191,
       "position-y": 71,
       "width": 70,
       "height": 70,
-      "color": "#85b8bb",
+      "color": "#00bbc3",
       "radius": 4,
       "poly": true,
       "options": ""
@@ -244,7 +244,7 @@
       "position-y": 332,
       "width": 70,
       "height": 70,
-      "color": "#85b8bb",
+      "color": "#00bbc3",
       "radius": 4,
       "poly": true,
       "options": ""
@@ -254,11 +254,11 @@
       "name": "f5",
       "scene": "base",
       "type": "cluster",
-      "position-x": 192,
+      "position-x": 191,
       "position-y": 149,
       "width": 70,
       "height": 70,
-      "color": "#85b8bb",
+      "color": "#00bbc3",
       "radius": 4,
       "poly": true,
       "options": ""
@@ -269,10 +269,10 @@
       "scene": "base",
       "type": "cluster",
       "position-x": 113,
-      "position-y": 228,
+      "position-y": 227,
       "width": 70,
-      "height": 96,
-      "color": "#85b8bb",
+      "height": 97,
+      "color": "#00bbc3",
       "radius": 4,
       "poly": true,
       "options": ""
@@ -282,11 +282,11 @@
       "name": "f#5",
       "scene": "base",
       "type": "cluster",
-      "position-x": 192,
-      "position-y": 228,
+      "position-x": 191,
+      "position-y": 227,
       "width": 70,
-      "height": 96,
-      "color": "#85b8bb",
+      "height": 97,
+      "color": "#00bbc3",
       "radius": 4,
       "poly": true,
       "options": ""
@@ -300,7 +300,7 @@
       "position-y": 149,
       "width": 70,
       "height": 70,
-      "color": "#85b8bb",
+      "color": "#00bbc3",
       "radius": 4,
       "poly": true,
       "options": ""
@@ -310,11 +310,11 @@
       "name": "g5",
       "scene": "base",
       "type": "cluster",
-      "position-x": 192,
+      "position-x": 191,
       "position-y": 332,
       "width": 70,
       "height": 70,
-      "color": "#85b8bb",
+      "color": "#00bbc3",
       "radius": 4,
       "poly": true,
       "options": ""
@@ -325,10 +325,10 @@
       "scene": "base",
       "type": "cluster",
       "position-x": 461,
-      "position-y": 374,
+      "position-y": 375,
       "width": 119,
       "height": 119,
-      "color": "#82b88a",
+      "color": "#66ba7a",
       "radius": 4,
       "group": "ride",
       "options": ""
@@ -342,7 +342,7 @@
       "position-y": 58,
       "width": 119,
       "height": 119,
-      "color": "#82b88a",
+      "color": "#66ba7acc",
       "radius": 4,
       "group": "ride",
       "options": ""
@@ -356,7 +356,7 @@
       "position-y": 58,
       "width": 119,
       "height": 119,
-      "color": "#c58a63",
+      "color": "#dd904d",
       "radius": 4,
       "group": "snare",
       "options": ""
@@ -370,7 +370,7 @@
       "position-y": 202,
       "width": 148,
       "height": 148,
-      "color": "#c58a63",
+      "color": "#dd904dcc",
       "radius": 4,
       "group": "snare",
       "options": ""
@@ -381,10 +381,10 @@
       "scene": "base",
       "type": "cluster",
       "position-x": 777,
-      "position-y": 374,
+      "position-y": 375,
       "width": 119,
       "height": 119,
-      "color": "#c58a63",
+      "color": "#ffb471",
       "radius": 4,
       "group": "snare",
       "options": ""
@@ -492,25 +492,11 @@
       "target-record": "r-as5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-c3-r1.bass-c3",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-c3-r1",
-      "target-object": "bm-control",
-      "target-record": "bass-c3"
-    },
-    {
       "id": "bm-sampler.bm-control.gtr-c3-r1.r-c3",
       "source-object": "bm-sampler",
       "source-record": "gtr-c3-r1",
       "target-object": "bm-control",
       "target-record": "r-c3"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-c3-r2.bass-c3",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-c3-r2",
-      "target-object": "bm-control",
-      "target-record": "bass-c3"
     },
     {
       "id": "bm-sampler.bm-control.gtr-c3-r2.r-c3",
@@ -520,25 +506,11 @@
       "target-record": "r-c3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-c3-r3.bass-c3",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-c3-r3",
-      "target-object": "bm-control",
-      "target-record": "bass-c3"
-    },
-    {
       "id": "bm-sampler.bm-control.gtr-c3-r3.r-c3",
       "source-object": "bm-sampler",
       "source-record": "gtr-c3-r3",
       "target-object": "bm-control",
       "target-record": "r-c3"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-c3-r4.bass-c3",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-c3-r4",
-      "target-object": "bm-control",
-      "target-record": "bass-c3"
     },
     {
       "id": "bm-sampler.bm-control.gtr-c3-r4.r-c3",
@@ -632,25 +604,11 @@
       "target-record": "r-c6"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-ds3-r1.bass-ds3",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-ds3-r1",
-      "target-object": "bm-control",
-      "target-record": "bass-ds3"
-    },
-    {
       "id": "bm-sampler.bm-control.gtr-ds3-r1.r-ds3",
       "source-object": "bm-sampler",
       "source-record": "gtr-ds3-r1",
       "target-object": "bm-control",
       "target-record": "r-ds3"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-ds3-r2.bass-ds3",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-ds3-r2",
-      "target-object": "bm-control",
-      "target-record": "bass-ds3"
     },
     {
       "id": "bm-sampler.bm-control.gtr-ds3-r2.r-ds3",
@@ -660,25 +618,11 @@
       "target-record": "r-ds3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-ds3-r3.bass-ds3",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-ds3-r3",
-      "target-object": "bm-control",
-      "target-record": "bass-ds3"
-    },
-    {
       "id": "bm-sampler.bm-control.gtr-ds3-r3.r-ds3",
       "source-object": "bm-sampler",
       "source-record": "gtr-ds3-r3",
       "target-object": "bm-control",
       "target-record": "r-ds3"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-ds3-r4.bass-ds3",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-ds3-r4",
-      "target-object": "bm-control",
-      "target-record": "bass-ds3"
     },
     {
       "id": "bm-sampler.bm-control.gtr-ds3-r4.r-ds3",
@@ -716,11 +660,32 @@
       "target-record": "r-ds5"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-f3-r1.bass-f3",
+      "id": "bm-sampler.bm-control.gtr-f2-r1.bass-f2",
       "source-object": "bm-sampler",
-      "source-record": "gtr-f3-r1",
+      "source-record": "gtr-f2-r1",
       "target-object": "bm-control",
-      "target-record": "bass-f3"
+      "target-record": "bass-f2"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-f2-r2.bass-f2",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-f2-r2",
+      "target-object": "bm-control",
+      "target-record": "bass-f2"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-f2-r3.bass-f2",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-f2-r3",
+      "target-object": "bm-control",
+      "target-record": "bass-f2"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-f2-r4.bass-f2",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-f2-r4",
+      "target-object": "bm-control",
+      "target-record": "bass-f2"
     },
     {
       "id": "bm-sampler.bm-control.gtr-f3-r1.r-f3",
@@ -730,13 +695,6 @@
       "target-record": "r-f3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-f3-r2.bass-f3",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-f3-r2",
-      "target-object": "bm-control",
-      "target-record": "bass-f3"
-    },
-    {
       "id": "bm-sampler.bm-control.gtr-f3-r2.r-f3",
       "source-object": "bm-sampler",
       "source-record": "gtr-f3-r2",
@@ -744,25 +702,11 @@
       "target-record": "r-f3"
     },
     {
-      "id": "bm-sampler.bm-control.gtr-f3-r3.bass-f3",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-f3-r3",
-      "target-object": "bm-control",
-      "target-record": "bass-f3"
-    },
-    {
       "id": "bm-sampler.bm-control.gtr-f3-r3.r-f3",
       "source-object": "bm-sampler",
       "source-record": "gtr-f3-r3",
       "target-object": "bm-control",
       "target-record": "r-f3"
-    },
-    {
-      "id": "bm-sampler.bm-control.gtr-f3-r4.bass-f3",
-      "source-object": "bm-sampler",
-      "source-record": "gtr-f3-r4",
-      "target-object": "bm-control",
-      "target-record": "bass-f3"
     },
     {
       "id": "bm-sampler.bm-control.gtr-f3-r4.r-f3",
@@ -798,6 +742,34 @@
       "source-record": "gtr-f5-r4",
       "target-object": "bm-control",
       "target-record": "r-f5"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-fs2-r1.bass-fs2",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-fs2-r1",
+      "target-object": "bm-control",
+      "target-record": "bass-fs2"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-fs2-r2.bass-fs2",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-fs2-r2",
+      "target-object": "bm-control",
+      "target-record": "bass-fs2"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-fs2-r3.bass-fs2",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-fs2-r3",
+      "target-object": "bm-control",
+      "target-record": "bass-fs2"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-fs2-r4.bass-fs2",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-fs2-r4",
+      "target-object": "bm-control",
+      "target-record": "bass-fs2"
     },
     {
       "id": "bm-sampler.bm-control.gtr-fs3-r1.r-fs3",
@@ -854,6 +826,34 @@
       "source-record": "gtr-fs5-r4",
       "target-object": "bm-control",
       "target-record": "r-fs5"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-g2-r1.bass-g2",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-g2-r1",
+      "target-object": "bm-control",
+      "target-record": "bass-g2"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-g2-r2.bass-g2",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-g2-r2",
+      "target-object": "bm-control",
+      "target-record": "bass-g2"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-g2-r3.bass-g2",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-g2-r3",
+      "target-object": "bm-control",
+      "target-record": "bass-g2"
+    },
+    {
+      "id": "bm-sampler.bm-control.gtr-g2-r4.bass-g2",
+      "source-object": "bm-sampler",
+      "source-record": "gtr-g2-r4",
+      "target-object": "bm-control",
+      "target-record": "bass-g2"
     },
     {
       "id": "bm-sampler.bm-control.gtr-g3-r1.r-g3",
@@ -1354,6 +1354,30 @@
       "file": "audio/gtr-ds5-r4.mp3",
       "volume": 7.5
     },
+    "gtr-f2-r1": {
+      "id": "gtr-f2-r1",
+      "name": "f2 1",
+      "file": "audio/gtr-f2-r1.mp3",
+      "volume": -2.5
+    },
+    "gtr-f2-r2": {
+      "id": "gtr-f2-r2",
+      "name": "f2 2",
+      "file": "audio/gtr-f2-r2.mp3",
+      "volume": -2.5
+    },
+    "gtr-f2-r3": {
+      "id": "gtr-f2-r3",
+      "name": "f2 3",
+      "file": "audio/gtr-f2-r3.mp3",
+      "volume": -2.5
+    },
+    "gtr-f2-r4": {
+      "id": "gtr-f2-r4",
+      "name": "f2 4",
+      "file": "audio/gtr-f2-r4.mp3",
+      "volume": -2.5
+    },
     "gtr-f3-r1": {
       "id": "gtr-f3-r1",
       "name": "f3 1",
@@ -1402,6 +1426,30 @@
       "file": "audio/gtr-f5-r4.mp3",
       "volume": 1.4
     },
+    "gtr-fs2-r1": {
+      "id": "gtr-fs2-r1",
+      "name": "f#2 1",
+      "file": "audio/gtr-fs2-r1.mp3",
+      "volume": -1.9
+    },
+    "gtr-fs2-r2": {
+      "id": "gtr-fs2-r2",
+      "name": "f#2 2",
+      "file": "audio/gtr-fs2-r2.mp3",
+      "volume": -1.9
+    },
+    "gtr-fs2-r3": {
+      "id": "gtr-fs2-r3",
+      "name": "f#2 3",
+      "file": "audio/gtr-fs2-r3.mp3",
+      "volume": -1.9
+    },
+    "gtr-fs2-r4": {
+      "id": "gtr-fs2-r4",
+      "name": "f#2 4",
+      "file": "audio/gtr-fs2-r4.mp3",
+      "volume": -1.9
+    },
     "gtr-fs3-r1": {
       "id": "gtr-fs3-r1",
       "name": "f#3 1",
@@ -1449,6 +1497,30 @@
       "name": "f#5 4",
       "file": "audio/gtr-fs5-r4.mp3",
       "volume": 11.5
+    },
+    "gtr-g2-r1": {
+      "id": "gtr-g2-r1",
+      "name": "g2 1",
+      "file": "audio/gtr-g2-r1.mp3",
+      "volume": -5.9
+    },
+    "gtr-g2-r2": {
+      "id": "gtr-g2-r2",
+      "name": "g2 2",
+      "file": "audio/gtr-g2-r2.mp3",
+      "volume": -5.9
+    },
+    "gtr-g2-r3": {
+      "id": "gtr-g2-r3",
+      "name": "g2 3",
+      "file": "audio/gtr-g2-r3.mp3",
+      "volume": -5.9
+    },
+    "gtr-g2-r4": {
+      "id": "gtr-g2-r4",
+      "name": "g2 4",
+      "file": "audio/gtr-g2-r4.mp3",
+      "volume": -5.9
     },
     "gtr-g3-r1": {
       "id": "gtr-g3-r1",
