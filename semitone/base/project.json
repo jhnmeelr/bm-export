@@ -480,14 +480,16 @@
       "source-object": "bm-effect",
       "source-record": "brickwall",
       "target-object": "bm-channel",
-      "target-record": "master"
+      "target-record": "master",
+      "order": 1
     },
     {
       "id": "bm-effect.bm-channel.glue.master",
       "source-object": "bm-effect",
       "source-record": "glue",
       "target-object": "bm-channel",
-      "target-record": "master"
+      "target-record": "master",
+      "order": 0
     },
     {
       "id": "bm-pattern.bm-control.p1.s1",
