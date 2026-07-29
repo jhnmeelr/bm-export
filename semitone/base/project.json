@@ -97,7 +97,7 @@
     },
     {
       "id": "s4",
-      "name": "Synco (full)",
+      "name": "Four (double)",
       "scene": "base",
       "type": "sequence",
       "position-x": 662,
@@ -111,7 +111,7 @@
     },
     {
       "id": "s5",
-      "name": "Synco (bare)",
+      "name": "Four (perc)",
       "scene": "base",
       "type": "sequence",
       "position-x": 662,
@@ -125,7 +125,7 @@
     },
     {
       "id": "s6",
-      "name": "Synco (hats)",
+      "name": "Four (16ths)",
       "scene": "base",
       "type": "sequence",
       "position-x": 662,
@@ -732,17 +732,17 @@
     },
     "p4": {
       "id": "p4",
-      "name": "Synco (full)",
+      "name": "Four (double)",
       "file": "midi/p4.mid"
     },
     "p5": {
       "id": "p5",
-      "name": "Synco (bare)",
+      "name": "Four (perc)",
       "file": "midi/p5.mid"
     },
     "p6": {
       "id": "p6",
-      "name": "Synco (hats)",
+      "name": "Four (16ths)",
       "file": "midi/p6.mid"
     }
   },
@@ -751,193 +751,193 @@
       "id": "drum-kick",
       "name": "Drum - Kick",
       "file": "audio/drum-kick.wav",
-      "volume": -6.3
+      "volume": -7.8
     },
     "drum-clap": {
       "id": "drum-clap",
       "name": "Drum - Clap",
       "file": "audio/drum-clap.wav",
-      "volume": -7.2
+      "volume": -8.7
     },
     "drum-hat-closed": {
       "id": "drum-hat-closed",
       "name": "Drum - Hi-hat (closed)",
       "file": "audio/drum-hat-closed.wav",
-      "volume": -11.4
+      "volume": -12.9
     },
     "drum-hat-open": {
       "id": "drum-hat-open",
       "name": "Drum - Hi-hat (open)",
       "file": "audio/drum-hat-open.wav",
-      "volume": -13.3
+      "volume": -14.8
     },
     "drum-perc": {
       "id": "drum-perc",
       "name": "Drum - Perc",
       "file": "audio/drum-perc.wav",
-      "volume": -11.5
+      "volume": -13
     },
     "drum-snare": {
       "id": "drum-snare",
       "name": "Drum - Snare",
       "file": "audio/drum-snare.wav",
-      "volume": -13.3
+      "volume": -14.8
     },
     "bass-a0": {
       "id": "bass-a0",
       "name": "Bass - A0",
       "file": "audio/bass-a0.wav",
-      "volume": -8.6
+      "volume": -10.1
     },
     "bass-as0": {
       "id": "bass-as0",
       "name": "Bass - A#0",
       "file": "audio/bass-as0.wav",
-      "volume": -13
+      "volume": -14.5
     },
     "bass-b0": {
       "id": "bass-b0",
       "name": "Bass - B0",
       "file": "audio/bass-b0.wav",
-      "volume": -4.9
+      "volume": -6.4
     },
     "bass-c1": {
       "id": "bass-c1",
       "name": "Bass - C1",
       "file": "audio/bass-c1.wav",
-      "volume": -9.3
+      "volume": -10.8
     },
     "bass-cs1": {
       "id": "bass-cs1",
       "name": "Bass - C#1",
       "file": "audio/bass-cs1.wav",
-      "volume": -14.8
+      "volume": -16.3
     },
     "bass-d1": {
       "id": "bass-d1",
       "name": "Bass - D1",
       "file": "audio/bass-d1.wav",
-      "volume": -9.9
+      "volume": -11.4
     },
     "bass-ds1": {
       "id": "bass-ds1",
       "name": "Bass - D#1",
       "file": "audio/bass-ds1.wav",
-      "volume": -8.2
+      "volume": -9.7
     },
     "bass-e1": {
       "id": "bass-e1",
       "name": "Bass - E1",
       "file": "audio/bass-e1.wav",
-      "volume": -10.1
+      "volume": -11.6
     },
     "bass-f1": {
       "id": "bass-f1",
       "name": "Bass - F1",
       "file": "audio/bass-f1.wav",
-      "volume": -8.2
+      "volume": -9.7
     },
     "bass-fs1": {
       "id": "bass-fs1",
       "name": "Bass - F#1",
       "file": "audio/bass-fs1.wav",
-      "volume": -8.6
+      "volume": -10.1
     },
     "bass-g0": {
       "id": "bass-g0",
       "name": "Bass - G0",
       "file": "audio/bass-g0.wav",
-      "volume": -6.7
+      "volume": -8.2
     },
     "bass-gs0": {
       "id": "bass-gs0",
       "name": "Bass - G#0",
       "file": "audio/bass-gs0.wav",
-      "volume": -6.3
+      "volume": -7.8
     },
     "drone-riseup": {
       "id": "drone-riseup",
       "name": "Drone - Rise",
       "file": "audio/drone-riseup.wav",
-      "volume": -13.3
+      "volume": -14.8
     },
     "drone-roulette": {
       "id": "drone-roulette",
       "name": "Drone - Roulette",
       "file": "audio/drone-roulette.wav",
-      "volume": -17.3
+      "volume": -18.8
     },
     "synth-a4": {
       "id": "synth-a4",
       "name": "Synth - A4",
       "file": "audio/synth-a4.wav",
-      "volume": -9.6
+      "volume": -11.1
     },
     "synth-as3": {
       "id": "synth-as3",
       "name": "Synth - A#3",
       "file": "audio/synth-as3.wav",
-      "volume": -13.1
+      "volume": -14.6
     },
     "synth-c3": {
       "id": "synth-c3",
       "name": "Synth - C3",
       "file": "audio/synth-c3.wav",
-      "volume": -14.5
+      "volume": -16
     },
     "synth-cs3": {
       "id": "synth-cs3",
       "name": "Synth - C#3",
       "file": "audio/synth-cs3.wav",
-      "volume": -15
+      "volume": -16.5
     },
     "synth-d3-long": {
       "id": "synth-d3-long",
       "name": "Synth - D3 (sustain)",
       "file": "audio/synth-d3-long.wav",
-      "volume": -14.5
+      "volume": -16
     },
     "synth-d3": {
       "id": "synth-d3",
       "name": "Synth - D3",
       "file": "audio/synth-d3.wav",
-      "volume": -4.9
+      "volume": -6.4
     },
     "synth-ds3": {
       "id": "synth-ds3",
       "name": "Synth - D#3",
       "file": "audio/synth-ds3.wav",
-      "volume": -9.1
+      "volume": -10.6
     },
     "synth-e3": {
       "id": "synth-e3",
       "name": "Synth - E3",
       "file": "audio/synth-e3.wav",
-      "volume": -16.7
+      "volume": -18.2
     },
     "synth-fs3": {
       "id": "synth-fs3",
       "name": "Synth - F#3",
       "file": "audio/synth-fs3.wav",
-      "volume": -15.8
+      "volume": -17.3
     },
     "synth-fs4-long": {
       "id": "synth-fs4-long",
       "name": "Synth - F#4 (sustain)",
       "file": "audio/synth-fs4-long.wav",
-      "volume": -12.1
+      "volume": -13.6
     },
     "synth-g4": {
       "id": "synth-g4",
       "name": "Synth - G4",
       "file": "audio/synth-g4.wav",
-      "volume": -13.2
+      "volume": -14.7
     },
     "synth-gs4": {
       "id": "synth-gs4",
       "name": "Synth - G#4",
       "file": "audio/synth-gs4.wav",
-      "volume": -13.2
+      "volume": -14.7
     }
   },
   "channels": {
