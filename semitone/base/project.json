@@ -1,0 +1,975 @@
+{
+  "id": "semitone/base",
+  "name": "Semitone: Base",
+  "project": {
+    "description": "A chromatic octave of electro-house bass and synth over six drum sequences",
+    "dimensions": {
+      "width": 960,
+      "height": 540
+    },
+    "quantisation": 4,
+    "tempo": 115,
+    "compressor": {
+      "enabled": true,
+      "threshold": -18,
+      "knee": 24,
+      "ratio": 3,
+      "attack": 0.005,
+      "release": 0.15,
+      "makeup": 1.2
+    }
+  },
+  "scene": {
+    "style": {
+      "backgroundColor": "#1b2b34"
+    }
+  },
+  "controls": [
+    {
+      "id": "d1",
+      "name": "Rise",
+      "scene": "base",
+      "type": "button",
+      "position-x": 374,
+      "position-y": 86,
+      "width": 62,
+      "height": 62,
+      "color": "#c86bd6",
+      "radius": 4,
+      "group": "drone",
+      "options": ""
+    },
+    {
+      "id": "d2",
+      "name": "Roulette",
+      "scene": "base",
+      "type": "button",
+      "position-x": 461,
+      "position-y": 58,
+      "width": 62,
+      "height": 62,
+      "color": "#c86bd6",
+      "radius": 4,
+      "group": "drone",
+      "options": ""
+    },
+    {
+      "id": "s1",
+      "name": "Four (full)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 806,
+      "position-y": 58,
+      "width": 119,
+      "height": 119,
+      "color": "#ff8a3d",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "s2",
+      "name": "Four (bare)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 806,
+      "position-y": 202,
+      "width": 119,
+      "height": 119,
+      "color": "#ff8a3d",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "s3",
+      "name": "Four (kick)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 806,
+      "position-y": 346,
+      "width": 119,
+      "height": 119,
+      "color": "#ff8a3d",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "s4",
+      "name": "Synco (full)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 662,
+      "position-y": 86,
+      "width": 119,
+      "height": 119,
+      "color": "#d96a20",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "s5",
+      "name": "Synco (bare)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 662,
+      "position-y": 230,
+      "width": 119,
+      "height": 119,
+      "color": "#d96a20",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "s6",
+      "name": "Synco (hats)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 662,
+      "position-y": 374,
+      "width": 119,
+      "height": 119,
+      "color": "#d96a20",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "t1",
+      "name": "E1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 29,
+      "position-y": 86,
+      "width": 62,
+      "height": 62,
+      "color": "#4c5bd4",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t10",
+      "name": "G#0",
+      "scene": "base",
+      "type": "button",
+      "position-x": 115,
+      "position-y": 403,
+      "width": 62,
+      "height": 62,
+      "color": "#7a86ee",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t11",
+      "name": "G#4",
+      "scene": "base",
+      "type": "button",
+      "position-x": 201,
+      "position-y": 86,
+      "width": 62,
+      "height": 62,
+      "color": "#1fa8b8",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t12",
+      "name": "A#3",
+      "scene": "base",
+      "type": "button",
+      "position-x": 201,
+      "position-y": 173,
+      "width": 62,
+      "height": 62,
+      "color": "#1fa8b8",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t13",
+      "name": "E3",
+      "scene": "base",
+      "type": "button",
+      "position-x": 201,
+      "position-y": 259,
+      "width": 62,
+      "height": 62,
+      "color": "#1fa8b8",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t14",
+      "name": "D3",
+      "scene": "base",
+      "type": "button",
+      "position-x": 201,
+      "position-y": 346,
+      "width": 62,
+      "height": 62,
+      "color": "#1fa8b8",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t15",
+      "name": "C3",
+      "scene": "base",
+      "type": "button",
+      "position-x": 201,
+      "position-y": 432,
+      "width": 62,
+      "height": 62,
+      "color": "#1fa8b8",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t16",
+      "name": "A4",
+      "scene": "base",
+      "type": "button",
+      "position-x": 288,
+      "position-y": 58,
+      "width": 62,
+      "height": 62,
+      "color": "#4fd8e0",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t17",
+      "name": "G4",
+      "scene": "base",
+      "type": "button",
+      "position-x": 288,
+      "position-y": 144,
+      "width": 62,
+      "height": 62,
+      "color": "#4fd8e0",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t18",
+      "name": "F#3",
+      "scene": "base",
+      "type": "button",
+      "position-x": 288,
+      "position-y": 230,
+      "width": 62,
+      "height": 62,
+      "color": "#4fd8e0",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t19",
+      "name": "D#3",
+      "scene": "base",
+      "type": "button",
+      "position-x": 288,
+      "position-y": 317,
+      "width": 62,
+      "height": 62,
+      "color": "#4fd8e0",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t2",
+      "name": "D1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 29,
+      "position-y": 173,
+      "width": 62,
+      "height": 62,
+      "color": "#4c5bd4",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t20",
+      "name": "C#3",
+      "scene": "base",
+      "type": "button",
+      "position-x": 288,
+      "position-y": 403,
+      "width": 62,
+      "height": 62,
+      "color": "#4fd8e0",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t21",
+      "name": "B0",
+      "scene": "base",
+      "type": "button",
+      "position-x": 374,
+      "position-y": 173,
+      "width": 62,
+      "height": 148,
+      "color": "#2f3a9e",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t22",
+      "name": "D3 (sustain)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 374,
+      "position-y": 346,
+      "width": 62,
+      "height": 148,
+      "color": "#8ae6ea",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t23",
+      "name": "F1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 461,
+      "position-y": 144,
+      "width": 62,
+      "height": 148,
+      "color": "#2f3a9e",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t24",
+      "name": "F#4 (sustain)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 461,
+      "position-y": 317,
+      "width": 62,
+      "height": 148,
+      "color": "#8ae6ea",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t3",
+      "name": "C1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 29,
+      "position-y": 259,
+      "width": 62,
+      "height": 62,
+      "color": "#4c5bd4",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t4",
+      "name": "A0",
+      "scene": "base",
+      "type": "button",
+      "position-x": 29,
+      "position-y": 346,
+      "width": 62,
+      "height": 62,
+      "color": "#4c5bd4",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t5",
+      "name": "G0",
+      "scene": "base",
+      "type": "button",
+      "position-x": 29,
+      "position-y": 432,
+      "width": 62,
+      "height": 62,
+      "color": "#4c5bd4",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t6",
+      "name": "F#1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 115,
+      "position-y": 58,
+      "width": 62,
+      "height": 62,
+      "color": "#7a86ee",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t7",
+      "name": "D#1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 115,
+      "position-y": 144,
+      "width": 62,
+      "height": 62,
+      "color": "#7a86ee",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t8",
+      "name": "C#1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 115,
+      "position-y": 230,
+      "width": 62,
+      "height": 62,
+      "color": "#7a86ee",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    },
+    {
+      "id": "t9",
+      "name": "A#0",
+      "scene": "base",
+      "type": "button",
+      "position-x": 115,
+      "position-y": 317,
+      "width": 62,
+      "height": 62,
+      "color": "#7a86ee",
+      "radius": 4,
+      "group": "tone",
+      "options": ""
+    }
+  ],
+  "assignments": [
+    {
+      "id": "bm-effect.bm-channel.brickwall.master",
+      "source-object": "bm-effect",
+      "source-record": "brickwall",
+      "target-object": "bm-channel",
+      "target-record": "master"
+    },
+    {
+      "id": "bm-effect.bm-channel.glue.master",
+      "source-object": "bm-effect",
+      "source-record": "glue",
+      "target-object": "bm-channel",
+      "target-record": "master"
+    },
+    {
+      "id": "bm-pattern.bm-control.p1.s1",
+      "source-object": "bm-pattern",
+      "source-record": "p1",
+      "target-object": "bm-control",
+      "target-record": "s1"
+    },
+    {
+      "id": "bm-pattern.bm-control.p2.s2",
+      "source-object": "bm-pattern",
+      "source-record": "p2",
+      "target-object": "bm-control",
+      "target-record": "s2"
+    },
+    {
+      "id": "bm-pattern.bm-control.p3.s3",
+      "source-object": "bm-pattern",
+      "source-record": "p3",
+      "target-object": "bm-control",
+      "target-record": "s3"
+    },
+    {
+      "id": "bm-pattern.bm-control.p4.s4",
+      "source-object": "bm-pattern",
+      "source-record": "p4",
+      "target-object": "bm-control",
+      "target-record": "s4"
+    },
+    {
+      "id": "bm-pattern.bm-control.p5.s5",
+      "source-object": "bm-pattern",
+      "source-record": "p5",
+      "target-object": "bm-control",
+      "target-record": "s5"
+    },
+    {
+      "id": "bm-pattern.bm-control.p6.s6",
+      "source-object": "bm-pattern",
+      "source-record": "p6",
+      "target-object": "bm-control",
+      "target-record": "s6"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-a0.t4",
+      "source-object": "bm-sampler",
+      "source-record": "bass-a0",
+      "target-object": "bm-control",
+      "target-record": "t4"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-as0.t9",
+      "source-object": "bm-sampler",
+      "source-record": "bass-as0",
+      "target-object": "bm-control",
+      "target-record": "t9"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-b0.t21",
+      "source-object": "bm-sampler",
+      "source-record": "bass-b0",
+      "target-object": "bm-control",
+      "target-record": "t21"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-c1.t3",
+      "source-object": "bm-sampler",
+      "source-record": "bass-c1",
+      "target-object": "bm-control",
+      "target-record": "t3"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-cs1.t8",
+      "source-object": "bm-sampler",
+      "source-record": "bass-cs1",
+      "target-object": "bm-control",
+      "target-record": "t8"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-d1.t2",
+      "source-object": "bm-sampler",
+      "source-record": "bass-d1",
+      "target-object": "bm-control",
+      "target-record": "t2"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-ds1.t7",
+      "source-object": "bm-sampler",
+      "source-record": "bass-ds1",
+      "target-object": "bm-control",
+      "target-record": "t7"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-e1.t1",
+      "source-object": "bm-sampler",
+      "source-record": "bass-e1",
+      "target-object": "bm-control",
+      "target-record": "t1"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-f1.t23",
+      "source-object": "bm-sampler",
+      "source-record": "bass-f1",
+      "target-object": "bm-control",
+      "target-record": "t23"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-fs1.t6",
+      "source-object": "bm-sampler",
+      "source-record": "bass-fs1",
+      "target-object": "bm-control",
+      "target-record": "t6"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-g0.t5",
+      "source-object": "bm-sampler",
+      "source-record": "bass-g0",
+      "target-object": "bm-control",
+      "target-record": "t5"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-gs0.t10",
+      "source-object": "bm-sampler",
+      "source-record": "bass-gs0",
+      "target-object": "bm-control",
+      "target-record": "t10"
+    },
+    {
+      "id": "bm-sampler.bm-control.drone-riseup.d1",
+      "source-object": "bm-sampler",
+      "source-record": "drone-riseup",
+      "target-object": "bm-control",
+      "target-record": "d1"
+    },
+    {
+      "id": "bm-sampler.bm-control.drone-roulette.d2",
+      "source-object": "bm-sampler",
+      "source-record": "drone-roulette",
+      "target-object": "bm-control",
+      "target-record": "d2"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-a4.t16",
+      "source-object": "bm-sampler",
+      "source-record": "synth-a4",
+      "target-object": "bm-control",
+      "target-record": "t16"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-as3.t12",
+      "source-object": "bm-sampler",
+      "source-record": "synth-as3",
+      "target-object": "bm-control",
+      "target-record": "t12"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-c3.t15",
+      "source-object": "bm-sampler",
+      "source-record": "synth-c3",
+      "target-object": "bm-control",
+      "target-record": "t15"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-cs3.t20",
+      "source-object": "bm-sampler",
+      "source-record": "synth-cs3",
+      "target-object": "bm-control",
+      "target-record": "t20"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-d3-long.t22",
+      "source-object": "bm-sampler",
+      "source-record": "synth-d3-long",
+      "target-object": "bm-control",
+      "target-record": "t22"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-d3.t14",
+      "source-object": "bm-sampler",
+      "source-record": "synth-d3",
+      "target-object": "bm-control",
+      "target-record": "t14"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-ds3.t19",
+      "source-object": "bm-sampler",
+      "source-record": "synth-ds3",
+      "target-object": "bm-control",
+      "target-record": "t19"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-e3.t13",
+      "source-object": "bm-sampler",
+      "source-record": "synth-e3",
+      "target-object": "bm-control",
+      "target-record": "t13"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-fs3.t18",
+      "source-object": "bm-sampler",
+      "source-record": "synth-fs3",
+      "target-object": "bm-control",
+      "target-record": "t18"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-fs4-long.t24",
+      "source-object": "bm-sampler",
+      "source-record": "synth-fs4-long",
+      "target-object": "bm-control",
+      "target-record": "t24"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-g4.t17",
+      "source-object": "bm-sampler",
+      "source-record": "synth-g4",
+      "target-object": "bm-control",
+      "target-record": "t17"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-gs4.t11",
+      "source-object": "bm-sampler",
+      "source-record": "synth-gs4",
+      "target-object": "bm-control",
+      "target-record": "t11"
+    }
+  ],
+  "patterns": {
+    "p1": {
+      "id": "p1",
+      "name": "Four (full)",
+      "file": "midi/p1.mid"
+    },
+    "p2": {
+      "id": "p2",
+      "name": "Four (bare)",
+      "file": "midi/p2.mid"
+    },
+    "p3": {
+      "id": "p3",
+      "name": "Four (kick)",
+      "file": "midi/p3.mid"
+    },
+    "p4": {
+      "id": "p4",
+      "name": "Synco (full)",
+      "file": "midi/p4.mid"
+    },
+    "p5": {
+      "id": "p5",
+      "name": "Synco (bare)",
+      "file": "midi/p5.mid"
+    },
+    "p6": {
+      "id": "p6",
+      "name": "Synco (hats)",
+      "file": "midi/p6.mid"
+    }
+  },
+  "samplers": {
+    "drum-kick": {
+      "id": "drum-kick",
+      "name": "Drum - Kick",
+      "file": "audio/drum-kick.wav",
+      "volume": -6.3
+    },
+    "drum-clap": {
+      "id": "drum-clap",
+      "name": "Drum - Clap",
+      "file": "audio/drum-clap.wav",
+      "volume": -7.2
+    },
+    "drum-hat-closed": {
+      "id": "drum-hat-closed",
+      "name": "Drum - Hi-hat (closed)",
+      "file": "audio/drum-hat-closed.wav",
+      "volume": -11.4
+    },
+    "drum-hat-open": {
+      "id": "drum-hat-open",
+      "name": "Drum - Hi-hat (open)",
+      "file": "audio/drum-hat-open.wav",
+      "volume": -13.3
+    },
+    "drum-perc": {
+      "id": "drum-perc",
+      "name": "Drum - Perc",
+      "file": "audio/drum-perc.wav",
+      "volume": -11.5
+    },
+    "drum-snare": {
+      "id": "drum-snare",
+      "name": "Drum - Snare",
+      "file": "audio/drum-snare.wav",
+      "volume": -13.3
+    },
+    "bass-a0": {
+      "id": "bass-a0",
+      "name": "Bass - A0",
+      "file": "audio/bass-a0.wav",
+      "volume": -8.6
+    },
+    "bass-as0": {
+      "id": "bass-as0",
+      "name": "Bass - A#0",
+      "file": "audio/bass-as0.wav",
+      "volume": -13
+    },
+    "bass-b0": {
+      "id": "bass-b0",
+      "name": "Bass - B0",
+      "file": "audio/bass-b0.wav",
+      "volume": -4.9
+    },
+    "bass-c1": {
+      "id": "bass-c1",
+      "name": "Bass - C1",
+      "file": "audio/bass-c1.wav",
+      "volume": -9.3
+    },
+    "bass-cs1": {
+      "id": "bass-cs1",
+      "name": "Bass - C#1",
+      "file": "audio/bass-cs1.wav",
+      "volume": -14.8
+    },
+    "bass-d1": {
+      "id": "bass-d1",
+      "name": "Bass - D1",
+      "file": "audio/bass-d1.wav",
+      "volume": -9.9
+    },
+    "bass-ds1": {
+      "id": "bass-ds1",
+      "name": "Bass - D#1",
+      "file": "audio/bass-ds1.wav",
+      "volume": -8.2
+    },
+    "bass-e1": {
+      "id": "bass-e1",
+      "name": "Bass - E1",
+      "file": "audio/bass-e1.wav",
+      "volume": -10.1
+    },
+    "bass-f1": {
+      "id": "bass-f1",
+      "name": "Bass - F1",
+      "file": "audio/bass-f1.wav",
+      "volume": -8.2
+    },
+    "bass-fs1": {
+      "id": "bass-fs1",
+      "name": "Bass - F#1",
+      "file": "audio/bass-fs1.wav",
+      "volume": -8.6
+    },
+    "bass-g0": {
+      "id": "bass-g0",
+      "name": "Bass - G0",
+      "file": "audio/bass-g0.wav",
+      "volume": -6.7
+    },
+    "bass-gs0": {
+      "id": "bass-gs0",
+      "name": "Bass - G#0",
+      "file": "audio/bass-gs0.wav",
+      "volume": -6.3
+    },
+    "drone-riseup": {
+      "id": "drone-riseup",
+      "name": "Drone - Rise",
+      "file": "audio/drone-riseup.wav",
+      "volume": -13.3
+    },
+    "drone-roulette": {
+      "id": "drone-roulette",
+      "name": "Drone - Roulette",
+      "file": "audio/drone-roulette.wav",
+      "volume": -17.3
+    },
+    "synth-a4": {
+      "id": "synth-a4",
+      "name": "Synth - A4",
+      "file": "audio/synth-a4.wav",
+      "volume": -9.6
+    },
+    "synth-as3": {
+      "id": "synth-as3",
+      "name": "Synth - A#3",
+      "file": "audio/synth-as3.wav",
+      "volume": -13.1
+    },
+    "synth-c3": {
+      "id": "synth-c3",
+      "name": "Synth - C3",
+      "file": "audio/synth-c3.wav",
+      "volume": -14.5
+    },
+    "synth-cs3": {
+      "id": "synth-cs3",
+      "name": "Synth - C#3",
+      "file": "audio/synth-cs3.wav",
+      "volume": -15
+    },
+    "synth-d3-long": {
+      "id": "synth-d3-long",
+      "name": "Synth - D3 (sustain)",
+      "file": "audio/synth-d3-long.wav",
+      "volume": -14.5
+    },
+    "synth-d3": {
+      "id": "synth-d3",
+      "name": "Synth - D3",
+      "file": "audio/synth-d3.wav",
+      "volume": -4.9
+    },
+    "synth-ds3": {
+      "id": "synth-ds3",
+      "name": "Synth - D#3",
+      "file": "audio/synth-ds3.wav",
+      "volume": -9.1
+    },
+    "synth-e3": {
+      "id": "synth-e3",
+      "name": "Synth - E3",
+      "file": "audio/synth-e3.wav",
+      "volume": -16.7
+    },
+    "synth-fs3": {
+      "id": "synth-fs3",
+      "name": "Synth - F#3",
+      "file": "audio/synth-fs3.wav",
+      "volume": -15.8
+    },
+    "synth-fs4-long": {
+      "id": "synth-fs4-long",
+      "name": "Synth - F#4 (sustain)",
+      "file": "audio/synth-fs4-long.wav",
+      "volume": -12.1
+    },
+    "synth-g4": {
+      "id": "synth-g4",
+      "name": "Synth - G4",
+      "file": "audio/synth-g4.wav",
+      "volume": -13.2
+    },
+    "synth-gs4": {
+      "id": "synth-gs4",
+      "name": "Synth - G#4",
+      "file": "audio/synth-gs4.wav",
+      "volume": -13.2
+    }
+  },
+  "channels": {
+    "master": {
+      "id": "master",
+      "name": "Master",
+      "volume": 0
+    }
+  },
+  "effects": {
+    "brickwall": {
+      "id": "brickwall",
+      "name": "Brickwall",
+      "type": "limiter",
+      "options": "threshold: -1\nknee: 0\nratio: 20\nattack: 0.001\nrelease: 0.05",
+      "threshold": -1,
+      "knee": 0,
+      "ratio": 20,
+      "attack": 0.001,
+      "release": 0.05
+    },
+    "glue": {
+      "id": "glue",
+      "name": "Glue",
+      "type": "compressor",
+      "options": "threshold: -18\nknee: 24\nratio: 3\nattack: 0.005\nrelease: 0.15\nmakeup: 1.2",
+      "threshold": -18,
+      "knee": 24,
+      "ratio": 3,
+      "attack": 0.005,
+      "release": 0.15,
+      "makeup": 1.2
+    }
+  }
+}
