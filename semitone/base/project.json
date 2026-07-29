@@ -27,7 +27,7 @@
   "controls": [
     {
       "id": "d1",
-      "name": "Dreamer",
+      "name": "Hiss",
       "scene": "base",
       "type": "button",
       "position-x": 250,
@@ -41,7 +41,7 @@
     },
     {
       "id": "d2",
-      "name": "Suspicion",
+      "name": "Air",
       "scene": "base",
       "type": "button",
       "position-x": 648,
@@ -139,7 +139,7 @@
     },
     {
       "id": "t1",
-      "name": "E1",
+      "name": "G#0",
       "scene": "base",
       "type": "button",
       "position-x": 164,
@@ -153,7 +153,7 @@
     },
     {
       "id": "t10",
-      "name": "G#0",
+      "name": "E1",
       "scene": "base",
       "type": "button",
       "position-x": 78,
@@ -167,7 +167,7 @@
     },
     {
       "id": "t11",
-      "name": "G#4",
+      "name": "C#3",
       "scene": "base",
       "type": "button",
       "position-x": 734,
@@ -181,7 +181,7 @@
     },
     {
       "id": "t12",
-      "name": "A#3",
+      "name": "D#3",
       "scene": "base",
       "type": "button",
       "position-x": 734,
@@ -195,7 +195,7 @@
     },
     {
       "id": "t13",
-      "name": "E3",
+      "name": "F#3",
       "scene": "base",
       "type": "button",
       "position-x": 734,
@@ -209,7 +209,7 @@
     },
     {
       "id": "t14",
-      "name": "D3",
+      "name": "G4",
       "scene": "base",
       "type": "button",
       "position-x": 734,
@@ -223,7 +223,7 @@
     },
     {
       "id": "t15",
-      "name": "C3",
+      "name": "A4",
       "scene": "base",
       "type": "button",
       "position-x": 734,
@@ -237,7 +237,7 @@
     },
     {
       "id": "t16",
-      "name": "A4",
+      "name": "C3",
       "scene": "base",
       "type": "button",
       "position-x": 820,
@@ -251,7 +251,7 @@
     },
     {
       "id": "t17",
-      "name": "G4",
+      "name": "D3",
       "scene": "base",
       "type": "button",
       "position-x": 820,
@@ -265,7 +265,7 @@
     },
     {
       "id": "t18",
-      "name": "F#3",
+      "name": "E3",
       "scene": "base",
       "type": "button",
       "position-x": 820,
@@ -279,7 +279,7 @@
     },
     {
       "id": "t19",
-      "name": "D#3",
+      "name": "A#3",
       "scene": "base",
       "type": "button",
       "position-x": 820,
@@ -293,7 +293,7 @@
     },
     {
       "id": "t2",
-      "name": "D1",
+      "name": "A#0",
       "scene": "base",
       "type": "button",
       "position-x": 164,
@@ -307,7 +307,7 @@
     },
     {
       "id": "t20",
-      "name": "C#3",
+      "name": "G#4",
       "scene": "base",
       "type": "button",
       "position-x": 820,
@@ -335,7 +335,7 @@
     },
     {
       "id": "t22",
-      "name": "D3 (sustain)",
+      "name": "G#2 (distorted)",
       "scene": "base",
       "type": "button",
       "position-x": 250,
@@ -363,7 +363,7 @@
     },
     {
       "id": "t24",
-      "name": "F#4 (sustain)",
+      "name": "C3 (distorted)",
       "scene": "base",
       "type": "button",
       "position-x": 648,
@@ -377,7 +377,7 @@
     },
     {
       "id": "t3",
-      "name": "C1",
+      "name": "C#1",
       "scene": "base",
       "type": "button",
       "position-x": 164,
@@ -391,7 +391,7 @@
     },
     {
       "id": "t4",
-      "name": "A0",
+      "name": "D#1",
       "scene": "base",
       "type": "button",
       "position-x": 164,
@@ -405,7 +405,7 @@
     },
     {
       "id": "t5",
-      "name": "G0",
+      "name": "F#1",
       "scene": "base",
       "type": "button",
       "position-x": 164,
@@ -419,7 +419,7 @@
     },
     {
       "id": "t6",
-      "name": "F#1",
+      "name": "G0",
       "scene": "base",
       "type": "button",
       "position-x": 78,
@@ -433,7 +433,7 @@
     },
     {
       "id": "t7",
-      "name": "D#1",
+      "name": "A0",
       "scene": "base",
       "type": "button",
       "position-x": 78,
@@ -447,7 +447,7 @@
     },
     {
       "id": "t8",
-      "name": "C#1",
+      "name": "C1",
       "scene": "base",
       "type": "button",
       "position-x": 78,
@@ -461,7 +461,7 @@
     },
     {
       "id": "t9",
-      "name": "A#0",
+      "name": "D1",
       "scene": "base",
       "type": "button",
       "position-x": 78,
@@ -532,18 +532,18 @@
       "target-record": "s6"
     },
     {
-      "id": "bm-sampler.bm-control.bass-a0.t4",
+      "id": "bm-sampler.bm-control.bass-a0.t7",
       "source-object": "bm-sampler",
       "source-record": "bass-a0",
       "target-object": "bm-control",
-      "target-record": "t4"
+      "target-record": "t7"
     },
     {
-      "id": "bm-sampler.bm-control.bass-as0.t9",
+      "id": "bm-sampler.bm-control.bass-as0.t2",
       "source-object": "bm-sampler",
       "source-record": "bass-as0",
       "target-object": "bm-control",
-      "target-record": "t9"
+      "target-record": "t2"
     },
     {
       "id": "bm-sampler.bm-control.bass-b0.t21",
@@ -553,39 +553,46 @@
       "target-record": "t21"
     },
     {
-      "id": "bm-sampler.bm-control.bass-c1.t3",
+      "id": "bm-sampler.bm-control.bass-c1.t8",
       "source-object": "bm-sampler",
       "source-record": "bass-c1",
-      "target-object": "bm-control",
-      "target-record": "t3"
-    },
-    {
-      "id": "bm-sampler.bm-control.bass-cs1.t8",
-      "source-object": "bm-sampler",
-      "source-record": "bass-cs1",
       "target-object": "bm-control",
       "target-record": "t8"
     },
     {
-      "id": "bm-sampler.bm-control.bass-d1.t2",
+      "id": "bm-sampler.bm-control.bass-c3-dist.t24",
+      "source-object": "bm-sampler",
+      "source-record": "bass-c3-dist",
+      "target-object": "bm-control",
+      "target-record": "t24"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-cs1.t3",
+      "source-object": "bm-sampler",
+      "source-record": "bass-cs1",
+      "target-object": "bm-control",
+      "target-record": "t3"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-d1.t9",
       "source-object": "bm-sampler",
       "source-record": "bass-d1",
       "target-object": "bm-control",
-      "target-record": "t2"
+      "target-record": "t9"
     },
     {
-      "id": "bm-sampler.bm-control.bass-ds1.t7",
+      "id": "bm-sampler.bm-control.bass-ds1.t4",
       "source-object": "bm-sampler",
       "source-record": "bass-ds1",
       "target-object": "bm-control",
-      "target-record": "t7"
+      "target-record": "t4"
     },
     {
-      "id": "bm-sampler.bm-control.bass-e1.t1",
+      "id": "bm-sampler.bm-control.bass-e1.t10",
       "source-object": "bm-sampler",
       "source-record": "bass-e1",
       "target-object": "bm-control",
-      "target-record": "t1"
+      "target-record": "t10"
     },
     {
       "id": "bm-sampler.bm-control.bass-f1.t23",
@@ -595,123 +602,116 @@
       "target-record": "t23"
     },
     {
-      "id": "bm-sampler.bm-control.bass-fs1.t6",
+      "id": "bm-sampler.bm-control.bass-fs1.t5",
       "source-object": "bm-sampler",
       "source-record": "bass-fs1",
-      "target-object": "bm-control",
-      "target-record": "t6"
-    },
-    {
-      "id": "bm-sampler.bm-control.bass-g0.t5",
-      "source-object": "bm-sampler",
-      "source-record": "bass-g0",
       "target-object": "bm-control",
       "target-record": "t5"
     },
     {
-      "id": "bm-sampler.bm-control.bass-gs0.t10",
+      "id": "bm-sampler.bm-control.bass-g0.t6",
+      "source-object": "bm-sampler",
+      "source-record": "bass-g0",
+      "target-object": "bm-control",
+      "target-record": "t6"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-gs0.t1",
       "source-object": "bm-sampler",
       "source-record": "bass-gs0",
       "target-object": "bm-control",
-      "target-record": "t10"
+      "target-record": "t1"
     },
     {
-      "id": "bm-sampler.bm-control.drone-dreamer.d1",
+      "id": "bm-sampler.bm-control.bass-gs2-dist.t22",
       "source-object": "bm-sampler",
-      "source-record": "drone-dreamer",
-      "target-object": "bm-control",
-      "target-record": "d1"
-    },
-    {
-      "id": "bm-sampler.bm-control.drone-suspicion.d2",
-      "source-object": "bm-sampler",
-      "source-record": "drone-suspicion",
-      "target-object": "bm-control",
-      "target-record": "d2"
-    },
-    {
-      "id": "bm-sampler.bm-control.synth-a4.t16",
-      "source-object": "bm-sampler",
-      "source-record": "synth-a4",
-      "target-object": "bm-control",
-      "target-record": "t16"
-    },
-    {
-      "id": "bm-sampler.bm-control.synth-as3.t12",
-      "source-object": "bm-sampler",
-      "source-record": "synth-as3",
-      "target-object": "bm-control",
-      "target-record": "t12"
-    },
-    {
-      "id": "bm-sampler.bm-control.synth-c3.t15",
-      "source-object": "bm-sampler",
-      "source-record": "synth-c3",
-      "target-object": "bm-control",
-      "target-record": "t15"
-    },
-    {
-      "id": "bm-sampler.bm-control.synth-cs3.t20",
-      "source-object": "bm-sampler",
-      "source-record": "synth-cs3",
-      "target-object": "bm-control",
-      "target-record": "t20"
-    },
-    {
-      "id": "bm-sampler.bm-control.synth-d3-long.t22",
-      "source-object": "bm-sampler",
-      "source-record": "synth-d3-long",
+      "source-record": "bass-gs2-dist",
       "target-object": "bm-control",
       "target-record": "t22"
     },
     {
-      "id": "bm-sampler.bm-control.synth-d3.t14",
+      "id": "bm-sampler.bm-control.drone-air.d2",
       "source-object": "bm-sampler",
-      "source-record": "synth-d3",
+      "source-record": "drone-air",
       "target-object": "bm-control",
-      "target-record": "t14"
+      "target-record": "d2"
     },
     {
-      "id": "bm-sampler.bm-control.synth-ds3.t19",
+      "id": "bm-sampler.bm-control.drone-hiss.d1",
       "source-object": "bm-sampler",
-      "source-record": "synth-ds3",
+      "source-record": "drone-hiss",
+      "target-object": "bm-control",
+      "target-record": "d1"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-a4.t15",
+      "source-object": "bm-sampler",
+      "source-record": "synth-a4",
+      "target-object": "bm-control",
+      "target-record": "t15"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-as3.t19",
+      "source-object": "bm-sampler",
+      "source-record": "synth-as3",
       "target-object": "bm-control",
       "target-record": "t19"
     },
     {
-      "id": "bm-sampler.bm-control.synth-e3.t13",
+      "id": "bm-sampler.bm-control.synth-c3.t16",
       "source-object": "bm-sampler",
-      "source-record": "synth-e3",
+      "source-record": "synth-c3",
       "target-object": "bm-control",
-      "target-record": "t13"
+      "target-record": "t16"
     },
     {
-      "id": "bm-sampler.bm-control.synth-fs3.t18",
+      "id": "bm-sampler.bm-control.synth-cs3.t11",
       "source-object": "bm-sampler",
-      "source-record": "synth-fs3",
+      "source-record": "synth-cs3",
       "target-object": "bm-control",
-      "target-record": "t18"
+      "target-record": "t11"
     },
     {
-      "id": "bm-sampler.bm-control.synth-fs4-long.t24",
+      "id": "bm-sampler.bm-control.synth-d3.t17",
       "source-object": "bm-sampler",
-      "source-record": "synth-fs4-long",
-      "target-object": "bm-control",
-      "target-record": "t24"
-    },
-    {
-      "id": "bm-sampler.bm-control.synth-g4.t17",
-      "source-object": "bm-sampler",
-      "source-record": "synth-g4",
+      "source-record": "synth-d3",
       "target-object": "bm-control",
       "target-record": "t17"
     },
     {
-      "id": "bm-sampler.bm-control.synth-gs4.t11",
+      "id": "bm-sampler.bm-control.synth-ds3.t12",
+      "source-object": "bm-sampler",
+      "source-record": "synth-ds3",
+      "target-object": "bm-control",
+      "target-record": "t12"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-e3.t18",
+      "source-object": "bm-sampler",
+      "source-record": "synth-e3",
+      "target-object": "bm-control",
+      "target-record": "t18"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-fs3.t13",
+      "source-object": "bm-sampler",
+      "source-record": "synth-fs3",
+      "target-object": "bm-control",
+      "target-record": "t13"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-g4.t14",
+      "source-object": "bm-sampler",
+      "source-record": "synth-g4",
+      "target-object": "bm-control",
+      "target-record": "t14"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-gs4.t20",
       "source-object": "bm-sampler",
       "source-record": "synth-gs4",
       "target-object": "bm-control",
-      "target-record": "t11"
+      "target-record": "t20"
     }
   ],
   "patterns": {
@@ -807,6 +807,12 @@
       "file": "audio/bass-c1.wav",
       "volume": -10.8
     },
+    "bass-c3-dist": {
+      "id": "bass-c3-dist",
+      "name": "Bass - C3 (distorted)",
+      "file": "audio/bass-c3-dist.wav",
+      "volume": -19.4
+    },
     "bass-cs1": {
       "id": "bass-cs1",
       "name": "Bass - C#1",
@@ -855,17 +861,23 @@
       "file": "audio/bass-gs0.wav",
       "volume": -7.8
     },
-    "drone-dreamer": {
-      "id": "drone-dreamer",
-      "name": "Drone - Dreamer (G#m, 8 bars)",
-      "file": "audio/drone-dreamer.wav",
-      "volume": -19
+    "bass-gs2-dist": {
+      "id": "bass-gs2-dist",
+      "name": "Bass - G#2 (distorted)",
+      "file": "audio/bass-gs2-dist.wav",
+      "volume": -15.7
     },
-    "drone-suspicion": {
-      "id": "drone-suspicion",
-      "name": "Drone - Suspicion (B, 4 bars)",
-      "file": "audio/drone-suspicion.wav",
-      "volume": -17.1
+    "drone-air": {
+      "id": "drone-air",
+      "name": "Drone - Air (high)",
+      "file": "audio/drone-air.wav",
+      "volume": -16.8
+    },
+    "drone-hiss": {
+      "id": "drone-hiss",
+      "name": "Drone - Hiss (broadband)",
+      "file": "audio/drone-hiss.wav",
+      "volume": -15
     },
     "synth-a4": {
       "id": "synth-a4",
@@ -891,12 +903,6 @@
       "file": "audio/synth-cs3.wav",
       "volume": -16.5
     },
-    "synth-d3-long": {
-      "id": "synth-d3-long",
-      "name": "Synth - D3 (sustain)",
-      "file": "audio/synth-d3-long.wav",
-      "volume": -16
-    },
     "synth-d3": {
       "id": "synth-d3",
       "name": "Synth - D3",
@@ -920,12 +926,6 @@
       "name": "Synth - F#3",
       "file": "audio/synth-fs3.wav",
       "volume": -17.3
-    },
-    "synth-fs4-long": {
-      "id": "synth-fs4-long",
-      "name": "Synth - F#4 (sustain)",
-      "file": "audio/synth-fs4-long.wav",
-      "volume": -13.6
     },
     "synth-g4": {
       "id": "synth-g4",
