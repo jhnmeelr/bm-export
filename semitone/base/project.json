@@ -153,7 +153,7 @@
     },
     {
       "id": "t10",
-      "name": "E1",
+      "name": "D#1",
       "scene": "base",
       "type": "button",
       "position-x": 78,
@@ -321,7 +321,7 @@
     },
     {
       "id": "t21",
-      "name": "B0",
+      "name": "F1",
       "scene": "base",
       "type": "button",
       "position-x": 250,
@@ -349,7 +349,7 @@
     },
     {
       "id": "t23",
-      "name": "F1",
+      "name": "F#1",
       "scene": "base",
       "type": "button",
       "position-x": 648,
@@ -377,7 +377,7 @@
     },
     {
       "id": "t3",
-      "name": "C#1",
+      "name": "C1",
       "scene": "base",
       "type": "button",
       "position-x": 164,
@@ -391,7 +391,7 @@
     },
     {
       "id": "t4",
-      "name": "D#1",
+      "name": "D1",
       "scene": "base",
       "type": "button",
       "position-x": 164,
@@ -405,7 +405,7 @@
     },
     {
       "id": "t5",
-      "name": "F#1",
+      "name": "E1",
       "scene": "base",
       "type": "button",
       "position-x": 164,
@@ -447,7 +447,7 @@
     },
     {
       "id": "t8",
-      "name": "C1",
+      "name": "B0",
       "scene": "base",
       "type": "button",
       "position-x": 78,
@@ -461,7 +461,7 @@
     },
     {
       "id": "t9",
-      "name": "D1",
+      "name": "C#1",
       "scene": "base",
       "type": "button",
       "position-x": 78,
@@ -546,18 +546,18 @@
       "target-record": "t2"
     },
     {
-      "id": "bm-sampler.bm-control.bass-b0.t21",
+      "id": "bm-sampler.bm-control.bass-b0.t8",
       "source-object": "bm-sampler",
       "source-record": "bass-b0",
       "target-object": "bm-control",
-      "target-record": "t21"
+      "target-record": "t8"
     },
     {
-      "id": "bm-sampler.bm-control.bass-c1.t8",
+      "id": "bm-sampler.bm-control.bass-c1.t3",
       "source-object": "bm-sampler",
       "source-record": "bass-c1",
       "target-object": "bm-control",
-      "target-record": "t8"
+      "target-record": "t3"
     },
     {
       "id": "bm-sampler.bm-control.bass-c3-dist.t24",
@@ -567,46 +567,46 @@
       "target-record": "t24"
     },
     {
-      "id": "bm-sampler.bm-control.bass-cs1.t3",
+      "id": "bm-sampler.bm-control.bass-cs1.t9",
       "source-object": "bm-sampler",
       "source-record": "bass-cs1",
-      "target-object": "bm-control",
-      "target-record": "t3"
-    },
-    {
-      "id": "bm-sampler.bm-control.bass-d1.t9",
-      "source-object": "bm-sampler",
-      "source-record": "bass-d1",
       "target-object": "bm-control",
       "target-record": "t9"
     },
     {
-      "id": "bm-sampler.bm-control.bass-ds1.t4",
+      "id": "bm-sampler.bm-control.bass-d1.t4",
       "source-object": "bm-sampler",
-      "source-record": "bass-ds1",
+      "source-record": "bass-d1",
       "target-object": "bm-control",
       "target-record": "t4"
     },
     {
-      "id": "bm-sampler.bm-control.bass-e1.t10",
+      "id": "bm-sampler.bm-control.bass-ds1.t10",
       "source-object": "bm-sampler",
-      "source-record": "bass-e1",
+      "source-record": "bass-ds1",
       "target-object": "bm-control",
       "target-record": "t10"
     },
     {
-      "id": "bm-sampler.bm-control.bass-f1.t23",
+      "id": "bm-sampler.bm-control.bass-e1.t5",
+      "source-object": "bm-sampler",
+      "source-record": "bass-e1",
+      "target-object": "bm-control",
+      "target-record": "t5"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-f1.t21",
       "source-object": "bm-sampler",
       "source-record": "bass-f1",
       "target-object": "bm-control",
-      "target-record": "t23"
+      "target-record": "t21"
     },
     {
-      "id": "bm-sampler.bm-control.bass-fs1.t5",
+      "id": "bm-sampler.bm-control.bass-fs1.t23",
       "source-object": "bm-sampler",
       "source-record": "bass-fs1",
       "target-object": "bm-control",
-      "target-record": "t5"
+      "target-record": "t23"
     },
     {
       "id": "bm-sampler.bm-control.bass-g0.t6",
