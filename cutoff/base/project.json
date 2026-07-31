@@ -1,0 +1,951 @@
+{
+  "id": "cutoff/base",
+  "name": "Cutoff: Base",
+  "project": {
+    "description": "Two techno bass ladders ordered by brightness, not by pitch",
+    "dimensions": {
+      "width": 960,
+      "height": 540
+    },
+    "quantisation": 4,
+    "tempo": 132,
+    "compressor": {
+      "enabled": true,
+      "threshold": -18,
+      "knee": 24,
+      "ratio": 3,
+      "attack": 0.005,
+      "release": 0.15,
+      "makeup": 1.2
+    }
+  },
+  "scene": {
+    "style": {
+      "backgroundColor": "#1b2b34"
+    }
+  },
+  "controls": [
+    {
+      "id": "b1",
+      "name": "Bustle",
+      "scene": "base",
+      "type": "button",
+      "position-x": 602,
+      "position-y": 228,
+      "width": 104,
+      "height": 140,
+      "color": "#d66b7d",
+      "radius": 4,
+      "group": "bed",
+      "options": ""
+    },
+    {
+      "id": "b2",
+      "name": "Dream",
+      "scene": "base",
+      "type": "button",
+      "position-x": 718,
+      "position-y": 228,
+      "width": 104,
+      "height": 140,
+      "color": "#d66b7d",
+      "radius": 4,
+      "group": "bed",
+      "options": ""
+    },
+    {
+      "id": "f1",
+      "name": "F1 108 Hz",
+      "scene": "base",
+      "type": "button",
+      "position-x": 22,
+      "position-y": 16,
+      "width": 79,
+      "height": 90,
+      "color": "#2b3a86",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "f10",
+      "name": "F1 1698 Hz",
+      "scene": "base",
+      "type": "button",
+      "position-x": 859,
+      "position-y": 16,
+      "width": 79,
+      "height": 90,
+      "color": "#8b97f2",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "f2",
+      "name": "F1 171 Hz",
+      "scene": "base",
+      "type": "button",
+      "position-x": 115,
+      "position-y": 16,
+      "width": 79,
+      "height": 90,
+      "color": "#364492",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "f3",
+      "name": "F1 189 Hz",
+      "scene": "base",
+      "type": "button",
+      "position-x": 208,
+      "position-y": 16,
+      "width": 79,
+      "height": 90,
+      "color": "#404f9e",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "f4",
+      "name": "F1 248 Hz",
+      "scene": "base",
+      "type": "button",
+      "position-x": 301,
+      "position-y": 16,
+      "width": 79,
+      "height": 90,
+      "color": "#4b59aa",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "f5",
+      "name": "F1 318 Hz",
+      "scene": "base",
+      "type": "button",
+      "position-x": 394,
+      "position-y": 16,
+      "width": 79,
+      "height": 90,
+      "color": "#5663b6",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "f6",
+      "name": "F1 398 Hz",
+      "scene": "base",
+      "type": "button",
+      "position-x": 487,
+      "position-y": 16,
+      "width": 79,
+      "height": 90,
+      "color": "#606ec2",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "f7",
+      "name": "F1 423 Hz",
+      "scene": "base",
+      "type": "button",
+      "position-x": 580,
+      "position-y": 16,
+      "width": 79,
+      "height": 90,
+      "color": "#6b78ce",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "f8",
+      "name": "F1 1147 Hz",
+      "scene": "base",
+      "type": "button",
+      "position-x": 673,
+      "position-y": 16,
+      "width": 79,
+      "height": 90,
+      "color": "#7682da",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "f9",
+      "name": "F1 1383 Hz",
+      "scene": "base",
+      "type": "button",
+      "position-x": 766,
+      "position-y": 16,
+      "width": 79,
+      "height": 90,
+      "color": "#808de6",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "mute-bed",
+      "name": "MUTE",
+      "scene": "base",
+      "type": "scripter",
+      "position-x": 834,
+      "position-y": 228,
+      "width": 104,
+      "height": 140,
+      "color": "#6b7280",
+      "radius": 4,
+      "group": "bed",
+      "options": ""
+    },
+    {
+      "id": "mute-wall",
+      "name": "MUTE",
+      "scene": "base",
+      "type": "scripter",
+      "position-x": 22,
+      "position-y": 228,
+      "width": 104,
+      "height": 140,
+      "color": "#6b7280",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "q1",
+      "name": "Four (full)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 22,
+      "position-y": 384,
+      "width": 136,
+      "height": 140,
+      "color": "#ff8a3d",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "q2",
+      "name": "Four (bare)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 178,
+      "position-y": 384,
+      "width": 136,
+      "height": 140,
+      "color": "#ff8a3d",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "q3",
+      "name": "Four (kick)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 334,
+      "position-y": 384,
+      "width": 136,
+      "height": 140,
+      "color": "#ff8a3d",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "q4",
+      "name": "Four (double)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 490,
+      "position-y": 384,
+      "width": 136,
+      "height": 140,
+      "color": "#d96a20",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "q5",
+      "name": "Four (perc)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 646,
+      "position-y": 384,
+      "width": 136,
+      "height": 140,
+      "color": "#d96a20",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "q6",
+      "name": "Four (16ths)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 802,
+      "position-y": 384,
+      "width": 136,
+      "height": 140,
+      "color": "#d96a20",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "s1",
+      "name": "F#1 128 Hz",
+      "scene": "base",
+      "type": "button",
+      "position-x": 22,
+      "position-y": 122,
+      "width": 104,
+      "height": 90,
+      "color": "#14606b",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "s2",
+      "name": "F#1 216 Hz",
+      "scene": "base",
+      "type": "button",
+      "position-x": 138,
+      "position-y": 122,
+      "width": 104,
+      "height": 90,
+      "color": "#1f737d",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "s3",
+      "name": "F#1 331 Hz",
+      "scene": "base",
+      "type": "button",
+      "position-x": 254,
+      "position-y": 122,
+      "width": 104,
+      "height": 90,
+      "color": "#29858f",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "s4",
+      "name": "F#1 350 Hz",
+      "scene": "base",
+      "type": "button",
+      "position-x": 370,
+      "position-y": 122,
+      "width": 104,
+      "height": 90,
+      "color": "#3498a1",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "s5",
+      "name": "F#1 511 Hz",
+      "scene": "base",
+      "type": "button",
+      "position-x": 486,
+      "position-y": 122,
+      "width": 104,
+      "height": 90,
+      "color": "#3faab4",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "s6",
+      "name": "F#1 758 Hz",
+      "scene": "base",
+      "type": "button",
+      "position-x": 602,
+      "position-y": 122,
+      "width": 104,
+      "height": 90,
+      "color": "#4abdc6",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "s7",
+      "name": "F#1 924 Hz",
+      "scene": "base",
+      "type": "button",
+      "position-x": 718,
+      "position-y": 122,
+      "width": 104,
+      "height": 90,
+      "color": "#54cfd8",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "s8",
+      "name": "F#1 1418 Hz",
+      "scene": "base",
+      "type": "button",
+      "position-x": 834,
+      "position-y": 122,
+      "width": 104,
+      "height": 90,
+      "color": "#5fe2ea",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "t1",
+      "name": "F1 long",
+      "scene": "base",
+      "type": "button",
+      "position-x": 138,
+      "position-y": 228,
+      "width": 104,
+      "height": 140,
+      "color": "#c8562f",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "t2",
+      "name": "F2 lead",
+      "scene": "base",
+      "type": "button",
+      "position-x": 254,
+      "position-y": 228,
+      "width": 104,
+      "height": 140,
+      "color": "#c8562f",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "t3",
+      "name": "F2 stab",
+      "scene": "base",
+      "type": "button",
+      "position-x": 370,
+      "position-y": 228,
+      "width": 104,
+      "height": 140,
+      "color": "#c8562f",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "t4",
+      "name": "F3 lead",
+      "scene": "base",
+      "type": "button",
+      "position-x": 486,
+      "position-y": 228,
+      "width": 104,
+      "height": 140,
+      "color": "#c8562f",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    }
+  ],
+  "assignments": [
+    {
+      "id": "bm-effect.bm-channel.brickwall.master",
+      "source-object": "bm-effect",
+      "source-record": "brickwall",
+      "target-object": "bm-channel",
+      "target-record": "master",
+      "order": 1
+    },
+    {
+      "id": "bm-effect.bm-channel.glue.master",
+      "source-object": "bm-effect",
+      "source-record": "glue",
+      "target-object": "bm-channel",
+      "target-record": "master",
+      "order": 0
+    },
+    {
+      "id": "bm-pattern.bm-control.p1.q1",
+      "source-object": "bm-pattern",
+      "source-record": "p1",
+      "target-object": "bm-control",
+      "target-record": "q1"
+    },
+    {
+      "id": "bm-pattern.bm-control.p2.q2",
+      "source-object": "bm-pattern",
+      "source-record": "p2",
+      "target-object": "bm-control",
+      "target-record": "q2"
+    },
+    {
+      "id": "bm-pattern.bm-control.p3.q3",
+      "source-object": "bm-pattern",
+      "source-record": "p3",
+      "target-object": "bm-control",
+      "target-record": "q3"
+    },
+    {
+      "id": "bm-pattern.bm-control.p4.q4",
+      "source-object": "bm-pattern",
+      "source-record": "p4",
+      "target-object": "bm-control",
+      "target-record": "q4"
+    },
+    {
+      "id": "bm-pattern.bm-control.p5.q5",
+      "source-object": "bm-pattern",
+      "source-record": "p5",
+      "target-object": "bm-control",
+      "target-record": "q5"
+    },
+    {
+      "id": "bm-pattern.bm-control.p6.q6",
+      "source-object": "bm-pattern",
+      "source-record": "p6",
+      "target-object": "bm-control",
+      "target-record": "q6"
+    },
+    {
+      "id": "bm-sampler.bm-control.bed-bustle.b1",
+      "source-object": "bm-sampler",
+      "source-record": "bed-bustle",
+      "target-object": "bm-control",
+      "target-record": "b1"
+    },
+    {
+      "id": "bm-sampler.bm-control.bed-dream.b2",
+      "source-object": "bm-sampler",
+      "source-record": "bed-dream",
+      "target-object": "bm-control",
+      "target-record": "b2"
+    },
+    {
+      "id": "bm-sampler.bm-control.tall-f1-long.t1",
+      "source-object": "bm-sampler",
+      "source-record": "tall-f1-long",
+      "target-object": "bm-control",
+      "target-record": "t1"
+    },
+    {
+      "id": "bm-sampler.bm-control.tall-f2-lead.t2",
+      "source-object": "bm-sampler",
+      "source-record": "tall-f2-lead",
+      "target-object": "bm-control",
+      "target-record": "t2"
+    },
+    {
+      "id": "bm-sampler.bm-control.tall-f2-stab.t3",
+      "source-object": "bm-sampler",
+      "source-record": "tall-f2-stab",
+      "target-object": "bm-control",
+      "target-record": "t3"
+    },
+    {
+      "id": "bm-sampler.bm-control.tall-f3-lead.t4",
+      "source-object": "bm-sampler",
+      "source-record": "tall-f3-lead",
+      "target-object": "bm-control",
+      "target-record": "t4"
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-f1-01.f1",
+      "source-object": "bm-sampler",
+      "source-record": "wall-f1-01",
+      "target-object": "bm-control",
+      "target-record": "f1"
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-f1-02.f2",
+      "source-object": "bm-sampler",
+      "source-record": "wall-f1-02",
+      "target-object": "bm-control",
+      "target-record": "f2"
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-f1-03.f3",
+      "source-object": "bm-sampler",
+      "source-record": "wall-f1-03",
+      "target-object": "bm-control",
+      "target-record": "f3"
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-f1-05.f4",
+      "source-object": "bm-sampler",
+      "source-record": "wall-f1-05",
+      "target-object": "bm-control",
+      "target-record": "f4"
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-f1-06.f5",
+      "source-object": "bm-sampler",
+      "source-record": "wall-f1-06",
+      "target-object": "bm-control",
+      "target-record": "f5"
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-f1-07.f6",
+      "source-object": "bm-sampler",
+      "source-record": "wall-f1-07",
+      "target-object": "bm-control",
+      "target-record": "f6"
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-f1-08.f7",
+      "source-object": "bm-sampler",
+      "source-record": "wall-f1-08",
+      "target-object": "bm-control",
+      "target-record": "f7"
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-f1-09.f8",
+      "source-object": "bm-sampler",
+      "source-record": "wall-f1-09",
+      "target-object": "bm-control",
+      "target-record": "f8"
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-f1-12.f9",
+      "source-object": "bm-sampler",
+      "source-record": "wall-f1-12",
+      "target-object": "bm-control",
+      "target-record": "f9"
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-f1-13.f10",
+      "source-object": "bm-sampler",
+      "source-record": "wall-f1-13",
+      "target-object": "bm-control",
+      "target-record": "f10"
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-fs1-1.s1",
+      "source-object": "bm-sampler",
+      "source-record": "wall-fs1-1",
+      "target-object": "bm-control",
+      "target-record": "s1"
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-fs1-2.s2",
+      "source-object": "bm-sampler",
+      "source-record": "wall-fs1-2",
+      "target-object": "bm-control",
+      "target-record": "s2"
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-fs1-3.s3",
+      "source-object": "bm-sampler",
+      "source-record": "wall-fs1-3",
+      "target-object": "bm-control",
+      "target-record": "s3"
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-fs1-4.s4",
+      "source-object": "bm-sampler",
+      "source-record": "wall-fs1-4",
+      "target-object": "bm-control",
+      "target-record": "s4"
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-fs1-5.s5",
+      "source-object": "bm-sampler",
+      "source-record": "wall-fs1-5",
+      "target-object": "bm-control",
+      "target-record": "s5"
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-fs1-6.s6",
+      "source-object": "bm-sampler",
+      "source-record": "wall-fs1-6",
+      "target-object": "bm-control",
+      "target-record": "s6"
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-fs1-7.s7",
+      "source-object": "bm-sampler",
+      "source-record": "wall-fs1-7",
+      "target-object": "bm-control",
+      "target-record": "s7"
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-fs1-8.s8",
+      "source-object": "bm-sampler",
+      "source-record": "wall-fs1-8",
+      "target-object": "bm-control",
+      "target-record": "s8"
+    }
+  ],
+  "patterns": {
+    "p1": {
+      "id": "p1",
+      "name": "Four (full)",
+      "file": "midi/p1.mid"
+    },
+    "p2": {
+      "id": "p2",
+      "name": "Four (bare)",
+      "file": "midi/p2.mid"
+    },
+    "p3": {
+      "id": "p3",
+      "name": "Four (kick)",
+      "file": "midi/p3.mid"
+    },
+    "p4": {
+      "id": "p4",
+      "name": "Four (double)",
+      "file": "midi/p4.mid"
+    },
+    "p5": {
+      "id": "p5",
+      "name": "Four (perc)",
+      "file": "midi/p5.mid"
+    },
+    "p6": {
+      "id": "p6",
+      "name": "Four (16ths)",
+      "file": "midi/p6.mid"
+    }
+  },
+  "samplers": {
+    "drum-kick": {
+      "id": "drum-kick",
+      "name": "Drum - Kick (rumble)",
+      "file": "audio/drum-kick.wav",
+      "volume": -6.3
+    },
+    "drum-clap": {
+      "id": "drum-clap",
+      "name": "Drum - Clap",
+      "file": "audio/drum-clap.wav",
+      "volume": -6
+    },
+    "drum-hat-closed": {
+      "id": "drum-hat-closed",
+      "name": "Drum - Hi-hat (closed)",
+      "file": "audio/drum-hat-closed.wav",
+      "volume": -10.7
+    },
+    "drum-hat-open": {
+      "id": "drum-hat-open",
+      "name": "Drum - Hi-hat (open)",
+      "file": "audio/drum-hat-open.wav",
+      "volume": -7.5
+    },
+    "drum-perc": {
+      "id": "drum-perc",
+      "name": "Drum - Perc (Berlin)",
+      "file": "audio/drum-perc.wav",
+      "volume": -10
+    },
+    "drum-snare": {
+      "id": "drum-snare",
+      "name": "Drum - Snare",
+      "file": "audio/drum-snare.wav",
+      "volume": -8.6
+    },
+    "bed-bustle": {
+      "id": "bed-bustle",
+      "name": "Bed - Bustle",
+      "file": "audio/bed-bustle.wav",
+      "volume": -17.5
+    },
+    "bed-dream": {
+      "id": "bed-dream",
+      "name": "Bed - Dream",
+      "file": "audio/bed-dream.wav",
+      "volume": -19.7
+    },
+    "tall-f1-long": {
+      "id": "tall-f1-long",
+      "name": "F1 long",
+      "file": "audio/tall-f1-long.wav",
+      "volume": -12.9
+    },
+    "tall-f2-lead": {
+      "id": "tall-f2-lead",
+      "name": "F2 lead",
+      "file": "audio/tall-f2-lead.wav",
+      "volume": -5
+    },
+    "tall-f2-stab": {
+      "id": "tall-f2-stab",
+      "name": "F2 stab",
+      "file": "audio/tall-f2-stab.wav",
+      "volume": -5.6
+    },
+    "tall-f3-lead": {
+      "id": "tall-f3-lead",
+      "name": "F3 lead",
+      "file": "audio/tall-f3-lead.wav",
+      "volume": -12.6
+    },
+    "wall-f1-01": {
+      "id": "wall-f1-01",
+      "name": "wall-f1-01",
+      "file": "audio/wall-f1-01.wav",
+      "volume": -13
+    },
+    "wall-f1-02": {
+      "id": "wall-f1-02",
+      "name": "wall-f1-02",
+      "file": "audio/wall-f1-02.wav",
+      "volume": -12.7
+    },
+    "wall-f1-03": {
+      "id": "wall-f1-03",
+      "name": "wall-f1-03",
+      "file": "audio/wall-f1-03.wav",
+      "volume": -12.7
+    },
+    "wall-f1-05": {
+      "id": "wall-f1-05",
+      "name": "wall-f1-05",
+      "file": "audio/wall-f1-05.wav",
+      "volume": -12.5
+    },
+    "wall-f1-06": {
+      "id": "wall-f1-06",
+      "name": "wall-f1-06",
+      "file": "audio/wall-f1-06.wav",
+      "volume": -12.2
+    },
+    "wall-f1-07": {
+      "id": "wall-f1-07",
+      "name": "wall-f1-07",
+      "file": "audio/wall-f1-07.wav",
+      "volume": -13.8
+    },
+    "wall-f1-08": {
+      "id": "wall-f1-08",
+      "name": "wall-f1-08",
+      "file": "audio/wall-f1-08.wav",
+      "volume": -10.8
+    },
+    "wall-f1-09": {
+      "id": "wall-f1-09",
+      "name": "wall-f1-09",
+      "file": "audio/wall-f1-09.wav",
+      "volume": -10.9
+    },
+    "wall-f1-12": {
+      "id": "wall-f1-12",
+      "name": "wall-f1-12",
+      "file": "audio/wall-f1-12.wav",
+      "volume": -10.9
+    },
+    "wall-f1-13": {
+      "id": "wall-f1-13",
+      "name": "wall-f1-13",
+      "file": "audio/wall-f1-13.wav",
+      "volume": -14.2
+    },
+    "wall-fs1-1": {
+      "id": "wall-fs1-1",
+      "name": "wall-fs1-1",
+      "file": "audio/wall-fs1-1.wav",
+      "volume": -9.5
+    },
+    "wall-fs1-2": {
+      "id": "wall-fs1-2",
+      "name": "wall-fs1-2",
+      "file": "audio/wall-fs1-2.wav",
+      "volume": -14.4
+    },
+    "wall-fs1-3": {
+      "id": "wall-fs1-3",
+      "name": "wall-fs1-3",
+      "file": "audio/wall-fs1-3.wav",
+      "volume": -10.9
+    },
+    "wall-fs1-4": {
+      "id": "wall-fs1-4",
+      "name": "wall-fs1-4",
+      "file": "audio/wall-fs1-4.wav",
+      "volume": -15.9
+    },
+    "wall-fs1-5": {
+      "id": "wall-fs1-5",
+      "name": "wall-fs1-5",
+      "file": "audio/wall-fs1-5.wav",
+      "volume": -6.8
+    },
+    "wall-fs1-6": {
+      "id": "wall-fs1-6",
+      "name": "wall-fs1-6",
+      "file": "audio/wall-fs1-6.wav",
+      "volume": -8
+    },
+    "wall-fs1-7": {
+      "id": "wall-fs1-7",
+      "name": "wall-fs1-7",
+      "file": "audio/wall-fs1-7.wav",
+      "volume": -13.8
+    },
+    "wall-fs1-8": {
+      "id": "wall-fs1-8",
+      "name": "wall-fs1-8",
+      "file": "audio/wall-fs1-8.wav",
+      "volume": -5.2
+    }
+  },
+  "channels": {
+    "master": {
+      "id": "master",
+      "name": "Master",
+      "volume": 0
+    }
+  },
+  "effects": {
+    "brickwall": {
+      "id": "brickwall",
+      "name": "Brickwall",
+      "type": "limiter",
+      "options": "threshold: -1\nknee: 0\nratio: 20\nattack: 0.001\nrelease: 0.05",
+      "threshold": -1,
+      "knee": 0,
+      "ratio": 20,
+      "attack": 0.001,
+      "release": 0.05
+    },
+    "glue": {
+      "id": "glue",
+      "name": "Glue",
+      "type": "compressor",
+      "options": "threshold: -18\nknee: 24\nratio: 3\nattack: 0.005\nrelease: 0.15\nmakeup: 1.2",
+      "threshold": -18,
+      "knee": 24,
+      "ratio": 3,
+      "attack": 0.005,
+      "release": 0.15,
+      "makeup": 1.2
+    }
+  }
+}
