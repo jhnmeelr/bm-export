@@ -1,0 +1,1032 @@
+{
+  "id": "squelch/base",
+  "name": "Squelch: Base",
+  "project": {
+    "description": "Five 303 riffs across five filter positions, measured",
+    "dimensions": {
+      "width": 960,
+      "height": 540
+    },
+    "quantisation": 4,
+    "tempo": 145,
+    "compressor": {
+      "enabled": true,
+      "threshold": -18,
+      "knee": 24,
+      "ratio": 3,
+      "attack": 0.005,
+      "release": 0.15,
+      "makeup": 1.2
+    }
+  },
+  "scene": {
+    "style": {
+      "backgroundColor": "#1b2b34"
+    }
+  },
+  "controls": [
+    {
+      "id": "b1",
+      "name": "Pierce",
+      "scene": "base",
+      "type": "button",
+      "position-x": 600,
+      "position-y": 270,
+      "width": 168,
+      "height": 124,
+      "color": "#c05c8e",
+      "radius": 4,
+      "group": "bed",
+      "options": ""
+    },
+    {
+      "id": "b2",
+      "name": "Fall",
+      "scene": "base",
+      "type": "button",
+      "position-x": 778,
+      "position-y": 270,
+      "width": 168,
+      "height": 124,
+      "color": "#c05c8e",
+      "radius": 4,
+      "group": "bed",
+      "options": ""
+    },
+    {
+      "id": "mute-bed",
+      "name": "MUTE",
+      "scene": "base",
+      "type": "scripter",
+      "position-x": 778,
+      "position-y": 404,
+      "width": 168,
+      "height": 124,
+      "color": "#6b7280",
+      "radius": 4,
+      "group": "bed",
+      "options": ""
+    },
+    {
+      "id": "mute-wall",
+      "name": "MUTE",
+      "scene": "base",
+      "type": "scripter",
+      "position-x": 600,
+      "position-y": 404,
+      "width": 168,
+      "height": 124,
+      "color": "#6b7280",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "q1",
+      "name": "Four (full)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 600,
+      "position-y": 14,
+      "width": 108,
+      "height": 118,
+      "color": "#ff8a3d",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "q2",
+      "name": "Four (bare)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 718,
+      "position-y": 14,
+      "width": 108,
+      "height": 118,
+      "color": "#ff8a3d",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "q3",
+      "name": "Four (kick)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 836,
+      "position-y": 14,
+      "width": 108,
+      "height": 118,
+      "color": "#ff8a3d",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "q4",
+      "name": "Four (double)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 600,
+      "position-y": 142,
+      "width": 108,
+      "height": 118,
+      "color": "#d96a20",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "q5",
+      "name": "Four (perc)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 718,
+      "position-y": 142,
+      "width": 108,
+      "height": 118,
+      "color": "#d96a20",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "q6",
+      "name": "Four (16ths)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 836,
+      "position-y": 142,
+      "width": 108,
+      "height": 118,
+      "color": "#d96a20",
+      "radius": 4,
+      "group": "sequence",
+      "options": ""
+    },
+    {
+      "id": "r11",
+      "name": "Rolf H P1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 14,
+      "position-y": 14,
+      "width": 106,
+      "height": 96,
+      "color": "#4e1a29",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r12",
+      "name": "Rolf H P2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 130,
+      "position-y": 14,
+      "width": 106,
+      "height": 96,
+      "color": "#72263b",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r13",
+      "name": "Rolf H P3",
+      "scene": "base",
+      "type": "button",
+      "position-x": 246,
+      "position-y": 14,
+      "width": 106,
+      "height": 96,
+      "color": "#95314e",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r14",
+      "name": "Rolf H P4",
+      "scene": "base",
+      "type": "button",
+      "position-x": 362,
+      "position-y": 14,
+      "width": 106,
+      "height": 96,
+      "color": "#b93d60",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r15",
+      "name": "Rolf H P5",
+      "scene": "base",
+      "type": "button",
+      "position-x": 478,
+      "position-y": 14,
+      "width": 106,
+      "height": 96,
+      "color": "#dc4973",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r21",
+      "name": "square Rocker P1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 14,
+      "position-y": 120,
+      "width": 106,
+      "height": 96,
+      "color": "#4c2e12",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r22",
+      "name": "square Rocker P2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 130,
+      "position-y": 120,
+      "width": 106,
+      "height": 96,
+      "color": "#6e421a",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r23",
+      "name": "square Rocker P3",
+      "scene": "base",
+      "type": "button",
+      "position-x": 246,
+      "position-y": 120,
+      "width": 106,
+      "height": 96,
+      "color": "#915722",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r24",
+      "name": "square Rocker P4",
+      "scene": "base",
+      "type": "button",
+      "position-x": 362,
+      "position-y": 120,
+      "width": 106,
+      "height": 96,
+      "color": "#b36c2a",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r25",
+      "name": "square Rocker P5",
+      "scene": "base",
+      "type": "button",
+      "position-x": 478,
+      "position-y": 120,
+      "width": 106,
+      "height": 96,
+      "color": "#d68132",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r31",
+      "name": "Dark riff 2 two P1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 14,
+      "position-y": 226,
+      "width": 106,
+      "height": 96,
+      "color": "#294314",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r32",
+      "name": "Dark riff 2 two P2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 130,
+      "position-y": 226,
+      "width": 106,
+      "height": 96,
+      "color": "#3b621d",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r33",
+      "name": "Dark riff 2 two P3",
+      "scene": "base",
+      "type": "button",
+      "position-x": 246,
+      "position-y": 226,
+      "width": 106,
+      "height": 96,
+      "color": "#4e8026",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r34",
+      "name": "Dark riff 2 two P4",
+      "scene": "base",
+      "type": "button",
+      "position-x": 362,
+      "position-y": 226,
+      "width": 106,
+      "height": 96,
+      "color": "#609f2f",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r35",
+      "name": "Dark riff 2 two P5",
+      "scene": "base",
+      "type": "button",
+      "position-x": 478,
+      "position-y": 226,
+      "width": 106,
+      "height": 96,
+      "color": "#73bd38",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r41",
+      "name": "Techno Lullaby P1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 14,
+      "position-y": 332,
+      "width": 106,
+      "height": 96,
+      "color": "#113d41",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r42",
+      "name": "Techno Lullaby P2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 130,
+      "position-y": 332,
+      "width": 106,
+      "height": 96,
+      "color": "#19595f",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r43",
+      "name": "Techno Lullaby P3",
+      "scene": "base",
+      "type": "button",
+      "position-x": 246,
+      "position-y": 332,
+      "width": 106,
+      "height": 96,
+      "color": "#21757d",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r44",
+      "name": "Techno Lullaby P4",
+      "scene": "base",
+      "type": "button",
+      "position-x": 362,
+      "position-y": 332,
+      "width": 106,
+      "height": 96,
+      "color": "#28909b",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r45",
+      "name": "Techno Lullaby P5",
+      "scene": "base",
+      "type": "button",
+      "position-x": 478,
+      "position-y": 332,
+      "width": 106,
+      "height": 96,
+      "color": "#30acb8",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r51",
+      "name": "Break P1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 14,
+      "position-y": 438,
+      "width": 106,
+      "height": 96,
+      "color": "#29224f",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r52",
+      "name": "Break P2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 130,
+      "position-y": 438,
+      "width": 106,
+      "height": 96,
+      "color": "#3c3172",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r53",
+      "name": "Break P3",
+      "scene": "base",
+      "type": "button",
+      "position-x": 246,
+      "position-y": 438,
+      "width": 106,
+      "height": 96,
+      "color": "#4f4096",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r54",
+      "name": "Break P4",
+      "scene": "base",
+      "type": "button",
+      "position-x": 362,
+      "position-y": 438,
+      "width": 106,
+      "height": 96,
+      "color": "#624fba",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    },
+    {
+      "id": "r55",
+      "name": "Break P5",
+      "scene": "base",
+      "type": "button",
+      "position-x": 478,
+      "position-y": 438,
+      "width": 106,
+      "height": 96,
+      "color": "#745fde",
+      "radius": 4,
+      "group": "wall",
+      "options": ""
+    }
+  ],
+  "assignments": [
+    {
+      "id": "bm-effect.bm-channel.brickwall.master",
+      "source-object": "bm-effect",
+      "source-record": "brickwall",
+      "target-object": "bm-channel",
+      "target-record": "master",
+      "order": 1
+    },
+    {
+      "id": "bm-effect.bm-channel.glue.master",
+      "source-object": "bm-effect",
+      "source-record": "glue",
+      "target-object": "bm-channel",
+      "target-record": "master",
+      "order": 0
+    },
+    {
+      "id": "bm-pattern.bm-control.p1.q1",
+      "source-object": "bm-pattern",
+      "source-record": "p1",
+      "target-object": "bm-control",
+      "target-record": "q1"
+    },
+    {
+      "id": "bm-pattern.bm-control.p2.q2",
+      "source-object": "bm-pattern",
+      "source-record": "p2",
+      "target-object": "bm-control",
+      "target-record": "q2"
+    },
+    {
+      "id": "bm-pattern.bm-control.p3.q3",
+      "source-object": "bm-pattern",
+      "source-record": "p3",
+      "target-object": "bm-control",
+      "target-record": "q3"
+    },
+    {
+      "id": "bm-pattern.bm-control.p4.q4",
+      "source-object": "bm-pattern",
+      "source-record": "p4",
+      "target-object": "bm-control",
+      "target-record": "q4"
+    },
+    {
+      "id": "bm-pattern.bm-control.p5.q5",
+      "source-object": "bm-pattern",
+      "source-record": "p5",
+      "target-object": "bm-control",
+      "target-record": "q5"
+    },
+    {
+      "id": "bm-pattern.bm-control.p6.q6",
+      "source-object": "bm-pattern",
+      "source-record": "p6",
+      "target-object": "bm-control",
+      "target-record": "q6"
+    },
+    {
+      "id": "bm-sampler.bm-control.bed-fall.b2",
+      "source-object": "bm-sampler",
+      "source-record": "bed-fall",
+      "target-object": "bm-control",
+      "target-record": "b2"
+    },
+    {
+      "id": "bm-sampler.bm-control.bed-pierce.b1",
+      "source-object": "bm-sampler",
+      "source-record": "bed-pierce",
+      "target-object": "bm-control",
+      "target-record": "b1"
+    },
+    {
+      "id": "bm-sampler.bm-control.break-p1.r51",
+      "source-object": "bm-sampler",
+      "source-record": "break-p1",
+      "target-object": "bm-control",
+      "target-record": "r51"
+    },
+    {
+      "id": "bm-sampler.bm-control.break-p2.r52",
+      "source-object": "bm-sampler",
+      "source-record": "break-p2",
+      "target-object": "bm-control",
+      "target-record": "r52"
+    },
+    {
+      "id": "bm-sampler.bm-control.break-p3.r53",
+      "source-object": "bm-sampler",
+      "source-record": "break-p3",
+      "target-object": "bm-control",
+      "target-record": "r53"
+    },
+    {
+      "id": "bm-sampler.bm-control.break-p4.r54",
+      "source-object": "bm-sampler",
+      "source-record": "break-p4",
+      "target-object": "bm-control",
+      "target-record": "r54"
+    },
+    {
+      "id": "bm-sampler.bm-control.break-p5.r55",
+      "source-object": "bm-sampler",
+      "source-record": "break-p5",
+      "target-object": "bm-control",
+      "target-record": "r55"
+    },
+    {
+      "id": "bm-sampler.bm-control.dark-riff-2-two-p1.r31",
+      "source-object": "bm-sampler",
+      "source-record": "dark-riff-2-two-p1",
+      "target-object": "bm-control",
+      "target-record": "r31"
+    },
+    {
+      "id": "bm-sampler.bm-control.dark-riff-2-two-p2.r32",
+      "source-object": "bm-sampler",
+      "source-record": "dark-riff-2-two-p2",
+      "target-object": "bm-control",
+      "target-record": "r32"
+    },
+    {
+      "id": "bm-sampler.bm-control.dark-riff-2-two-p3.r33",
+      "source-object": "bm-sampler",
+      "source-record": "dark-riff-2-two-p3",
+      "target-object": "bm-control",
+      "target-record": "r33"
+    },
+    {
+      "id": "bm-sampler.bm-control.dark-riff-2-two-p4.r34",
+      "source-object": "bm-sampler",
+      "source-record": "dark-riff-2-two-p4",
+      "target-object": "bm-control",
+      "target-record": "r34"
+    },
+    {
+      "id": "bm-sampler.bm-control.dark-riff-2-two-p5.r35",
+      "source-object": "bm-sampler",
+      "source-record": "dark-riff-2-two-p5",
+      "target-object": "bm-control",
+      "target-record": "r35"
+    },
+    {
+      "id": "bm-sampler.bm-control.rolf-h-p1.r11",
+      "source-object": "bm-sampler",
+      "source-record": "rolf-h-p1",
+      "target-object": "bm-control",
+      "target-record": "r11"
+    },
+    {
+      "id": "bm-sampler.bm-control.rolf-h-p2.r12",
+      "source-object": "bm-sampler",
+      "source-record": "rolf-h-p2",
+      "target-object": "bm-control",
+      "target-record": "r12"
+    },
+    {
+      "id": "bm-sampler.bm-control.rolf-h-p3.r13",
+      "source-object": "bm-sampler",
+      "source-record": "rolf-h-p3",
+      "target-object": "bm-control",
+      "target-record": "r13"
+    },
+    {
+      "id": "bm-sampler.bm-control.rolf-h-p4.r14",
+      "source-object": "bm-sampler",
+      "source-record": "rolf-h-p4",
+      "target-object": "bm-control",
+      "target-record": "r14"
+    },
+    {
+      "id": "bm-sampler.bm-control.rolf-h-p5.r15",
+      "source-object": "bm-sampler",
+      "source-record": "rolf-h-p5",
+      "target-object": "bm-control",
+      "target-record": "r15"
+    },
+    {
+      "id": "bm-sampler.bm-control.square-rocker-p1.r21",
+      "source-object": "bm-sampler",
+      "source-record": "square-rocker-p1",
+      "target-object": "bm-control",
+      "target-record": "r21"
+    },
+    {
+      "id": "bm-sampler.bm-control.square-rocker-p2.r22",
+      "source-object": "bm-sampler",
+      "source-record": "square-rocker-p2",
+      "target-object": "bm-control",
+      "target-record": "r22"
+    },
+    {
+      "id": "bm-sampler.bm-control.square-rocker-p3.r23",
+      "source-object": "bm-sampler",
+      "source-record": "square-rocker-p3",
+      "target-object": "bm-control",
+      "target-record": "r23"
+    },
+    {
+      "id": "bm-sampler.bm-control.square-rocker-p4.r24",
+      "source-object": "bm-sampler",
+      "source-record": "square-rocker-p4",
+      "target-object": "bm-control",
+      "target-record": "r24"
+    },
+    {
+      "id": "bm-sampler.bm-control.square-rocker-p5.r25",
+      "source-object": "bm-sampler",
+      "source-record": "square-rocker-p5",
+      "target-object": "bm-control",
+      "target-record": "r25"
+    },
+    {
+      "id": "bm-sampler.bm-control.techno-lullaby-p1.r41",
+      "source-object": "bm-sampler",
+      "source-record": "techno-lullaby-p1",
+      "target-object": "bm-control",
+      "target-record": "r41"
+    },
+    {
+      "id": "bm-sampler.bm-control.techno-lullaby-p2.r42",
+      "source-object": "bm-sampler",
+      "source-record": "techno-lullaby-p2",
+      "target-object": "bm-control",
+      "target-record": "r42"
+    },
+    {
+      "id": "bm-sampler.bm-control.techno-lullaby-p3.r43",
+      "source-object": "bm-sampler",
+      "source-record": "techno-lullaby-p3",
+      "target-object": "bm-control",
+      "target-record": "r43"
+    },
+    {
+      "id": "bm-sampler.bm-control.techno-lullaby-p4.r44",
+      "source-object": "bm-sampler",
+      "source-record": "techno-lullaby-p4",
+      "target-object": "bm-control",
+      "target-record": "r44"
+    },
+    {
+      "id": "bm-sampler.bm-control.techno-lullaby-p5.r45",
+      "source-object": "bm-sampler",
+      "source-record": "techno-lullaby-p5",
+      "target-object": "bm-control",
+      "target-record": "r45"
+    }
+  ],
+  "patterns": {
+    "p1": {
+      "id": "p1",
+      "name": "Four (full)",
+      "file": "midi/p1.mid"
+    },
+    "p2": {
+      "id": "p2",
+      "name": "Four (bare)",
+      "file": "midi/p2.mid"
+    },
+    "p3": {
+      "id": "p3",
+      "name": "Four (kick)",
+      "file": "midi/p3.mid"
+    },
+    "p4": {
+      "id": "p4",
+      "name": "Four (double)",
+      "file": "midi/p4.mid"
+    },
+    "p5": {
+      "id": "p5",
+      "name": "Four (perc)",
+      "file": "midi/p5.mid"
+    },
+    "p6": {
+      "id": "p6",
+      "name": "Four (16ths)",
+      "file": "midi/p6.mid"
+    }
+  },
+  "samplers": {
+    "drum-kick": {
+      "id": "drum-kick",
+      "name": "Drum - Kick (tape)",
+      "file": "audio/drum-kick.wav",
+      "volume": -3.6
+    },
+    "drum-clap": {
+      "id": "drum-clap",
+      "name": "Drum - Clap (tape)",
+      "file": "audio/drum-clap.wav",
+      "volume": -8.1
+    },
+    "drum-hat-closed": {
+      "id": "drum-hat-closed",
+      "name": "Drum - Hi-hat (closed)",
+      "file": "audio/drum-hat-closed.wav",
+      "volume": -12.8
+    },
+    "drum-hat-open": {
+      "id": "drum-hat-open",
+      "name": "Drum - Hi-hat (open)",
+      "file": "audio/drum-hat-open.wav",
+      "volume": -12.5
+    },
+    "drum-perc": {
+      "id": "drum-perc",
+      "name": "Drum - Perc (block)",
+      "file": "audio/drum-perc.wav",
+      "volume": -12.7
+    },
+    "drum-snare": {
+      "id": "drum-snare",
+      "name": "Drum - Snare (tek)",
+      "file": "audio/drum-snare.wav",
+      "volume": -10.1
+    },
+    "bed-fall": {
+      "id": "bed-fall",
+      "name": "Bed - Fall Apart",
+      "file": "audio/bed-fall.wav",
+      "volume": -8.6
+    },
+    "bed-pierce": {
+      "id": "bed-pierce",
+      "name": "Bed - Ear Pierce",
+      "file": "audio/bed-pierce.wav",
+      "volume": -17.4
+    },
+    "break-p1": {
+      "id": "break-p1",
+      "name": "Break P1",
+      "file": "audio/break-p1.wav",
+      "volume": -5.4
+    },
+    "break-p2": {
+      "id": "break-p2",
+      "name": "Break P2",
+      "file": "audio/break-p2.wav",
+      "volume": -6.7
+    },
+    "break-p3": {
+      "id": "break-p3",
+      "name": "Break P3",
+      "file": "audio/break-p3.wav",
+      "volume": -8.2
+    },
+    "break-p4": {
+      "id": "break-p4",
+      "name": "Break P4",
+      "file": "audio/break-p4.wav",
+      "volume": -8.6
+    },
+    "break-p5": {
+      "id": "break-p5",
+      "name": "Break P5",
+      "file": "audio/break-p5.wav",
+      "volume": -8.5
+    },
+    "dark-riff-2-two-p1": {
+      "id": "dark-riff-2-two-p1",
+      "name": "Dark riff 2 two P1",
+      "file": "audio/dark-riff-2-two-p1.wav",
+      "volume": -6.7
+    },
+    "dark-riff-2-two-p2": {
+      "id": "dark-riff-2-two-p2",
+      "name": "Dark riff 2 two P2",
+      "file": "audio/dark-riff-2-two-p2.wav",
+      "volume": -7.8
+    },
+    "dark-riff-2-two-p3": {
+      "id": "dark-riff-2-two-p3",
+      "name": "Dark riff 2 two P3",
+      "file": "audio/dark-riff-2-two-p3.wav",
+      "volume": -9.2
+    },
+    "dark-riff-2-two-p4": {
+      "id": "dark-riff-2-two-p4",
+      "name": "Dark riff 2 two P4",
+      "file": "audio/dark-riff-2-two-p4.wav",
+      "volume": -10.1
+    },
+    "dark-riff-2-two-p5": {
+      "id": "dark-riff-2-two-p5",
+      "name": "Dark riff 2 two P5",
+      "file": "audio/dark-riff-2-two-p5.wav",
+      "volume": -11.5
+    },
+    "rolf-h-p1": {
+      "id": "rolf-h-p1",
+      "name": "Rolf H P1",
+      "file": "audio/rolf-h-p1.wav",
+      "volume": -4.3
+    },
+    "rolf-h-p2": {
+      "id": "rolf-h-p2",
+      "name": "Rolf H P2",
+      "file": "audio/rolf-h-p2.wav",
+      "volume": -6.1
+    },
+    "rolf-h-p3": {
+      "id": "rolf-h-p3",
+      "name": "Rolf H P3",
+      "file": "audio/rolf-h-p3.wav",
+      "volume": -7.3
+    },
+    "rolf-h-p4": {
+      "id": "rolf-h-p4",
+      "name": "Rolf H P4",
+      "file": "audio/rolf-h-p4.wav",
+      "volume": -7.5
+    },
+    "rolf-h-p5": {
+      "id": "rolf-h-p5",
+      "name": "Rolf H P5",
+      "file": "audio/rolf-h-p5.wav",
+      "volume": -7.5
+    },
+    "square-rocker-p1": {
+      "id": "square-rocker-p1",
+      "name": "square Rocker P1",
+      "file": "audio/square-rocker-p1.wav",
+      "volume": -4
+    },
+    "square-rocker-p2": {
+      "id": "square-rocker-p2",
+      "name": "square Rocker P2",
+      "file": "audio/square-rocker-p2.wav",
+      "volume": -6.2
+    },
+    "square-rocker-p3": {
+      "id": "square-rocker-p3",
+      "name": "square Rocker P3",
+      "file": "audio/square-rocker-p3.wav",
+      "volume": -6.5
+    },
+    "square-rocker-p4": {
+      "id": "square-rocker-p4",
+      "name": "square Rocker P4",
+      "file": "audio/square-rocker-p4.wav",
+      "volume": -7
+    },
+    "square-rocker-p5": {
+      "id": "square-rocker-p5",
+      "name": "square Rocker P5",
+      "file": "audio/square-rocker-p5.wav",
+      "volume": -8.8
+    },
+    "techno-lullaby-p1": {
+      "id": "techno-lullaby-p1",
+      "name": "Techno Lullaby P1",
+      "file": "audio/techno-lullaby-p1.wav",
+      "volume": -8
+    },
+    "techno-lullaby-p2": {
+      "id": "techno-lullaby-p2",
+      "name": "Techno Lullaby P2",
+      "file": "audio/techno-lullaby-p2.wav",
+      "volume": -8.6
+    },
+    "techno-lullaby-p3": {
+      "id": "techno-lullaby-p3",
+      "name": "Techno Lullaby P3",
+      "file": "audio/techno-lullaby-p3.wav",
+      "volume": -8.7
+    },
+    "techno-lullaby-p4": {
+      "id": "techno-lullaby-p4",
+      "name": "Techno Lullaby P4",
+      "file": "audio/techno-lullaby-p4.wav",
+      "volume": -9.1
+    },
+    "techno-lullaby-p5": {
+      "id": "techno-lullaby-p5",
+      "name": "Techno Lullaby P5",
+      "file": "audio/techno-lullaby-p5.wav",
+      "volume": -10.5
+    }
+  },
+  "channels": {
+    "master": {
+      "id": "master",
+      "name": "Master",
+      "volume": 0
+    }
+  },
+  "effects": {
+    "brickwall": {
+      "id": "brickwall",
+      "name": "Brickwall",
+      "type": "limiter",
+      "options": "threshold: -1\nknee: 0\nratio: 20\nattack: 0.001\nrelease: 0.05",
+      "threshold": -1,
+      "knee": 0,
+      "ratio": 20,
+      "attack": 0.001,
+      "release": 0.05
+    },
+    "glue": {
+      "id": "glue",
+      "name": "Glue",
+      "type": "compressor",
+      "options": "threshold: -18\nknee: 24\nratio: 3\nattack: 0.005\nrelease: 0.15\nmakeup: 1.2",
+      "threshold": -18,
+      "knee": 24,
+      "ratio": 3,
+      "attack": 0.005,
+      "release": 0.15,
+      "makeup": 1.2
+    }
+  }
+}
