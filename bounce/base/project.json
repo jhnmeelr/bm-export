@@ -2,9 +2,7 @@
   "id": "bounce/base",
   "name": "Bounce: Base",
   "project": {
-    "description": {
-      "A 180 BPM bounce played back as its own stems": "the drop chopped, the sub and the chords held"
-    },
+    "description": "A bounce split into stems: the drop chopped, the sub held",
     "dimensions": {
       "width": 960,
       "height": 540

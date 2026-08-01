@@ -453,9 +453,7 @@
       "bpm": 180,
       "controls": 28,
       "samplers": 25,
-      "description": {
-        "A 180 BPM bounce played back as its own stems": "the drop chopped, the sub and the chords held"
-      },
+      "description": "A bounce split into stems: the drop chopped, the sub held",
       "preview": {
         "width": 960,
         "height": 540,
