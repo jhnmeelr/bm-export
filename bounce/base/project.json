@@ -143,7 +143,7 @@
       "scene": "base",
       "type": "button",
       "position-x": 283,
-      "position-y": 226,
+      "position-y": 124,
       "width": 88,
       "height": 88,
       "color": "#b777e3",
@@ -157,7 +157,7 @@
       "scene": "base",
       "type": "button",
       "position-x": 385,
-      "position-y": 226,
+      "position-y": 124,
       "width": 88,
       "height": 88,
       "color": "#b777e3",
@@ -171,7 +171,7 @@
       "scene": "base",
       "type": "button",
       "position-x": 487,
-      "position-y": 226,
+      "position-y": 124,
       "width": 88,
       "height": 88,
       "color": "#b777e3",
@@ -185,7 +185,7 @@
       "scene": "base",
       "type": "scripter",
       "position-x": 589,
-      "position-y": 226,
+      "position-y": 124,
       "width": 88,
       "height": 88,
       "color": "#9556bf",
@@ -306,12 +306,12 @@
       "options": ""
     },
     {
-      "id": "bass-a",
+      "id": "bass-1",
       "name": "BASS 1",
       "scene": "base",
       "type": "button",
-      "position-x": 283,
-      "position-y": 22,
+      "position-x": 79,
+      "position-y": 226,
       "width": 88,
       "height": 88,
       "color": "#6593fd",
@@ -320,12 +320,12 @@
       "options": ""
     },
     {
-      "id": "bass-b",
+      "id": "bass-2",
       "name": "BASS 2",
       "scene": "base",
       "type": "button",
-      "position-x": 385,
-      "position-y": 22,
+      "position-x": 181,
+      "position-y": 226,
       "width": 88,
       "height": 88,
       "color": "#6593fd",
@@ -334,12 +334,68 @@
       "options": ""
     },
     {
-      "id": "bass-c",
+      "id": "bass-3",
       "name": "BASS 3",
       "scene": "base",
       "type": "button",
+      "position-x": 283,
+      "position-y": 226,
+      "width": 88,
+      "height": 88,
+      "color": "#6593fd",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "bass-4",
+      "name": "BASS 4",
+      "scene": "base",
+      "type": "button",
+      "position-x": 385,
+      "position-y": 226,
+      "width": 88,
+      "height": 88,
+      "color": "#6593fd",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "bass-5",
+      "name": "BASS 5",
+      "scene": "base",
+      "type": "button",
       "position-x": 487,
-      "position-y": 22,
+      "position-y": 226,
+      "width": 88,
+      "height": 88,
+      "color": "#6593fd",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "bass-6",
+      "name": "BASS 6",
+      "scene": "base",
+      "type": "button",
+      "position-x": 589,
+      "position-y": 226,
+      "width": 88,
+      "height": 88,
+      "color": "#6593fd",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "bass-7",
+      "name": "BASS 7",
+      "scene": "base",
+      "type": "button",
+      "position-x": 691,
+      "position-y": 226,
       "width": 88,
       "height": 88,
       "color": "#6593fd",
@@ -352,8 +408,8 @@
       "name": "MUTE",
       "scene": "base",
       "type": "scripter",
-      "position-x": 589,
-      "position-y": 22,
+      "position-x": 793,
+      "position-y": 226,
       "width": 88,
       "height": 88,
       "color": "#436dd3",
@@ -367,7 +423,7 @@
       "scene": "base",
       "type": "button",
       "position-x": 283,
-      "position-y": 124,
+      "position-y": 22,
       "width": 88,
       "height": 88,
       "color": "#11b569",
@@ -381,7 +437,7 @@
       "scene": "base",
       "type": "button",
       "position-x": 385,
-      "position-y": 124,
+      "position-y": 22,
       "width": 88,
       "height": 88,
       "color": "#11b569",
@@ -395,7 +451,7 @@
       "scene": "base",
       "type": "button",
       "position-x": 487,
-      "position-y": 124,
+      "position-y": 22,
       "width": 88,
       "height": 88,
       "color": "#11b569",
@@ -409,7 +465,7 @@
       "scene": "base",
       "type": "scripter",
       "position-x": 589,
-      "position-y": 124,
+      "position-y": 22,
       "width": 88,
       "height": 88,
       "color": "#008346",
@@ -569,25 +625,53 @@
       "target-record": "b8"
     },
     {
-      "id": "bm-sampler.bm-control.bass-a.bass-a",
+      "id": "bm-sampler.bm-control.bass-1.bass-1",
       "source-object": "bm-sampler",
-      "source-record": "bass-a",
+      "source-record": "bass-1",
       "target-object": "bm-control",
-      "target-record": "bass-a"
+      "target-record": "bass-1"
     },
     {
-      "id": "bm-sampler.bm-control.bass-b.bass-b",
+      "id": "bm-sampler.bm-control.bass-2.bass-2",
       "source-object": "bm-sampler",
-      "source-record": "bass-b",
+      "source-record": "bass-2",
       "target-object": "bm-control",
-      "target-record": "bass-b"
+      "target-record": "bass-2"
     },
     {
-      "id": "bm-sampler.bm-control.bass-c.bass-c",
+      "id": "bm-sampler.bm-control.bass-3.bass-3",
       "source-object": "bm-sampler",
-      "source-record": "bass-c",
+      "source-record": "bass-3",
       "target-object": "bm-control",
-      "target-record": "bass-c"
+      "target-record": "bass-3"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-4.bass-4",
+      "source-object": "bm-sampler",
+      "source-record": "bass-4",
+      "target-object": "bm-control",
+      "target-record": "bass-4"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-5.bass-5",
+      "source-object": "bm-sampler",
+      "source-record": "bass-5",
+      "target-object": "bm-control",
+      "target-record": "bass-5"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-6.bass-6",
+      "source-object": "bm-sampler",
+      "source-record": "bass-6",
+      "target-object": "bm-control",
+      "target-record": "bass-6"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-7.bass-7",
+      "source-object": "bm-sampler",
+      "source-record": "bass-7",
+      "target-object": "bm-control",
+      "target-record": "bass-7"
     },
     {
       "id": "bm-sampler.bm-control.chord-a.chord-a",
@@ -746,26 +830,54 @@
       "start": 4.666667,
       "volume": 0
     },
-    "bass-a": {
-      "id": "bass-a",
+    "bass-1": {
+      "id": "bass-1",
       "name": "Bass 1",
-      "file": "audio/bass-a.wav",
+      "file": "audio/bass-1.wav",
       "start": 0,
-      "volume": 0
+      "volume": 0.11
     },
-    "bass-b": {
-      "id": "bass-b",
+    "bass-2": {
+      "id": "bass-2",
       "name": "Bass 2",
-      "file": "audio/bass-b.wav",
+      "file": "audio/bass-2.wav",
+      "start": 0,
+      "volume": 6.71
+    },
+    "bass-3": {
+      "id": "bass-3",
+      "name": "Bass 3",
+      "file": "audio/bass-3.wav",
+      "start": 0,
+      "volume": -0.45
+    },
+    "bass-4": {
+      "id": "bass-4",
+      "name": "Bass 4",
+      "file": "audio/bass-4.wav",
+      "start": 0,
+      "volume": -5.25
+    },
+    "bass-5": {
+      "id": "bass-5",
+      "name": "Bass 5",
+      "file": "audio/bass-5.wav",
+      "start": 0,
+      "volume": -0.21
+    },
+    "bass-6": {
+      "id": "bass-6",
+      "name": "Bass 6",
+      "file": "audio/bass-6.wav",
       "start": 0,
       "volume": 0
     },
-    "bass-c": {
-      "id": "bass-c",
-      "name": "Bass 3",
-      "file": "audio/bass-c.wav",
+    "bass-7": {
+      "id": "bass-7",
+      "name": "Bass 7",
+      "file": "audio/bass-7.wav",
       "start": 0,
-      "volume": 0
+      "volume": 4.65
     },
     "chord-a": {
       "id": "chord-a",
