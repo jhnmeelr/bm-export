@@ -451,8 +451,8 @@
       "name": "Bounce: Base",
       "path": "bounce/base/project.json",
       "bpm": 180,
-      "controls": 32,
-      "samplers": 35,
+      "controls": 36,
+      "samplers": 39,
       "description": "A bounce split into stems: the drop chopped, the sub held",
       "preview": {
         "width": 960,
@@ -524,6 +524,22 @@
             "r": 4
           },
           {
+            "x": 79,
+            "y": 124,
+            "w": 88,
+            "h": 88,
+            "c": "#b777e3",
+            "r": 4
+          },
+          {
+            "x": 181,
+            "y": 124,
+            "w": 88,
+            "h": 88,
+            "c": "#b777e3",
+            "r": 4
+          },
+          {
             "x": 283,
             "y": 124,
             "w": 88,
@@ -549,6 +565,22 @@
           },
           {
             "x": 589,
+            "y": 124,
+            "w": 88,
+            "h": 88,
+            "c": "#b777e3",
+            "r": 4
+          },
+          {
+            "x": 691,
+            "y": 124,
+            "w": 88,
+            "h": 88,
+            "c": "#b777e3",
+            "r": 4
+          },
+          {
+            "x": 793,
             "y": 124,
             "w": 88,
             "h": 88,

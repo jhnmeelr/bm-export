@@ -138,8 +138,36 @@
       "options": ""
     },
     {
-      "id": "atmo-a",
+      "id": "atmo-1",
       "name": "ATMO 1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 79,
+      "position-y": 124,
+      "width": 88,
+      "height": 88,
+      "color": "#b777e3",
+      "radius": 4,
+      "group": "atmo",
+      "options": ""
+    },
+    {
+      "id": "atmo-2",
+      "name": "ATMO 2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 181,
+      "position-y": 124,
+      "width": 88,
+      "height": 88,
+      "color": "#b777e3",
+      "radius": 4,
+      "group": "atmo",
+      "options": ""
+    },
+    {
+      "id": "atmo-3",
+      "name": "ATMO 3",
       "scene": "base",
       "type": "button",
       "position-x": 283,
@@ -152,8 +180,8 @@
       "options": ""
     },
     {
-      "id": "atmo-b",
-      "name": "ATMO 2",
+      "id": "atmo-4",
+      "name": "ATMO 4",
       "scene": "base",
       "type": "button",
       "position-x": 385,
@@ -166,11 +194,39 @@
       "options": ""
     },
     {
-      "id": "atmo-c",
-      "name": "ATMO 3",
+      "id": "atmo-5",
+      "name": "ATMO 5",
       "scene": "base",
       "type": "button",
       "position-x": 487,
+      "position-y": 124,
+      "width": 88,
+      "height": 88,
+      "color": "#b777e3",
+      "radius": 4,
+      "group": "atmo",
+      "options": ""
+    },
+    {
+      "id": "atmo-6",
+      "name": "ATMO 6",
+      "scene": "base",
+      "type": "button",
+      "position-x": 589,
+      "position-y": 124,
+      "width": 88,
+      "height": 88,
+      "color": "#b777e3",
+      "radius": 4,
+      "group": "atmo",
+      "options": ""
+    },
+    {
+      "id": "atmo-7",
+      "name": "ATMO 7",
+      "scene": "base",
+      "type": "button",
+      "position-x": 691,
       "position-y": 124,
       "width": 88,
       "height": 88,
@@ -184,7 +240,7 @@
       "name": "MUTE",
       "scene": "base",
       "type": "scripter",
-      "position-x": 589,
+      "position-x": 793,
       "position-y": 124,
       "width": 88,
       "height": 88,
@@ -548,25 +604,53 @@
       "target-record": "a8"
     },
     {
-      "id": "bm-sampler.bm-control.atmo-a.atmo-a",
+      "id": "bm-sampler.bm-control.atmo-1.atmo-1",
       "source-object": "bm-sampler",
-      "source-record": "atmo-a",
+      "source-record": "atmo-1",
       "target-object": "bm-control",
-      "target-record": "atmo-a"
+      "target-record": "atmo-1"
     },
     {
-      "id": "bm-sampler.bm-control.atmo-b.atmo-b",
+      "id": "bm-sampler.bm-control.atmo-2.atmo-2",
       "source-object": "bm-sampler",
-      "source-record": "atmo-b",
+      "source-record": "atmo-2",
       "target-object": "bm-control",
-      "target-record": "atmo-b"
+      "target-record": "atmo-2"
     },
     {
-      "id": "bm-sampler.bm-control.atmo-c.atmo-c",
+      "id": "bm-sampler.bm-control.atmo-3.atmo-3",
       "source-object": "bm-sampler",
-      "source-record": "atmo-c",
+      "source-record": "atmo-3",
       "target-object": "bm-control",
-      "target-record": "atmo-c"
+      "target-record": "atmo-3"
+    },
+    {
+      "id": "bm-sampler.bm-control.atmo-4.atmo-4",
+      "source-object": "bm-sampler",
+      "source-record": "atmo-4",
+      "target-object": "bm-control",
+      "target-record": "atmo-4"
+    },
+    {
+      "id": "bm-sampler.bm-control.atmo-5.atmo-5",
+      "source-object": "bm-sampler",
+      "source-record": "atmo-5",
+      "target-object": "bm-control",
+      "target-record": "atmo-5"
+    },
+    {
+      "id": "bm-sampler.bm-control.atmo-6.atmo-6",
+      "source-object": "bm-sampler",
+      "source-record": "atmo-6",
+      "target-object": "bm-control",
+      "target-record": "atmo-6"
+    },
+    {
+      "id": "bm-sampler.bm-control.atmo-7.atmo-7",
+      "source-object": "bm-sampler",
+      "source-record": "atmo-7",
+      "target-object": "bm-control",
+      "target-record": "atmo-7"
     },
     {
       "id": "bm-sampler.bm-control.b1.b1",
@@ -795,25 +879,53 @@
       "start": 4.666667,
       "volume": 0
     },
-    "atmo-a": {
-      "id": "atmo-a",
+    "atmo-1": {
+      "id": "atmo-1",
       "name": "Atmo 1",
-      "file": "audio/atmo-a.wav",
+      "file": "audio/atmo-1.wav",
       "start": 0,
       "volume": 0
     },
-    "atmo-b": {
-      "id": "atmo-b",
+    "atmo-2": {
+      "id": "atmo-2",
       "name": "Atmo 2",
-      "file": "audio/atmo-b.wav",
+      "file": "audio/atmo-2.wav",
+      "start": 2.666667,
+      "volume": 0
+    },
+    "atmo-3": {
+      "id": "atmo-3",
+      "name": "Atmo 3",
+      "file": "audio/atmo-3.wav",
+      "start": 5.333333,
+      "volume": 0
+    },
+    "atmo-4": {
+      "id": "atmo-4",
+      "name": "Atmo 4",
+      "file": "audio/atmo-4.wav",
+      "start": 8,
+      "volume": 0
+    },
+    "atmo-5": {
+      "id": "atmo-5",
+      "name": "Atmo 5",
+      "file": "audio/atmo-5.wav",
       "start": 0,
       "volume": 0
     },
-    "atmo-c": {
-      "id": "atmo-c",
-      "name": "Atmo 3",
-      "file": "audio/atmo-c.wav",
-      "start": 0,
+    "atmo-6": {
+      "id": "atmo-6",
+      "name": "Atmo 6",
+      "file": "audio/atmo-6.wav",
+      "start": 1.333333,
+      "volume": 0
+    },
+    "atmo-7": {
+      "id": "atmo-7",
+      "name": "Atmo 7",
+      "file": "audio/atmo-7.wav",
+      "start": 2.666667,
       "volume": 0
     },
     "b1": {
