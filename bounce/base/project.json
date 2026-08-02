@@ -421,7 +421,7 @@
       "id": "chord-a",
       "name": "CHORD 1",
       "scene": "base",
-      "type": "button",
+      "type": "cluster",
       "position-x": 283,
       "position-y": 22,
       "width": 88,
@@ -432,11 +432,11 @@
       "options": ""
     },
     {
-      "id": "chord-b",
-      "name": "CHORD 2",
+      "id": "chord-as",
+      "name": "CHORD 3",
       "scene": "base",
-      "type": "button",
-      "position-x": 385,
+      "type": "cluster",
+      "position-x": 487,
       "position-y": 22,
       "width": 88,
       "height": 88,
@@ -446,11 +446,11 @@
       "options": ""
     },
     {
-      "id": "chord-c",
-      "name": "CHORD 3",
+      "id": "chord-gc",
+      "name": "CHORD 2",
       "scene": "base",
-      "type": "button",
-      "position-x": 487,
+      "type": "cluster",
+      "position-x": 385,
       "position-y": 22,
       "width": 88,
       "height": 88,
@@ -674,25 +674,67 @@
       "target-record": "bass-7"
     },
     {
-      "id": "bm-sampler.bm-control.chord-a.chord-a",
+      "id": "bm-sampler.bm-control.chord-a-1.chord-a",
       "source-object": "bm-sampler",
-      "source-record": "chord-a",
+      "source-record": "chord-a-1",
       "target-object": "bm-control",
       "target-record": "chord-a"
     },
     {
-      "id": "bm-sampler.bm-control.chord-b.chord-b",
+      "id": "bm-sampler.bm-control.chord-a-2.chord-a",
       "source-object": "bm-sampler",
-      "source-record": "chord-b",
+      "source-record": "chord-a-2",
       "target-object": "bm-control",
-      "target-record": "chord-b"
+      "target-record": "chord-a"
     },
     {
-      "id": "bm-sampler.bm-control.chord-c.chord-c",
+      "id": "bm-sampler.bm-control.chord-a-3.chord-a",
       "source-object": "bm-sampler",
-      "source-record": "chord-c",
+      "source-record": "chord-a-3",
       "target-object": "bm-control",
-      "target-record": "chord-c"
+      "target-record": "chord-a"
+    },
+    {
+      "id": "bm-sampler.bm-control.chord-as-1.chord-as",
+      "source-object": "bm-sampler",
+      "source-record": "chord-as-1",
+      "target-object": "bm-control",
+      "target-record": "chord-as"
+    },
+    {
+      "id": "bm-sampler.bm-control.chord-as-2.chord-as",
+      "source-object": "bm-sampler",
+      "source-record": "chord-as-2",
+      "target-object": "bm-control",
+      "target-record": "chord-as"
+    },
+    {
+      "id": "bm-sampler.bm-control.chord-as-3.chord-as",
+      "source-object": "bm-sampler",
+      "source-record": "chord-as-3",
+      "target-object": "bm-control",
+      "target-record": "chord-as"
+    },
+    {
+      "id": "bm-sampler.bm-control.chord-as-4.chord-as",
+      "source-object": "bm-sampler",
+      "source-record": "chord-as-4",
+      "target-object": "bm-control",
+      "target-record": "chord-as"
+    },
+    {
+      "id": "bm-sampler.bm-control.chord-gc-1.chord-gc",
+      "source-object": "bm-sampler",
+      "source-record": "chord-gc-1",
+      "target-object": "bm-control",
+      "target-record": "chord-gc"
+    },
+    {
+      "id": "bm-sampler.bm-control.chord-gc-2.chord-gc",
+      "source-object": "bm-sampler",
+      "source-record": "chord-gc-2",
+      "target-object": "bm-control",
+      "target-record": "chord-gc"
     }
   ],
   "patterns": {},
@@ -879,26 +921,68 @@
       "start": 0,
       "volume": 4.65
     },
-    "chord-a": {
-      "id": "chord-a",
-      "name": "Chord 1",
-      "file": "audio/chord-a.wav",
+    "chord-a-1": {
+      "id": "chord-a-1",
+      "name": "Chord A take 1",
+      "file": "audio/chord-a-1.wav",
+      "start": 0,
+      "volume": -1.03
+    },
+    "chord-a-2": {
+      "id": "chord-a-2",
+      "name": "Chord A take 2",
+      "file": "audio/chord-a-2.wav",
+      "start": 0,
+      "volume": 0.06
+    },
+    "chord-a-3": {
+      "id": "chord-a-3",
+      "name": "Chord A take 3",
+      "file": "audio/chord-a-3.wav",
+      "start": 0,
+      "volume": -1.17
+    },
+    "chord-as-1": {
+      "id": "chord-as-1",
+      "name": "Chord A# take 1",
+      "file": "audio/chord-as-1.wav",
       "start": 0,
       "volume": 0
     },
-    "chord-b": {
-      "id": "chord-b",
-      "name": "Chord 2",
-      "file": "audio/chord-b.wav",
+    "chord-as-2": {
+      "id": "chord-as-2",
+      "name": "Chord A# take 2",
+      "file": "audio/chord-as-2.wav",
       "start": 0,
-      "volume": 0
+      "volume": -0.89
     },
-    "chord-c": {
-      "id": "chord-c",
-      "name": "Chord 3",
-      "file": "audio/chord-c.wav",
+    "chord-as-3": {
+      "id": "chord-as-3",
+      "name": "Chord A# take 3",
+      "file": "audio/chord-as-3.wav",
       "start": 0,
-      "volume": 0
+      "volume": 3.66
+    },
+    "chord-as-4": {
+      "id": "chord-as-4",
+      "name": "Chord A# take 4",
+      "file": "audio/chord-as-4.wav",
+      "start": 0,
+      "volume": -1.02
+    },
+    "chord-gc-1": {
+      "id": "chord-gc-1",
+      "name": "Chord G/C take 1",
+      "file": "audio/chord-gc-1.wav",
+      "start": 0,
+      "volume": 0.93
+    },
+    "chord-gc-2": {
+      "id": "chord-gc-2",
+      "name": "Chord G/C take 2",
+      "file": "audio/chord-gc-2.wav",
+      "start": 0,
+      "volume": 0.48
     }
   },
   "channels": {
