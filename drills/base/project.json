@@ -1,0 +1,1608 @@
+{
+  "id": "drills/base",
+  "name": "Drills: Base",
+  "project": {
+    "description": "A drill record played back as its own kit: slide the kick into the snare",
+    "dimensions": {
+      "width": 960,
+      "height": 540
+    },
+    "quantisation": 8,
+    "tempo": 90,
+    "compressor": {
+      "enabled": true,
+      "threshold": -18,
+      "knee": 24,
+      "ratio": 3,
+      "attack": 0.005,
+      "release": 0.15,
+      "makeup": 1.2
+    }
+  },
+  "scene": {
+    "style": {
+      "backgroundColor": "#1b2b34"
+    }
+  },
+  "controls": [
+    {
+      "id": "bass-1",
+      "name": "BASS 1",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 20,
+      "position-y": 70,
+      "width": 88,
+      "height": 88,
+      "color": "#be9df8",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "bass-2",
+      "name": "BASS 2",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 120,
+      "position-y": 70,
+      "width": 88,
+      "height": 88,
+      "color": "#be9df8",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "bass-3",
+      "name": "BASS 3",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 220,
+      "position-y": 70,
+      "width": 88,
+      "height": 88,
+      "color": "#be9df8",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "bass-4",
+      "name": "BASS 4",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 320,
+      "position-y": 70,
+      "width": 88,
+      "height": 88,
+      "color": "#be9df8",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "bass-5",
+      "name": "BASS 5",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 20,
+      "position-y": 170,
+      "width": 88,
+      "height": 88,
+      "color": "#be9df8",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "bass-6",
+      "name": "BASS 6",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 120,
+      "position-y": 170,
+      "width": 88,
+      "height": 88,
+      "color": "#be9df8",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "bass-7",
+      "name": "BASS 7",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 220,
+      "position-y": 170,
+      "width": 88,
+      "height": 88,
+      "color": "#be9df8",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "bass-mute",
+      "name": "MUTE",
+      "scene": "base",
+      "type": "scripter",
+      "position-x": 320,
+      "position-y": 170,
+      "width": 88,
+      "height": 88,
+      "color": "#8261b6",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "clap",
+      "name": "CLAP",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 592,
+      "position-y": 114,
+      "width": 96,
+      "height": 96,
+      "color": "#ffb87b",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "hat-c",
+      "name": "HAT C",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 592,
+      "position-y": 222,
+      "width": 96,
+      "height": 96,
+      "color": "#d1ad40cc",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "hat-o",
+      "name": "HAT O",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 700,
+      "position-y": 222,
+      "width": 96,
+      "height": 96,
+      "color": "#d1ad40",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "kick",
+      "name": "KICK",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 448,
+      "position-y": 204,
+      "width": 132,
+      "height": 132,
+      "color": "#6cb6ff",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "perc",
+      "name": "PERC",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 700,
+      "position-y": 114,
+      "width": 96,
+      "height": 96,
+      "color": "#6fc884",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "snare",
+      "name": "SNARE",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 808,
+      "position-y": 204,
+      "width": 132,
+      "height": 132,
+      "color": "#ed9c54",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "sub",
+      "name": "SUB",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 700,
+      "position-y": 330,
+      "width": 96,
+      "height": 96,
+      "color": "#9fcfff",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    },
+    {
+      "id": "synth-1",
+      "name": "SYNTH 1",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 20,
+      "position-y": 282,
+      "width": 88,
+      "height": 88,
+      "color": "#00cacb",
+      "radius": 4,
+      "group": "synth",
+      "options": ""
+    },
+    {
+      "id": "synth-2",
+      "name": "SYNTH 2",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 120,
+      "position-y": 282,
+      "width": 88,
+      "height": 88,
+      "color": "#00cacb",
+      "radius": 4,
+      "group": "synth",
+      "options": ""
+    },
+    {
+      "id": "synth-3",
+      "name": "SYNTH 3",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 220,
+      "position-y": 282,
+      "width": 88,
+      "height": 88,
+      "color": "#00cacb",
+      "radius": 4,
+      "group": "synth",
+      "options": ""
+    },
+    {
+      "id": "synth-4",
+      "name": "SYNTH 4",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 320,
+      "position-y": 282,
+      "width": 88,
+      "height": 88,
+      "color": "#00cacb",
+      "radius": 4,
+      "group": "synth",
+      "options": ""
+    },
+    {
+      "id": "synth-5",
+      "name": "SYNTH 5",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 20,
+      "position-y": 382,
+      "width": 88,
+      "height": 88,
+      "color": "#00cacb",
+      "radius": 4,
+      "group": "synth",
+      "options": ""
+    },
+    {
+      "id": "synth-6",
+      "name": "SYNTH 6",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 120,
+      "position-y": 382,
+      "width": 88,
+      "height": 88,
+      "color": "#00cacb",
+      "radius": 4,
+      "group": "synth",
+      "options": ""
+    },
+    {
+      "id": "synth-7",
+      "name": "SYNTH 7",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 220,
+      "position-y": 382,
+      "width": 88,
+      "height": 88,
+      "color": "#00cacb",
+      "radius": 4,
+      "group": "synth",
+      "options": ""
+    },
+    {
+      "id": "synth-mute",
+      "name": "MUTE",
+      "scene": "base",
+      "type": "scripter",
+      "position-x": 320,
+      "position-y": 382,
+      "width": 88,
+      "height": 88,
+      "color": "#007f7f",
+      "radius": 4,
+      "group": "synth",
+      "options": ""
+    },
+    {
+      "id": "tom",
+      "name": "TOM",
+      "scene": "base",
+      "type": "cluster",
+      "position-x": 592,
+      "position-y": 330,
+      "width": 96,
+      "height": 96,
+      "color": "#f98d8e",
+      "radius": 4,
+      "group": "drums",
+      "options": ""
+    }
+  ],
+  "assignments": [
+    {
+      "id": "bm-effect.bm-channel.brickwall.master",
+      "source-object": "bm-effect",
+      "source-record": "brickwall",
+      "target-object": "bm-channel",
+      "target-record": "master",
+      "order": 2
+    },
+    {
+      "id": "bm-effect.bm-channel.glue.master",
+      "source-object": "bm-effect",
+      "source-record": "glue",
+      "target-object": "bm-channel",
+      "target-record": "master",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-1-r1.bass-1",
+      "source-object": "bm-sampler",
+      "source-record": "bass-1-r1",
+      "target-object": "bm-control",
+      "target-record": "bass-1"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-1-r2.bass-1",
+      "source-object": "bm-sampler",
+      "source-record": "bass-1-r2",
+      "target-object": "bm-control",
+      "target-record": "bass-1"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-1-r3.bass-1",
+      "source-object": "bm-sampler",
+      "source-record": "bass-1-r3",
+      "target-object": "bm-control",
+      "target-record": "bass-1"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-1-r4.bass-1",
+      "source-object": "bm-sampler",
+      "source-record": "bass-1-r4",
+      "target-object": "bm-control",
+      "target-record": "bass-1"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-2-r1.bass-2",
+      "source-object": "bm-sampler",
+      "source-record": "bass-2-r1",
+      "target-object": "bm-control",
+      "target-record": "bass-2"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-2-r2.bass-2",
+      "source-object": "bm-sampler",
+      "source-record": "bass-2-r2",
+      "target-object": "bm-control",
+      "target-record": "bass-2"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-2-r3.bass-2",
+      "source-object": "bm-sampler",
+      "source-record": "bass-2-r3",
+      "target-object": "bm-control",
+      "target-record": "bass-2"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-2-r4.bass-2",
+      "source-object": "bm-sampler",
+      "source-record": "bass-2-r4",
+      "target-object": "bm-control",
+      "target-record": "bass-2"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-3-r1.bass-3",
+      "source-object": "bm-sampler",
+      "source-record": "bass-3-r1",
+      "target-object": "bm-control",
+      "target-record": "bass-3"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-3-r2.bass-3",
+      "source-object": "bm-sampler",
+      "source-record": "bass-3-r2",
+      "target-object": "bm-control",
+      "target-record": "bass-3"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-3-r3.bass-3",
+      "source-object": "bm-sampler",
+      "source-record": "bass-3-r3",
+      "target-object": "bm-control",
+      "target-record": "bass-3"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-3-r4.bass-3",
+      "source-object": "bm-sampler",
+      "source-record": "bass-3-r4",
+      "target-object": "bm-control",
+      "target-record": "bass-3"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-4-r1.bass-4",
+      "source-object": "bm-sampler",
+      "source-record": "bass-4-r1",
+      "target-object": "bm-control",
+      "target-record": "bass-4"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-4-r2.bass-4",
+      "source-object": "bm-sampler",
+      "source-record": "bass-4-r2",
+      "target-object": "bm-control",
+      "target-record": "bass-4"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-4-r3.bass-4",
+      "source-object": "bm-sampler",
+      "source-record": "bass-4-r3",
+      "target-object": "bm-control",
+      "target-record": "bass-4"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-4-r4.bass-4",
+      "source-object": "bm-sampler",
+      "source-record": "bass-4-r4",
+      "target-object": "bm-control",
+      "target-record": "bass-4"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-5-r1.bass-5",
+      "source-object": "bm-sampler",
+      "source-record": "bass-5-r1",
+      "target-object": "bm-control",
+      "target-record": "bass-5"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-5-r2.bass-5",
+      "source-object": "bm-sampler",
+      "source-record": "bass-5-r2",
+      "target-object": "bm-control",
+      "target-record": "bass-5"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-5-r3.bass-5",
+      "source-object": "bm-sampler",
+      "source-record": "bass-5-r3",
+      "target-object": "bm-control",
+      "target-record": "bass-5"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-5-r4.bass-5",
+      "source-object": "bm-sampler",
+      "source-record": "bass-5-r4",
+      "target-object": "bm-control",
+      "target-record": "bass-5"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-6-r1.bass-6",
+      "source-object": "bm-sampler",
+      "source-record": "bass-6-r1",
+      "target-object": "bm-control",
+      "target-record": "bass-6"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-6-r2.bass-6",
+      "source-object": "bm-sampler",
+      "source-record": "bass-6-r2",
+      "target-object": "bm-control",
+      "target-record": "bass-6"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-6-r3.bass-6",
+      "source-object": "bm-sampler",
+      "source-record": "bass-6-r3",
+      "target-object": "bm-control",
+      "target-record": "bass-6"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-6-r4.bass-6",
+      "source-object": "bm-sampler",
+      "source-record": "bass-6-r4",
+      "target-object": "bm-control",
+      "target-record": "bass-6"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-7-r1.bass-7",
+      "source-object": "bm-sampler",
+      "source-record": "bass-7-r1",
+      "target-object": "bm-control",
+      "target-record": "bass-7"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-7-r2.bass-7",
+      "source-object": "bm-sampler",
+      "source-record": "bass-7-r2",
+      "target-object": "bm-control",
+      "target-record": "bass-7"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-7-r3.bass-7",
+      "source-object": "bm-sampler",
+      "source-record": "bass-7-r3",
+      "target-object": "bm-control",
+      "target-record": "bass-7"
+    },
+    {
+      "id": "bm-sampler.bm-control.clap-r1.clap",
+      "source-object": "bm-sampler",
+      "source-record": "clap-r1",
+      "target-object": "bm-control",
+      "target-record": "clap"
+    },
+    {
+      "id": "bm-sampler.bm-control.clap-r2.clap",
+      "source-object": "bm-sampler",
+      "source-record": "clap-r2",
+      "target-object": "bm-control",
+      "target-record": "clap"
+    },
+    {
+      "id": "bm-sampler.bm-control.clap-r3.clap",
+      "source-object": "bm-sampler",
+      "source-record": "clap-r3",
+      "target-object": "bm-control",
+      "target-record": "clap"
+    },
+    {
+      "id": "bm-sampler.bm-control.clap-r4.clap",
+      "source-object": "bm-sampler",
+      "source-record": "clap-r4",
+      "target-object": "bm-control",
+      "target-record": "clap"
+    },
+    {
+      "id": "bm-sampler.bm-control.hat-c-r1.hat-c",
+      "source-object": "bm-sampler",
+      "source-record": "hat-c-r1",
+      "target-object": "bm-control",
+      "target-record": "hat-c"
+    },
+    {
+      "id": "bm-sampler.bm-control.hat-c-r2.hat-c",
+      "source-object": "bm-sampler",
+      "source-record": "hat-c-r2",
+      "target-object": "bm-control",
+      "target-record": "hat-c"
+    },
+    {
+      "id": "bm-sampler.bm-control.hat-c-r3.hat-c",
+      "source-object": "bm-sampler",
+      "source-record": "hat-c-r3",
+      "target-object": "bm-control",
+      "target-record": "hat-c"
+    },
+    {
+      "id": "bm-sampler.bm-control.hat-c-r4.hat-c",
+      "source-object": "bm-sampler",
+      "source-record": "hat-c-r4",
+      "target-object": "bm-control",
+      "target-record": "hat-c"
+    },
+    {
+      "id": "bm-sampler.bm-control.hat-o-r1.hat-o",
+      "source-object": "bm-sampler",
+      "source-record": "hat-o-r1",
+      "target-object": "bm-control",
+      "target-record": "hat-o"
+    },
+    {
+      "id": "bm-sampler.bm-control.hat-o-r2.hat-o",
+      "source-object": "bm-sampler",
+      "source-record": "hat-o-r2",
+      "target-object": "bm-control",
+      "target-record": "hat-o"
+    },
+    {
+      "id": "bm-sampler.bm-control.hat-o-r3.hat-o",
+      "source-object": "bm-sampler",
+      "source-record": "hat-o-r3",
+      "target-object": "bm-control",
+      "target-record": "hat-o"
+    },
+    {
+      "id": "bm-sampler.bm-control.hat-o-r4.hat-o",
+      "source-object": "bm-sampler",
+      "source-record": "hat-o-r4",
+      "target-object": "bm-control",
+      "target-record": "hat-o"
+    },
+    {
+      "id": "bm-sampler.bm-control.kick-r1.kick",
+      "source-object": "bm-sampler",
+      "source-record": "kick-r1",
+      "target-object": "bm-control",
+      "target-record": "kick"
+    },
+    {
+      "id": "bm-sampler.bm-control.kick-r2.kick",
+      "source-object": "bm-sampler",
+      "source-record": "kick-r2",
+      "target-object": "bm-control",
+      "target-record": "kick"
+    },
+    {
+      "id": "bm-sampler.bm-control.kick-r3.kick",
+      "source-object": "bm-sampler",
+      "source-record": "kick-r3",
+      "target-object": "bm-control",
+      "target-record": "kick"
+    },
+    {
+      "id": "bm-sampler.bm-control.kick-r4.kick",
+      "source-object": "bm-sampler",
+      "source-record": "kick-r4",
+      "target-object": "bm-control",
+      "target-record": "kick"
+    },
+    {
+      "id": "bm-sampler.bm-control.perc-r1.perc",
+      "source-object": "bm-sampler",
+      "source-record": "perc-r1",
+      "target-object": "bm-control",
+      "target-record": "perc"
+    },
+    {
+      "id": "bm-sampler.bm-control.perc-r2.perc",
+      "source-object": "bm-sampler",
+      "source-record": "perc-r2",
+      "target-object": "bm-control",
+      "target-record": "perc"
+    },
+    {
+      "id": "bm-sampler.bm-control.perc-r3.perc",
+      "source-object": "bm-sampler",
+      "source-record": "perc-r3",
+      "target-object": "bm-control",
+      "target-record": "perc"
+    },
+    {
+      "id": "bm-sampler.bm-control.perc-r4.perc",
+      "source-object": "bm-sampler",
+      "source-record": "perc-r4",
+      "target-object": "bm-control",
+      "target-record": "perc"
+    },
+    {
+      "id": "bm-sampler.bm-control.snare-r1.snare",
+      "source-object": "bm-sampler",
+      "source-record": "snare-r1",
+      "target-object": "bm-control",
+      "target-record": "snare"
+    },
+    {
+      "id": "bm-sampler.bm-control.snare-r2.snare",
+      "source-object": "bm-sampler",
+      "source-record": "snare-r2",
+      "target-object": "bm-control",
+      "target-record": "snare"
+    },
+    {
+      "id": "bm-sampler.bm-control.snare-r3.snare",
+      "source-object": "bm-sampler",
+      "source-record": "snare-r3",
+      "target-object": "bm-control",
+      "target-record": "snare"
+    },
+    {
+      "id": "bm-sampler.bm-control.snare-r4.snare",
+      "source-object": "bm-sampler",
+      "source-record": "snare-r4",
+      "target-object": "bm-control",
+      "target-record": "snare"
+    },
+    {
+      "id": "bm-sampler.bm-control.sub-r1.sub",
+      "source-object": "bm-sampler",
+      "source-record": "sub-r1",
+      "target-object": "bm-control",
+      "target-record": "sub"
+    },
+    {
+      "id": "bm-sampler.bm-control.sub-r2.sub",
+      "source-object": "bm-sampler",
+      "source-record": "sub-r2",
+      "target-object": "bm-control",
+      "target-record": "sub"
+    },
+    {
+      "id": "bm-sampler.bm-control.sub-r3.sub",
+      "source-object": "bm-sampler",
+      "source-record": "sub-r3",
+      "target-object": "bm-control",
+      "target-record": "sub"
+    },
+    {
+      "id": "bm-sampler.bm-control.sub-r4.sub",
+      "source-object": "bm-sampler",
+      "source-record": "sub-r4",
+      "target-object": "bm-control",
+      "target-record": "sub"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-1-r1.synth-1",
+      "source-object": "bm-sampler",
+      "source-record": "synth-1-r1",
+      "target-object": "bm-control",
+      "target-record": "synth-1"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-1-r2.synth-1",
+      "source-object": "bm-sampler",
+      "source-record": "synth-1-r2",
+      "target-object": "bm-control",
+      "target-record": "synth-1"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-1-r3.synth-1",
+      "source-object": "bm-sampler",
+      "source-record": "synth-1-r3",
+      "target-object": "bm-control",
+      "target-record": "synth-1"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-1-r4.synth-1",
+      "source-object": "bm-sampler",
+      "source-record": "synth-1-r4",
+      "target-object": "bm-control",
+      "target-record": "synth-1"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-2-r1.synth-2",
+      "source-object": "bm-sampler",
+      "source-record": "synth-2-r1",
+      "target-object": "bm-control",
+      "target-record": "synth-2"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-2-r2.synth-2",
+      "source-object": "bm-sampler",
+      "source-record": "synth-2-r2",
+      "target-object": "bm-control",
+      "target-record": "synth-2"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-2-r3.synth-2",
+      "source-object": "bm-sampler",
+      "source-record": "synth-2-r3",
+      "target-object": "bm-control",
+      "target-record": "synth-2"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-2-r4.synth-2",
+      "source-object": "bm-sampler",
+      "source-record": "synth-2-r4",
+      "target-object": "bm-control",
+      "target-record": "synth-2"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-3-r1.synth-3",
+      "source-object": "bm-sampler",
+      "source-record": "synth-3-r1",
+      "target-object": "bm-control",
+      "target-record": "synth-3"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-3-r2.synth-3",
+      "source-object": "bm-sampler",
+      "source-record": "synth-3-r2",
+      "target-object": "bm-control",
+      "target-record": "synth-3"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-3-r3.synth-3",
+      "source-object": "bm-sampler",
+      "source-record": "synth-3-r3",
+      "target-object": "bm-control",
+      "target-record": "synth-3"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-3-r4.synth-3",
+      "source-object": "bm-sampler",
+      "source-record": "synth-3-r4",
+      "target-object": "bm-control",
+      "target-record": "synth-3"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-4-r1.synth-4",
+      "source-object": "bm-sampler",
+      "source-record": "synth-4-r1",
+      "target-object": "bm-control",
+      "target-record": "synth-4"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-4-r2.synth-4",
+      "source-object": "bm-sampler",
+      "source-record": "synth-4-r2",
+      "target-object": "bm-control",
+      "target-record": "synth-4"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-4-r3.synth-4",
+      "source-object": "bm-sampler",
+      "source-record": "synth-4-r3",
+      "target-object": "bm-control",
+      "target-record": "synth-4"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-4-r4.synth-4",
+      "source-object": "bm-sampler",
+      "source-record": "synth-4-r4",
+      "target-object": "bm-control",
+      "target-record": "synth-4"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-5-r1.synth-5",
+      "source-object": "bm-sampler",
+      "source-record": "synth-5-r1",
+      "target-object": "bm-control",
+      "target-record": "synth-5"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-5-r2.synth-5",
+      "source-object": "bm-sampler",
+      "source-record": "synth-5-r2",
+      "target-object": "bm-control",
+      "target-record": "synth-5"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-5-r3.synth-5",
+      "source-object": "bm-sampler",
+      "source-record": "synth-5-r3",
+      "target-object": "bm-control",
+      "target-record": "synth-5"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-5-r4.synth-5",
+      "source-object": "bm-sampler",
+      "source-record": "synth-5-r4",
+      "target-object": "bm-control",
+      "target-record": "synth-5"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-6-r1.synth-6",
+      "source-object": "bm-sampler",
+      "source-record": "synth-6-r1",
+      "target-object": "bm-control",
+      "target-record": "synth-6"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-6-r2.synth-6",
+      "source-object": "bm-sampler",
+      "source-record": "synth-6-r2",
+      "target-object": "bm-control",
+      "target-record": "synth-6"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-6-r3.synth-6",
+      "source-object": "bm-sampler",
+      "source-record": "synth-6-r3",
+      "target-object": "bm-control",
+      "target-record": "synth-6"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-7-r1.synth-7",
+      "source-object": "bm-sampler",
+      "source-record": "synth-7-r1",
+      "target-object": "bm-control",
+      "target-record": "synth-7"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-7-r2.synth-7",
+      "source-object": "bm-sampler",
+      "source-record": "synth-7-r2",
+      "target-object": "bm-control",
+      "target-record": "synth-7"
+    },
+    {
+      "id": "bm-sampler.bm-control.synth-7-r3.synth-7",
+      "source-object": "bm-sampler",
+      "source-record": "synth-7-r3",
+      "target-object": "bm-control",
+      "target-record": "synth-7"
+    },
+    {
+      "id": "bm-sampler.bm-control.tom-r1.tom",
+      "source-object": "bm-sampler",
+      "source-record": "tom-r1",
+      "target-object": "bm-control",
+      "target-record": "tom"
+    },
+    {
+      "id": "bm-sampler.bm-control.tom-r2.tom",
+      "source-object": "bm-sampler",
+      "source-record": "tom-r2",
+      "target-object": "bm-control",
+      "target-record": "tom"
+    },
+    {
+      "id": "bm-sampler.bm-control.tom-r3.tom",
+      "source-object": "bm-sampler",
+      "source-record": "tom-r3",
+      "target-object": "bm-control",
+      "target-record": "tom"
+    },
+    {
+      "id": "bm-sampler.bm-control.tom-r4.tom",
+      "source-object": "bm-sampler",
+      "source-record": "tom-r4",
+      "target-object": "bm-control",
+      "target-record": "tom"
+    }
+  ],
+  "patterns": {},
+  "samplers": {
+    "bass-1-r1": {
+      "id": "bass-1-r1",
+      "name": "bass 1 1",
+      "file": "audio/bass-1-r1.wav",
+      "start": 0,
+      "volume": -6
+    },
+    "bass-1-r2": {
+      "id": "bass-1-r2",
+      "name": "bass 1 2",
+      "file": "audio/bass-1-r2.wav",
+      "start": 0,
+      "volume": -4.1
+    },
+    "bass-1-r3": {
+      "id": "bass-1-r3",
+      "name": "bass 1 3",
+      "file": "audio/bass-1-r3.wav",
+      "start": 0,
+      "volume": -4.9
+    },
+    "bass-1-r4": {
+      "id": "bass-1-r4",
+      "name": "bass 1 4",
+      "file": "audio/bass-1-r4.wav",
+      "start": 0,
+      "volume": -5.2
+    },
+    "bass-2-r1": {
+      "id": "bass-2-r1",
+      "name": "bass 2 1",
+      "file": "audio/bass-2-r1.wav",
+      "start": 0,
+      "volume": -0.9
+    },
+    "bass-2-r2": {
+      "id": "bass-2-r2",
+      "name": "bass 2 2",
+      "file": "audio/bass-2-r2.wav",
+      "start": 0,
+      "volume": -5.2
+    },
+    "bass-2-r3": {
+      "id": "bass-2-r3",
+      "name": "bass 2 3",
+      "file": "audio/bass-2-r3.wav",
+      "start": 0,
+      "volume": -2.9
+    },
+    "bass-2-r4": {
+      "id": "bass-2-r4",
+      "name": "bass 2 4",
+      "file": "audio/bass-2-r4.wav",
+      "start": 0,
+      "volume": -7.6
+    },
+    "bass-3-r1": {
+      "id": "bass-3-r1",
+      "name": "bass 3 1",
+      "file": "audio/bass-3-r1.wav",
+      "start": 0,
+      "volume": -2.1
+    },
+    "bass-3-r2": {
+      "id": "bass-3-r2",
+      "name": "bass 3 2",
+      "file": "audio/bass-3-r2.wav",
+      "start": 0,
+      "volume": -0.1
+    },
+    "bass-3-r3": {
+      "id": "bass-3-r3",
+      "name": "bass 3 3",
+      "file": "audio/bass-3-r3.wav",
+      "start": 0,
+      "volume": -3
+    },
+    "bass-3-r4": {
+      "id": "bass-3-r4",
+      "name": "bass 3 4",
+      "file": "audio/bass-3-r4.wav",
+      "start": 0,
+      "volume": -4.5
+    },
+    "bass-4-r1": {
+      "id": "bass-4-r1",
+      "name": "bass 4 1",
+      "file": "audio/bass-4-r1.wav",
+      "start": 0,
+      "volume": -3.8
+    },
+    "bass-4-r2": {
+      "id": "bass-4-r2",
+      "name": "bass 4 2",
+      "file": "audio/bass-4-r2.wav",
+      "start": 0,
+      "volume": -3.5
+    },
+    "bass-4-r3": {
+      "id": "bass-4-r3",
+      "name": "bass 4 3",
+      "file": "audio/bass-4-r3.wav",
+      "start": 0,
+      "volume": -5.2
+    },
+    "bass-4-r4": {
+      "id": "bass-4-r4",
+      "name": "bass 4 4",
+      "file": "audio/bass-4-r4.wav",
+      "start": 0,
+      "volume": -6.3
+    },
+    "bass-5-r1": {
+      "id": "bass-5-r1",
+      "name": "bass 5 1",
+      "file": "audio/bass-5-r1.wav",
+      "start": 0,
+      "volume": -3.8
+    },
+    "bass-5-r2": {
+      "id": "bass-5-r2",
+      "name": "bass 5 2",
+      "file": "audio/bass-5-r2.wav",
+      "start": 0,
+      "volume": -3.7
+    },
+    "bass-5-r3": {
+      "id": "bass-5-r3",
+      "name": "bass 5 3",
+      "file": "audio/bass-5-r3.wav",
+      "start": 0,
+      "volume": -5.6
+    },
+    "bass-5-r4": {
+      "id": "bass-5-r4",
+      "name": "bass 5 4",
+      "file": "audio/bass-5-r4.wav",
+      "start": 0,
+      "volume": -5.7
+    },
+    "bass-6-r1": {
+      "id": "bass-6-r1",
+      "name": "bass 6 1",
+      "file": "audio/bass-6-r1.wav",
+      "start": 0,
+      "volume": -3.3
+    },
+    "bass-6-r2": {
+      "id": "bass-6-r2",
+      "name": "bass 6 2",
+      "file": "audio/bass-6-r2.wav",
+      "start": 0,
+      "volume": -7.3
+    },
+    "bass-6-r3": {
+      "id": "bass-6-r3",
+      "name": "bass 6 3",
+      "file": "audio/bass-6-r3.wav",
+      "start": 0,
+      "volume": -2.6
+    },
+    "bass-6-r4": {
+      "id": "bass-6-r4",
+      "name": "bass 6 4",
+      "file": "audio/bass-6-r4.wav",
+      "start": 0,
+      "volume": -5.2
+    },
+    "bass-7-r1": {
+      "id": "bass-7-r1",
+      "name": "bass 7 1",
+      "file": "audio/bass-7-r1.wav",
+      "start": 0,
+      "volume": -6
+    },
+    "bass-7-r2": {
+      "id": "bass-7-r2",
+      "name": "bass 7 2",
+      "file": "audio/bass-7-r2.wav",
+      "start": 0,
+      "volume": -5.7
+    },
+    "bass-7-r3": {
+      "id": "bass-7-r3",
+      "name": "bass 7 3",
+      "file": "audio/bass-7-r3.wav",
+      "start": 0,
+      "volume": -1
+    },
+    "clap-r1": {
+      "id": "clap-r1",
+      "name": "clap 1",
+      "file": "audio/clap-r1.wav",
+      "start": 0,
+      "volume": -3.8
+    },
+    "clap-r2": {
+      "id": "clap-r2",
+      "name": "clap 2",
+      "file": "audio/clap-r2.wav",
+      "start": 0,
+      "volume": -4.2
+    },
+    "clap-r3": {
+      "id": "clap-r3",
+      "name": "clap 3",
+      "file": "audio/clap-r3.wav",
+      "start": 0,
+      "volume": -4.8
+    },
+    "clap-r4": {
+      "id": "clap-r4",
+      "name": "clap 4",
+      "file": "audio/clap-r4.wav",
+      "start": 0,
+      "volume": -6
+    },
+    "hat-c-r1": {
+      "id": "hat-c-r1",
+      "name": "hat c 1",
+      "file": "audio/hat-c-r1.wav",
+      "start": 0,
+      "volume": -3.6
+    },
+    "hat-c-r2": {
+      "id": "hat-c-r2",
+      "name": "hat c 2",
+      "file": "audio/hat-c-r2.wav",
+      "start": 0,
+      "volume": -1.8
+    },
+    "hat-c-r3": {
+      "id": "hat-c-r3",
+      "name": "hat c 3",
+      "file": "audio/hat-c-r3.wav",
+      "start": 0,
+      "volume": -5.4
+    },
+    "hat-c-r4": {
+      "id": "hat-c-r4",
+      "name": "hat c 4",
+      "file": "audio/hat-c-r4.wav",
+      "start": 0,
+      "volume": -6.7
+    },
+    "hat-o-r1": {
+      "id": "hat-o-r1",
+      "name": "hat o 1",
+      "file": "audio/hat-o-r1.wav",
+      "start": 0,
+      "volume": -4.7
+    },
+    "hat-o-r2": {
+      "id": "hat-o-r2",
+      "name": "hat o 2",
+      "file": "audio/hat-o-r2.wav",
+      "start": 0,
+      "volume": -4.3
+    },
+    "hat-o-r3": {
+      "id": "hat-o-r3",
+      "name": "hat o 3",
+      "file": "audio/hat-o-r3.wav",
+      "start": 0,
+      "volume": -3.9
+    },
+    "hat-o-r4": {
+      "id": "hat-o-r4",
+      "name": "hat o 4",
+      "file": "audio/hat-o-r4.wav",
+      "start": 0,
+      "volume": -6.6
+    },
+    "kick-r1": {
+      "id": "kick-r1",
+      "name": "kick 1",
+      "file": "audio/kick-r1.wav",
+      "start": 0,
+      "volume": -4.8
+    },
+    "kick-r2": {
+      "id": "kick-r2",
+      "name": "kick 2",
+      "file": "audio/kick-r2.wav",
+      "start": 0,
+      "volume": -3.4
+    },
+    "kick-r3": {
+      "id": "kick-r3",
+      "name": "kick 3",
+      "file": "audio/kick-r3.wav",
+      "start": 0,
+      "volume": -5.8
+    },
+    "kick-r4": {
+      "id": "kick-r4",
+      "name": "kick 4",
+      "file": "audio/kick-r4.wav",
+      "start": 0,
+      "volume": -4.2
+    },
+    "perc-r1": {
+      "id": "perc-r1",
+      "name": "perc 1",
+      "file": "audio/perc-r1.wav",
+      "start": 0,
+      "volume": -4.6
+    },
+    "perc-r2": {
+      "id": "perc-r2",
+      "name": "perc 2",
+      "file": "audio/perc-r2.wav",
+      "start": 0,
+      "volume": -4.6
+    },
+    "perc-r3": {
+      "id": "perc-r3",
+      "name": "perc 3",
+      "file": "audio/perc-r3.wav",
+      "start": 0,
+      "volume": -4.4
+    },
+    "perc-r4": {
+      "id": "perc-r4",
+      "name": "perc 4",
+      "file": "audio/perc-r4.wav",
+      "start": 0,
+      "volume": -4.4
+    },
+    "snare-r1": {
+      "id": "snare-r1",
+      "name": "snare 1",
+      "file": "audio/snare-r1.wav",
+      "start": 0,
+      "volume": -5.2
+    },
+    "snare-r2": {
+      "id": "snare-r2",
+      "name": "snare 2",
+      "file": "audio/snare-r2.wav",
+      "start": 0,
+      "volume": -3.8
+    },
+    "snare-r3": {
+      "id": "snare-r3",
+      "name": "snare 3",
+      "file": "audio/snare-r3.wav",
+      "start": 0,
+      "volume": -2.5
+    },
+    "snare-r4": {
+      "id": "snare-r4",
+      "name": "snare 4",
+      "file": "audio/snare-r4.wav",
+      "start": 0,
+      "volume": -5.3
+    },
+    "sub-r1": {
+      "id": "sub-r1",
+      "name": "sub 1",
+      "file": "audio/sub-r1.wav",
+      "start": 0,
+      "volume": -4.5
+    },
+    "sub-r2": {
+      "id": "sub-r2",
+      "name": "sub 2",
+      "file": "audio/sub-r2.wav",
+      "start": 0,
+      "volume": -5.1
+    },
+    "sub-r3": {
+      "id": "sub-r3",
+      "name": "sub 3",
+      "file": "audio/sub-r3.wav",
+      "start": 0,
+      "volume": -5.5
+    },
+    "sub-r4": {
+      "id": "sub-r4",
+      "name": "sub 4",
+      "file": "audio/sub-r4.wav",
+      "start": 0,
+      "volume": -4.4
+    },
+    "synth-1-r1": {
+      "id": "synth-1-r1",
+      "name": "synth 1 1",
+      "file": "audio/synth-1-r1.wav",
+      "start": 0,
+      "volume": -6.5
+    },
+    "synth-1-r2": {
+      "id": "synth-1-r2",
+      "name": "synth 1 2",
+      "file": "audio/synth-1-r2.wav",
+      "start": 0,
+      "volume": -7.1
+    },
+    "synth-1-r3": {
+      "id": "synth-1-r3",
+      "name": "synth 1 3",
+      "file": "audio/synth-1-r3.wav",
+      "start": 0,
+      "volume": -7
+    },
+    "synth-1-r4": {
+      "id": "synth-1-r4",
+      "name": "synth 1 4",
+      "file": "audio/synth-1-r4.wav",
+      "start": 0,
+      "volume": -5.5
+    },
+    "synth-2-r1": {
+      "id": "synth-2-r1",
+      "name": "synth 2 1",
+      "file": "audio/synth-2-r1.wav",
+      "start": 0,
+      "volume": 3
+    },
+    "synth-2-r2": {
+      "id": "synth-2-r2",
+      "name": "synth 2 2",
+      "file": "audio/synth-2-r2.wav",
+      "start": 0,
+      "volume": 2
+    },
+    "synth-2-r3": {
+      "id": "synth-2-r3",
+      "name": "synth 2 3",
+      "file": "audio/synth-2-r3.wav",
+      "start": 0,
+      "volume": 1.7
+    },
+    "synth-2-r4": {
+      "id": "synth-2-r4",
+      "name": "synth 2 4",
+      "file": "audio/synth-2-r4.wav",
+      "start": 0,
+      "volume": 1.3
+    },
+    "synth-3-r1": {
+      "id": "synth-3-r1",
+      "name": "synth 3 1",
+      "file": "audio/synth-3-r1.wav",
+      "start": 0,
+      "volume": -11.1
+    },
+    "synth-3-r2": {
+      "id": "synth-3-r2",
+      "name": "synth 3 2",
+      "file": "audio/synth-3-r2.wav",
+      "start": 0,
+      "volume": -4.7
+    },
+    "synth-3-r3": {
+      "id": "synth-3-r3",
+      "name": "synth 3 3",
+      "file": "audio/synth-3-r3.wav",
+      "start": 0,
+      "volume": -10.3
+    },
+    "synth-3-r4": {
+      "id": "synth-3-r4",
+      "name": "synth 3 4",
+      "file": "audio/synth-3-r4.wav",
+      "start": 0,
+      "volume": -10.8
+    },
+    "synth-4-r1": {
+      "id": "synth-4-r1",
+      "name": "synth 4 1",
+      "file": "audio/synth-4-r1.wav",
+      "start": 0,
+      "volume": -3.9
+    },
+    "synth-4-r2": {
+      "id": "synth-4-r2",
+      "name": "synth 4 2",
+      "file": "audio/synth-4-r2.wav",
+      "start": 0,
+      "volume": -4.1
+    },
+    "synth-4-r3": {
+      "id": "synth-4-r3",
+      "name": "synth 4 3",
+      "file": "audio/synth-4-r3.wav",
+      "start": 0,
+      "volume": -4.9
+    },
+    "synth-4-r4": {
+      "id": "synth-4-r4",
+      "name": "synth 4 4",
+      "file": "audio/synth-4-r4.wav",
+      "start": 0,
+      "volume": -4.9
+    },
+    "synth-5-r1": {
+      "id": "synth-5-r1",
+      "name": "synth 5 1",
+      "file": "audio/synth-5-r1.wav",
+      "start": 0,
+      "volume": 2.9
+    },
+    "synth-5-r2": {
+      "id": "synth-5-r2",
+      "name": "synth 5 2",
+      "file": "audio/synth-5-r2.wav",
+      "start": 0,
+      "volume": -2.4
+    },
+    "synth-5-r3": {
+      "id": "synth-5-r3",
+      "name": "synth 5 3",
+      "file": "audio/synth-5-r3.wav",
+      "start": 0,
+      "volume": -2.5
+    },
+    "synth-5-r4": {
+      "id": "synth-5-r4",
+      "name": "synth 5 4",
+      "file": "audio/synth-5-r4.wav",
+      "start": 0,
+      "volume": 2.4
+    },
+    "synth-6-r1": {
+      "id": "synth-6-r1",
+      "name": "synth 6 1",
+      "file": "audio/synth-6-r1.wav",
+      "start": 0,
+      "volume": -8.9
+    },
+    "synth-6-r2": {
+      "id": "synth-6-r2",
+      "name": "synth 6 2",
+      "file": "audio/synth-6-r2.wav",
+      "start": 0,
+      "volume": -1
+    },
+    "synth-6-r3": {
+      "id": "synth-6-r3",
+      "name": "synth 6 3",
+      "file": "audio/synth-6-r3.wav",
+      "start": 0,
+      "volume": -7.1
+    },
+    "synth-7-r1": {
+      "id": "synth-7-r1",
+      "name": "synth 7 1",
+      "file": "audio/synth-7-r1.wav",
+      "start": 0,
+      "volume": 1.5
+    },
+    "synth-7-r2": {
+      "id": "synth-7-r2",
+      "name": "synth 7 2",
+      "file": "audio/synth-7-r2.wav",
+      "start": 0,
+      "volume": 1
+    },
+    "synth-7-r3": {
+      "id": "synth-7-r3",
+      "name": "synth 7 3",
+      "file": "audio/synth-7-r3.wav",
+      "start": 0,
+      "volume": 2.7
+    },
+    "tom-r1": {
+      "id": "tom-r1",
+      "name": "tom 1",
+      "file": "audio/tom-r1.wav",
+      "start": 0,
+      "volume": -4.7
+    },
+    "tom-r2": {
+      "id": "tom-r2",
+      "name": "tom 2",
+      "file": "audio/tom-r2.wav",
+      "start": 0,
+      "volume": -3.9
+    },
+    "tom-r3": {
+      "id": "tom-r3",
+      "name": "tom 3",
+      "file": "audio/tom-r3.wav",
+      "start": 0,
+      "volume": -4.3
+    },
+    "tom-r4": {
+      "id": "tom-r4",
+      "name": "tom 4",
+      "file": "audio/tom-r4.wav",
+      "start": 0,
+      "volume": -5.5
+    }
+  },
+  "channels": {
+    "master": {
+      "id": "master",
+      "name": "Master",
+      "volume": 0
+    }
+  },
+  "effects": {
+    "brickwall": {
+      "id": "brickwall",
+      "name": "Brickwall",
+      "type": "limiter",
+      "options": "threshold: -1\nknee: 0\nratio: 20\nattack: 0.001\nrelease: 0.05",
+      "threshold": -1,
+      "knee": 0,
+      "ratio": 20,
+      "attack": 0.001,
+      "release": 0.05
+    },
+    "glue": {
+      "id": "glue",
+      "name": "Glue",
+      "type": "compressor",
+      "options": "threshold: -18\nknee: 24\nratio: 3\nattack: 0.005\nrelease: 0.15\nmakeup: 1.2",
+      "threshold": -18,
+      "knee": 24,
+      "ratio": 3,
+      "attack": 0.005,
+      "release": 0.15,
+      "makeup": 1.2
+    }
+  }
+}
