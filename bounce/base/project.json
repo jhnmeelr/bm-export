@@ -167,7 +167,7 @@
     },
     {
       "id": "atmo-3",
-      "name": "WASH",
+      "name": "CHORD",
       "scene": "base",
       "type": "button",
       "position-x": 324,
@@ -891,28 +891,28 @@
       "name": "Atmo Drift",
       "file": "audio/atmo-1.wav",
       "start": 0,
-      "volume": 0
+      "volume": -10.7
     },
     "atmo-2": {
       "id": "atmo-2",
       "name": "Atmo Shimmer",
       "file": "audio/atmo-2.wav",
       "start": 0,
-      "volume": 0
+      "volume": -7.9
     },
     "atmo-3": {
       "id": "atmo-3",
-      "name": "Atmo Wash",
+      "name": "Atmo Chord",
       "file": "audio/atmo-3.wav",
       "start": 0,
-      "volume": 0
+      "volume": -7.3
     },
     "atmo-4": {
       "id": "atmo-4",
       "name": "Atmo Pulse",
       "file": "audio/atmo-4.wav",
       "start": 0,
-      "volume": 0
+      "volume": -7.9
     },
     "b1": {
       "id": "b1",
@@ -975,7 +975,7 @@
       "name": "Bass A0 v50",
       "file": "audio/bass-a0-v50.wav",
       "start": 0,
-      "volume": 0
+      "volume": -1.8
     },
     "bass-a0-v69": {
       "id": "bass-a0-v69",
@@ -996,119 +996,119 @@
       "name": "Bass A1 v50",
       "file": "audio/bass-a1-v50.wav",
       "start": 0,
-      "volume": 0
+      "volume": -3.9
     },
     "bass-a1-v69": {
       "id": "bass-a1-v69",
       "name": "Bass A1 v69",
       "file": "audio/bass-a1-v69.wav",
       "start": 0,
-      "volume": 0
+      "volume": -2.7
     },
     "bass-a1-v95": {
       "id": "bass-a1-v95",
       "name": "Bass A1 v95",
       "file": "audio/bass-a1-v95.wav",
       "start": 0,
-      "volume": 0
+      "volume": -0.1
     },
     "bass-a2-v50": {
       "id": "bass-a2-v50",
       "name": "Bass A2 v50",
       "file": "audio/bass-a2-v50.wav",
       "start": 0,
-      "volume": 0
+      "volume": -2.3
     },
     "bass-a2-v69": {
       "id": "bass-a2-v69",
       "name": "Bass A2 v69",
       "file": "audio/bass-a2-v69.wav",
       "start": 0,
-      "volume": 0
+      "volume": -6.3
     },
     "bass-a2-v95": {
       "id": "bass-a2-v95",
       "name": "Bass A2 v95",
       "file": "audio/bass-a2-v95.wav",
       "start": 0,
-      "volume": 0
+      "volume": -2.8
     },
     "bass-as1-v50": {
       "id": "bass-as1-v50",
       "name": "Bass A#1 v50",
       "file": "audio/bass-as1-v50.wav",
       "start": 0,
-      "volume": 0
+      "volume": -5.7
     },
     "bass-as1-v69": {
       "id": "bass-as1-v69",
       "name": "Bass A#1 v69",
       "file": "audio/bass-as1-v69.wav",
       "start": 0,
-      "volume": 0
+      "volume": -3
     },
     "bass-as1-v95": {
       "id": "bass-as1-v95",
       "name": "Bass A#1 v95",
       "file": "audio/bass-as1-v95.wav",
       "start": 0,
-      "volume": 0
+      "volume": -0.5
     },
     "bass-as2-v50": {
       "id": "bass-as2-v50",
       "name": "Bass A#2 v50",
       "file": "audio/bass-as2-v50.wav",
       "start": 0,
-      "volume": 0
+      "volume": 4.4
     },
     "bass-as2-v69": {
       "id": "bass-as2-v69",
       "name": "Bass A#2 v69",
       "file": "audio/bass-as2-v69.wav",
       "start": 0,
-      "volume": 0
+      "volume": -6.6
     },
     "bass-as2-v95": {
       "id": "bass-as2-v95",
       "name": "Bass A#2 v95",
       "file": "audio/bass-as2-v95.wav",
       "start": 0,
-      "volume": 0
+      "volume": -2.4
     },
     "bass-c2-v50": {
       "id": "bass-c2-v50",
       "name": "Bass C2 v50",
       "file": "audio/bass-c2-v50.wav",
       "start": 0,
-      "volume": 0
+      "volume": -0.6
     },
     "bass-c2-v69": {
       "id": "bass-c2-v69",
       "name": "Bass C2 v69",
       "file": "audio/bass-c2-v69.wav",
       "start": 0,
-      "volume": 0
+      "volume": -3.9
     },
     "bass-c2-v95": {
       "id": "bass-c2-v95",
       "name": "Bass C2 v95",
       "file": "audio/bass-c2-v95.wav",
       "start": 0,
-      "volume": 0
+      "volume": -0.8
     },
     "bass-ds1-v50": {
       "id": "bass-ds1-v50",
       "name": "Bass D#1 v50",
       "file": "audio/bass-ds1-v50.wav",
       "start": 0,
-      "volume": 0
+      "volume": -3.1
     },
     "bass-ds1-v69": {
       "id": "bass-ds1-v69",
       "name": "Bass D#1 v69",
       "file": "audio/bass-ds1-v69.wav",
       "start": 0,
-      "volume": 0
+      "volume": -1.7
     },
     "bass-ds1-v95": {
       "id": "bass-ds1-v95",
@@ -1122,63 +1122,63 @@
       "name": "Bass F1 v50",
       "file": "audio/bass-f1-v50.wav",
       "start": 0,
-      "volume": 0
+      "volume": -3.5
     },
     "bass-f1-v69": {
       "id": "bass-f1-v69",
       "name": "Bass F1 v69",
       "file": "audio/bass-f1-v69.wav",
       "start": 0,
-      "volume": 0
+      "volume": -1.8
     },
     "bass-f1-v95": {
       "id": "bass-f1-v95",
       "name": "Bass F1 v95",
       "file": "audio/bass-f1-v95.wav",
       "start": 0,
-      "volume": 0
+      "volume": -0.2
     },
     "bass-fs1-v50": {
       "id": "bass-fs1-v50",
       "name": "Bass F#1 v50",
       "file": "audio/bass-fs1-v50.wav",
       "start": 0,
-      "volume": 0
+      "volume": -4.5
     },
     "bass-fs1-v69": {
       "id": "bass-fs1-v69",
       "name": "Bass F#1 v69",
       "file": "audio/bass-fs1-v69.wav",
       "start": 0,
-      "volume": 0
+      "volume": -2.5
     },
     "bass-fs1-v95": {
       "id": "bass-fs1-v95",
       "name": "Bass F#1 v95",
       "file": "audio/bass-fs1-v95.wav",
       "start": 0,
-      "volume": 0
+      "volume": -0.5
     },
     "bass-g1-v50": {
       "id": "bass-g1-v50",
       "name": "Bass G1 v50",
       "file": "audio/bass-g1-v50.wav",
       "start": 0,
-      "volume": 0
+      "volume": -4.8
     },
     "bass-g1-v69": {
       "id": "bass-g1-v69",
       "name": "Bass G1 v69",
       "file": "audio/bass-g1-v69.wav",
       "start": 0,
-      "volume": 0
+      "volume": -2.7
     },
     "bass-g1-v95": {
       "id": "bass-g1-v95",
       "name": "Bass G1 v95",
       "file": "audio/bass-g1-v95.wav",
       "start": 0,
-      "volume": 0
+      "volume": -0.6
     }
   },
   "channels": {
