@@ -2,7 +2,7 @@
   "id": "bounce/base",
   "name": "Bounce: Base",
   "project": {
-    "description": "A bounce split into stems: the drop chopped, the sub held",
+    "description": "Ten bass notes and four beds from Sylenth1, against the chopped drop",
     "dimensions": {
       "width": 960,
       "height": 540
@@ -30,7 +30,7 @@
       "name": "A1",
       "scene": "base",
       "type": "button",
-      "position-x": 523,
+      "position-x": 548,
       "position-y": 73,
       "width": 88,
       "height": 88,
@@ -44,7 +44,7 @@
       "name": "A2",
       "scene": "base",
       "type": "button",
-      "position-x": 625,
+      "position-x": 650,
       "position-y": 73,
       "width": 88,
       "height": 88,
@@ -58,7 +58,7 @@
       "name": "A3",
       "scene": "base",
       "type": "button",
-      "position-x": 727,
+      "position-x": 752,
       "position-y": 73,
       "width": 88,
       "height": 88,
@@ -72,7 +72,7 @@
       "name": "A4",
       "scene": "base",
       "type": "button",
-      "position-x": 829,
+      "position-x": 854,
       "position-y": 73,
       "width": 88,
       "height": 88,
@@ -86,8 +86,8 @@
       "name": "A5",
       "scene": "base",
       "type": "button",
-      "position-x": 523,
-      "position-y": 277,
+      "position-x": 548,
+      "position-y": 175,
       "width": 88,
       "height": 88,
       "color": "#ed6863",
@@ -100,8 +100,8 @@
       "name": "A6",
       "scene": "base",
       "type": "button",
-      "position-x": 625,
-      "position-y": 277,
+      "position-x": 650,
+      "position-y": 175,
       "width": 88,
       "height": 88,
       "color": "#ed6863",
@@ -114,8 +114,8 @@
       "name": "A7",
       "scene": "base",
       "type": "button",
-      "position-x": 727,
-      "position-y": 277,
+      "position-x": 752,
+      "position-y": 175,
       "width": 88,
       "height": 88,
       "color": "#ed6863",
@@ -128,8 +128,8 @@
       "name": "A8",
       "scene": "base",
       "type": "button",
-      "position-x": 829,
-      "position-y": 277,
+      "position-x": 854,
+      "position-y": 175,
       "width": 88,
       "height": 88,
       "color": "#ed6863",
@@ -139,10 +139,10 @@
     },
     {
       "id": "atmo-1",
-      "name": "ATMO 1",
+      "name": "DRIFT",
       "scene": "base",
       "type": "button",
-      "position-x": 43,
+      "position-x": 18,
       "position-y": 328,
       "width": 88,
       "height": 88,
@@ -153,10 +153,10 @@
     },
     {
       "id": "atmo-2",
-      "name": "ATMO 2",
+      "name": "SHIMMER",
       "scene": "base",
       "type": "button",
-      "position-x": 145,
+      "position-x": 120,
       "position-y": 328,
       "width": 88,
       "height": 88,
@@ -167,10 +167,10 @@
     },
     {
       "id": "atmo-3",
-      "name": "ATMO 3",
+      "name": "WASH",
       "scene": "base",
       "type": "button",
-      "position-x": 247,
+      "position-x": 324,
       "position-y": 328,
       "width": 88,
       "height": 88,
@@ -181,10 +181,10 @@
     },
     {
       "id": "atmo-4",
-      "name": "ATMO 4",
+      "name": "PULSE",
       "scene": "base",
       "type": "button",
-      "position-x": 349,
+      "position-x": 426,
       "position-y": 328,
       "width": 88,
       "height": 88,
@@ -194,68 +194,12 @@
       "options": ""
     },
     {
-      "id": "atmo-5",
-      "name": "ATMO 5",
-      "scene": "base",
-      "type": "button",
-      "position-x": 43,
-      "position-y": 430,
-      "width": 88,
-      "height": 88,
-      "color": "#b777e3",
-      "radius": 4,
-      "group": "atmo",
-      "options": ""
-    },
-    {
-      "id": "atmo-6",
-      "name": "ATMO 6",
-      "scene": "base",
-      "type": "button",
-      "position-x": 145,
-      "position-y": 430,
-      "width": 88,
-      "height": 88,
-      "color": "#b777e3",
-      "radius": 4,
-      "group": "atmo",
-      "options": ""
-    },
-    {
-      "id": "atmo-7",
-      "name": "ATMO 7",
-      "scene": "base",
-      "type": "button",
-      "position-x": 247,
-      "position-y": 430,
-      "width": 88,
-      "height": 88,
-      "color": "#b777e3",
-      "radius": 4,
-      "group": "atmo",
-      "options": ""
-    },
-    {
-      "id": "atmo-mute",
-      "name": "MUTE",
-      "scene": "base",
-      "type": "scripter",
-      "position-x": 349,
-      "position-y": 430,
-      "width": 88,
-      "height": 88,
-      "color": "#9556bf",
-      "radius": 4,
-      "group": "atmo",
-      "options": ""
-    },
-    {
       "id": "b1",
       "name": "B1",
       "scene": "base",
       "type": "button",
-      "position-x": 523,
-      "position-y": 175,
+      "position-x": 548,
+      "position-y": 277,
       "width": 88,
       "height": 88,
       "color": "#e3770e",
@@ -268,8 +212,8 @@
       "name": "B2",
       "scene": "base",
       "type": "button",
-      "position-x": 625,
-      "position-y": 175,
+      "position-x": 650,
+      "position-y": 277,
       "width": 88,
       "height": 88,
       "color": "#e3770e",
@@ -282,8 +226,8 @@
       "name": "B3",
       "scene": "base",
       "type": "button",
-      "position-x": 727,
-      "position-y": 175,
+      "position-x": 752,
+      "position-y": 277,
       "width": 88,
       "height": 88,
       "color": "#e3770e",
@@ -296,8 +240,8 @@
       "name": "B4",
       "scene": "base",
       "type": "button",
-      "position-x": 829,
-      "position-y": 175,
+      "position-x": 854,
+      "position-y": 277,
       "width": 88,
       "height": 88,
       "color": "#e3770e",
@@ -310,7 +254,7 @@
       "name": "B5",
       "scene": "base",
       "type": "button",
-      "position-x": 523,
+      "position-x": 548,
       "position-y": 379,
       "width": 88,
       "height": 88,
@@ -324,7 +268,7 @@
       "name": "B6",
       "scene": "base",
       "type": "button",
-      "position-x": 625,
+      "position-x": 650,
       "position-y": 379,
       "width": 88,
       "height": 88,
@@ -338,7 +282,7 @@
       "name": "B7",
       "scene": "base",
       "type": "button",
-      "position-x": 727,
+      "position-x": 752,
       "position-y": 379,
       "width": 88,
       "height": 88,
@@ -352,7 +296,7 @@
       "name": "B8",
       "scene": "base",
       "type": "button",
-      "position-x": 829,
+      "position-x": 854,
       "position-y": 379,
       "width": 88,
       "height": 88,
@@ -362,67 +306,11 @@
       "options": ""
     },
     {
-      "id": "bass-1",
-      "name": "BASS 1",
+      "id": "bass-a0",
+      "name": "A0",
       "scene": "base",
       "type": "button",
-      "position-x": 43,
-      "position-y": 22,
-      "width": 88,
-      "height": 88,
-      "color": "#6593fd",
-      "radius": 4,
-      "group": "bass",
-      "options": ""
-    },
-    {
-      "id": "bass-2",
-      "name": "BASS 2",
-      "scene": "base",
-      "type": "button",
-      "position-x": 145,
-      "position-y": 22,
-      "width": 88,
-      "height": 88,
-      "color": "#6593fd",
-      "radius": 4,
-      "group": "bass",
-      "options": ""
-    },
-    {
-      "id": "bass-3",
-      "name": "BASS 3",
-      "scene": "base",
-      "type": "button",
-      "position-x": 247,
-      "position-y": 22,
-      "width": 88,
-      "height": 88,
-      "color": "#6593fd",
-      "radius": 4,
-      "group": "bass",
-      "options": ""
-    },
-    {
-      "id": "bass-4",
-      "name": "BASS 4",
-      "scene": "base",
-      "type": "button",
-      "position-x": 349,
-      "position-y": 22,
-      "width": 88,
-      "height": 88,
-      "color": "#6593fd",
-      "radius": 4,
-      "group": "bass",
-      "options": ""
-    },
-    {
-      "id": "bass-5",
-      "name": "BASS 5",
-      "scene": "base",
-      "type": "button",
-      "position-x": 43,
+      "position-x": 18,
       "position-y": 124,
       "width": 88,
       "height": 88,
@@ -432,11 +320,81 @@
       "options": ""
     },
     {
-      "id": "bass-6",
-      "name": "BASS 6",
+      "id": "bass-a1",
+      "name": "A1",
       "scene": "base",
       "type": "button",
-      "position-x": 145,
+      "position-x": 18,
+      "position-y": 226,
+      "width": 88,
+      "height": 88,
+      "color": "#6593fd",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "bass-a2",
+      "name": "A2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 324,
+      "position-y": 226,
+      "width": 88,
+      "height": 88,
+      "color": "#6593fd",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "bass-as1",
+      "name": "A#1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 120,
+      "position-y": 226,
+      "width": 88,
+      "height": 88,
+      "color": "#6593fd",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "bass-as2",
+      "name": "A#2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 426,
+      "position-y": 226,
+      "width": 88,
+      "height": 88,
+      "color": "#6593fd",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "bass-c2",
+      "name": "C2",
+      "scene": "base",
+      "type": "button",
+      "position-x": 222,
+      "position-y": 226,
+      "width": 88,
+      "height": 88,
+      "color": "#6593fd",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "bass-ds1",
+      "name": "D#1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 120,
       "position-y": 124,
       "width": 88,
       "height": 88,
@@ -446,11 +404,39 @@
       "options": ""
     },
     {
-      "id": "bass-7",
-      "name": "BASS 7",
+      "id": "bass-f1",
+      "name": "F1",
       "scene": "base",
       "type": "button",
-      "position-x": 247,
+      "position-x": 222,
+      "position-y": 124,
+      "width": 88,
+      "height": 88,
+      "color": "#6593fd",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "bass-fs1",
+      "name": "F#1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 324,
+      "position-y": 124,
+      "width": 88,
+      "height": 88,
+      "color": "#6593fd",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "bass-g1",
+      "name": "G1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 426,
       "position-y": 124,
       "width": 88,
       "height": 88,
@@ -464,69 +450,13 @@
       "name": "MUTE",
       "scene": "base",
       "type": "scripter",
-      "position-x": 349,
-      "position-y": 124,
+      "position-x": 222,
+      "position-y": 328,
       "width": 88,
       "height": 88,
       "color": "#436dd3",
       "radius": 4,
       "group": "bass",
-      "options": ""
-    },
-    {
-      "id": "chord-a",
-      "name": "CHORD 1",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 43,
-      "position-y": 226,
-      "width": 88,
-      "height": 88,
-      "color": "#11b569",
-      "radius": 4,
-      "group": "chord",
-      "options": ""
-    },
-    {
-      "id": "chord-as",
-      "name": "CHORD 3",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 247,
-      "position-y": 226,
-      "width": 88,
-      "height": 88,
-      "color": "#11b569",
-      "radius": 4,
-      "group": "chord",
-      "options": ""
-    },
-    {
-      "id": "chord-gc",
-      "name": "CHORD 2",
-      "scene": "base",
-      "type": "cluster",
-      "position-x": 145,
-      "position-y": 226,
-      "width": 88,
-      "height": 88,
-      "color": "#11b569",
-      "radius": 4,
-      "group": "chord",
-      "options": ""
-    },
-    {
-      "id": "chord-mute",
-      "name": "MUTE",
-      "scene": "base",
-      "type": "scripter",
-      "position-x": 349,
-      "position-y": 226,
-      "width": 88,
-      "height": 88,
-      "color": "#008346",
-      "radius": 4,
-      "group": "chord",
       "options": ""
     }
   ],
@@ -632,27 +562,6 @@
       "target-record": "atmo-4"
     },
     {
-      "id": "bm-sampler.bm-control.atmo-5.atmo-5",
-      "source-object": "bm-sampler",
-      "source-record": "atmo-5",
-      "target-object": "bm-control",
-      "target-record": "atmo-5"
-    },
-    {
-      "id": "bm-sampler.bm-control.atmo-6.atmo-6",
-      "source-object": "bm-sampler",
-      "source-record": "atmo-6",
-      "target-object": "bm-control",
-      "target-record": "atmo-6"
-    },
-    {
-      "id": "bm-sampler.bm-control.atmo-7.atmo-7",
-      "source-object": "bm-sampler",
-      "source-record": "atmo-7",
-      "target-object": "bm-control",
-      "target-record": "atmo-7"
-    },
-    {
       "id": "bm-sampler.bm-control.b1.b1",
       "source-object": "bm-sampler",
       "source-record": "b1",
@@ -709,116 +618,74 @@
       "target-record": "b8"
     },
     {
-      "id": "bm-sampler.bm-control.bass-1.bass-1",
+      "id": "bm-sampler.bm-control.bass-a0.bass-a0",
       "source-object": "bm-sampler",
-      "source-record": "bass-1",
+      "source-record": "bass-a0",
       "target-object": "bm-control",
-      "target-record": "bass-1"
+      "target-record": "bass-a0"
     },
     {
-      "id": "bm-sampler.bm-control.bass-2.bass-2",
+      "id": "bm-sampler.bm-control.bass-a1.bass-a1",
       "source-object": "bm-sampler",
-      "source-record": "bass-2",
+      "source-record": "bass-a1",
       "target-object": "bm-control",
-      "target-record": "bass-2"
+      "target-record": "bass-a1"
     },
     {
-      "id": "bm-sampler.bm-control.bass-3.bass-3",
+      "id": "bm-sampler.bm-control.bass-a2.bass-a2",
       "source-object": "bm-sampler",
-      "source-record": "bass-3",
+      "source-record": "bass-a2",
       "target-object": "bm-control",
-      "target-record": "bass-3"
+      "target-record": "bass-a2"
     },
     {
-      "id": "bm-sampler.bm-control.bass-4.bass-4",
+      "id": "bm-sampler.bm-control.bass-as1.bass-as1",
       "source-object": "bm-sampler",
-      "source-record": "bass-4",
+      "source-record": "bass-as1",
       "target-object": "bm-control",
-      "target-record": "bass-4"
+      "target-record": "bass-as1"
     },
     {
-      "id": "bm-sampler.bm-control.bass-5.bass-5",
+      "id": "bm-sampler.bm-control.bass-as2.bass-as2",
       "source-object": "bm-sampler",
-      "source-record": "bass-5",
+      "source-record": "bass-as2",
       "target-object": "bm-control",
-      "target-record": "bass-5"
+      "target-record": "bass-as2"
     },
     {
-      "id": "bm-sampler.bm-control.bass-6.bass-6",
+      "id": "bm-sampler.bm-control.bass-c2.bass-c2",
       "source-object": "bm-sampler",
-      "source-record": "bass-6",
+      "source-record": "bass-c2",
       "target-object": "bm-control",
-      "target-record": "bass-6"
+      "target-record": "bass-c2"
     },
     {
-      "id": "bm-sampler.bm-control.bass-7.bass-7",
+      "id": "bm-sampler.bm-control.bass-ds1.bass-ds1",
       "source-object": "bm-sampler",
-      "source-record": "bass-7",
+      "source-record": "bass-ds1",
       "target-object": "bm-control",
-      "target-record": "bass-7"
+      "target-record": "bass-ds1"
     },
     {
-      "id": "bm-sampler.bm-control.chord-a-1.chord-a",
+      "id": "bm-sampler.bm-control.bass-f1.bass-f1",
       "source-object": "bm-sampler",
-      "source-record": "chord-a-1",
+      "source-record": "bass-f1",
       "target-object": "bm-control",
-      "target-record": "chord-a"
+      "target-record": "bass-f1"
     },
     {
-      "id": "bm-sampler.bm-control.chord-a-2.chord-a",
+      "id": "bm-sampler.bm-control.bass-fs1.bass-fs1",
       "source-object": "bm-sampler",
-      "source-record": "chord-a-2",
+      "source-record": "bass-fs1",
       "target-object": "bm-control",
-      "target-record": "chord-a"
+      "target-record": "bass-fs1"
     },
     {
-      "id": "bm-sampler.bm-control.chord-a-3.chord-a",
+      "id": "bm-sampler.bm-control.bass-g1.bass-g1",
       "source-object": "bm-sampler",
-      "source-record": "chord-a-3",
+      "source-record": "bass-g1",
       "target-object": "bm-control",
-      "target-record": "chord-a"
-    },
-    {
-      "id": "bm-sampler.bm-control.chord-as-1.chord-as",
-      "source-object": "bm-sampler",
-      "source-record": "chord-as-1",
-      "target-object": "bm-control",
-      "target-record": "chord-as"
-    },
-    {
-      "id": "bm-sampler.bm-control.chord-as-2.chord-as",
-      "source-object": "bm-sampler",
-      "source-record": "chord-as-2",
-      "target-object": "bm-control",
-      "target-record": "chord-as"
-    },
-    {
-      "id": "bm-sampler.bm-control.chord-as-3.chord-as",
-      "source-object": "bm-sampler",
-      "source-record": "chord-as-3",
-      "target-object": "bm-control",
-      "target-record": "chord-as"
-    },
-    {
-      "id": "bm-sampler.bm-control.chord-as-4.chord-as",
-      "source-object": "bm-sampler",
-      "source-record": "chord-as-4",
-      "target-object": "bm-control",
-      "target-record": "chord-as"
-    },
-    {
-      "id": "bm-sampler.bm-control.chord-gc-1.chord-gc",
-      "source-object": "bm-sampler",
-      "source-record": "chord-gc-1",
-      "target-object": "bm-control",
-      "target-record": "chord-gc"
-    },
-    {
-      "id": "bm-sampler.bm-control.chord-gc-2.chord-gc",
-      "source-object": "bm-sampler",
-      "source-record": "chord-gc-2",
-      "target-object": "bm-control",
-      "target-record": "chord-gc"
+      "target-record": "bass-g1"
     }
   ],
   "patterns": {},
@@ -881,51 +748,30 @@
     },
     "atmo-1": {
       "id": "atmo-1",
-      "name": "Atmo 1",
+      "name": "Atmo Drift",
       "file": "audio/atmo-1.wav",
       "start": 0,
       "volume": 0
     },
     "atmo-2": {
       "id": "atmo-2",
-      "name": "Atmo 2",
+      "name": "Atmo Shimmer",
       "file": "audio/atmo-2.wav",
-      "start": 2.666667,
+      "start": 0,
       "volume": 0
     },
     "atmo-3": {
       "id": "atmo-3",
-      "name": "Atmo 3",
+      "name": "Atmo Wash",
       "file": "audio/atmo-3.wav",
-      "start": 5.333333,
+      "start": 0,
       "volume": 0
     },
     "atmo-4": {
       "id": "atmo-4",
-      "name": "Atmo 4",
+      "name": "Atmo Pulse",
       "file": "audio/atmo-4.wav",
-      "start": 8,
-      "volume": 0
-    },
-    "atmo-5": {
-      "id": "atmo-5",
-      "name": "Atmo 5",
-      "file": "audio/atmo-5.wav",
       "start": 0,
-      "volume": 0
-    },
-    "atmo-6": {
-      "id": "atmo-6",
-      "name": "Atmo 6",
-      "file": "audio/atmo-6.wav",
-      "start": 1.333333,
-      "volume": 0
-    },
-    "atmo-7": {
-      "id": "atmo-7",
-      "name": "Atmo 7",
-      "file": "audio/atmo-7.wav",
-      "start": 2.666667,
       "volume": 0
     },
     "b1": {
@@ -984,117 +830,75 @@
       "start": 4.666667,
       "volume": 0
     },
-    "bass-1": {
-      "id": "bass-1",
-      "name": "Bass 1",
-      "file": "audio/bass-1.wav",
-      "start": 0,
-      "volume": 0.11
-    },
-    "bass-2": {
-      "id": "bass-2",
-      "name": "Bass 2",
-      "file": "audio/bass-2.wav",
-      "start": 0,
-      "volume": 6.71
-    },
-    "bass-3": {
-      "id": "bass-3",
-      "name": "Bass 3",
-      "file": "audio/bass-3.wav",
-      "start": 0,
-      "volume": -0.45
-    },
-    "bass-4": {
-      "id": "bass-4",
-      "name": "Bass 4",
-      "file": "audio/bass-4.wav",
-      "start": 0,
-      "volume": -5.25
-    },
-    "bass-5": {
-      "id": "bass-5",
-      "name": "Bass 5",
-      "file": "audio/bass-5.wav",
-      "start": 0,
-      "volume": -0.21
-    },
-    "bass-6": {
-      "id": "bass-6",
-      "name": "Bass 6",
-      "file": "audio/bass-6.wav",
+    "bass-a0": {
+      "id": "bass-a0",
+      "name": "Bass A0",
+      "file": "audio/bass-a0.wav",
       "start": 0,
       "volume": 0
     },
-    "bass-7": {
-      "id": "bass-7",
-      "name": "Bass 7",
-      "file": "audio/bass-7.wav",
-      "start": 0,
-      "volume": 4.65
-    },
-    "chord-a-1": {
-      "id": "chord-a-1",
-      "name": "Chord A take 1",
-      "file": "audio/chord-a-1.wav",
-      "start": 0,
-      "volume": -1.03
-    },
-    "chord-a-2": {
-      "id": "chord-a-2",
-      "name": "Chord A take 2",
-      "file": "audio/chord-a-2.wav",
-      "start": 0,
-      "volume": 0.06
-    },
-    "chord-a-3": {
-      "id": "chord-a-3",
-      "name": "Chord A take 3",
-      "file": "audio/chord-a-3.wav",
-      "start": 0,
-      "volume": -1.17
-    },
-    "chord-as-1": {
-      "id": "chord-as-1",
-      "name": "Chord A# take 1",
-      "file": "audio/chord-as-1.wav",
+    "bass-a1": {
+      "id": "bass-a1",
+      "name": "Bass A1",
+      "file": "audio/bass-a1.wav",
       "start": 0,
       "volume": 0
     },
-    "chord-as-2": {
-      "id": "chord-as-2",
-      "name": "Chord A# take 2",
-      "file": "audio/chord-as-2.wav",
+    "bass-a2": {
+      "id": "bass-a2",
+      "name": "Bass A2",
+      "file": "audio/bass-a2.wav",
       "start": 0,
-      "volume": -0.89
+      "volume": 0
     },
-    "chord-as-3": {
-      "id": "chord-as-3",
-      "name": "Chord A# take 3",
-      "file": "audio/chord-as-3.wav",
+    "bass-as1": {
+      "id": "bass-as1",
+      "name": "Bass A#1",
+      "file": "audio/bass-as1.wav",
       "start": 0,
-      "volume": 3.66
+      "volume": 0
     },
-    "chord-as-4": {
-      "id": "chord-as-4",
-      "name": "Chord A# take 4",
-      "file": "audio/chord-as-4.wav",
+    "bass-as2": {
+      "id": "bass-as2",
+      "name": "Bass A#2",
+      "file": "audio/bass-as2.wav",
       "start": 0,
-      "volume": -1.02
+      "volume": 0
     },
-    "chord-gc-1": {
-      "id": "chord-gc-1",
-      "name": "Chord G/C take 1",
-      "file": "audio/chord-gc-1.wav",
+    "bass-c2": {
+      "id": "bass-c2",
+      "name": "Bass C2",
+      "file": "audio/bass-c2.wav",
       "start": 0,
-      "volume": 0.93
+      "volume": 0
     },
-    "chord-gc-2": {
-      "id": "chord-gc-2",
-      "name": "Chord G/C take 2",
-      "file": "audio/chord-gc-2.wav",
+    "bass-ds1": {
+      "id": "bass-ds1",
+      "name": "Bass D#1",
+      "file": "audio/bass-ds1.wav",
       "start": 0,
-      "volume": 0.48
+      "volume": 0
+    },
+    "bass-f1": {
+      "id": "bass-f1",
+      "name": "Bass F1",
+      "file": "audio/bass-f1.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "bass-fs1": {
+      "id": "bass-fs1",
+      "name": "Bass F#1",
+      "file": "audio/bass-fs1.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "bass-g1": {
+      "id": "bass-g1",
+      "name": "Bass G1",
+      "file": "audio/bass-g1.wav",
+      "start": 0,
+      "volume": 0
     }
   },
   "channels": {
