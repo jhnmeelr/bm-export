@@ -452,7 +452,7 @@
       "path": "bounce/base/project.json",
       "bpm": 180,
       "controls": 31,
-      "samplers": 30,
+      "samplers": 50,
       "description": "Ten bass notes and four beds from Sylenth1, against the chopped drop",
       "preview": {
         "width": 960,

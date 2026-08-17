@@ -309,7 +309,7 @@
       "id": "bass-a0",
       "name": "A0",
       "scene": "base",
-      "type": "button",
+      "type": "cluster",
       "position-x": 18,
       "position-y": 124,
       "width": 88,
@@ -323,7 +323,7 @@
       "id": "bass-a1",
       "name": "A1",
       "scene": "base",
-      "type": "button",
+      "type": "cluster",
       "position-x": 18,
       "position-y": 226,
       "width": 88,
@@ -337,7 +337,7 @@
       "id": "bass-a2",
       "name": "A2",
       "scene": "base",
-      "type": "button",
+      "type": "cluster",
       "position-x": 324,
       "position-y": 226,
       "width": 88,
@@ -351,7 +351,7 @@
       "id": "bass-as1",
       "name": "A#1",
       "scene": "base",
-      "type": "button",
+      "type": "cluster",
       "position-x": 120,
       "position-y": 226,
       "width": 88,
@@ -365,7 +365,7 @@
       "id": "bass-as2",
       "name": "A#2",
       "scene": "base",
-      "type": "button",
+      "type": "cluster",
       "position-x": 426,
       "position-y": 226,
       "width": 88,
@@ -379,7 +379,7 @@
       "id": "bass-c2",
       "name": "C2",
       "scene": "base",
-      "type": "button",
+      "type": "cluster",
       "position-x": 222,
       "position-y": 226,
       "width": 88,
@@ -393,7 +393,7 @@
       "id": "bass-ds1",
       "name": "D#1",
       "scene": "base",
-      "type": "button",
+      "type": "cluster",
       "position-x": 120,
       "position-y": 124,
       "width": 88,
@@ -407,7 +407,7 @@
       "id": "bass-f1",
       "name": "F1",
       "scene": "base",
-      "type": "button",
+      "type": "cluster",
       "position-x": 222,
       "position-y": 124,
       "width": 88,
@@ -421,7 +421,7 @@
       "id": "bass-fs1",
       "name": "F#1",
       "scene": "base",
-      "type": "button",
+      "type": "cluster",
       "position-x": 324,
       "position-y": 124,
       "width": 88,
@@ -435,7 +435,7 @@
       "id": "bass-g1",
       "name": "G1",
       "scene": "base",
-      "type": "button",
+      "type": "cluster",
       "position-x": 426,
       "position-y": 124,
       "width": 88,
@@ -618,72 +618,212 @@
       "target-record": "b8"
     },
     {
-      "id": "bm-sampler.bm-control.bass-a0.bass-a0",
+      "id": "bm-sampler.bm-control.bass-a0-v50.bass-a0",
       "source-object": "bm-sampler",
-      "source-record": "bass-a0",
+      "source-record": "bass-a0-v50",
       "target-object": "bm-control",
       "target-record": "bass-a0"
     },
     {
-      "id": "bm-sampler.bm-control.bass-a1.bass-a1",
+      "id": "bm-sampler.bm-control.bass-a0-v69.bass-a0",
       "source-object": "bm-sampler",
-      "source-record": "bass-a1",
+      "source-record": "bass-a0-v69",
+      "target-object": "bm-control",
+      "target-record": "bass-a0"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-a0-v95.bass-a0",
+      "source-object": "bm-sampler",
+      "source-record": "bass-a0-v95",
+      "target-object": "bm-control",
+      "target-record": "bass-a0"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-a1-v50.bass-a1",
+      "source-object": "bm-sampler",
+      "source-record": "bass-a1-v50",
       "target-object": "bm-control",
       "target-record": "bass-a1"
     },
     {
-      "id": "bm-sampler.bm-control.bass-a2.bass-a2",
+      "id": "bm-sampler.bm-control.bass-a1-v69.bass-a1",
       "source-object": "bm-sampler",
-      "source-record": "bass-a2",
+      "source-record": "bass-a1-v69",
+      "target-object": "bm-control",
+      "target-record": "bass-a1"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-a1-v95.bass-a1",
+      "source-object": "bm-sampler",
+      "source-record": "bass-a1-v95",
+      "target-object": "bm-control",
+      "target-record": "bass-a1"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-a2-v50.bass-a2",
+      "source-object": "bm-sampler",
+      "source-record": "bass-a2-v50",
       "target-object": "bm-control",
       "target-record": "bass-a2"
     },
     {
-      "id": "bm-sampler.bm-control.bass-as1.bass-as1",
+      "id": "bm-sampler.bm-control.bass-a2-v69.bass-a2",
       "source-object": "bm-sampler",
-      "source-record": "bass-as1",
+      "source-record": "bass-a2-v69",
+      "target-object": "bm-control",
+      "target-record": "bass-a2"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-a2-v95.bass-a2",
+      "source-object": "bm-sampler",
+      "source-record": "bass-a2-v95",
+      "target-object": "bm-control",
+      "target-record": "bass-a2"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-as1-v50.bass-as1",
+      "source-object": "bm-sampler",
+      "source-record": "bass-as1-v50",
       "target-object": "bm-control",
       "target-record": "bass-as1"
     },
     {
-      "id": "bm-sampler.bm-control.bass-as2.bass-as2",
+      "id": "bm-sampler.bm-control.bass-as1-v69.bass-as1",
       "source-object": "bm-sampler",
-      "source-record": "bass-as2",
+      "source-record": "bass-as1-v69",
+      "target-object": "bm-control",
+      "target-record": "bass-as1"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-as1-v95.bass-as1",
+      "source-object": "bm-sampler",
+      "source-record": "bass-as1-v95",
+      "target-object": "bm-control",
+      "target-record": "bass-as1"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-as2-v50.bass-as2",
+      "source-object": "bm-sampler",
+      "source-record": "bass-as2-v50",
       "target-object": "bm-control",
       "target-record": "bass-as2"
     },
     {
-      "id": "bm-sampler.bm-control.bass-c2.bass-c2",
+      "id": "bm-sampler.bm-control.bass-as2-v69.bass-as2",
       "source-object": "bm-sampler",
-      "source-record": "bass-c2",
+      "source-record": "bass-as2-v69",
+      "target-object": "bm-control",
+      "target-record": "bass-as2"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-as2-v95.bass-as2",
+      "source-object": "bm-sampler",
+      "source-record": "bass-as2-v95",
+      "target-object": "bm-control",
+      "target-record": "bass-as2"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-c2-v50.bass-c2",
+      "source-object": "bm-sampler",
+      "source-record": "bass-c2-v50",
       "target-object": "bm-control",
       "target-record": "bass-c2"
     },
     {
-      "id": "bm-sampler.bm-control.bass-ds1.bass-ds1",
+      "id": "bm-sampler.bm-control.bass-c2-v69.bass-c2",
       "source-object": "bm-sampler",
-      "source-record": "bass-ds1",
+      "source-record": "bass-c2-v69",
+      "target-object": "bm-control",
+      "target-record": "bass-c2"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-c2-v95.bass-c2",
+      "source-object": "bm-sampler",
+      "source-record": "bass-c2-v95",
+      "target-object": "bm-control",
+      "target-record": "bass-c2"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-ds1-v50.bass-ds1",
+      "source-object": "bm-sampler",
+      "source-record": "bass-ds1-v50",
       "target-object": "bm-control",
       "target-record": "bass-ds1"
     },
     {
-      "id": "bm-sampler.bm-control.bass-f1.bass-f1",
+      "id": "bm-sampler.bm-control.bass-ds1-v69.bass-ds1",
       "source-object": "bm-sampler",
-      "source-record": "bass-f1",
+      "source-record": "bass-ds1-v69",
+      "target-object": "bm-control",
+      "target-record": "bass-ds1"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-ds1-v95.bass-ds1",
+      "source-object": "bm-sampler",
+      "source-record": "bass-ds1-v95",
+      "target-object": "bm-control",
+      "target-record": "bass-ds1"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-f1-v50.bass-f1",
+      "source-object": "bm-sampler",
+      "source-record": "bass-f1-v50",
       "target-object": "bm-control",
       "target-record": "bass-f1"
     },
     {
-      "id": "bm-sampler.bm-control.bass-fs1.bass-fs1",
+      "id": "bm-sampler.bm-control.bass-f1-v69.bass-f1",
       "source-object": "bm-sampler",
-      "source-record": "bass-fs1",
+      "source-record": "bass-f1-v69",
+      "target-object": "bm-control",
+      "target-record": "bass-f1"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-f1-v95.bass-f1",
+      "source-object": "bm-sampler",
+      "source-record": "bass-f1-v95",
+      "target-object": "bm-control",
+      "target-record": "bass-f1"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-fs1-v50.bass-fs1",
+      "source-object": "bm-sampler",
+      "source-record": "bass-fs1-v50",
       "target-object": "bm-control",
       "target-record": "bass-fs1"
     },
     {
-      "id": "bm-sampler.bm-control.bass-g1.bass-g1",
+      "id": "bm-sampler.bm-control.bass-fs1-v69.bass-fs1",
       "source-object": "bm-sampler",
-      "source-record": "bass-g1",
+      "source-record": "bass-fs1-v69",
+      "target-object": "bm-control",
+      "target-record": "bass-fs1"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-fs1-v95.bass-fs1",
+      "source-object": "bm-sampler",
+      "source-record": "bass-fs1-v95",
+      "target-object": "bm-control",
+      "target-record": "bass-fs1"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-g1-v50.bass-g1",
+      "source-object": "bm-sampler",
+      "source-record": "bass-g1-v50",
+      "target-object": "bm-control",
+      "target-record": "bass-g1"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-g1-v69.bass-g1",
+      "source-object": "bm-sampler",
+      "source-record": "bass-g1-v69",
+      "target-object": "bm-control",
+      "target-record": "bass-g1"
+    },
+    {
+      "id": "bm-sampler.bm-control.bass-g1-v95.bass-g1",
+      "source-object": "bm-sampler",
+      "source-record": "bass-g1-v95",
       "target-object": "bm-control",
       "target-record": "bass-g1"
     }
@@ -830,73 +970,213 @@
       "start": 4.666667,
       "volume": 0
     },
-    "bass-a0": {
-      "id": "bass-a0",
-      "name": "Bass A0",
-      "file": "audio/bass-a0.wav",
+    "bass-a0-v50": {
+      "id": "bass-a0-v50",
+      "name": "Bass A0 v50",
+      "file": "audio/bass-a0-v50.wav",
       "start": 0,
       "volume": 0
     },
-    "bass-a1": {
-      "id": "bass-a1",
-      "name": "Bass A1",
-      "file": "audio/bass-a1.wav",
+    "bass-a0-v69": {
+      "id": "bass-a0-v69",
+      "name": "Bass A0 v69",
+      "file": "audio/bass-a0-v69.wav",
       "start": 0,
       "volume": 0
     },
-    "bass-a2": {
-      "id": "bass-a2",
-      "name": "Bass A2",
-      "file": "audio/bass-a2.wav",
+    "bass-a0-v95": {
+      "id": "bass-a0-v95",
+      "name": "Bass A0 v95",
+      "file": "audio/bass-a0-v95.wav",
       "start": 0,
       "volume": 0
     },
-    "bass-as1": {
-      "id": "bass-as1",
-      "name": "Bass A#1",
-      "file": "audio/bass-as1.wav",
+    "bass-a1-v50": {
+      "id": "bass-a1-v50",
+      "name": "Bass A1 v50",
+      "file": "audio/bass-a1-v50.wav",
       "start": 0,
       "volume": 0
     },
-    "bass-as2": {
-      "id": "bass-as2",
-      "name": "Bass A#2",
-      "file": "audio/bass-as2.wav",
+    "bass-a1-v69": {
+      "id": "bass-a1-v69",
+      "name": "Bass A1 v69",
+      "file": "audio/bass-a1-v69.wav",
       "start": 0,
       "volume": 0
     },
-    "bass-c2": {
-      "id": "bass-c2",
-      "name": "Bass C2",
-      "file": "audio/bass-c2.wav",
+    "bass-a1-v95": {
+      "id": "bass-a1-v95",
+      "name": "Bass A1 v95",
+      "file": "audio/bass-a1-v95.wav",
       "start": 0,
       "volume": 0
     },
-    "bass-ds1": {
-      "id": "bass-ds1",
-      "name": "Bass D#1",
-      "file": "audio/bass-ds1.wav",
+    "bass-a2-v50": {
+      "id": "bass-a2-v50",
+      "name": "Bass A2 v50",
+      "file": "audio/bass-a2-v50.wav",
       "start": 0,
       "volume": 0
     },
-    "bass-f1": {
-      "id": "bass-f1",
-      "name": "Bass F1",
-      "file": "audio/bass-f1.wav",
+    "bass-a2-v69": {
+      "id": "bass-a2-v69",
+      "name": "Bass A2 v69",
+      "file": "audio/bass-a2-v69.wav",
       "start": 0,
       "volume": 0
     },
-    "bass-fs1": {
-      "id": "bass-fs1",
-      "name": "Bass F#1",
-      "file": "audio/bass-fs1.wav",
+    "bass-a2-v95": {
+      "id": "bass-a2-v95",
+      "name": "Bass A2 v95",
+      "file": "audio/bass-a2-v95.wav",
       "start": 0,
       "volume": 0
     },
-    "bass-g1": {
-      "id": "bass-g1",
-      "name": "Bass G1",
-      "file": "audio/bass-g1.wav",
+    "bass-as1-v50": {
+      "id": "bass-as1-v50",
+      "name": "Bass A#1 v50",
+      "file": "audio/bass-as1-v50.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "bass-as1-v69": {
+      "id": "bass-as1-v69",
+      "name": "Bass A#1 v69",
+      "file": "audio/bass-as1-v69.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "bass-as1-v95": {
+      "id": "bass-as1-v95",
+      "name": "Bass A#1 v95",
+      "file": "audio/bass-as1-v95.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "bass-as2-v50": {
+      "id": "bass-as2-v50",
+      "name": "Bass A#2 v50",
+      "file": "audio/bass-as2-v50.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "bass-as2-v69": {
+      "id": "bass-as2-v69",
+      "name": "Bass A#2 v69",
+      "file": "audio/bass-as2-v69.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "bass-as2-v95": {
+      "id": "bass-as2-v95",
+      "name": "Bass A#2 v95",
+      "file": "audio/bass-as2-v95.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "bass-c2-v50": {
+      "id": "bass-c2-v50",
+      "name": "Bass C2 v50",
+      "file": "audio/bass-c2-v50.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "bass-c2-v69": {
+      "id": "bass-c2-v69",
+      "name": "Bass C2 v69",
+      "file": "audio/bass-c2-v69.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "bass-c2-v95": {
+      "id": "bass-c2-v95",
+      "name": "Bass C2 v95",
+      "file": "audio/bass-c2-v95.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "bass-ds1-v50": {
+      "id": "bass-ds1-v50",
+      "name": "Bass D#1 v50",
+      "file": "audio/bass-ds1-v50.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "bass-ds1-v69": {
+      "id": "bass-ds1-v69",
+      "name": "Bass D#1 v69",
+      "file": "audio/bass-ds1-v69.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "bass-ds1-v95": {
+      "id": "bass-ds1-v95",
+      "name": "Bass D#1 v95",
+      "file": "audio/bass-ds1-v95.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "bass-f1-v50": {
+      "id": "bass-f1-v50",
+      "name": "Bass F1 v50",
+      "file": "audio/bass-f1-v50.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "bass-f1-v69": {
+      "id": "bass-f1-v69",
+      "name": "Bass F1 v69",
+      "file": "audio/bass-f1-v69.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "bass-f1-v95": {
+      "id": "bass-f1-v95",
+      "name": "Bass F1 v95",
+      "file": "audio/bass-f1-v95.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "bass-fs1-v50": {
+      "id": "bass-fs1-v50",
+      "name": "Bass F#1 v50",
+      "file": "audio/bass-fs1-v50.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "bass-fs1-v69": {
+      "id": "bass-fs1-v69",
+      "name": "Bass F#1 v69",
+      "file": "audio/bass-fs1-v69.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "bass-fs1-v95": {
+      "id": "bass-fs1-v95",
+      "name": "Bass F#1 v95",
+      "file": "audio/bass-fs1-v95.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "bass-g1-v50": {
+      "id": "bass-g1-v50",
+      "name": "Bass G1 v50",
+      "file": "audio/bass-g1-v50.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "bass-g1-v69": {
+      "id": "bass-g1-v69",
+      "name": "Bass G1 v69",
+      "file": "audio/bass-g1-v69.wav",
+      "start": 0,
+      "volume": 0
+    },
+    "bass-g1-v95": {
+      "id": "bass-g1-v95",
+      "name": "Bass G1 v95",
+      "file": "audio/bass-g1-v95.wav",
       "start": 0,
       "volume": 0
     }
