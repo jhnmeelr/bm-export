@@ -1,0 +1,951 @@
+{
+  "id": "breathe/base",
+  "name": "Breathe: Base",
+  "project": {
+    "description": "A 128 BPM house track played back as ten of its own loops and its own kit",
+    "dimensions": {
+      "width": 960,
+      "height": 540
+    },
+    "quantisation": 4,
+    "tempo": 128,
+    "compressor": {
+      "enabled": true,
+      "threshold": -18,
+      "knee": 24,
+      "ratio": 3,
+      "attack": 0.005,
+      "release": 0.15,
+      "makeup": 1.2
+    }
+  },
+  "scene": {
+    "style": {
+      "backgroundColor": "#1b2b34"
+    }
+  },
+  "controls": [
+    {
+      "id": "drone-a1",
+      "name": "Drone - A1 (5 bars)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 150,
+      "position-y": 380,
+      "width": 106,
+      "height": 60,
+      "color": "#2da6fa",
+      "radius": 4,
+      "group": "drone",
+      "options": ""
+    },
+    {
+      "id": "drone-b1",
+      "name": "Drone - B1 (5 bars)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 150,
+      "position-y": 450,
+      "width": 106,
+      "height": 60,
+      "color": "#37adff",
+      "radius": 4,
+      "group": "drone",
+      "options": ""
+    },
+    {
+      "id": "drone-cs1",
+      "name": "Drone - C#1 (5 bars)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 150,
+      "position-y": 30,
+      "width": 106,
+      "height": 60,
+      "color": "#0082d4",
+      "radius": 4,
+      "group": "drone",
+      "options": ""
+    },
+    {
+      "id": "drone-d1",
+      "name": "Drone - D1 (5 bars)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 150,
+      "position-y": 100,
+      "width": 106,
+      "height": 60,
+      "color": "#0089dc",
+      "radius": 4,
+      "group": "drone",
+      "options": ""
+    },
+    {
+      "id": "drone-e1",
+      "name": "Drone - E1 (5 bars)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 150,
+      "position-y": 170,
+      "width": 106,
+      "height": 60,
+      "color": "#0090e3",
+      "radius": 4,
+      "group": "drone",
+      "options": ""
+    },
+    {
+      "id": "drone-fs1",
+      "name": "Drone - F#1 (5 bars)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 150,
+      "position-y": 240,
+      "width": 106,
+      "height": 60,
+      "color": "#1497eb",
+      "radius": 4,
+      "group": "drone",
+      "options": ""
+    },
+    {
+      "id": "drone-gs1",
+      "name": "Drone - G#1 (5 bars)",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 150,
+      "position-y": 310,
+      "width": 106,
+      "height": 60,
+      "color": "#229ff2",
+      "radius": 4,
+      "group": "drone",
+      "options": ""
+    },
+    {
+      "id": "loop-build",
+      "name": "Loop - Build",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 704,
+      "position-y": 226,
+      "width": 232,
+      "height": 88,
+      "color": "#dc5f52cc",
+      "radius": 4,
+      "group": "drum-loops",
+      "options": ""
+    },
+    {
+      "id": "loop-drums",
+      "name": "Loop - Drums",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 704,
+      "position-y": 30,
+      "width": 232,
+      "height": 88,
+      "color": "#dc5f52cc",
+      "radius": 4,
+      "group": "drum-loops",
+      "options": ""
+    },
+    {
+      "id": "loop-kick",
+      "name": "Loop - Kick",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 704,
+      "position-y": 128,
+      "width": 232,
+      "height": 88,
+      "color": "#dc5f52cc",
+      "radius": 4,
+      "group": "drum-loops",
+      "options": ""
+    },
+    {
+      "id": "loop-rise",
+      "name": "Loop - Rise",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 704,
+      "position-y": 422,
+      "width": 232,
+      "height": 88,
+      "color": "#b06acecc",
+      "radius": 4,
+      "group": "l-rise",
+      "options": ""
+    },
+    {
+      "id": "loop-tops",
+      "name": "Loop - Tops",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 704,
+      "position-y": 324,
+      "width": 232,
+      "height": 88,
+      "color": "#e39600cc",
+      "radius": 4,
+      "group": "drum-loops",
+      "options": ""
+    },
+    {
+      "id": "voicing-a2",
+      "name": "Chord A2 - A E at 1.2a / 3.2a",
+      "scene": "base",
+      "type": "button",
+      "position-x": 486,
+      "position-y": 30,
+      "width": 187,
+      "height": 150,
+      "color": "#90ae23",
+      "radius": 4,
+      "group": "chord",
+      "options": ""
+    },
+    {
+      "id": "voicing-b2",
+      "name": "Chord B2 - B F# at 2.2a / 2.4e",
+      "scene": "base",
+      "type": "button",
+      "position-x": 486,
+      "position-y": 195,
+      "width": 187,
+      "height": 150,
+      "color": "#b6d755",
+      "radius": 4,
+      "group": "chord",
+      "options": ""
+    },
+    {
+      "id": "voicing-cs2",
+      "name": "Chord C#2 - C# G# at 4.2& / 4.4",
+      "scene": "base",
+      "type": "button",
+      "position-x": 486,
+      "position-y": 360,
+      "width": 187,
+      "height": 150,
+      "color": "#deff80",
+      "radius": 4,
+      "group": "chord",
+      "options": ""
+    },
+    {
+      "id": "voicing-d2",
+      "name": "Chord D2 - D A at 2.1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 284,
+      "position-y": 195,
+      "width": 187,
+      "height": 150,
+      "color": "#a3c23e",
+      "radius": 4,
+      "group": "chord",
+      "options": ""
+    },
+    {
+      "id": "voicing-e2",
+      "name": "Chord E2 - E B at 4.1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 284,
+      "position-y": 360,
+      "width": 187,
+      "height": 150,
+      "color": "#caec6b",
+      "radius": 4,
+      "group": "chord",
+      "options": ""
+    },
+    {
+      "id": "voicing-fs2",
+      "name": "Chord F#2 - F# C# at 1.1 / 3.1",
+      "scene": "base",
+      "type": "button",
+      "position-x": 284,
+      "position-y": 30,
+      "width": 187,
+      "height": 150,
+      "color": "#7d9b00",
+      "radius": 4,
+      "group": "chord",
+      "options": ""
+    },
+    {
+      "id": "wall-a1",
+      "name": "Bass - A1 (from A1)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 24,
+      "position-y": 380,
+      "width": 106,
+      "height": 60,
+      "color": "#6894fb",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "wall-b1",
+      "name": "Bass - B1 (from A1)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 24,
+      "position-y": 450,
+      "width": 106,
+      "height": 60,
+      "color": "#6e9aff",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "wall-cs1",
+      "name": "Bass - C#1 (from A1)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 24,
+      "position-y": 30,
+      "width": 106,
+      "height": 60,
+      "color": "#4d76db",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "wall-d1",
+      "name": "Bass - D1 (from A1)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 24,
+      "position-y": 100,
+      "width": 106,
+      "height": 60,
+      "color": "#527ce1",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "wall-e1",
+      "name": "Bass - E1 (from A1)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 24,
+      "position-y": 170,
+      "width": 106,
+      "height": 60,
+      "color": "#5882e8",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "wall-fs1",
+      "name": "Bass - F#1 (from A1)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 24,
+      "position-y": 240,
+      "width": 106,
+      "height": 60,
+      "color": "#5d88ee",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    },
+    {
+      "id": "wall-gs1",
+      "name": "Bass - G#1 (from A1)",
+      "scene": "base",
+      "type": "button",
+      "position-x": 24,
+      "position-y": 310,
+      "width": 106,
+      "height": 60,
+      "color": "#628ef5",
+      "radius": 4,
+      "group": "bass",
+      "options": ""
+    }
+  ],
+  "assignments": [
+    {
+      "id": "bm-effect.bm-channel.brickwall.master",
+      "source-object": "bm-effect",
+      "source-record": "brickwall",
+      "target-object": "bm-channel",
+      "target-record": "master",
+      "order": 1
+    },
+    {
+      "id": "bm-effect.bm-channel.glue.master",
+      "source-object": "bm-effect",
+      "source-record": "glue",
+      "target-object": "bm-channel",
+      "target-record": "master"
+    },
+    {
+      "id": "bm-pattern.bm-control.d-a1.drone-a1",
+      "source-object": "bm-pattern",
+      "source-record": "d-a1",
+      "target-object": "bm-control",
+      "target-record": "drone-a1"
+    },
+    {
+      "id": "bm-pattern.bm-control.d-b1.drone-b1",
+      "source-object": "bm-pattern",
+      "source-record": "d-b1",
+      "target-object": "bm-control",
+      "target-record": "drone-b1"
+    },
+    {
+      "id": "bm-pattern.bm-control.d-cs1.drone-cs1",
+      "source-object": "bm-pattern",
+      "source-record": "d-cs1",
+      "target-object": "bm-control",
+      "target-record": "drone-cs1"
+    },
+    {
+      "id": "bm-pattern.bm-control.d-d1.drone-d1",
+      "source-object": "bm-pattern",
+      "source-record": "d-d1",
+      "target-object": "bm-control",
+      "target-record": "drone-d1"
+    },
+    {
+      "id": "bm-pattern.bm-control.d-e1.drone-e1",
+      "source-object": "bm-pattern",
+      "source-record": "d-e1",
+      "target-object": "bm-control",
+      "target-record": "drone-e1"
+    },
+    {
+      "id": "bm-pattern.bm-control.d-fs1.drone-fs1",
+      "source-object": "bm-pattern",
+      "source-record": "d-fs1",
+      "target-object": "bm-control",
+      "target-record": "drone-fs1"
+    },
+    {
+      "id": "bm-pattern.bm-control.d-gs1.drone-gs1",
+      "source-object": "bm-pattern",
+      "source-record": "d-gs1",
+      "target-object": "bm-control",
+      "target-record": "drone-gs1"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-build.loop-build",
+      "source-object": "bm-pattern",
+      "source-record": "p-build",
+      "target-object": "bm-control",
+      "target-record": "loop-build"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-drums.loop-drums",
+      "source-object": "bm-pattern",
+      "source-record": "p-drums",
+      "target-object": "bm-control",
+      "target-record": "loop-drums"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-kick.loop-kick",
+      "source-object": "bm-pattern",
+      "source-record": "p-kick",
+      "target-object": "bm-control",
+      "target-record": "loop-kick"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-rise.loop-rise",
+      "source-object": "bm-pattern",
+      "source-record": "p-rise",
+      "target-object": "bm-control",
+      "target-record": "loop-rise"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-tops.loop-tops",
+      "source-object": "bm-pattern",
+      "source-record": "p-tops",
+      "target-object": "bm-control",
+      "target-record": "loop-tops"
+    },
+    {
+      "id": "bm-sampler.bm-control.drone-a1.drone-a1",
+      "source-object": "bm-sampler",
+      "source-record": "drone-a1",
+      "target-object": "bm-control",
+      "target-record": "drone-a1",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.drone-b1.drone-b1",
+      "source-object": "bm-sampler",
+      "source-record": "drone-b1",
+      "target-object": "bm-control",
+      "target-record": "drone-b1",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.drone-cs1.drone-cs1",
+      "source-object": "bm-sampler",
+      "source-record": "drone-cs1",
+      "target-object": "bm-control",
+      "target-record": "drone-cs1",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.drone-d1.drone-d1",
+      "source-object": "bm-sampler",
+      "source-record": "drone-d1",
+      "target-object": "bm-control",
+      "target-record": "drone-d1",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.drone-e1.drone-e1",
+      "source-object": "bm-sampler",
+      "source-record": "drone-e1",
+      "target-object": "bm-control",
+      "target-record": "drone-e1",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.drone-fs1.drone-fs1",
+      "source-object": "bm-sampler",
+      "source-record": "drone-fs1",
+      "target-object": "bm-control",
+      "target-record": "drone-fs1",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.drone-gs1.drone-gs1",
+      "source-object": "bm-sampler",
+      "source-record": "drone-gs1",
+      "target-object": "bm-control",
+      "target-record": "drone-gs1",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.loop-build.loop-build",
+      "source-object": "bm-sampler",
+      "source-record": "loop-build",
+      "target-object": "bm-control",
+      "target-record": "loop-build",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.loop-drums.loop-drums",
+      "source-object": "bm-sampler",
+      "source-record": "loop-drums",
+      "target-object": "bm-control",
+      "target-record": "loop-drums",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.loop-kick.loop-kick",
+      "source-object": "bm-sampler",
+      "source-record": "loop-kick",
+      "target-object": "bm-control",
+      "target-record": "loop-kick",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.loop-rise.loop-rise",
+      "source-object": "bm-sampler",
+      "source-record": "loop-rise",
+      "target-object": "bm-control",
+      "target-record": "loop-rise",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.loop-tops.loop-tops",
+      "source-object": "bm-sampler",
+      "source-record": "loop-tops",
+      "target-object": "bm-control",
+      "target-record": "loop-tops",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.voicing-a2.voicing-a2",
+      "source-object": "bm-sampler",
+      "source-record": "voicing-a2",
+      "target-object": "bm-control",
+      "target-record": "voicing-a2",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.voicing-b2.voicing-b2",
+      "source-object": "bm-sampler",
+      "source-record": "voicing-b2",
+      "target-object": "bm-control",
+      "target-record": "voicing-b2",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.voicing-cs2.voicing-cs2",
+      "source-object": "bm-sampler",
+      "source-record": "voicing-cs2",
+      "target-object": "bm-control",
+      "target-record": "voicing-cs2",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.voicing-d2.voicing-d2",
+      "source-object": "bm-sampler",
+      "source-record": "voicing-d2",
+      "target-object": "bm-control",
+      "target-record": "voicing-d2",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.voicing-e2.voicing-e2",
+      "source-object": "bm-sampler",
+      "source-record": "voicing-e2",
+      "target-object": "bm-control",
+      "target-record": "voicing-e2",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.voicing-fs2.voicing-fs2",
+      "source-object": "bm-sampler",
+      "source-record": "voicing-fs2",
+      "target-object": "bm-control",
+      "target-record": "voicing-fs2",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-a1.wall-a1",
+      "source-object": "bm-sampler",
+      "source-record": "wall-a1",
+      "target-object": "bm-control",
+      "target-record": "wall-a1",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-b1.wall-b1",
+      "source-object": "bm-sampler",
+      "source-record": "wall-b1",
+      "target-object": "bm-control",
+      "target-record": "wall-b1",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-cs1.wall-cs1",
+      "source-object": "bm-sampler",
+      "source-record": "wall-cs1",
+      "target-object": "bm-control",
+      "target-record": "wall-cs1",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-d1.wall-d1",
+      "source-object": "bm-sampler",
+      "source-record": "wall-d1",
+      "target-object": "bm-control",
+      "target-record": "wall-d1",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-e1.wall-e1",
+      "source-object": "bm-sampler",
+      "source-record": "wall-e1",
+      "target-object": "bm-control",
+      "target-record": "wall-e1",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-fs1.wall-fs1",
+      "source-object": "bm-sampler",
+      "source-record": "wall-fs1",
+      "target-object": "bm-control",
+      "target-record": "wall-fs1",
+      "order": 1
+    },
+    {
+      "id": "bm-sampler.bm-control.wall-gs1.wall-gs1",
+      "source-object": "bm-sampler",
+      "source-record": "wall-gs1",
+      "target-object": "bm-control",
+      "target-record": "wall-gs1",
+      "order": 1
+    }
+  ],
+  "patterns": {
+    "d-a1": {
+      "id": "d-a1",
+      "name": "Drone - A1",
+      "file": "midi/d-a1.mid"
+    },
+    "d-b1": {
+      "id": "d-b1",
+      "name": "Drone - B1",
+      "file": "midi/d-b1.mid"
+    },
+    "d-cs1": {
+      "id": "d-cs1",
+      "name": "Drone - C#1",
+      "file": "midi/d-cs1.mid"
+    },
+    "d-d1": {
+      "id": "d-d1",
+      "name": "Drone - D1",
+      "file": "midi/d-d1.mid"
+    },
+    "d-e1": {
+      "id": "d-e1",
+      "name": "Drone - E1",
+      "file": "midi/d-e1.mid"
+    },
+    "d-fs1": {
+      "id": "d-fs1",
+      "name": "Drone - F#1",
+      "file": "midi/d-fs1.mid"
+    },
+    "d-gs1": {
+      "id": "d-gs1",
+      "name": "Drone - G#1",
+      "file": "midi/d-gs1.mid"
+    },
+    "p-build": {
+      "id": "p-build",
+      "name": "Loop - Build",
+      "file": "midi/p-build.mid"
+    },
+    "p-drums": {
+      "id": "p-drums",
+      "name": "Loop - Drums",
+      "file": "midi/p-drums.mid"
+    },
+    "p-kick": {
+      "id": "p-kick",
+      "name": "Loop - Kick",
+      "file": "midi/p-kick.mid"
+    },
+    "p-rise": {
+      "id": "p-rise",
+      "name": "Loop - Rise",
+      "file": "midi/p-rise.mid"
+    },
+    "p-tops": {
+      "id": "p-tops",
+      "name": "Loop - Tops",
+      "file": "midi/p-tops.mid"
+    }
+  },
+  "samplers": {
+    "drone-a1": {
+      "id": "drone-a1",
+      "name": "Drone - A1 (5 bars)",
+      "file": "audio/drone-a1.wav",
+      "volume": 3.04,
+      "group": "drone"
+    },
+    "drone-b1": {
+      "id": "drone-b1",
+      "name": "Drone - B1 (5 bars)",
+      "file": "audio/drone-b1.wav",
+      "volume": 3.04,
+      "group": "drone"
+    },
+    "drone-cs1": {
+      "id": "drone-cs1",
+      "name": "Drone - C#1 (5 bars)",
+      "file": "audio/drone-cs1.wav",
+      "volume": 3.04,
+      "group": "drone"
+    },
+    "drone-d1": {
+      "id": "drone-d1",
+      "name": "Drone - D1 (5 bars)",
+      "file": "audio/drone-d1.wav",
+      "volume": 3.04,
+      "group": "drone"
+    },
+    "drone-e1": {
+      "id": "drone-e1",
+      "name": "Drone - E1 (5 bars)",
+      "file": "audio/drone-e1.wav",
+      "volume": 3.04,
+      "group": "drone"
+    },
+    "drone-fs1": {
+      "id": "drone-fs1",
+      "name": "Drone - F#1 (5 bars)",
+      "file": "audio/drone-fs1.wav",
+      "volume": 3.04,
+      "group": "drone"
+    },
+    "drone-gs1": {
+      "id": "drone-gs1",
+      "name": "Drone - G#1 (5 bars)",
+      "file": "audio/drone-gs1.wav",
+      "volume": 3.04,
+      "group": "drone"
+    },
+    "loop-build": {
+      "id": "loop-build",
+      "name": "Loop - Build",
+      "file": "audio/loop-build.wav",
+      "volume": 6.2,
+      "group": "l-build"
+    },
+    "loop-drums": {
+      "id": "loop-drums",
+      "name": "Loop - Drums",
+      "file": "audio/loop-drums.wav",
+      "volume": 0,
+      "group": "l-drums"
+    },
+    "loop-kick": {
+      "id": "loop-kick",
+      "name": "Loop - Kick",
+      "file": "audio/loop-kick.wav",
+      "volume": 0,
+      "group": "l-kick"
+    },
+    "loop-rise": {
+      "id": "loop-rise",
+      "name": "Loop - Rise",
+      "file": "audio/loop-rise.wav",
+      "volume": 9.9,
+      "group": "l-rise"
+    },
+    "loop-tops": {
+      "id": "loop-tops",
+      "name": "Loop - Tops",
+      "file": "audio/loop-tops.wav",
+      "volume": 10.4,
+      "group": "l-tops"
+    },
+    "voicing-a2": {
+      "id": "voicing-a2",
+      "name": "Chord A2 - A2 E3 E4",
+      "file": "audio/voicing-a2.wav",
+      "volume": 0.55,
+      "note": "A2"
+    },
+    "voicing-b2": {
+      "id": "voicing-b2",
+      "name": "Chord B2 - B2 F#3",
+      "file": "audio/voicing-b2.wav",
+      "volume": 0.55,
+      "note": "B2"
+    },
+    "voicing-cs2": {
+      "id": "voicing-cs2",
+      "name": "Chord C#2 - C#2 G#2 G#3",
+      "file": "audio/voicing-cs2.wav",
+      "volume": 0.55,
+      "note": "C#2"
+    },
+    "voicing-d2": {
+      "id": "voicing-d2",
+      "name": "Chord D2 - D2 A2 A3",
+      "file": "audio/voicing-d2.wav",
+      "volume": 0.55,
+      "note": "D2"
+    },
+    "voicing-e2": {
+      "id": "voicing-e2",
+      "name": "Chord E2 - E2 B2 B3",
+      "file": "audio/voicing-e2.wav",
+      "volume": 0.55,
+      "note": "E2"
+    },
+    "voicing-fs2": {
+      "id": "voicing-fs2",
+      "name": "Chord F#2 - F#2 C#3 C#4",
+      "file": "audio/voicing-fs2.wav",
+      "volume": 0.55,
+      "note": "F#2"
+    },
+    "wall-a1": {
+      "id": "wall-a1",
+      "name": "Bass - A1 (from A1)",
+      "file": "audio/wall-a1.wav",
+      "volume": 9.61,
+      "note": "A1"
+    },
+    "wall-b1": {
+      "id": "wall-b1",
+      "name": "Bass - B1 (from A1)",
+      "file": "audio/wall-b1.wav",
+      "volume": 9.61,
+      "note": "B1"
+    },
+    "wall-cs1": {
+      "id": "wall-cs1",
+      "name": "Bass - C#1 (from A1)",
+      "file": "audio/wall-cs1.wav",
+      "volume": 9.61,
+      "note": "C#1"
+    },
+    "wall-d1": {
+      "id": "wall-d1",
+      "name": "Bass - D1 (from A1)",
+      "file": "audio/wall-d1.wav",
+      "volume": 9.61,
+      "note": "D1"
+    },
+    "wall-e1": {
+      "id": "wall-e1",
+      "name": "Bass - E1 (from A1)",
+      "file": "audio/wall-e1.wav",
+      "volume": 9.61,
+      "note": "E1"
+    },
+    "wall-fs1": {
+      "id": "wall-fs1",
+      "name": "Bass - F#1 (from A1)",
+      "file": "audio/wall-fs1.wav",
+      "volume": 9.61,
+      "note": "F#1"
+    },
+    "wall-gs1": {
+      "id": "wall-gs1",
+      "name": "Bass - G#1 (from A1)",
+      "file": "audio/wall-gs1.wav",
+      "volume": 9.61,
+      "note": "G#1"
+    }
+  },
+  "channels": {
+    "master": {
+      "id": "master",
+      "name": "Master",
+      "volume": 0
+    }
+  },
+  "effects": {
+    "brickwall": {
+      "id": "brickwall",
+      "name": "Brickwall",
+      "type": "limiter",
+      "options": "threshold: -1\nknee: 0\nratio: 20\nattack: 0.001\nrelease: 0.05",
+      "threshold": -1,
+      "knee": 0,
+      "ratio": 20,
+      "attack": 0.001,
+      "release": 0.05
+    },
+    "glue": {
+      "id": "glue",
+      "name": "Glue",
+      "type": "compressor",
+      "options": "threshold: -18\nknee: 24\nratio: 3\nattack: 0.005\nrelease: 0.15\nmakeup: 1.2",
+      "threshold": -18,
+      "knee": 24,
+      "ratio": 3,
+      "attack": 0.005,
+      "release": 0.15,
+      "makeup": 1.2
+    }
+  }
+}
