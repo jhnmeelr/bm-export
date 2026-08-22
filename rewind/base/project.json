@@ -1,0 +1,1479 @@
+{
+  "id": "rewind/base",
+  "name": "Rewind: Base",
+  "project": {
+    "description": "Five jungle grooves taken apart into stems, and the rewind that ends them",
+    "dimensions": {
+      "width": 960,
+      "height": 540
+    },
+    "quantisation": 4,
+    "tempo": 132,
+    "compressor": {
+      "enabled": true,
+      "threshold": -18,
+      "knee": 24,
+      "ratio": 3,
+      "attack": 0.005,
+      "release": 0.15,
+      "makeup": 1.2
+    }
+  },
+  "scene": {
+    "style": {
+      "backgroundColor": "#1b2b34"
+    }
+  },
+  "controls": [
+    {
+      "id": "acid-acidtest",
+      "name": "ACID Acidtest",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 553,
+      "position-y": 36,
+      "width": 84,
+      "height": 84,
+      "color": "#ab8ae4",
+      "radius": 4,
+      "group": "g-acid",
+      "options": ""
+    },
+    {
+      "id": "acid-bloc",
+      "name": "ACID Bloc",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 853,
+      "position-y": 136,
+      "width": 84,
+      "height": 84,
+      "color": "#caabff",
+      "radius": 4,
+      "group": "g-acid",
+      "options": ""
+    },
+    {
+      "id": "acid-electroid",
+      "name": "ACID Electroid",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 753,
+      "position-y": 136,
+      "width": 84,
+      "height": 84,
+      "color": "#c6a5ff",
+      "radius": 4,
+      "group": "g-acid",
+      "options": ""
+    },
+    {
+      "id": "acid-latenight",
+      "name": "ACID Latenight",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 653,
+      "position-y": 36,
+      "width": 84,
+      "height": 84,
+      "color": "#b08fe9",
+      "radius": 4,
+      "group": "g-acid",
+      "options": ""
+    },
+    {
+      "id": "acid-lektro",
+      "name": "ACID Lektro",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 753,
+      "position-y": 36,
+      "width": 84,
+      "height": 84,
+      "color": "#b493ee",
+      "radius": 4,
+      "group": "g-acid",
+      "options": ""
+    },
+    {
+      "id": "acid-noize",
+      "name": "ACID Noize",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 553,
+      "position-y": 136,
+      "width": 84,
+      "height": 84,
+      "color": "#bd9cf7",
+      "radius": 4,
+      "group": "g-acid",
+      "options": ""
+    },
+    {
+      "id": "acid-soraw",
+      "name": "ACID Soraw",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 653,
+      "position-y": 136,
+      "width": 84,
+      "height": 84,
+      "color": "#c2a1fc",
+      "radius": 4,
+      "group": "g-acid",
+      "options": ""
+    },
+    {
+      "id": "acid-transmit",
+      "name": "ACID Transmit",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 853,
+      "position-y": 36,
+      "width": 84,
+      "height": 84,
+      "color": "#b998f2",
+      "radius": 4,
+      "group": "g-acid",
+      "options": ""
+    },
+    {
+      "id": "bass-charlie",
+      "name": "BASS Charlie",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 323,
+      "position-y": 336,
+      "width": 84,
+      "height": 84,
+      "color": "#91b4ff",
+      "radius": 4,
+      "group": "g-bass",
+      "options": ""
+    },
+    {
+      "id": "bass-headup",
+      "name": "BASS Headup",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 223,
+      "position-y": 336,
+      "width": 84,
+      "height": 84,
+      "color": "#85abff",
+      "radius": 4,
+      "group": "g-bass",
+      "options": ""
+    },
+    {
+      "id": "bass-partymonster",
+      "name": "BASS Partymonster",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 423,
+      "position-y": 336,
+      "width": 84,
+      "height": 84,
+      "color": "#9dbdff",
+      "radius": 4,
+      "group": "g-bass",
+      "options": ""
+    },
+    {
+      "id": "bass-ravism",
+      "name": "BASS Ravism",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 123,
+      "position-y": 336,
+      "width": 84,
+      "height": 84,
+      "color": "#7da4f9",
+      "radius": 4,
+      "group": "g-bass",
+      "options": ""
+    },
+    {
+      "id": "bass-riddim",
+      "name": "BASS Riddim",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 23,
+      "position-y": 336,
+      "width": 84,
+      "height": 84,
+      "color": "#769cf0",
+      "radius": 4,
+      "group": "g-bass",
+      "options": ""
+    },
+    {
+      "id": "break-charlie",
+      "name": "BREAK Charlie",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 323,
+      "position-y": 136,
+      "width": 84,
+      "height": 84,
+      "color": "#f89c62",
+      "radius": 4,
+      "group": "g-break",
+      "options": ""
+    },
+    {
+      "id": "break-headup",
+      "name": "BREAK Headup",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 223,
+      "position-y": 136,
+      "width": 84,
+      "height": 84,
+      "color": "#ef945a",
+      "radius": 4,
+      "group": "g-break",
+      "options": ""
+    },
+    {
+      "id": "break-partymonster",
+      "name": "BREAK Partymonster",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 423,
+      "position-y": 136,
+      "width": 84,
+      "height": 84,
+      "color": "#ffa46a",
+      "radius": 4,
+      "group": "g-break",
+      "options": ""
+    },
+    {
+      "id": "break-ravism",
+      "name": "BREAK Ravism",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 123,
+      "position-y": 136,
+      "width": 84,
+      "height": 84,
+      "color": "#e68c53",
+      "radius": 4,
+      "group": "g-break",
+      "options": ""
+    },
+    {
+      "id": "break-riddim",
+      "name": "BREAK Riddim",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 23,
+      "position-y": 136,
+      "width": 84,
+      "height": 84,
+      "color": "#de854b",
+      "radius": 4,
+      "group": "g-break",
+      "options": ""
+    },
+    {
+      "id": "drum-charlie",
+      "name": "DRUM Charlie",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 323,
+      "position-y": 36,
+      "width": 84,
+      "height": 84,
+      "color": "#ff938b",
+      "radius": 4,
+      "group": "g-drum",
+      "options": ""
+    },
+    {
+      "id": "drum-headup",
+      "name": "DRUM Headup",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 223,
+      "position-y": 36,
+      "width": 84,
+      "height": 84,
+      "color": "#f68b83",
+      "radius": 4,
+      "group": "g-drum",
+      "options": ""
+    },
+    {
+      "id": "drum-partymonster",
+      "name": "DRUM Partymonster",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 423,
+      "position-y": 36,
+      "width": 84,
+      "height": 84,
+      "color": "#ff9e97",
+      "radius": 4,
+      "group": "g-drum",
+      "options": ""
+    },
+    {
+      "id": "drum-ravism",
+      "name": "DRUM Ravism",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 123,
+      "position-y": 36,
+      "width": 84,
+      "height": 84,
+      "color": "#ee837c",
+      "radius": 4,
+      "group": "g-drum",
+      "options": ""
+    },
+    {
+      "id": "drum-riddim",
+      "name": "DRUM Riddim",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 23,
+      "position-y": 36,
+      "width": 84,
+      "height": 84,
+      "color": "#e57b74",
+      "radius": 4,
+      "group": "g-drum",
+      "options": ""
+    },
+    {
+      "id": "perc-breakit",
+      "name": "PERC Breakit",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 653,
+      "position-y": 236,
+      "width": 84,
+      "height": 84,
+      "color": "#6ab86d",
+      "radius": 4,
+      "group": "g-perc",
+      "options": ""
+    },
+    {
+      "id": "perc-choppy",
+      "name": "PERC Choppy",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 553,
+      "position-y": 336,
+      "width": 84,
+      "height": 84,
+      "color": "#77c67b",
+      "radius": 4,
+      "group": "g-perc",
+      "options": ""
+    },
+    {
+      "id": "perc-glitch",
+      "name": "PERC Glitch",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 853,
+      "position-y": 236,
+      "width": 84,
+      "height": 84,
+      "color": "#73c276",
+      "radius": 4,
+      "group": "g-perc",
+      "options": ""
+    },
+    {
+      "id": "perc-justhats",
+      "name": "PERC Justhats",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 853,
+      "position-y": 336,
+      "width": 84,
+      "height": 84,
+      "color": "#85d488",
+      "radius": 4,
+      "group": "g-perc",
+      "options": ""
+    },
+    {
+      "id": "perc-lofi",
+      "name": "PERC Lofi",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 653,
+      "position-y": 336,
+      "width": 84,
+      "height": 84,
+      "color": "#7ccb7f",
+      "radius": 4,
+      "group": "g-perc",
+      "options": ""
+    },
+    {
+      "id": "perc-stutta",
+      "name": "PERC Stutta",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 753,
+      "position-y": 236,
+      "width": 84,
+      "height": 84,
+      "color": "#6ebd72",
+      "radius": 4,
+      "group": "g-perc",
+      "options": ""
+    },
+    {
+      "id": "perc-tool",
+      "name": "PERC Tool",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 753,
+      "position-y": 336,
+      "width": 84,
+      "height": 84,
+      "color": "#80cf83",
+      "radius": 4,
+      "group": "g-perc",
+      "options": ""
+    },
+    {
+      "id": "perc-weird",
+      "name": "PERC Weird",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 553,
+      "position-y": 236,
+      "width": 84,
+      "height": 84,
+      "color": "#65b469",
+      "radius": 4,
+      "group": "g-perc",
+      "options": ""
+    },
+    {
+      "id": "spin-hifreq",
+      "name": "RWD Hifreq",
+      "scene": "base",
+      "type": "button",
+      "position-x": 255,
+      "position-y": 444,
+      "width": 102,
+      "height": 60,
+      "color": "#00bfc7",
+      "radius": 4,
+      "options": ""
+    },
+    {
+      "id": "spin-jungle",
+      "name": "RWD Jungle",
+      "scene": "base",
+      "type": "button",
+      "position-x": 603,
+      "position-y": 444,
+      "width": 102,
+      "height": 60,
+      "color": "#00cdd6",
+      "radius": 4,
+      "options": ""
+    },
+    {
+      "id": "spin-killit",
+      "name": "RWD Killit",
+      "scene": "base",
+      "type": "button",
+      "position-x": 23,
+      "position-y": 444,
+      "width": 102,
+      "height": 60,
+      "color": "#00b5bd",
+      "radius": 4,
+      "options": ""
+    },
+    {
+      "id": "spin-pitcher",
+      "name": "RWD Pitcher",
+      "scene": "base",
+      "type": "button",
+      "position-x": 371,
+      "position-y": 444,
+      "width": 102,
+      "height": 60,
+      "color": "#00c4cc",
+      "radius": 4,
+      "options": ""
+    },
+    {
+      "id": "spin-powerdown",
+      "name": "RWD Powerdown",
+      "scene": "base",
+      "type": "button",
+      "position-x": 487,
+      "position-y": 444,
+      "width": 102,
+      "height": 60,
+      "color": "#00c9d1",
+      "radius": 4,
+      "options": ""
+    },
+    {
+      "id": "spin-rinser",
+      "name": "RWD Rinser",
+      "scene": "base",
+      "type": "button",
+      "position-x": 719,
+      "position-y": 444,
+      "width": 102,
+      "height": 60,
+      "color": "#10d2da",
+      "radius": 4,
+      "options": ""
+    },
+    {
+      "id": "spin-rwd",
+      "name": "RWD Rwd",
+      "scene": "base",
+      "type": "button",
+      "position-x": 835,
+      "position-y": 444,
+      "width": 102,
+      "height": 60,
+      "color": "#20d7df",
+      "radius": 4,
+      "options": ""
+    },
+    {
+      "id": "spin-slow",
+      "name": "RWD Slow",
+      "scene": "base",
+      "type": "button",
+      "position-x": 139,
+      "position-y": 444,
+      "width": 102,
+      "height": 60,
+      "color": "#00bac2",
+      "radius": 4,
+      "options": ""
+    },
+    {
+      "id": "top-charlie",
+      "name": "TOP Charlie",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 323,
+      "position-y": 236,
+      "width": 84,
+      "height": 84,
+      "color": "#d0b445",
+      "radius": 4,
+      "group": "g-top",
+      "options": ""
+    },
+    {
+      "id": "top-headup",
+      "name": "TOP Headup",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 223,
+      "position-y": 236,
+      "width": 84,
+      "height": 84,
+      "color": "#c8ac3c",
+      "radius": 4,
+      "group": "g-top",
+      "options": ""
+    },
+    {
+      "id": "top-partymonster",
+      "name": "TOP Partymonster",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 423,
+      "position-y": 236,
+      "width": 84,
+      "height": 84,
+      "color": "#d8bc4e",
+      "radius": 4,
+      "group": "g-top",
+      "options": ""
+    },
+    {
+      "id": "top-ravism",
+      "name": "TOP Ravism",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 123,
+      "position-y": 236,
+      "width": 84,
+      "height": 84,
+      "color": "#c0a532",
+      "radius": 4,
+      "group": "g-top",
+      "options": ""
+    },
+    {
+      "id": "top-riddim",
+      "name": "TOP Riddim",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 23,
+      "position-y": 236,
+      "width": 84,
+      "height": 84,
+      "color": "#b89d27",
+      "radius": 4,
+      "group": "g-top",
+      "options": ""
+    }
+  ],
+  "assignments": [
+    {
+      "id": "bm-effect.bm-channel.brickwall.master",
+      "source-object": "bm-effect",
+      "source-record": "brickwall",
+      "target-object": "bm-channel",
+      "target-record": "master",
+      "order": 1
+    },
+    {
+      "id": "bm-effect.bm-channel.glue.master",
+      "source-object": "bm-effect",
+      "source-record": "glue",
+      "target-object": "bm-channel",
+      "target-record": "master",
+      "order": 0
+    },
+    {
+      "id": "bm-pattern.bm-control.p-acid-acidtest.acid-acidtest",
+      "source-object": "bm-pattern",
+      "source-record": "p-acid-acidtest",
+      "target-object": "bm-control",
+      "target-record": "acid-acidtest"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-acid-bloc.acid-bloc",
+      "source-object": "bm-pattern",
+      "source-record": "p-acid-bloc",
+      "target-object": "bm-control",
+      "target-record": "acid-bloc"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-acid-electroid.acid-electroid",
+      "source-object": "bm-pattern",
+      "source-record": "p-acid-electroid",
+      "target-object": "bm-control",
+      "target-record": "acid-electroid"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-acid-latenight.acid-latenight",
+      "source-object": "bm-pattern",
+      "source-record": "p-acid-latenight",
+      "target-object": "bm-control",
+      "target-record": "acid-latenight"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-acid-lektro.acid-lektro",
+      "source-object": "bm-pattern",
+      "source-record": "p-acid-lektro",
+      "target-object": "bm-control",
+      "target-record": "acid-lektro"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-acid-noize.acid-noize",
+      "source-object": "bm-pattern",
+      "source-record": "p-acid-noize",
+      "target-object": "bm-control",
+      "target-record": "acid-noize"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-acid-soraw.acid-soraw",
+      "source-object": "bm-pattern",
+      "source-record": "p-acid-soraw",
+      "target-object": "bm-control",
+      "target-record": "acid-soraw"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-acid-transmit.acid-transmit",
+      "source-object": "bm-pattern",
+      "source-record": "p-acid-transmit",
+      "target-object": "bm-control",
+      "target-record": "acid-transmit"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-bass-charlie.bass-charlie",
+      "source-object": "bm-pattern",
+      "source-record": "p-bass-charlie",
+      "target-object": "bm-control",
+      "target-record": "bass-charlie"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-bass-headup.bass-headup",
+      "source-object": "bm-pattern",
+      "source-record": "p-bass-headup",
+      "target-object": "bm-control",
+      "target-record": "bass-headup"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-bass-partymonster.bass-partymonster",
+      "source-object": "bm-pattern",
+      "source-record": "p-bass-partymonster",
+      "target-object": "bm-control",
+      "target-record": "bass-partymonster"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-bass-ravism.bass-ravism",
+      "source-object": "bm-pattern",
+      "source-record": "p-bass-ravism",
+      "target-object": "bm-control",
+      "target-record": "bass-ravism"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-bass-riddim.bass-riddim",
+      "source-object": "bm-pattern",
+      "source-record": "p-bass-riddim",
+      "target-object": "bm-control",
+      "target-record": "bass-riddim"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-break-charlie.break-charlie",
+      "source-object": "bm-pattern",
+      "source-record": "p-break-charlie",
+      "target-object": "bm-control",
+      "target-record": "break-charlie"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-break-headup.break-headup",
+      "source-object": "bm-pattern",
+      "source-record": "p-break-headup",
+      "target-object": "bm-control",
+      "target-record": "break-headup"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-break-partymonster.break-partymonster",
+      "source-object": "bm-pattern",
+      "source-record": "p-break-partymonster",
+      "target-object": "bm-control",
+      "target-record": "break-partymonster"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-break-ravism.break-ravism",
+      "source-object": "bm-pattern",
+      "source-record": "p-break-ravism",
+      "target-object": "bm-control",
+      "target-record": "break-ravism"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-break-riddim.break-riddim",
+      "source-object": "bm-pattern",
+      "source-record": "p-break-riddim",
+      "target-object": "bm-control",
+      "target-record": "break-riddim"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-drum-charlie.drum-charlie",
+      "source-object": "bm-pattern",
+      "source-record": "p-drum-charlie",
+      "target-object": "bm-control",
+      "target-record": "drum-charlie"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-drum-headup.drum-headup",
+      "source-object": "bm-pattern",
+      "source-record": "p-drum-headup",
+      "target-object": "bm-control",
+      "target-record": "drum-headup"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-drum-partymonster.drum-partymonster",
+      "source-object": "bm-pattern",
+      "source-record": "p-drum-partymonster",
+      "target-object": "bm-control",
+      "target-record": "drum-partymonster"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-drum-ravism.drum-ravism",
+      "source-object": "bm-pattern",
+      "source-record": "p-drum-ravism",
+      "target-object": "bm-control",
+      "target-record": "drum-ravism"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-drum-riddim.drum-riddim",
+      "source-object": "bm-pattern",
+      "source-record": "p-drum-riddim",
+      "target-object": "bm-control",
+      "target-record": "drum-riddim"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-perc-breakit.perc-breakit",
+      "source-object": "bm-pattern",
+      "source-record": "p-perc-breakit",
+      "target-object": "bm-control",
+      "target-record": "perc-breakit"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-perc-choppy.perc-choppy",
+      "source-object": "bm-pattern",
+      "source-record": "p-perc-choppy",
+      "target-object": "bm-control",
+      "target-record": "perc-choppy"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-perc-glitch.perc-glitch",
+      "source-object": "bm-pattern",
+      "source-record": "p-perc-glitch",
+      "target-object": "bm-control",
+      "target-record": "perc-glitch"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-perc-justhats.perc-justhats",
+      "source-object": "bm-pattern",
+      "source-record": "p-perc-justhats",
+      "target-object": "bm-control",
+      "target-record": "perc-justhats"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-perc-lofi.perc-lofi",
+      "source-object": "bm-pattern",
+      "source-record": "p-perc-lofi",
+      "target-object": "bm-control",
+      "target-record": "perc-lofi"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-perc-stutta.perc-stutta",
+      "source-object": "bm-pattern",
+      "source-record": "p-perc-stutta",
+      "target-object": "bm-control",
+      "target-record": "perc-stutta"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-perc-tool.perc-tool",
+      "source-object": "bm-pattern",
+      "source-record": "p-perc-tool",
+      "target-object": "bm-control",
+      "target-record": "perc-tool"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-perc-weird.perc-weird",
+      "source-object": "bm-pattern",
+      "source-record": "p-perc-weird",
+      "target-object": "bm-control",
+      "target-record": "perc-weird"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-top-charlie.top-charlie",
+      "source-object": "bm-pattern",
+      "source-record": "p-top-charlie",
+      "target-object": "bm-control",
+      "target-record": "top-charlie"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-top-headup.top-headup",
+      "source-object": "bm-pattern",
+      "source-record": "p-top-headup",
+      "target-object": "bm-control",
+      "target-record": "top-headup"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-top-partymonster.top-partymonster",
+      "source-object": "bm-pattern",
+      "source-record": "p-top-partymonster",
+      "target-object": "bm-control",
+      "target-record": "top-partymonster"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-top-ravism.top-ravism",
+      "source-object": "bm-pattern",
+      "source-record": "p-top-ravism",
+      "target-object": "bm-control",
+      "target-record": "top-ravism"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-top-riddim.top-riddim",
+      "source-object": "bm-pattern",
+      "source-record": "p-top-riddim",
+      "target-object": "bm-control",
+      "target-record": "top-riddim"
+    },
+    {
+      "id": "bm-sampler.bm-control.spin-hifreq.spin-hifreq",
+      "source-object": "bm-sampler",
+      "source-record": "spin-hifreq",
+      "target-object": "bm-control",
+      "target-record": "spin-hifreq"
+    },
+    {
+      "id": "bm-sampler.bm-control.spin-jungle.spin-jungle",
+      "source-object": "bm-sampler",
+      "source-record": "spin-jungle",
+      "target-object": "bm-control",
+      "target-record": "spin-jungle"
+    },
+    {
+      "id": "bm-sampler.bm-control.spin-killit.spin-killit",
+      "source-object": "bm-sampler",
+      "source-record": "spin-killit",
+      "target-object": "bm-control",
+      "target-record": "spin-killit"
+    },
+    {
+      "id": "bm-sampler.bm-control.spin-pitcher.spin-pitcher",
+      "source-object": "bm-sampler",
+      "source-record": "spin-pitcher",
+      "target-object": "bm-control",
+      "target-record": "spin-pitcher"
+    },
+    {
+      "id": "bm-sampler.bm-control.spin-powerdown.spin-powerdown",
+      "source-object": "bm-sampler",
+      "source-record": "spin-powerdown",
+      "target-object": "bm-control",
+      "target-record": "spin-powerdown"
+    },
+    {
+      "id": "bm-sampler.bm-control.spin-rinser.spin-rinser",
+      "source-object": "bm-sampler",
+      "source-record": "spin-rinser",
+      "target-object": "bm-control",
+      "target-record": "spin-rinser"
+    },
+    {
+      "id": "bm-sampler.bm-control.spin-rwd.spin-rwd",
+      "source-object": "bm-sampler",
+      "source-record": "spin-rwd",
+      "target-object": "bm-control",
+      "target-record": "spin-rwd"
+    },
+    {
+      "id": "bm-sampler.bm-control.spin-slow.spin-slow",
+      "source-object": "bm-sampler",
+      "source-record": "spin-slow",
+      "target-object": "bm-control",
+      "target-record": "spin-slow"
+    }
+  ],
+  "patterns": {
+    "p-acid-acidtest": {
+      "id": "p-acid-acidtest",
+      "name": "ACID Acidtest",
+      "file": "midi/p-acid-acidtest.mid"
+    },
+    "p-acid-bloc": {
+      "id": "p-acid-bloc",
+      "name": "ACID Bloc",
+      "file": "midi/p-acid-bloc.mid"
+    },
+    "p-acid-electroid": {
+      "id": "p-acid-electroid",
+      "name": "ACID Electroid",
+      "file": "midi/p-acid-electroid.mid"
+    },
+    "p-acid-latenight": {
+      "id": "p-acid-latenight",
+      "name": "ACID Latenight",
+      "file": "midi/p-acid-latenight.mid"
+    },
+    "p-acid-lektro": {
+      "id": "p-acid-lektro",
+      "name": "ACID Lektro",
+      "file": "midi/p-acid-lektro.mid"
+    },
+    "p-acid-noize": {
+      "id": "p-acid-noize",
+      "name": "ACID Noize",
+      "file": "midi/p-acid-noize.mid"
+    },
+    "p-acid-soraw": {
+      "id": "p-acid-soraw",
+      "name": "ACID Soraw",
+      "file": "midi/p-acid-soraw.mid"
+    },
+    "p-acid-transmit": {
+      "id": "p-acid-transmit",
+      "name": "ACID Transmit",
+      "file": "midi/p-acid-transmit.mid"
+    },
+    "p-bass-charlie": {
+      "id": "p-bass-charlie",
+      "name": "BASS Charlie",
+      "file": "midi/p-bass-charlie.mid"
+    },
+    "p-bass-headup": {
+      "id": "p-bass-headup",
+      "name": "BASS Headup",
+      "file": "midi/p-bass-headup.mid"
+    },
+    "p-bass-partymonster": {
+      "id": "p-bass-partymonster",
+      "name": "BASS Partymonster",
+      "file": "midi/p-bass-partymonster.mid"
+    },
+    "p-bass-ravism": {
+      "id": "p-bass-ravism",
+      "name": "BASS Ravism",
+      "file": "midi/p-bass-ravism.mid"
+    },
+    "p-bass-riddim": {
+      "id": "p-bass-riddim",
+      "name": "BASS Riddim",
+      "file": "midi/p-bass-riddim.mid"
+    },
+    "p-break-charlie": {
+      "id": "p-break-charlie",
+      "name": "BREAK Charlie",
+      "file": "midi/p-break-charlie.mid"
+    },
+    "p-break-headup": {
+      "id": "p-break-headup",
+      "name": "BREAK Headup",
+      "file": "midi/p-break-headup.mid"
+    },
+    "p-break-partymonster": {
+      "id": "p-break-partymonster",
+      "name": "BREAK Partymonster",
+      "file": "midi/p-break-partymonster.mid"
+    },
+    "p-break-ravism": {
+      "id": "p-break-ravism",
+      "name": "BREAK Ravism",
+      "file": "midi/p-break-ravism.mid"
+    },
+    "p-break-riddim": {
+      "id": "p-break-riddim",
+      "name": "BREAK Riddim",
+      "file": "midi/p-break-riddim.mid"
+    },
+    "p-drum-charlie": {
+      "id": "p-drum-charlie",
+      "name": "DRUM Charlie",
+      "file": "midi/p-drum-charlie.mid"
+    },
+    "p-drum-headup": {
+      "id": "p-drum-headup",
+      "name": "DRUM Headup",
+      "file": "midi/p-drum-headup.mid"
+    },
+    "p-drum-partymonster": {
+      "id": "p-drum-partymonster",
+      "name": "DRUM Partymonster",
+      "file": "midi/p-drum-partymonster.mid"
+    },
+    "p-drum-ravism": {
+      "id": "p-drum-ravism",
+      "name": "DRUM Ravism",
+      "file": "midi/p-drum-ravism.mid"
+    },
+    "p-drum-riddim": {
+      "id": "p-drum-riddim",
+      "name": "DRUM Riddim",
+      "file": "midi/p-drum-riddim.mid"
+    },
+    "p-perc-breakit": {
+      "id": "p-perc-breakit",
+      "name": "PERC Breakit",
+      "file": "midi/p-perc-breakit.mid"
+    },
+    "p-perc-choppy": {
+      "id": "p-perc-choppy",
+      "name": "PERC Choppy",
+      "file": "midi/p-perc-choppy.mid"
+    },
+    "p-perc-glitch": {
+      "id": "p-perc-glitch",
+      "name": "PERC Glitch",
+      "file": "midi/p-perc-glitch.mid"
+    },
+    "p-perc-justhats": {
+      "id": "p-perc-justhats",
+      "name": "PERC Justhats",
+      "file": "midi/p-perc-justhats.mid"
+    },
+    "p-perc-lofi": {
+      "id": "p-perc-lofi",
+      "name": "PERC Lofi",
+      "file": "midi/p-perc-lofi.mid"
+    },
+    "p-perc-stutta": {
+      "id": "p-perc-stutta",
+      "name": "PERC Stutta",
+      "file": "midi/p-perc-stutta.mid"
+    },
+    "p-perc-tool": {
+      "id": "p-perc-tool",
+      "name": "PERC Tool",
+      "file": "midi/p-perc-tool.mid"
+    },
+    "p-perc-weird": {
+      "id": "p-perc-weird",
+      "name": "PERC Weird",
+      "file": "midi/p-perc-weird.mid"
+    },
+    "p-top-charlie": {
+      "id": "p-top-charlie",
+      "name": "TOP Charlie",
+      "file": "midi/p-top-charlie.mid"
+    },
+    "p-top-headup": {
+      "id": "p-top-headup",
+      "name": "TOP Headup",
+      "file": "midi/p-top-headup.mid"
+    },
+    "p-top-partymonster": {
+      "id": "p-top-partymonster",
+      "name": "TOP Partymonster",
+      "file": "midi/p-top-partymonster.mid"
+    },
+    "p-top-ravism": {
+      "id": "p-top-ravism",
+      "name": "TOP Ravism",
+      "file": "midi/p-top-ravism.mid"
+    },
+    "p-top-riddim": {
+      "id": "p-top-riddim",
+      "name": "TOP Riddim",
+      "file": "midi/p-top-riddim.mid"
+    }
+  },
+  "samplers": {
+    "acid-acidtest": {
+      "id": "acid-acidtest",
+      "name": "ACID Acidtest",
+      "file": "audio/acid-acidtest.wav",
+      "volume": -16,
+      "group": "s-acid-acidtest"
+    },
+    "acid-bloc": {
+      "id": "acid-bloc",
+      "name": "ACID Bloc",
+      "file": "audio/acid-bloc.wav",
+      "volume": -15.5,
+      "group": "s-acid-bloc"
+    },
+    "acid-electroid": {
+      "id": "acid-electroid",
+      "name": "ACID Electroid",
+      "file": "audio/acid-electroid.wav",
+      "volume": -15.2,
+      "group": "s-acid-electroid"
+    },
+    "acid-latenight": {
+      "id": "acid-latenight",
+      "name": "ACID Latenight",
+      "file": "audio/acid-latenight.wav",
+      "volume": -19.7,
+      "group": "s-acid-latenight"
+    },
+    "acid-lektro": {
+      "id": "acid-lektro",
+      "name": "ACID Lektro",
+      "file": "audio/acid-lektro.wav",
+      "volume": -17.6,
+      "group": "s-acid-lektro"
+    },
+    "acid-noize": {
+      "id": "acid-noize",
+      "name": "ACID Noize",
+      "file": "audio/acid-noize.wav",
+      "volume": -16.4,
+      "group": "s-acid-noize"
+    },
+    "acid-soraw": {
+      "id": "acid-soraw",
+      "name": "ACID Soraw",
+      "file": "audio/acid-soraw.wav",
+      "volume": -15.9,
+      "group": "s-acid-soraw"
+    },
+    "acid-transmit": {
+      "id": "acid-transmit",
+      "name": "ACID Transmit",
+      "file": "audio/acid-transmit.wav",
+      "volume": -15.7,
+      "group": "s-acid-transmit"
+    },
+    "bass-charlie": {
+      "id": "bass-charlie",
+      "name": "BASS Charlie",
+      "file": "audio/bass-charlie.wav",
+      "volume": -8.7,
+      "group": "s-bass-charlie"
+    },
+    "bass-headup": {
+      "id": "bass-headup",
+      "name": "BASS Headup",
+      "file": "audio/bass-headup.wav",
+      "volume": -1.3,
+      "group": "s-bass-headup"
+    },
+    "bass-partymonster": {
+      "id": "bass-partymonster",
+      "name": "BASS Partymonster",
+      "file": "audio/bass-partymonster.wav",
+      "volume": -10,
+      "group": "s-bass-partymonster"
+    },
+    "bass-ravism": {
+      "id": "bass-ravism",
+      "name": "BASS Ravism",
+      "file": "audio/bass-ravism.wav",
+      "volume": -12.7,
+      "group": "s-bass-ravism"
+    },
+    "bass-riddim": {
+      "id": "bass-riddim",
+      "name": "BASS Riddim",
+      "file": "audio/bass-riddim.wav",
+      "volume": -10.8,
+      "group": "s-bass-riddim"
+    },
+    "break-charlie": {
+      "id": "break-charlie",
+      "name": "BREAK Charlie",
+      "file": "audio/break-charlie.wav",
+      "volume": -9.1,
+      "group": "s-break-charlie"
+    },
+    "break-headup": {
+      "id": "break-headup",
+      "name": "BREAK Headup",
+      "file": "audio/break-headup.wav",
+      "volume": -10.1,
+      "group": "s-break-headup"
+    },
+    "break-partymonster": {
+      "id": "break-partymonster",
+      "name": "BREAK Partymonster",
+      "file": "audio/break-partymonster.wav",
+      "volume": -6.8,
+      "group": "s-break-partymonster"
+    },
+    "break-ravism": {
+      "id": "break-ravism",
+      "name": "BREAK Ravism",
+      "file": "audio/break-ravism.wav",
+      "volume": -9.6,
+      "group": "s-break-ravism"
+    },
+    "break-riddim": {
+      "id": "break-riddim",
+      "name": "BREAK Riddim",
+      "file": "audio/break-riddim.wav",
+      "volume": -9.2,
+      "group": "s-break-riddim"
+    },
+    "drum-charlie": {
+      "id": "drum-charlie",
+      "name": "DRUM Charlie",
+      "file": "audio/drum-charlie.wav",
+      "volume": -10.1,
+      "group": "s-drum-charlie"
+    },
+    "drum-headup": {
+      "id": "drum-headup",
+      "name": "DRUM Headup",
+      "file": "audio/drum-headup.wav",
+      "volume": -11.6,
+      "group": "s-drum-headup"
+    },
+    "drum-partymonster": {
+      "id": "drum-partymonster",
+      "name": "DRUM Partymonster",
+      "file": "audio/drum-partymonster.wav",
+      "volume": -8.7,
+      "group": "s-drum-partymonster"
+    },
+    "drum-ravism": {
+      "id": "drum-ravism",
+      "name": "DRUM Ravism",
+      "file": "audio/drum-ravism.wav",
+      "volume": -9.7,
+      "group": "s-drum-ravism"
+    },
+    "drum-riddim": {
+      "id": "drum-riddim",
+      "name": "DRUM Riddim",
+      "file": "audio/drum-riddim.wav",
+      "volume": -8.9,
+      "group": "s-drum-riddim"
+    },
+    "perc-breakit": {
+      "id": "perc-breakit",
+      "name": "PERC Breakit",
+      "file": "audio/perc-breakit.wav",
+      "volume": -14.3,
+      "group": "s-perc-breakit"
+    },
+    "perc-choppy": {
+      "id": "perc-choppy",
+      "name": "PERC Choppy",
+      "file": "audio/perc-choppy.wav",
+      "volume": -19.7,
+      "group": "s-perc-choppy"
+    },
+    "perc-glitch": {
+      "id": "perc-glitch",
+      "name": "PERC Glitch",
+      "file": "audio/perc-glitch.wav",
+      "volume": -18.1,
+      "group": "s-perc-glitch"
+    },
+    "perc-justhats": {
+      "id": "perc-justhats",
+      "name": "PERC Justhats",
+      "file": "audio/perc-justhats.wav",
+      "volume": -19.4,
+      "group": "s-perc-justhats"
+    },
+    "perc-lofi": {
+      "id": "perc-lofi",
+      "name": "PERC Lofi",
+      "file": "audio/perc-lofi.wav",
+      "volume": -5.9,
+      "group": "s-perc-lofi"
+    },
+    "perc-stutta": {
+      "id": "perc-stutta",
+      "name": "PERC Stutta",
+      "file": "audio/perc-stutta.wav",
+      "volume": -13.3,
+      "group": "s-perc-stutta"
+    },
+    "perc-tool": {
+      "id": "perc-tool",
+      "name": "PERC Tool",
+      "file": "audio/perc-tool.wav",
+      "volume": -14.6,
+      "group": "s-perc-tool"
+    },
+    "perc-weird": {
+      "id": "perc-weird",
+      "name": "PERC Weird",
+      "file": "audio/perc-weird.wav",
+      "volume": -13.7,
+      "group": "s-perc-weird"
+    },
+    "top-charlie": {
+      "id": "top-charlie",
+      "name": "TOP Charlie",
+      "file": "audio/top-charlie.wav",
+      "volume": -13,
+      "group": "s-top-charlie"
+    },
+    "top-headup": {
+      "id": "top-headup",
+      "name": "TOP Headup",
+      "file": "audio/top-headup.wav",
+      "volume": -14,
+      "group": "s-top-headup"
+    },
+    "top-partymonster": {
+      "id": "top-partymonster",
+      "name": "TOP Partymonster",
+      "file": "audio/top-partymonster.wav",
+      "volume": -12,
+      "group": "s-top-partymonster"
+    },
+    "top-ravism": {
+      "id": "top-ravism",
+      "name": "TOP Ravism",
+      "file": "audio/top-ravism.wav",
+      "volume": -11.7,
+      "group": "s-top-ravism"
+    },
+    "top-riddim": {
+      "id": "top-riddim",
+      "name": "TOP Riddim",
+      "file": "audio/top-riddim.wav",
+      "volume": -11.6,
+      "group": "s-top-riddim"
+    },
+    "spin-hifreq": {
+      "id": "spin-hifreq",
+      "name": "RWD Hifreq",
+      "file": "audio/spin-hifreq.wav",
+      "volume": -10.8
+    },
+    "spin-jungle": {
+      "id": "spin-jungle",
+      "name": "RWD Jungle",
+      "file": "audio/spin-jungle.wav",
+      "volume": -10.8
+    },
+    "spin-killit": {
+      "id": "spin-killit",
+      "name": "RWD Killit",
+      "file": "audio/spin-killit.wav",
+      "volume": -10.1
+    },
+    "spin-pitcher": {
+      "id": "spin-pitcher",
+      "name": "RWD Pitcher",
+      "file": "audio/spin-pitcher.wav",
+      "volume": -10.3
+    },
+    "spin-powerdown": {
+      "id": "spin-powerdown",
+      "name": "RWD Powerdown",
+      "file": "audio/spin-powerdown.wav",
+      "volume": -8.4
+    },
+    "spin-rinser": {
+      "id": "spin-rinser",
+      "name": "RWD Rinser",
+      "file": "audio/spin-rinser.wav",
+      "volume": -10.9
+    },
+    "spin-rwd": {
+      "id": "spin-rwd",
+      "name": "RWD Rwd",
+      "file": "audio/spin-rwd.wav",
+      "volume": -10.6
+    },
+    "spin-slow": {
+      "id": "spin-slow",
+      "name": "RWD Slow",
+      "file": "audio/spin-slow.wav",
+      "volume": -10.1
+    }
+  },
+  "channels": {
+    "master": {
+      "id": "master",
+      "name": "Master",
+      "volume": 0
+    }
+  },
+  "effects": {
+    "brickwall": {
+      "id": "brickwall",
+      "name": "Brickwall",
+      "type": "limiter",
+      "options": "threshold: -1\nknee: 0\nratio: 20\nattack: 0.001\nrelease: 0.05",
+      "threshold": -1,
+      "knee": 0,
+      "ratio": 20,
+      "attack": 0.001,
+      "release": 0.05
+    },
+    "glue": {
+      "id": "glue",
+      "name": "Glue",
+      "type": "compressor",
+      "options": "threshold: -18\nknee: 24\nratio: 3\nattack: 0.005\nrelease: 0.15\nmakeup: 1.2",
+      "threshold": -18,
+      "knee": 24,
+      "ratio": 3,
+      "attack": 0.005,
+      "release": 0.15,
+      "makeup": 1.2
+    }
+  }
+}
