@@ -1,0 +1,2129 @@
+{
+  "id": "underworld/base",
+  "name": "Underworld: Base",
+  "project": {
+    "description": "A techno kick built from the four layers of its rack, and the kit around it",
+    "dimensions": {
+      "width": 960,
+      "height": 540
+    },
+    "quantisation": 1,
+    "tempo": 135,
+    "compressor": {
+      "enabled": true,
+      "threshold": -18,
+      "knee": 24,
+      "ratio": 3,
+      "attack": 0.005,
+      "release": 0.15,
+      "makeup": 1.2
+    }
+  },
+  "scene": {
+    "style": {
+      "backgroundColor": "#1b2b34"
+    }
+  },
+  "controls": [
+    {
+      "id": "chat-a003",
+      "name": "CHAT A003",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 816,
+      "position-y": 114,
+      "width": 48,
+      "height": 48,
+      "color": "#38d1b1",
+      "radius": 4,
+      "group": "g-chat",
+      "options": ""
+    },
+    {
+      "id": "chat-o006",
+      "name": "CHAT O006",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 696,
+      "position-y": 114,
+      "width": 48,
+      "height": 48,
+      "color": "#19c1a1",
+      "radius": 4,
+      "group": "g-chat",
+      "options": ""
+    },
+    {
+      "id": "chat-o031",
+      "name": "CHAT O031",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 636,
+      "position-y": 114,
+      "width": 48,
+      "height": 48,
+      "color": "#00b99a",
+      "radius": 4,
+      "group": "g-chat",
+      "options": ""
+    },
+    {
+      "id": "chat-o034",
+      "name": "CHAT O034",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 756,
+      "position-y": 114,
+      "width": 48,
+      "height": 48,
+      "color": "#2bc9a9",
+      "radius": 4,
+      "group": "g-chat",
+      "options": ""
+    },
+    {
+      "id": "chat-o040",
+      "name": "CHAT O040",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 876,
+      "position-y": 114,
+      "width": 48,
+      "height": 48,
+      "color": "#44d9b9",
+      "radius": 4,
+      "group": "g-chat",
+      "options": ""
+    },
+    {
+      "id": "clap-a004",
+      "name": "CLAP A004",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 636,
+      "position-y": 54,
+      "width": 48,
+      "height": 48,
+      "color": "#65b469",
+      "radius": 4,
+      "group": "g-clap",
+      "options": ""
+    },
+    {
+      "id": "clap-a013",
+      "name": "CLAP A013",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 816,
+      "position-y": 54,
+      "width": 48,
+      "height": 48,
+      "color": "#7ccc80",
+      "radius": 4,
+      "group": "g-clap",
+      "options": ""
+    },
+    {
+      "id": "clap-a015",
+      "name": "CLAP A015",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 756,
+      "position-y": 54,
+      "width": 48,
+      "height": 48,
+      "color": "#75c478",
+      "radius": 4,
+      "group": "g-clap",
+      "options": ""
+    },
+    {
+      "id": "clap-a024",
+      "name": "CLAP A024",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 696,
+      "position-y": 54,
+      "width": 48,
+      "height": 48,
+      "color": "#6dbc70",
+      "radius": 4,
+      "group": "g-clap",
+      "options": ""
+    },
+    {
+      "id": "clap-o015",
+      "name": "CLAP O015",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 876,
+      "position-y": 54,
+      "width": 48,
+      "height": 48,
+      "color": "#84d487",
+      "radius": 4,
+      "group": "g-clap",
+      "options": ""
+    },
+    {
+      "id": "full-u002",
+      "name": "FULL U002",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 36,
+      "position-y": 426,
+      "width": 97,
+      "height": 60,
+      "color": "#e0799b",
+      "radius": 4,
+      "group": "g-full",
+      "options": ""
+    },
+    {
+      "id": "full-u015",
+      "name": "FULL U015",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 714,
+      "position-y": 426,
+      "width": 97,
+      "height": 60,
+      "color": "#fe93b6",
+      "radius": 4,
+      "group": "g-full",
+      "options": ""
+    },
+    {
+      "id": "full-u019",
+      "name": "FULL U019",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 488,
+      "position-y": 426,
+      "width": 97,
+      "height": 60,
+      "color": "#f48aad",
+      "radius": 4,
+      "group": "g-full",
+      "options": ""
+    },
+    {
+      "id": "full-u022",
+      "name": "FULL U022",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 601,
+      "position-y": 426,
+      "width": 97,
+      "height": 60,
+      "color": "#f98fb1",
+      "radius": 4,
+      "group": "g-full",
+      "options": ""
+    },
+    {
+      "id": "full-u036",
+      "name": "FULL U036",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 375,
+      "position-y": 426,
+      "width": 97,
+      "height": 60,
+      "color": "#ef86a8",
+      "radius": 4,
+      "group": "g-full",
+      "options": ""
+    },
+    {
+      "id": "full-u047",
+      "name": "FULL U047",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 262,
+      "position-y": 426,
+      "width": 97,
+      "height": 60,
+      "color": "#ea82a4",
+      "radius": 4,
+      "group": "g-full",
+      "options": ""
+    },
+    {
+      "id": "full-u049",
+      "name": "FULL U049",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 149,
+      "position-y": 426,
+      "width": 97,
+      "height": 60,
+      "color": "#e57d9f",
+      "radius": 4,
+      "group": "g-full",
+      "options": ""
+    },
+    {
+      "id": "full-u050",
+      "name": "FULL U050",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 827,
+      "position-y": 426,
+      "width": 97,
+      "height": 60,
+      "color": "#ff99ba",
+      "radius": 4,
+      "group": "g-full",
+      "options": ""
+    },
+    {
+      "id": "gate-u009",
+      "name": "GATE U009",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 486,
+      "position-y": 324,
+      "width": 78,
+      "height": 78,
+      "color": "#c6c455",
+      "radius": 4,
+      "group": "g-gate",
+      "options": ""
+    },
+    {
+      "id": "gate-u016",
+      "name": "GATE U016",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 396,
+      "position-y": 324,
+      "width": 78,
+      "height": 78,
+      "color": "#c0bd4e",
+      "radius": 4,
+      "group": "g-gate",
+      "options": ""
+    },
+    {
+      "id": "gate-u027",
+      "name": "GATE U027",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 216,
+      "position-y": 324,
+      "width": 78,
+      "height": 78,
+      "color": "#b3b140",
+      "radius": 4,
+      "group": "g-gate",
+      "options": ""
+    },
+    {
+      "id": "gate-u032",
+      "name": "GATE U032",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 306,
+      "position-y": 324,
+      "width": 78,
+      "height": 78,
+      "color": "#b9b747",
+      "radius": 4,
+      "group": "g-gate",
+      "options": ""
+    },
+    {
+      "id": "gate-u033",
+      "name": "GATE U033",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 36,
+      "position-y": 324,
+      "width": 78,
+      "height": 78,
+      "color": "#a7a431",
+      "radius": 4,
+      "group": "g-gate",
+      "options": ""
+    },
+    {
+      "id": "gate-u035",
+      "name": "GATE U035",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 126,
+      "position-y": 324,
+      "width": 78,
+      "height": 78,
+      "color": "#adaa39",
+      "radius": 4,
+      "group": "g-gate",
+      "options": ""
+    },
+    {
+      "id": "mid-u010",
+      "name": "MID U010",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 126,
+      "position-y": 54,
+      "width": 78,
+      "height": 78,
+      "color": "#ec8177",
+      "radius": 4,
+      "group": "g-mid",
+      "options": ""
+    },
+    {
+      "id": "mid-u011",
+      "name": "MID U011",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 486,
+      "position-y": 54,
+      "width": 78,
+      "height": 78,
+      "color": "#ff9f93",
+      "radius": 4,
+      "group": "g-mid",
+      "options": ""
+    },
+    {
+      "id": "mid-u014",
+      "name": "MID U014",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 396,
+      "position-y": 54,
+      "width": 78,
+      "height": 78,
+      "color": "#ff9489",
+      "radius": 4,
+      "group": "g-mid",
+      "options": ""
+    },
+    {
+      "id": "mid-u024",
+      "name": "MID U024",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 36,
+      "position-y": 54,
+      "width": 78,
+      "height": 78,
+      "color": "#e57b71",
+      "radius": 4,
+      "group": "g-mid",
+      "options": ""
+    },
+    {
+      "id": "mid-u036",
+      "name": "MID U036",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 306,
+      "position-y": 54,
+      "width": 78,
+      "height": 78,
+      "color": "#fa8e83",
+      "radius": 4,
+      "group": "g-mid",
+      "options": ""
+    },
+    {
+      "id": "mid-u043",
+      "name": "MID U043",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 216,
+      "position-y": 54,
+      "width": 78,
+      "height": 78,
+      "color": "#f3887d",
+      "radius": 4,
+      "group": "g-mid",
+      "options": ""
+    },
+    {
+      "id": "ohat-a012",
+      "name": "OHAT A012",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 696,
+      "position-y": 174,
+      "width": 48,
+      "height": 48,
+      "color": "#00bccc",
+      "radius": 4,
+      "group": "g-ohat",
+      "options": ""
+    },
+    {
+      "id": "ohat-a028",
+      "name": "OHAT A028",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 816,
+      "position-y": 174,
+      "width": 48,
+      "height": 48,
+      "color": "#00cdde",
+      "radius": 4,
+      "group": "g-ohat",
+      "options": ""
+    },
+    {
+      "id": "ohat-o004",
+      "name": "OHAT O004",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 876,
+      "position-y": 174,
+      "width": 48,
+      "height": 48,
+      "color": "#1dd6e6",
+      "radius": 4,
+      "group": "g-ohat",
+      "options": ""
+    },
+    {
+      "id": "ohat-o023",
+      "name": "OHAT O023",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 756,
+      "position-y": 174,
+      "width": 48,
+      "height": 48,
+      "color": "#00c5d6",
+      "radius": 4,
+      "group": "g-ohat",
+      "options": ""
+    },
+    {
+      "id": "ohat-o026",
+      "name": "OHAT O026",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 636,
+      "position-y": 174,
+      "width": 48,
+      "height": 48,
+      "color": "#00b4c3",
+      "radius": 4,
+      "group": "g-ohat",
+      "options": ""
+    },
+    {
+      "id": "perc-a004",
+      "name": "PERC A004",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 696,
+      "position-y": 294,
+      "width": 48,
+      "height": 48,
+      "color": "#7da3fa",
+      "radius": 4,
+      "group": "g-perc",
+      "options": ""
+    },
+    {
+      "id": "perc-a005",
+      "name": "PERC A005",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 876,
+      "position-y": 294,
+      "width": 48,
+      "height": 48,
+      "color": "#9dbdff",
+      "radius": 4,
+      "group": "g-perc",
+      "options": ""
+    },
+    {
+      "id": "perc-a008",
+      "name": "PERC A008",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 816,
+      "position-y": 294,
+      "width": 48,
+      "height": 48,
+      "color": "#91b4ff",
+      "radius": 4,
+      "group": "g-perc",
+      "options": ""
+    },
+    {
+      "id": "perc-a015",
+      "name": "PERC A015",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 756,
+      "position-y": 294,
+      "width": 48,
+      "height": 48,
+      "color": "#84abff",
+      "radius": 4,
+      "group": "g-perc",
+      "options": ""
+    },
+    {
+      "id": "perc-o023",
+      "name": "PERC O023",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 636,
+      "position-y": 294,
+      "width": 48,
+      "height": 48,
+      "color": "#769cf1",
+      "radius": 4,
+      "group": "g-perc",
+      "options": ""
+    },
+    {
+      "id": "ride-a004",
+      "name": "RIDE A004",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 756,
+      "position-y": 234,
+      "width": 48,
+      "height": 48,
+      "color": "#46baf6",
+      "radius": 4,
+      "group": "g-ride",
+      "options": ""
+    },
+    {
+      "id": "ride-a005",
+      "name": "RIDE A005",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 636,
+      "position-y": 234,
+      "width": 48,
+      "height": 48,
+      "color": "#32aae5",
+      "radius": 4,
+      "group": "g-ride",
+      "options": ""
+    },
+    {
+      "id": "ride-a006",
+      "name": "RIDE A006",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 696,
+      "position-y": 234,
+      "width": 48,
+      "height": 48,
+      "color": "#3db2ed",
+      "radius": 4,
+      "group": "g-ride",
+      "options": ""
+    },
+    {
+      "id": "ride-o005",
+      "name": "RIDE O005",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 816,
+      "position-y": 234,
+      "width": 48,
+      "height": 48,
+      "color": "#50c3fe",
+      "radius": 4,
+      "group": "g-ride",
+      "options": ""
+    },
+    {
+      "id": "ride-o018",
+      "name": "RIDE O018",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 876,
+      "position-y": 234,
+      "width": 48,
+      "height": 48,
+      "color": "#60caff",
+      "radius": 4,
+      "group": "g-ride",
+      "options": ""
+    },
+    {
+      "id": "rumble-u010",
+      "name": "RUMBLE U010",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 126,
+      "position-y": 144,
+      "width": 78,
+      "height": 78,
+      "color": "#e48c4d",
+      "radius": 4,
+      "group": "g-rumble",
+      "options": ""
+    },
+    {
+      "id": "rumble-u017",
+      "name": "RUMBLE U017",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 486,
+      "position-y": 144,
+      "width": 78,
+      "height": 78,
+      "color": "#ffa567",
+      "radius": 4,
+      "group": "g-rumble",
+      "options": ""
+    },
+    {
+      "id": "rumble-u018",
+      "name": "RUMBLE U018",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 216,
+      "position-y": 144,
+      "width": 78,
+      "height": 78,
+      "color": "#eb9254",
+      "radius": 4,
+      "group": "g-rumble",
+      "options": ""
+    },
+    {
+      "id": "rumble-u030",
+      "name": "RUMBLE U030",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 36,
+      "position-y": 144,
+      "width": 78,
+      "height": 78,
+      "color": "#dd8547",
+      "radius": 4,
+      "group": "g-rumble",
+      "options": ""
+    },
+    {
+      "id": "rumble-u032",
+      "name": "RUMBLE U032",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 396,
+      "position-y": 144,
+      "width": 78,
+      "height": 78,
+      "color": "#f99f60",
+      "radius": 4,
+      "group": "g-rumble",
+      "options": ""
+    },
+    {
+      "id": "rumble-u050",
+      "name": "RUMBLE U050",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 306,
+      "position-y": 144,
+      "width": 78,
+      "height": 78,
+      "color": "#f2985a",
+      "radius": 4,
+      "group": "g-rumble",
+      "options": ""
+    },
+    {
+      "id": "top-a001",
+      "name": "TOP A001",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 636,
+      "position-y": 354,
+      "width": 48,
+      "height": 48,
+      "color": "#a58ce8",
+      "radius": 4,
+      "group": "g-top",
+      "options": ""
+    },
+    {
+      "id": "top-a004",
+      "name": "TOP A004",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 876,
+      "position-y": 354,
+      "width": 48,
+      "height": 48,
+      "color": "#c3aeff",
+      "radius": 4,
+      "group": "g-top",
+      "options": ""
+    },
+    {
+      "id": "top-a011",
+      "name": "TOP A011",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 816,
+      "position-y": 354,
+      "width": 48,
+      "height": 48,
+      "color": "#bca4ff",
+      "radius": 4,
+      "group": "g-top",
+      "options": ""
+    },
+    {
+      "id": "top-a017",
+      "name": "TOP A017",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 696,
+      "position-y": 354,
+      "width": 48,
+      "height": 48,
+      "color": "#ac94f0",
+      "radius": 4,
+      "group": "g-top",
+      "options": ""
+    },
+    {
+      "id": "top-a025",
+      "name": "TOP A025",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 756,
+      "position-y": 354,
+      "width": 48,
+      "height": 48,
+      "color": "#b49cf9",
+      "radius": 4,
+      "group": "g-top",
+      "options": ""
+    },
+    {
+      "id": "topk-u009",
+      "name": "TOPK U009",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 306,
+      "position-y": 234,
+      "width": 78,
+      "height": 78,
+      "color": "#dca73f",
+      "radius": 4,
+      "group": "g-topk",
+      "options": ""
+    },
+    {
+      "id": "topk-u020",
+      "name": "TOPK U020",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 36,
+      "position-y": 234,
+      "width": 78,
+      "height": 78,
+      "color": "#c89427",
+      "radius": 4,
+      "group": "g-topk",
+      "options": ""
+    },
+    {
+      "id": "topk-u021",
+      "name": "TOPK U021",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 396,
+      "position-y": 234,
+      "width": 78,
+      "height": 78,
+      "color": "#e3ae46",
+      "radius": 4,
+      "group": "g-topk",
+      "options": ""
+    },
+    {
+      "id": "topk-u036",
+      "name": "TOPK U036",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 486,
+      "position-y": 234,
+      "width": 78,
+      "height": 78,
+      "color": "#e9b44e",
+      "radius": 4,
+      "group": "g-topk",
+      "options": ""
+    },
+    {
+      "id": "topk-u047",
+      "name": "TOPK U047",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 126,
+      "position-y": 234,
+      "width": 78,
+      "height": 78,
+      "color": "#cf9b2f",
+      "radius": 4,
+      "group": "g-topk",
+      "options": ""
+    },
+    {
+      "id": "topk-u050",
+      "name": "TOPK U050",
+      "scene": "base",
+      "type": "sequence",
+      "position-x": 216,
+      "position-y": 234,
+      "width": 78,
+      "height": 78,
+      "color": "#d5a137",
+      "radius": 4,
+      "group": "g-topk",
+      "options": ""
+    }
+  ],
+  "assignments": [
+    {
+      "id": "bm-effect.bm-channel.brickwall.master",
+      "source-object": "bm-effect",
+      "source-record": "brickwall",
+      "target-object": "bm-channel",
+      "target-record": "master",
+      "order": 1
+    },
+    {
+      "id": "bm-effect.bm-channel.glue.master",
+      "source-object": "bm-effect",
+      "source-record": "glue",
+      "target-object": "bm-channel",
+      "target-record": "master",
+      "order": 0
+    },
+    {
+      "id": "bm-pattern.bm-control.p-chat-a003.chat-a003",
+      "source-object": "bm-pattern",
+      "source-record": "p-chat-a003",
+      "target-object": "bm-control",
+      "target-record": "chat-a003"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-chat-o006.chat-o006",
+      "source-object": "bm-pattern",
+      "source-record": "p-chat-o006",
+      "target-object": "bm-control",
+      "target-record": "chat-o006"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-chat-o031.chat-o031",
+      "source-object": "bm-pattern",
+      "source-record": "p-chat-o031",
+      "target-object": "bm-control",
+      "target-record": "chat-o031"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-chat-o034.chat-o034",
+      "source-object": "bm-pattern",
+      "source-record": "p-chat-o034",
+      "target-object": "bm-control",
+      "target-record": "chat-o034"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-chat-o040.chat-o040",
+      "source-object": "bm-pattern",
+      "source-record": "p-chat-o040",
+      "target-object": "bm-control",
+      "target-record": "chat-o040"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-clap-a004.clap-a004",
+      "source-object": "bm-pattern",
+      "source-record": "p-clap-a004",
+      "target-object": "bm-control",
+      "target-record": "clap-a004"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-clap-a013.clap-a013",
+      "source-object": "bm-pattern",
+      "source-record": "p-clap-a013",
+      "target-object": "bm-control",
+      "target-record": "clap-a013"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-clap-a015.clap-a015",
+      "source-object": "bm-pattern",
+      "source-record": "p-clap-a015",
+      "target-object": "bm-control",
+      "target-record": "clap-a015"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-clap-a024.clap-a024",
+      "source-object": "bm-pattern",
+      "source-record": "p-clap-a024",
+      "target-object": "bm-control",
+      "target-record": "clap-a024"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-clap-o015.clap-o015",
+      "source-object": "bm-pattern",
+      "source-record": "p-clap-o015",
+      "target-object": "bm-control",
+      "target-record": "clap-o015"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-full-u002.full-u002",
+      "source-object": "bm-pattern",
+      "source-record": "p-full-u002",
+      "target-object": "bm-control",
+      "target-record": "full-u002"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-full-u015.full-u015",
+      "source-object": "bm-pattern",
+      "source-record": "p-full-u015",
+      "target-object": "bm-control",
+      "target-record": "full-u015"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-full-u019.full-u019",
+      "source-object": "bm-pattern",
+      "source-record": "p-full-u019",
+      "target-object": "bm-control",
+      "target-record": "full-u019"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-full-u022.full-u022",
+      "source-object": "bm-pattern",
+      "source-record": "p-full-u022",
+      "target-object": "bm-control",
+      "target-record": "full-u022"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-full-u036.full-u036",
+      "source-object": "bm-pattern",
+      "source-record": "p-full-u036",
+      "target-object": "bm-control",
+      "target-record": "full-u036"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-full-u047.full-u047",
+      "source-object": "bm-pattern",
+      "source-record": "p-full-u047",
+      "target-object": "bm-control",
+      "target-record": "full-u047"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-full-u049.full-u049",
+      "source-object": "bm-pattern",
+      "source-record": "p-full-u049",
+      "target-object": "bm-control",
+      "target-record": "full-u049"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-full-u050.full-u050",
+      "source-object": "bm-pattern",
+      "source-record": "p-full-u050",
+      "target-object": "bm-control",
+      "target-record": "full-u050"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-gate-u009.gate-u009",
+      "source-object": "bm-pattern",
+      "source-record": "p-gate-u009",
+      "target-object": "bm-control",
+      "target-record": "gate-u009"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-gate-u016.gate-u016",
+      "source-object": "bm-pattern",
+      "source-record": "p-gate-u016",
+      "target-object": "bm-control",
+      "target-record": "gate-u016"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-gate-u027.gate-u027",
+      "source-object": "bm-pattern",
+      "source-record": "p-gate-u027",
+      "target-object": "bm-control",
+      "target-record": "gate-u027"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-gate-u032.gate-u032",
+      "source-object": "bm-pattern",
+      "source-record": "p-gate-u032",
+      "target-object": "bm-control",
+      "target-record": "gate-u032"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-gate-u033.gate-u033",
+      "source-object": "bm-pattern",
+      "source-record": "p-gate-u033",
+      "target-object": "bm-control",
+      "target-record": "gate-u033"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-gate-u035.gate-u035",
+      "source-object": "bm-pattern",
+      "source-record": "p-gate-u035",
+      "target-object": "bm-control",
+      "target-record": "gate-u035"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-mid-u010.mid-u010",
+      "source-object": "bm-pattern",
+      "source-record": "p-mid-u010",
+      "target-object": "bm-control",
+      "target-record": "mid-u010"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-mid-u011.mid-u011",
+      "source-object": "bm-pattern",
+      "source-record": "p-mid-u011",
+      "target-object": "bm-control",
+      "target-record": "mid-u011"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-mid-u014.mid-u014",
+      "source-object": "bm-pattern",
+      "source-record": "p-mid-u014",
+      "target-object": "bm-control",
+      "target-record": "mid-u014"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-mid-u024.mid-u024",
+      "source-object": "bm-pattern",
+      "source-record": "p-mid-u024",
+      "target-object": "bm-control",
+      "target-record": "mid-u024"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-mid-u036.mid-u036",
+      "source-object": "bm-pattern",
+      "source-record": "p-mid-u036",
+      "target-object": "bm-control",
+      "target-record": "mid-u036"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-mid-u043.mid-u043",
+      "source-object": "bm-pattern",
+      "source-record": "p-mid-u043",
+      "target-object": "bm-control",
+      "target-record": "mid-u043"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-ohat-a012.ohat-a012",
+      "source-object": "bm-pattern",
+      "source-record": "p-ohat-a012",
+      "target-object": "bm-control",
+      "target-record": "ohat-a012"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-ohat-a028.ohat-a028",
+      "source-object": "bm-pattern",
+      "source-record": "p-ohat-a028",
+      "target-object": "bm-control",
+      "target-record": "ohat-a028"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-ohat-o004.ohat-o004",
+      "source-object": "bm-pattern",
+      "source-record": "p-ohat-o004",
+      "target-object": "bm-control",
+      "target-record": "ohat-o004"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-ohat-o023.ohat-o023",
+      "source-object": "bm-pattern",
+      "source-record": "p-ohat-o023",
+      "target-object": "bm-control",
+      "target-record": "ohat-o023"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-ohat-o026.ohat-o026",
+      "source-object": "bm-pattern",
+      "source-record": "p-ohat-o026",
+      "target-object": "bm-control",
+      "target-record": "ohat-o026"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-perc-a004.perc-a004",
+      "source-object": "bm-pattern",
+      "source-record": "p-perc-a004",
+      "target-object": "bm-control",
+      "target-record": "perc-a004"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-perc-a005.perc-a005",
+      "source-object": "bm-pattern",
+      "source-record": "p-perc-a005",
+      "target-object": "bm-control",
+      "target-record": "perc-a005"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-perc-a008.perc-a008",
+      "source-object": "bm-pattern",
+      "source-record": "p-perc-a008",
+      "target-object": "bm-control",
+      "target-record": "perc-a008"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-perc-a015.perc-a015",
+      "source-object": "bm-pattern",
+      "source-record": "p-perc-a015",
+      "target-object": "bm-control",
+      "target-record": "perc-a015"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-perc-o023.perc-o023",
+      "source-object": "bm-pattern",
+      "source-record": "p-perc-o023",
+      "target-object": "bm-control",
+      "target-record": "perc-o023"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-ride-a004.ride-a004",
+      "source-object": "bm-pattern",
+      "source-record": "p-ride-a004",
+      "target-object": "bm-control",
+      "target-record": "ride-a004"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-ride-a005.ride-a005",
+      "source-object": "bm-pattern",
+      "source-record": "p-ride-a005",
+      "target-object": "bm-control",
+      "target-record": "ride-a005"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-ride-a006.ride-a006",
+      "source-object": "bm-pattern",
+      "source-record": "p-ride-a006",
+      "target-object": "bm-control",
+      "target-record": "ride-a006"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-ride-o005.ride-o005",
+      "source-object": "bm-pattern",
+      "source-record": "p-ride-o005",
+      "target-object": "bm-control",
+      "target-record": "ride-o005"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-ride-o018.ride-o018",
+      "source-object": "bm-pattern",
+      "source-record": "p-ride-o018",
+      "target-object": "bm-control",
+      "target-record": "ride-o018"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-rumble-u010.rumble-u010",
+      "source-object": "bm-pattern",
+      "source-record": "p-rumble-u010",
+      "target-object": "bm-control",
+      "target-record": "rumble-u010"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-rumble-u017.rumble-u017",
+      "source-object": "bm-pattern",
+      "source-record": "p-rumble-u017",
+      "target-object": "bm-control",
+      "target-record": "rumble-u017"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-rumble-u018.rumble-u018",
+      "source-object": "bm-pattern",
+      "source-record": "p-rumble-u018",
+      "target-object": "bm-control",
+      "target-record": "rumble-u018"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-rumble-u030.rumble-u030",
+      "source-object": "bm-pattern",
+      "source-record": "p-rumble-u030",
+      "target-object": "bm-control",
+      "target-record": "rumble-u030"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-rumble-u032.rumble-u032",
+      "source-object": "bm-pattern",
+      "source-record": "p-rumble-u032",
+      "target-object": "bm-control",
+      "target-record": "rumble-u032"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-rumble-u050.rumble-u050",
+      "source-object": "bm-pattern",
+      "source-record": "p-rumble-u050",
+      "target-object": "bm-control",
+      "target-record": "rumble-u050"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-top-a001.top-a001",
+      "source-object": "bm-pattern",
+      "source-record": "p-top-a001",
+      "target-object": "bm-control",
+      "target-record": "top-a001"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-top-a004.top-a004",
+      "source-object": "bm-pattern",
+      "source-record": "p-top-a004",
+      "target-object": "bm-control",
+      "target-record": "top-a004"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-top-a011.top-a011",
+      "source-object": "bm-pattern",
+      "source-record": "p-top-a011",
+      "target-object": "bm-control",
+      "target-record": "top-a011"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-top-a017.top-a017",
+      "source-object": "bm-pattern",
+      "source-record": "p-top-a017",
+      "target-object": "bm-control",
+      "target-record": "top-a017"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-top-a025.top-a025",
+      "source-object": "bm-pattern",
+      "source-record": "p-top-a025",
+      "target-object": "bm-control",
+      "target-record": "top-a025"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-topk-u009.topk-u009",
+      "source-object": "bm-pattern",
+      "source-record": "p-topk-u009",
+      "target-object": "bm-control",
+      "target-record": "topk-u009"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-topk-u020.topk-u020",
+      "source-object": "bm-pattern",
+      "source-record": "p-topk-u020",
+      "target-object": "bm-control",
+      "target-record": "topk-u020"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-topk-u021.topk-u021",
+      "source-object": "bm-pattern",
+      "source-record": "p-topk-u021",
+      "target-object": "bm-control",
+      "target-record": "topk-u021"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-topk-u036.topk-u036",
+      "source-object": "bm-pattern",
+      "source-record": "p-topk-u036",
+      "target-object": "bm-control",
+      "target-record": "topk-u036"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-topk-u047.topk-u047",
+      "source-object": "bm-pattern",
+      "source-record": "p-topk-u047",
+      "target-object": "bm-control",
+      "target-record": "topk-u047"
+    },
+    {
+      "id": "bm-pattern.bm-control.p-topk-u050.topk-u050",
+      "source-object": "bm-pattern",
+      "source-record": "p-topk-u050",
+      "target-object": "bm-control",
+      "target-record": "topk-u050"
+    }
+  ],
+  "patterns": {
+    "p-chat-a003": {
+      "id": "p-chat-a003",
+      "name": "CHAT A003",
+      "file": "midi/p-chat-a003.mid"
+    },
+    "p-chat-o006": {
+      "id": "p-chat-o006",
+      "name": "CHAT O006",
+      "file": "midi/p-chat-o006.mid"
+    },
+    "p-chat-o031": {
+      "id": "p-chat-o031",
+      "name": "CHAT O031",
+      "file": "midi/p-chat-o031.mid"
+    },
+    "p-chat-o034": {
+      "id": "p-chat-o034",
+      "name": "CHAT O034",
+      "file": "midi/p-chat-o034.mid"
+    },
+    "p-chat-o040": {
+      "id": "p-chat-o040",
+      "name": "CHAT O040",
+      "file": "midi/p-chat-o040.mid"
+    },
+    "p-clap-a004": {
+      "id": "p-clap-a004",
+      "name": "CLAP A004",
+      "file": "midi/p-clap-a004.mid"
+    },
+    "p-clap-a013": {
+      "id": "p-clap-a013",
+      "name": "CLAP A013",
+      "file": "midi/p-clap-a013.mid"
+    },
+    "p-clap-a015": {
+      "id": "p-clap-a015",
+      "name": "CLAP A015",
+      "file": "midi/p-clap-a015.mid"
+    },
+    "p-clap-a024": {
+      "id": "p-clap-a024",
+      "name": "CLAP A024",
+      "file": "midi/p-clap-a024.mid"
+    },
+    "p-clap-o015": {
+      "id": "p-clap-o015",
+      "name": "CLAP O015",
+      "file": "midi/p-clap-o015.mid"
+    },
+    "p-full-u002": {
+      "id": "p-full-u002",
+      "name": "FULL U002",
+      "file": "midi/p-full-u002.mid"
+    },
+    "p-full-u015": {
+      "id": "p-full-u015",
+      "name": "FULL U015",
+      "file": "midi/p-full-u015.mid"
+    },
+    "p-full-u019": {
+      "id": "p-full-u019",
+      "name": "FULL U019",
+      "file": "midi/p-full-u019.mid"
+    },
+    "p-full-u022": {
+      "id": "p-full-u022",
+      "name": "FULL U022",
+      "file": "midi/p-full-u022.mid"
+    },
+    "p-full-u036": {
+      "id": "p-full-u036",
+      "name": "FULL U036",
+      "file": "midi/p-full-u036.mid"
+    },
+    "p-full-u047": {
+      "id": "p-full-u047",
+      "name": "FULL U047",
+      "file": "midi/p-full-u047.mid"
+    },
+    "p-full-u049": {
+      "id": "p-full-u049",
+      "name": "FULL U049",
+      "file": "midi/p-full-u049.mid"
+    },
+    "p-full-u050": {
+      "id": "p-full-u050",
+      "name": "FULL U050",
+      "file": "midi/p-full-u050.mid"
+    },
+    "p-gate-u009": {
+      "id": "p-gate-u009",
+      "name": "GATE U009",
+      "file": "midi/p-gate-u009.mid"
+    },
+    "p-gate-u016": {
+      "id": "p-gate-u016",
+      "name": "GATE U016",
+      "file": "midi/p-gate-u016.mid"
+    },
+    "p-gate-u027": {
+      "id": "p-gate-u027",
+      "name": "GATE U027",
+      "file": "midi/p-gate-u027.mid"
+    },
+    "p-gate-u032": {
+      "id": "p-gate-u032",
+      "name": "GATE U032",
+      "file": "midi/p-gate-u032.mid"
+    },
+    "p-gate-u033": {
+      "id": "p-gate-u033",
+      "name": "GATE U033",
+      "file": "midi/p-gate-u033.mid"
+    },
+    "p-gate-u035": {
+      "id": "p-gate-u035",
+      "name": "GATE U035",
+      "file": "midi/p-gate-u035.mid"
+    },
+    "p-mid-u010": {
+      "id": "p-mid-u010",
+      "name": "MID U010",
+      "file": "midi/p-mid-u010.mid"
+    },
+    "p-mid-u011": {
+      "id": "p-mid-u011",
+      "name": "MID U011",
+      "file": "midi/p-mid-u011.mid"
+    },
+    "p-mid-u014": {
+      "id": "p-mid-u014",
+      "name": "MID U014",
+      "file": "midi/p-mid-u014.mid"
+    },
+    "p-mid-u024": {
+      "id": "p-mid-u024",
+      "name": "MID U024",
+      "file": "midi/p-mid-u024.mid"
+    },
+    "p-mid-u036": {
+      "id": "p-mid-u036",
+      "name": "MID U036",
+      "file": "midi/p-mid-u036.mid"
+    },
+    "p-mid-u043": {
+      "id": "p-mid-u043",
+      "name": "MID U043",
+      "file": "midi/p-mid-u043.mid"
+    },
+    "p-ohat-a012": {
+      "id": "p-ohat-a012",
+      "name": "OHAT A012",
+      "file": "midi/p-ohat-a012.mid"
+    },
+    "p-ohat-a028": {
+      "id": "p-ohat-a028",
+      "name": "OHAT A028",
+      "file": "midi/p-ohat-a028.mid"
+    },
+    "p-ohat-o004": {
+      "id": "p-ohat-o004",
+      "name": "OHAT O004",
+      "file": "midi/p-ohat-o004.mid"
+    },
+    "p-ohat-o023": {
+      "id": "p-ohat-o023",
+      "name": "OHAT O023",
+      "file": "midi/p-ohat-o023.mid"
+    },
+    "p-ohat-o026": {
+      "id": "p-ohat-o026",
+      "name": "OHAT O026",
+      "file": "midi/p-ohat-o026.mid"
+    },
+    "p-perc-a004": {
+      "id": "p-perc-a004",
+      "name": "PERC A004",
+      "file": "midi/p-perc-a004.mid"
+    },
+    "p-perc-a005": {
+      "id": "p-perc-a005",
+      "name": "PERC A005",
+      "file": "midi/p-perc-a005.mid"
+    },
+    "p-perc-a008": {
+      "id": "p-perc-a008",
+      "name": "PERC A008",
+      "file": "midi/p-perc-a008.mid"
+    },
+    "p-perc-a015": {
+      "id": "p-perc-a015",
+      "name": "PERC A015",
+      "file": "midi/p-perc-a015.mid"
+    },
+    "p-perc-o023": {
+      "id": "p-perc-o023",
+      "name": "PERC O023",
+      "file": "midi/p-perc-o023.mid"
+    },
+    "p-ride-a004": {
+      "id": "p-ride-a004",
+      "name": "RIDE A004",
+      "file": "midi/p-ride-a004.mid"
+    },
+    "p-ride-a005": {
+      "id": "p-ride-a005",
+      "name": "RIDE A005",
+      "file": "midi/p-ride-a005.mid"
+    },
+    "p-ride-a006": {
+      "id": "p-ride-a006",
+      "name": "RIDE A006",
+      "file": "midi/p-ride-a006.mid"
+    },
+    "p-ride-o005": {
+      "id": "p-ride-o005",
+      "name": "RIDE O005",
+      "file": "midi/p-ride-o005.mid"
+    },
+    "p-ride-o018": {
+      "id": "p-ride-o018",
+      "name": "RIDE O018",
+      "file": "midi/p-ride-o018.mid"
+    },
+    "p-rumble-u010": {
+      "id": "p-rumble-u010",
+      "name": "RUMBLE U010",
+      "file": "midi/p-rumble-u010.mid"
+    },
+    "p-rumble-u017": {
+      "id": "p-rumble-u017",
+      "name": "RUMBLE U017",
+      "file": "midi/p-rumble-u017.mid"
+    },
+    "p-rumble-u018": {
+      "id": "p-rumble-u018",
+      "name": "RUMBLE U018",
+      "file": "midi/p-rumble-u018.mid"
+    },
+    "p-rumble-u030": {
+      "id": "p-rumble-u030",
+      "name": "RUMBLE U030",
+      "file": "midi/p-rumble-u030.mid"
+    },
+    "p-rumble-u032": {
+      "id": "p-rumble-u032",
+      "name": "RUMBLE U032",
+      "file": "midi/p-rumble-u032.mid"
+    },
+    "p-rumble-u050": {
+      "id": "p-rumble-u050",
+      "name": "RUMBLE U050",
+      "file": "midi/p-rumble-u050.mid"
+    },
+    "p-top-a001": {
+      "id": "p-top-a001",
+      "name": "TOP A001",
+      "file": "midi/p-top-a001.mid"
+    },
+    "p-top-a004": {
+      "id": "p-top-a004",
+      "name": "TOP A004",
+      "file": "midi/p-top-a004.mid"
+    },
+    "p-top-a011": {
+      "id": "p-top-a011",
+      "name": "TOP A011",
+      "file": "midi/p-top-a011.mid"
+    },
+    "p-top-a017": {
+      "id": "p-top-a017",
+      "name": "TOP A017",
+      "file": "midi/p-top-a017.mid"
+    },
+    "p-top-a025": {
+      "id": "p-top-a025",
+      "name": "TOP A025",
+      "file": "midi/p-top-a025.mid"
+    },
+    "p-topk-u009": {
+      "id": "p-topk-u009",
+      "name": "TOPK U009",
+      "file": "midi/p-topk-u009.mid"
+    },
+    "p-topk-u020": {
+      "id": "p-topk-u020",
+      "name": "TOPK U020",
+      "file": "midi/p-topk-u020.mid"
+    },
+    "p-topk-u021": {
+      "id": "p-topk-u021",
+      "name": "TOPK U021",
+      "file": "midi/p-topk-u021.mid"
+    },
+    "p-topk-u036": {
+      "id": "p-topk-u036",
+      "name": "TOPK U036",
+      "file": "midi/p-topk-u036.mid"
+    },
+    "p-topk-u047": {
+      "id": "p-topk-u047",
+      "name": "TOPK U047",
+      "file": "midi/p-topk-u047.mid"
+    },
+    "p-topk-u050": {
+      "id": "p-topk-u050",
+      "name": "TOPK U050",
+      "file": "midi/p-topk-u050.mid"
+    }
+  },
+  "samplers": {
+    "chat-a003": {
+      "id": "chat-a003",
+      "name": "CHAT A003",
+      "file": "audio/chat-a003.wav",
+      "volume": -13.8,
+      "group": "s-chat-a003"
+    },
+    "chat-o006": {
+      "id": "chat-o006",
+      "name": "CHAT O006",
+      "file": "audio/chat-o006.wav",
+      "volume": -11.1,
+      "group": "s-chat-o006"
+    },
+    "chat-o031": {
+      "id": "chat-o031",
+      "name": "CHAT O031",
+      "file": "audio/chat-o031.wav",
+      "volume": -21,
+      "group": "s-chat-o031"
+    },
+    "chat-o034": {
+      "id": "chat-o034",
+      "name": "CHAT O034",
+      "file": "audio/chat-o034.wav",
+      "volume": -13.4,
+      "group": "s-chat-o034"
+    },
+    "chat-o040": {
+      "id": "chat-o040",
+      "name": "CHAT O040",
+      "file": "audio/chat-o040.wav",
+      "volume": -18.9,
+      "group": "s-chat-o040"
+    },
+    "clap-a004": {
+      "id": "clap-a004",
+      "name": "CLAP A004",
+      "file": "audio/clap-a004.wav",
+      "volume": -15.4,
+      "group": "s-clap-a004"
+    },
+    "clap-a013": {
+      "id": "clap-a013",
+      "name": "CLAP A013",
+      "file": "audio/clap-a013.wav",
+      "volume": -19.3,
+      "group": "s-clap-a013"
+    },
+    "clap-a015": {
+      "id": "clap-a015",
+      "name": "CLAP A015",
+      "file": "audio/clap-a015.wav",
+      "volume": -17.5,
+      "group": "s-clap-a015"
+    },
+    "clap-a024": {
+      "id": "clap-a024",
+      "name": "CLAP A024",
+      "file": "audio/clap-a024.wav",
+      "volume": -15.2,
+      "group": "s-clap-a024"
+    },
+    "clap-o015": {
+      "id": "clap-o015",
+      "name": "CLAP O015",
+      "file": "audio/clap-o015.wav",
+      "volume": -16,
+      "group": "s-clap-o015"
+    },
+    "full-u002": {
+      "id": "full-u002",
+      "name": "FULL U002",
+      "file": "audio/full-u002.wav",
+      "volume": -11.2,
+      "group": "s-full-u002"
+    },
+    "full-u015": {
+      "id": "full-u015",
+      "name": "FULL U015",
+      "file": "audio/full-u015.wav",
+      "volume": -13.9,
+      "group": "s-full-u015"
+    },
+    "full-u019": {
+      "id": "full-u019",
+      "name": "FULL U019",
+      "file": "audio/full-u019.wav",
+      "volume": -13.3,
+      "group": "s-full-u019"
+    },
+    "full-u022": {
+      "id": "full-u022",
+      "name": "FULL U022",
+      "file": "audio/full-u022.wav",
+      "volume": -13.8,
+      "group": "s-full-u022"
+    },
+    "full-u036": {
+      "id": "full-u036",
+      "name": "FULL U036",
+      "file": "audio/full-u036.wav",
+      "volume": -13,
+      "group": "s-full-u036"
+    },
+    "full-u047": {
+      "id": "full-u047",
+      "name": "FULL U047",
+      "file": "audio/full-u047.wav",
+      "volume": -12.7,
+      "group": "s-full-u047"
+    },
+    "full-u049": {
+      "id": "full-u049",
+      "name": "FULL U049",
+      "file": "audio/full-u049.wav",
+      "volume": -12.2,
+      "group": "s-full-u049"
+    },
+    "full-u050": {
+      "id": "full-u050",
+      "name": "FULL U050",
+      "file": "audio/full-u050.wav",
+      "volume": -14.7,
+      "group": "s-full-u050"
+    },
+    "gate-u009": {
+      "id": "gate-u009",
+      "name": "GATE U009",
+      "file": "audio/gate-u009.wav",
+      "volume": -13.2,
+      "group": "s-gate-u009"
+    },
+    "gate-u016": {
+      "id": "gate-u016",
+      "name": "GATE U016",
+      "file": "audio/gate-u016.wav",
+      "volume": -14.4,
+      "group": "s-gate-u016"
+    },
+    "gate-u027": {
+      "id": "gate-u027",
+      "name": "GATE U027",
+      "file": "audio/gate-u027.wav",
+      "volume": -13.7,
+      "group": "s-gate-u027"
+    },
+    "gate-u032": {
+      "id": "gate-u032",
+      "name": "GATE U032",
+      "file": "audio/gate-u032.wav",
+      "volume": -12.5,
+      "group": "s-gate-u032"
+    },
+    "gate-u033": {
+      "id": "gate-u033",
+      "name": "GATE U033",
+      "file": "audio/gate-u033.wav",
+      "volume": -14.1,
+      "group": "s-gate-u033"
+    },
+    "gate-u035": {
+      "id": "gate-u035",
+      "name": "GATE U035",
+      "file": "audio/gate-u035.wav",
+      "volume": -14.7,
+      "group": "s-gate-u035"
+    },
+    "mid-u010": {
+      "id": "mid-u010",
+      "name": "MID U010",
+      "file": "audio/mid-u010.wav",
+      "volume": -8,
+      "group": "s-mid-u010"
+    },
+    "mid-u011": {
+      "id": "mid-u011",
+      "name": "MID U011",
+      "file": "audio/mid-u011.wav",
+      "volume": -3.5,
+      "group": "s-mid-u011"
+    },
+    "mid-u014": {
+      "id": "mid-u014",
+      "name": "MID U014",
+      "file": "audio/mid-u014.wav",
+      "volume": -1.5,
+      "group": "s-mid-u014"
+    },
+    "mid-u024": {
+      "id": "mid-u024",
+      "name": "MID U024",
+      "file": "audio/mid-u024.wav",
+      "volume": -2,
+      "group": "s-mid-u024"
+    },
+    "mid-u036": {
+      "id": "mid-u036",
+      "name": "MID U036",
+      "file": "audio/mid-u036.wav",
+      "volume": -6,
+      "group": "s-mid-u036"
+    },
+    "mid-u043": {
+      "id": "mid-u043",
+      "name": "MID U043",
+      "file": "audio/mid-u043.wav",
+      "volume": -8.9,
+      "group": "s-mid-u043"
+    },
+    "ohat-a012": {
+      "id": "ohat-a012",
+      "name": "OHAT A012",
+      "file": "audio/ohat-a012.wav",
+      "volume": -20.5,
+      "group": "s-ohat-a012"
+    },
+    "ohat-a028": {
+      "id": "ohat-a028",
+      "name": "OHAT A028",
+      "file": "audio/ohat-a028.wav",
+      "volume": -15.9,
+      "group": "s-ohat-a028"
+    },
+    "ohat-o004": {
+      "id": "ohat-o004",
+      "name": "OHAT O004",
+      "file": "audio/ohat-o004.wav",
+      "volume": -18.5,
+      "group": "s-ohat-o004"
+    },
+    "ohat-o023": {
+      "id": "ohat-o023",
+      "name": "OHAT O023",
+      "file": "audio/ohat-o023.wav",
+      "volume": -19,
+      "group": "s-ohat-o023"
+    },
+    "ohat-o026": {
+      "id": "ohat-o026",
+      "name": "OHAT O026",
+      "file": "audio/ohat-o026.wav",
+      "volume": -20.9,
+      "group": "s-ohat-o026"
+    },
+    "perc-a004": {
+      "id": "perc-a004",
+      "name": "PERC A004",
+      "file": "audio/perc-a004.wav",
+      "volume": -21.2,
+      "group": "s-perc-a004"
+    },
+    "perc-a005": {
+      "id": "perc-a005",
+      "name": "PERC A005",
+      "file": "audio/perc-a005.wav",
+      "volume": -20.4,
+      "group": "s-perc-a005"
+    },
+    "perc-a008": {
+      "id": "perc-a008",
+      "name": "PERC A008",
+      "file": "audio/perc-a008.wav",
+      "volume": -21,
+      "group": "s-perc-a008"
+    },
+    "perc-a015": {
+      "id": "perc-a015",
+      "name": "PERC A015",
+      "file": "audio/perc-a015.wav",
+      "volume": -18.8,
+      "group": "s-perc-a015"
+    },
+    "perc-o023": {
+      "id": "perc-o023",
+      "name": "PERC O023",
+      "file": "audio/perc-o023.wav",
+      "volume": -7.4,
+      "group": "s-perc-o023"
+    },
+    "ride-a004": {
+      "id": "ride-a004",
+      "name": "RIDE A004",
+      "file": "audio/ride-a004.wav",
+      "volume": -21.8,
+      "group": "s-ride-a004"
+    },
+    "ride-a005": {
+      "id": "ride-a005",
+      "name": "RIDE A005",
+      "file": "audio/ride-a005.wav",
+      "volume": -24.9,
+      "group": "s-ride-a005"
+    },
+    "ride-a006": {
+      "id": "ride-a006",
+      "name": "RIDE A006",
+      "file": "audio/ride-a006.wav",
+      "volume": -23,
+      "group": "s-ride-a006"
+    },
+    "ride-o005": {
+      "id": "ride-o005",
+      "name": "RIDE O005",
+      "file": "audio/ride-o005.wav",
+      "volume": -22.2,
+      "group": "s-ride-o005"
+    },
+    "ride-o018": {
+      "id": "ride-o018",
+      "name": "RIDE O018",
+      "file": "audio/ride-o018.wav",
+      "volume": -23.6,
+      "group": "s-ride-o018"
+    },
+    "rumble-u010": {
+      "id": "rumble-u010",
+      "name": "RUMBLE U010",
+      "file": "audio/rumble-u010.wav",
+      "volume": -16.3,
+      "group": "s-rumble-u010"
+    },
+    "rumble-u017": {
+      "id": "rumble-u017",
+      "name": "RUMBLE U017",
+      "file": "audio/rumble-u017.wav",
+      "volume": -14.1,
+      "group": "s-rumble-u017"
+    },
+    "rumble-u018": {
+      "id": "rumble-u018",
+      "name": "RUMBLE U018",
+      "file": "audio/rumble-u018.wav",
+      "volume": -14.3,
+      "group": "s-rumble-u018"
+    },
+    "rumble-u030": {
+      "id": "rumble-u030",
+      "name": "RUMBLE U030",
+      "file": "audio/rumble-u030.wav",
+      "volume": -12.6,
+      "group": "s-rumble-u030"
+    },
+    "rumble-u032": {
+      "id": "rumble-u032",
+      "name": "RUMBLE U032",
+      "file": "audio/rumble-u032.wav",
+      "volume": -16.4,
+      "group": "s-rumble-u032"
+    },
+    "rumble-u050": {
+      "id": "rumble-u050",
+      "name": "RUMBLE U050",
+      "file": "audio/rumble-u050.wav",
+      "volume": -14.4,
+      "group": "s-rumble-u050"
+    },
+    "top-a001": {
+      "id": "top-a001",
+      "name": "TOP A001",
+      "file": "audio/top-a001.wav",
+      "volume": -21.5,
+      "group": "s-top-a001"
+    },
+    "top-a004": {
+      "id": "top-a004",
+      "name": "TOP A004",
+      "file": "audio/top-a004.wav",
+      "volume": -18.9,
+      "group": "s-top-a004"
+    },
+    "top-a011": {
+      "id": "top-a011",
+      "name": "TOP A011",
+      "file": "audio/top-a011.wav",
+      "volume": -20.5,
+      "group": "s-top-a011"
+    },
+    "top-a017": {
+      "id": "top-a017",
+      "name": "TOP A017",
+      "file": "audio/top-a017.wav",
+      "volume": -17.8,
+      "group": "s-top-a017"
+    },
+    "top-a025": {
+      "id": "top-a025",
+      "name": "TOP A025",
+      "file": "audio/top-a025.wav",
+      "volume": -19.3,
+      "group": "s-top-a025"
+    },
+    "topk-u009": {
+      "id": "topk-u009",
+      "name": "TOPK U009",
+      "file": "audio/topk-u009.wav",
+      "volume": -6,
+      "group": "s-topk-u009"
+    },
+    "topk-u020": {
+      "id": "topk-u020",
+      "name": "TOPK U020",
+      "file": "audio/topk-u020.wav",
+      "volume": -1.5,
+      "group": "s-topk-u020"
+    },
+    "topk-u021": {
+      "id": "topk-u021",
+      "name": "TOPK U021",
+      "file": "audio/topk-u021.wav",
+      "volume": -7.8,
+      "group": "s-topk-u021"
+    },
+    "topk-u036": {
+      "id": "topk-u036",
+      "name": "TOPK U036",
+      "file": "audio/topk-u036.wav",
+      "volume": -5.5,
+      "group": "s-topk-u036"
+    },
+    "topk-u047": {
+      "id": "topk-u047",
+      "name": "TOPK U047",
+      "file": "audio/topk-u047.wav",
+      "volume": -9.2,
+      "group": "s-topk-u047"
+    },
+    "topk-u050": {
+      "id": "topk-u050",
+      "name": "TOPK U050",
+      "file": "audio/topk-u050.wav",
+      "volume": -4,
+      "group": "s-topk-u050"
+    }
+  },
+  "channels": {
+    "master": {
+      "id": "master",
+      "name": "Master",
+      "volume": 0
+    }
+  },
+  "effects": {
+    "brickwall": {
+      "id": "brickwall",
+      "name": "Brickwall",
+      "type": "limiter",
+      "options": "threshold: -1\nknee: 0\nratio: 20\nattack: 0.001\nrelease: 0.05",
+      "threshold": -1,
+      "knee": 0,
+      "ratio": 20,
+      "attack": 0.001,
+      "release": 0.05
+    },
+    "glue": {
+      "id": "glue",
+      "name": "Glue",
+      "type": "compressor",
+      "options": "threshold: -18\nknee: 24\nratio: 3\nattack: 0.005\nrelease: 0.15\nmakeup: 1.2",
+      "threshold": -18,
+      "knee": 24,
+      "ratio": 3,
+      "attack": 0.005,
+      "release": 0.15,
+      "makeup": 1.2
+    }
+  }
+}
